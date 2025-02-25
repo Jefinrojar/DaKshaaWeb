@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HeroImg from "../../../asserts/Heroimg.png";
-import Daksha from "../../../asserts/DaKshaa T25.png"; // Import the Daksha image
+import HeroImg from "../../../assets/Heroimg.png";
+import Daksha from "../../../assets/DaKshaa T25.png"; // Import the Daksha image
 
 // Wave Animation for Each Letter (Title)
 const waveAnimation = {
