@@ -1,9 +1,9 @@
 import React from 'react'
-import ParticlesComponent from '../Components/ParticlesComponent'
+import ParticlesComponent from '../Layout/ParticlesComponent'
 const Home = () => {
   return (
-    <section id='background'>
-      <ParticlesComponent/>
+    <section>
+      <p>aefhajhf</p>
     </section>
   )
 }

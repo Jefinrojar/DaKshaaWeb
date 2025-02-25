@@ -1,6 +1,8 @@
-#background{
-    width: 100vw;
-    height: 100vh;
+#particlesBG{
+    position: absolute;
+    z-index: -1;
+}
+body{
     background: rgb(1,1,63);
     background: linear-gradient(90deg, rgba(1,1,63,1) 0%, rgba(8,34,83,1) 81%);
 }
