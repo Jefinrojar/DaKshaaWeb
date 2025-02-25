@@ -1,9 +1,10 @@
 import React from 'react'
-import ParticlesComponent from '../Layout/ParticlesComponent'
+import Navbar from '../Layout/Navbar'
+
 const Home = () => {
   return (
     <section>
-      <p>aefhajhf</p>
+      <Navbar/>
     </section>
   )
 }
