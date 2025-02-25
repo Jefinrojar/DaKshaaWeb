@@ -1,9 +1,9 @@
 import React from 'react'
-import ParticlesComponent from '../Layout/ParticlesComponent'
+import HeroSection from './Components/HeroSection'
 const Home = () => {
   return (
     <section>
-      <p>aefhajhf</p>
+      <HeroSection/>
     </section>
   )
 }
