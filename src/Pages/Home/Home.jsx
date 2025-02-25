@@ -1,10 +1,10 @@
 import React from 'react'
-
+import ParticlesComponent from '../Components/ParticlesComponent'
 const Home = () => {
   return (
-    <div>
-      kajshfjsd
-    </div>
+    <section id='background'>
+      <ParticlesComponent/>
+    </section>
   )
 }
 
