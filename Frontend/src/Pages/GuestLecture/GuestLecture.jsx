@@ -7,102 +7,14 @@ const GuestLecture = () => {
     {
       name: "Dr. Arokiaswamy Velumani",
       title: "Founder of Thyrocare Technologies Ltd",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1508243529287-e21914733111?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       time: "10:30 AM",
       date: "Feb 23, 2025",
       location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Srimathy Kesan",
-      title: "Founder & CEO Space Kidz India",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "2:00 PM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Mr. V. Nandakumar",
-      title: "Commissioner of Income Tax",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Arokiaswamy Velumani",
-      title: "Founder of Thyrocare Technologies Ltd",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 23, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Srimathy Kesan",
-      title: "Founder & CEO Space Kidz India",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "2:00 PM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Mr. V. Nandakumar",
-      title: "Commissioner of Income Tax",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Arokiaswamy Velumani",
-      title: "Founder of Thyrocare Technologies Ltd",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 23, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Srimathy Kesan",
-      title: "Founder & CEO Space Kidz India",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "2:00 PM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Mr. V. Nandakumar",
-      title: "Commissioner of Income Tax",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Arokiaswamy Velumani",
-      title: "Founder of Thyrocare Technologies Ltd",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 23, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Dr. Srimathy Kesan",
-      title: "Founder & CEO Space Kidz India",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "2:00 PM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
-    {
-      name: "Mr. V. Nandakumar",
-      title: "Commissioner of Income Tax",
-      image: "https://images.unsplash.com/photo-1735094495694-79dd898dea20?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      time: "10:30 AM",
-      date: "Feb 22, 2025",
-      location: "Vivek Auditorium",
-    },
+    }
   ];
 
-  const title = "Guests";
+  const title = "Conference";
 
   return (
     <div className="py-20">

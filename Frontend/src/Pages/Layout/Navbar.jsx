@@ -14,8 +14,9 @@ const Navbar = () => {
     if (path === "/events") return "Events";
     if (path === "/events/guest-lecture") return "Guest Lecture";
     if (path === "/events/workshop") return "Workshop";
-    if (path === "/sponsers") return "Sponsers";
+    if (path === "/sponsors") return "Sponsors";
     if (path === "/contact") return "Contact";
+    if (path === "/events/hormonics") return "Hormonics";
     return "Home"; // Default to Home if no match
   };
 
@@ -82,7 +83,7 @@ const Navbar = () => {
                   {activeLink === "Guest Lecture" && (
                     <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
                   )}
-                  Guest Lecture
+                  Conference
                 </a>
               </li>
               <li
@@ -97,14 +98,25 @@ const Navbar = () => {
                 </a>
               </li>
               <li
-                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Sponsers" ? "active" : ""}`}
-                onClick={() => handleLinkClick("Sponsers")}
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Workshop" ? "active" : ""}`}
+                onClick={() => handleLinkClick("hormonics")}
               >
-                <a href="/sponsers" className="relative">
-                  {activeLink === "Sponsers" && (
+                <a href="/events/hormonics" className="relative">
+                  {activeLink === "Hormonics" && (
                     <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
                   )}
-                  Sponsers
+                  Harmonics
+                </a>
+              </li>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Sponsors" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Sponsors")}
+              >
+                <a href="/sponsors" className="relative">
+                  {activeLink === "Sponsors" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Sponsors
                 </a>
               </li>
               <li

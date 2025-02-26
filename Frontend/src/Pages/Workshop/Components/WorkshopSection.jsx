@@ -1,6 +1,7 @@
 import React from "react";
 import Photo1 from "../../../assets/Ai.jpg";
 import { Slide, Fade } from "react-awesome-reveal";
+import { motion } from "framer-motion";
 
 // Workshop data
 const workshops = [
@@ -43,10 +44,21 @@ const workshops = [
 ];
 
 const WorkshopSection = () => {
+  const title = "Workshop";
+
   return (
-    <div className="container mx-auto mt-[120px]">
-      <h1 className="text-center text-white font-bold text-3xl mb-14 mt- sm:mt-0">
-        Workshop
+    <div className="container mx-auto mb-28 mt-[120px]">
+      <h1 className="text-center font-bold text-white text-5xl mb-10 mt-8">
+        {title.split("").map((char, index) => (
+          <motion.span
+            key={index}
+            style={{ display: "inline-block" }}
+            animate={{ y: [0, -10, 0] }}
+            transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+          >
+            {char}
+          </motion.span>
+        ))}
       </h1>
 
       {/* cards section */}

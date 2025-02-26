@@ -10,9 +10,9 @@ import Navbar from "./Pages/Layout/Navbar";
 import GuestLecture from "./Pages/GuestLecture/GuestLecture";
 import Footer from "./Pages/Layout/Footer";
 import Workshop from "./Pages/Workshop/Workshop";
-import Sponsers from "./Pages/Sponsers/Sponsers";
+import Sponsors  from "./Pages/Sponsors/Sponsors";
 import Contact from "./Pages/Home/Components/Contact";
-
+import Harmonics from "./Pages/Harmonics/Harmonics";
 
 function App() {
   
@@ -30,10 +30,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/sponsers" element={<Sponsers />} />
+        <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/events/guest-lecture" element={<GuestLecture />} />
         <Route path="/events/workshop" element={<Workshop />} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/events/hormonics" element={<Harmonics/>} />
         
       </Routes>
       <Footer/>
