@@ -5,15 +5,14 @@ import { motion } from 'framer-motion';
 const Card = () => {
   const cards = [
     { id: 1, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 2, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 3, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 4, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 5, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 6, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 7, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 8, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 9, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 10, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 2, image: Photo2, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 3, image: Photo3, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 4, image: Photo4, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 5, image: Photo5, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 6, image: Photo6, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 7, image: Photo7, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 8, image: Photo8, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+
   ];
 
   const title = "Harmonics";
