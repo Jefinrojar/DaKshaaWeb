@@ -1,19 +1,26 @@
 import React from 'react';
-import Photo1 from "../../../assets/Ai.jpg";
+import Photo1 from "../../../assets/photo1.jpg";
+import Photo2 from "../../../assets/photo2.jpg";
+import Photo3 from "../../../assets/photo3.jpg";
+import Photo4 from "../../../assets/photo4.jpg";
+import Photo5 from "../../../assets/photo5.jpg";
+import Photo6 from "../../../assets/photo6.jpg";
+import Photo7 from "../../../assets/photo7.jpg";
+import Photo8 from "../../../assets/photo8.jpg";
+
 import { motion } from 'framer-motion';
 
 const Card = () => {
   const cards = [
     { id: 1, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 2, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 3, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 4, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 5, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 6, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 7, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 8, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 9, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 10, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 2, image: Photo2, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 3, image: Photo3, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 4, image: Photo4, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 5, image: Photo5, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 6, image: Photo6, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 7, image: Photo7, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 8, image: Photo8, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+
   ];
 
   const title = "Harmonics";
