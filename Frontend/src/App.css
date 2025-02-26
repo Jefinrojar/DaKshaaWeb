@@ -113,6 +113,9 @@
 .clip-bottom-right-2{
     clip-path: polygon(100% 100%, 10% 100%, 0 70%, 0 0, 100% 0);
 }
+.clip-bottom-right-3{
+    clip-path: polygon(100% 0, 100% 86%, 95% 100%, 0 100%, 0 0);
+}
 .clip-bottom-left{
     clip-path: polygon(100% 100%, 8% 100%, 0 83%, 0 0, 100% 0);
 }

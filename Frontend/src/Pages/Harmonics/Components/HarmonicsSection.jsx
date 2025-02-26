@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo1 from "../../../assets/Ai.jpg";
+import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import { motion } from 'framer-motion';
 
 const Card = () => {

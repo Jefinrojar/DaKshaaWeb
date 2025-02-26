@@ -1,53 +1,279 @@
-import React from "react";
-import Photo1 from "../../../assets/Ai.jpg";
-import { Slide, Fade } from "react-awesome-reveal";
+import React, { useState } from "react";
+import { Slide } from "react-awesome-reveal";
 import { motion } from "framer-motion";
+import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg'
+import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg'
+import care4 from '../../../assets/WorkshopImages/care4.jpg'
+import dftt from '../../../assets/WorkshopImages/dftt.jpg'
+import garuda from '../../../assets/WorkshopImages/garuda.jpg'
+import macro from '../../../assets/WorkshopImages/macro.jpg'
+import millet from '../../../assets/WorkshopImages/millet.jpg'
+import seeka from '../../../assets/WorkshopImages/seeka.jpg'
+
+import Photo1 from "../../../assets/workshop_card/Ai.jpg";
+import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
+import Photo3 from "../../../assets/workshop_card/bt.jpg";
+import Photo4 from "../../../assets/workshop_card/civil.jpg";
+import Photo5 from "../../../assets/workshop_card/csbs.jpg";
+import Photo6 from "../../../assets/workshop_card/cse.jpg";
+import Photo7 from "../../../assets/workshop_card/ece.jpg";
+import Photo8 from "../../../assets/workshop_card/eee.jpg";
+import Photo9 from "../../../assets/workshop_card/ft.jpg";
+import Photo10 from "../../../assets/workshop_card/it.jpg";
+import Photo11 from "../../../assets/workshop_card/mct.jpg";
+import Photo12 from "../../../assets/workshop_card/mech.jpg";
+import Photo13 from "../../../assets/workshop_card/tex.jpg";
+import Photo14 from "../../../assets/workshop_card/vlsi.jpg";
 
 // Workshop data
 const workshops = [
   {
     id: 1,
     img: Photo1,
-    title: "Sunset",
-    desc: "Each character will appear one by one",
+    department: "Artificial Intelligence and Data Science",
+    dept: "Department of AIDS",
+    title: "Ui Path Supported Workshop 'Robotic Process Automation'",
+    facultyCo: "",
+    facultyCoNo:"",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"Ui Path",
+    companyImg: ""
   },
   {
     id: 2,
-    img: Photo1,
-    title: "Dog",
-    desc: "Each character will appear one by one",
+    img: Photo2,
+    department: "Artificial Intelligence and Machine Learning",
+    dept: "Department of AIML",
+    title: "AI for Game Development",
+    facultyCo: "Mrs R S Sivaranjini",
+    facultyCoNo: "+91 96770 55783",
+    studentCo1: "Kavinesh K  III-Year/CSE(AIML)",
+    studentCo2: "Ruban B III-Year/CSE(AIML)",
+    studentCo3: "Pavithran G II-Year/CSE(AIML)",
+    studentCoNo1: "+91 94892 43775",
+    studentCoNo2: "+91 81445 96872",
+    studentCoNo3: "+91 93635 75964",
+    companyName:"IITM Pravartak Technologies Foundation",
+    companyImg: Pravartak
   },
   {
     id: 3,
-    img: Photo1,
-    title: "Sunrise",
-    desc: "Each character will appear one by one",
+    img: Photo3,
+    department: "Bio-Technology",
+    dept: "Department of BT",
+    title: "Next Generation Sequencing (NGS)",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"",
+    companyImg: ""
   },
   {
     id: 4,
-    img: Photo1,
-    title: "Moonrise",
-    desc: "Each character will appear one by one",
+    img: Photo4,
+    department: "Civil Engineering",
+    dept: "Department of CIVIL",
+    title: "Building Information Modeling (BIM)",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"",
+    companyImg: ""
   },
   {
     id: 5,
-    img: Photo1,
-    title: "Starry Night",
-    desc: "Each character will appear one by one",
+    img: Photo5,
+    department: "Computer Science and Business Systems",
+    dept: "Department of CSBS",
+    title: "Unlocking Digital Potential: A Workshop on Modern Marketing",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"Virtuospark",
+    companyImg: virtuospark,
   },
   {
-    id: 5,
-    img: Photo1,
-    title: "Starry Night",
-    desc: "Each character will appear one by one",
+    id: 6,
+    img: Photo6,
+    department: "Computer Science and Engineering",
+    dept: "Department of CSE",
+    title: "Mobile App Development",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"",
+    companyImg: "",
+  },
+  {
+    id: 7,
+    img: Photo7,
+    department: "Electronics and Communication Engineering",
+    dept: "Department of ECE",
+    title: "Industry IoT using LoRaWAN Technology",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"",
+    companyImg: "",
+  },
+  {
+    id: 8,
+    img: Photo8,
+    department: "Electrical and Electronics Engineering",
+    dept: "Department of EEE",
+    title: "NI Lab view",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"",
+    companyImg: "",
+  },
+  {
+    id: 9,
+    img: Photo9,
+    department: "Food Technology",
+    dept: "Department of FT",
+    title: "Millet Fiesta: From Farm to Fork",
+    facultyCo: "Mr. S. Nithishkumar",
+    facultyCoNo: "+91 89733 33396",
+    studentCo1: "Pugazh Vendhan R, III Year",
+    studentCo2: "Shahana B, II Year",
+    studentCo3: "Santhosh S, II Year",
+    studentCoNo1: "+91 75503 48891",
+    studentCoNo2: "+91 74188 83634",
+    studentCoNo3: "+91 73058 44895",
+    companyName:"E-MILLET PRODUCTS",
+    companyImg: millet,
+  },
+  {
+    id: 10,
+    img: Photo10,
+    department: "Information Technology",
+    dept: "Department of IT",
+    title: "Digital Marketing",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"Seeka Host India",
+    companyImg: seeka,
+  },
+  {
+    id: 11,
+    img: Photo11,
+    department: "Mechatronics Engineering",
+    dept: "Department of MCT",
+    title: "Soaring High: Hands-On Drone Building and Flight Workshop",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"Garuda Aerospace",
+    companyImg: garuda,
+  },
+  {
+    id: 12,
+    img: Photo12,
+    department: "Mechanical Engineering",
+    dept: "Department of MECH",
+    title: "Design and development of automotive Product",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"Macro Technology Pvt Ltd",
+    companyImg: macro,
+  },
+  {
+    id: 13,
+    img: Photo13,
+    department: "Textile Technology",
+    dept: "Department of TXT",
+    title: "Medi Tex",
+    facultyCo: "",
+    facultyCoNo: "",
+    studentCo1: "",
+    studentCo2: "",
+    studentCo3: "",
+    studentCoNo1: "",
+    studentCoNo2: "",
+    studentCoNo3: "",
+    companyName:"Care 4 U India Pvt, Ltd",
+    companyImg: care4,
+  },
+  {
+    id: 14,
+    img: Photo14,
+    department: "VLSI",
+    dept: "Department of VLSI",
+    title: "From Digital Logic to DFT",
+    facultyCo1: "Mr. S. Pradeep",
+    facultyCoNo1: "+91 81221 39862",
+    facultyCo2: "Mrs. S. Gomathi",
+    facultyCoNo2: "+91 98942 79244",
+    studentCo1: "Harikesavaraj J",
+    studentCo2: "Aishvarieya V",
+    studentCoNo1: "+91 82702 78279",
+    studentCoNo2: "+91 63746 84519",
+    companyName:"DFTTraining Institute Private Limited",
+    companyImg: dftt,
   },
 ];
 
 const WorkshopSection = () => {
   const title = "Workshop";
+  const [selectedWorkshop, setSelectedWorkshop] = useState(null);
 
   return (
     <div className="container mx-auto mb-28 mt-[120px]">
+      {/* Animated Title */}
       <h1 className="text-center font-bold text-white text-5xl mb-10 mt-8">
         {title.split("").map((char, index) => (
           <motion.span
@@ -61,39 +287,82 @@ const WorkshopSection = () => {
         ))}
       </h1>
 
-      {/* cards section */}
+      {/* Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6">
-        {workshops.map(({ id, img, title, desc }) => {
-          return (
+        {workshops.map((workshop) => (
+          <div className="p-3 border border-sky-800">
             <div
-              key={id}
-              className="text-white shadow-md rounded-lg overflow-hidden relative group"
+              key={workshop.id}
+              className="text-white shadow-md overflow-hidden relative group"
             >
-              <img
-                src={img}
-                alt={title}
-                className="w-full max-w-[300px] h-[350px] rounded-lg"
-              />
-              {/* overlay section */}
-              <div className="absolute left-0 top-[-100%] opacity-0 group-hover:opacity-100 group-hover:top-0 p-4 w-full h-full bg-black/60 group-hover:backdrop-blur-sm duration-500">
-                <div className="space-y-4">
+              {/* Image Container */}
+              <div className="relative w-full max-w-[300px]">
+                <img
+                  src={workshop.img}
+                  alt={workshop.title}
+                  className="w-full"
+                />
+
+                {/* Overlay Section */}
+                <div className="absolute inset-0 flex flex-col space-y-4 items-center justify-center text-center text-white bg-sky-800/60 opacity-0 backdrop-blur-sm group-hover:opacity-100 transition duration-500 px-4">
                   <Slide cascade>
-                    <h1 className="text-3xl font-bold">{title}</h1>
-                    <Fade cascade damping={0.05}>
-                      {desc}
-                    </Fade>
-                    <div>
-                      <button className="border border-white px-4 py-2 rounded-lg hover:bg-black/20 duration-300">
-                        View
-                      </button>
-                    </div>
+                    <h1 className="text-xl font-semibold cursor-default">{workshop.title}</h1>
+                    <button
+                      className="border border-white px-4 py-1 hover:bg-white/20 duration-300"
+                      onClick={() => setSelectedWorkshop(workshop)}
+                    >
+                      View
+                    </button>
                   </Slide>
                 </div>
               </div>
+              <p className="text-center my-2 text-sky-500">{workshop.dept}</p>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
+
+      {/* Modal */}
+      {selectedWorkshop && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50">
+          <div className="p-2 border border-sky-800 relative">
+            <button
+              className="absolute -top-7 -right-6 text-3xl font-bold text-gray-500 hover:text-red-500"
+              onClick={() => setSelectedWorkshop(null)}
+            >
+              &times;
+            </button>
+            <div className="bg-sky-800/80 text-white clip-bottom-right-3 p-3 shadow-lg max-w-7xl w-full relative">
+              <div className="flex items-center gap-8">
+                <img className="w-72 h-72" src={selectedWorkshop.img} alt="" />
+                <div>
+                  <h1 className="text-2xl font-bold mt-2">
+                    {selectedWorkshop.title}
+                  </h1>
+                  <p className="font-semibold text-white/90 mb-2">
+                    {selectedWorkshop.dept}
+                  </p>
+                  <hr />
+                  
+                  <p className="mt-4"><b>Company Name:</b> {selectedWorkshop.companyName}</p>
+                  <img className="w-1/3 my-4" src={selectedWorkshop.companyImg} alt="" />
+
+                  <p className="font-bold">Student Co-ordinators:</p>
+                  <ul className="list-disc ml-4">
+                    <li>{selectedWorkshop.studentCo1}: {selectedWorkshop.studentCoNo1}</li>
+                    <li>{selectedWorkshop.studentCo2}: {selectedWorkshop.studentCoNo2}</li>
+                    <li>{selectedWorkshop.studentCo3}: {selectedWorkshop.studentCoNo3}</li>
+                  </ul>
+                  <p className="font-bold mt-8">Faculty Co-ordinator:</p>
+                  <ul className="list-disc ml-4">
+                    <li>{selectedWorkshop.facultyCo}: {selectedWorkshop.facultyCoNo}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
