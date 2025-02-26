@@ -151,7 +151,7 @@ const Events = () => {
       transition={{ duration: 1, ease: "easeInOut" }} // Smooth transition
     >
       {/* Animated "Events" Text */}
-      <h1 className="font-bold w-full text-center mt-28 space-x-2 text-4xl text-white">
+      <h1 className="font-bold w-full text-center mt-32 space-x-2 text-4xl text-white">
         {letters.map((letter, index) => (
           <motion.span
             key={index}
@@ -199,41 +199,43 @@ const Events = () => {
         <div className="w-1/2 flex items-center justify-center p-10">
           <motion.div
             key={selectedEventData?.name}
-            className="w-full h-[600px] p-8 shadow-2xl rounded-xl border-4 border-white bg-gradient-to-b text-white transition-all duration-500"
+            className="w-full h-auto shadow-2xl border border-sky-800 p-3 bg-gradient-to-b text-sky-500 transition-all duration-500"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <h2 className="text-3xl font-extrabold mb-4 border-b-2 pb-2 border-white text-center">
-              {selectedEventData ? selectedEventData.name : "Event Details"}
-            </h2>
+            <div className="bg-sky-900 bg-opacity-30">
+              <h2 className="text-3xl font-semibold mb-4 py-3 border-b border-sky-800 mx-2 text-center">
+                {selectedEventData ? selectedEventData.name : "Event Details"}
+              </h2>
 
-            {/* Swiper Slider */}
-            <Swiper
-              slidesPerView={1}
-              spaceBetween={30}
-              pagination={{ clickable: true }}
-              autoplay={{
-                delay: 3500,
-                disableOnInteraction: false,
-              }}
-              effect="fade"
-              modules={[Pagination, Autoplay, EffectFade]}
-              className="mySwiper"
-            >
-              {selectedEventData?.descriptionImages.map((slide, index) => (
-                <SwiperSlide key={`slide-${index}`} onClick={handleEventClick} className="cursor-pointer">
-                  <a href="#" onClick={(e) => e.preventDefault()}>
-                    <div className="flex flex-col items-center justify-center p-4 rounded-xl shadow-lg h-[450px]">
-                      <img
-                        src={slide.image}
-                        alt={`Slide ${index + 1}`}
-                        className="w-full h-full object-cover rounded-lg shadow-md border-2 border-white"
-                      />
-                    </div>
-                  </a>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+              {/* Swiper Slider */}
+              <Swiper
+                slidesPerView={1}
+                spaceBetween={30}
+                pagination={{ clickable: true }}
+                autoplay={{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }}
+                effect="fade"
+                modules={[Pagination, Autoplay, EffectFade]}
+                className="mySwiper"
+              >
+                {selectedEventData?.descriptionImages.map((slide, index) => (
+                  <SwiperSlide key={`slide-${index}`} onClick={handleEventClick} className="cursor-pointer">
+                    <a href="#" onClick={(e) => e.preventDefault()}>
+                      <div className="flex flex-col items-center justify-center p-4 rounded-xl shadow-lg h-[450px]">
+                        <img
+                          src={slide.image}
+                          alt={`Slide ${index + 1}`}
+                          className="w-full h-full object-cover  shadow-md clip-bottom-left"
+                        />
+                      </div>
+                    </a>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
           </motion.div>
         </div>
       </div>
