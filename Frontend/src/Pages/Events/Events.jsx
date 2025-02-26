@@ -133,8 +133,7 @@ const Events = () => {
         <div className="w-2/3 flex flex-col items-start py-10 relative pl-20">
           {/* Rotating Container */}
           <motion.div
-            className="relative w-[600px] h-[600px] flex items-center justify-center rounded-full"
-            style={{ background: "radial-gradient(circle, rgba(0,30,255,1) 0%, rgba(0,0,0,1) 100%)" }}
+            className="relative w-[600px] h-[600px] flex items-center justify-center rounded-full "
             animate={{ rotate: rotation }}
             transition={{ type: "spring", stiffness: 100, damping: 15, mass: 1 }}
           >

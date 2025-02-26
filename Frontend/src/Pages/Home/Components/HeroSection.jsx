@@ -3,25 +3,11 @@ import { motion } from "framer-motion";
 import HeroImg from "../../../assets/Heroimg.png";
 import Daksha from "../../../assets/DaKshaa T25.png"; // Import the Daksha image
 
-// Wave Animation for Each Letter (Title)
-const waveAnimation = {
-  hidden: { y: 0 },
-  visible: (i) => ({
-    y: [0, -10, 0, 5, 0], // Smooth wave effect
-    transition: {
-      duration: 1.2,
-      delay: i * 0.15,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
-  }),
-};
-
 // Wave Animation for Words (Description & Event Details)
 const wordWaveAnimation = {
   hidden: { y: 0 },
   visible: (i) => ({
-    y: [0, -8, 0, 4, 0], // Subtle wave effect for words
+    y: [0, -4, 0, 4, 0], // Subtle wave effect for words
     transition: {
       duration: 1.5,
       delay: i * 0.2,
@@ -64,9 +50,7 @@ const pulseAnimation = {
 };
 
 const HeroSection = () => {
-  const descriptionLine1 = "KSRCT's largest".split(" "); // First line of description
-  const descriptionLine2 = "tech festival of 2K25".split(" "); // Second line of description
-  const eventDetails = ["2 DAYS", "|", "15 DEPARTMENTS", "|", "15+ EVENTS"];
+  const eventDetails = ["2 DAYS", "|", "14 DEPARTMENTS", "|", "15+ EVENTS"];
 
   return (
     <motion.div
@@ -87,38 +71,6 @@ const HeroSection = () => {
             alt="Daksha"
             className="w-[500px] md:w-[600px] h-auto" // Adjust size as needed
           />
-        </motion.div>
-
-        {/* Description Line 1: "KSRCT's largest" */}
-        <motion.div className="flex text-center justify-center md:justify-start mt-6 text-4xl md:text-3xl font-marck ml-24">
-          {descriptionLine1.map((word, i) => (
-            <motion.p
-              key={i}
-              className="mr-2 text-center"
-              variants={wordWaveAnimation}
-              initial="hidden"
-              animate="visible"
-              custom={i}
-            >
-              {word}
-            </motion.p>
-          ))}
-        </motion.div>
-
-        {/* Description Line 2: "tech festival of 2K25" */}
-        <motion.div className="flex flex-wrap justify-center ml-14 md:justify-start mt-2 text-4xl md:text-3xl font-marck space-x-2">
-          {descriptionLine2.map((word, i) => (
-            <motion.p
-              key={i}
-              className="mr-2"
-              variants={wordWaveAnimation}
-              initial="hidden"
-              animate="visible"
-              custom={i}
-            >
-              {word}
-            </motion.p>
-          ))}
         </motion.div>
 
         {/* Event Details with Wave Animation */}

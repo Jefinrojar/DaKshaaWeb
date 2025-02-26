@@ -102,7 +102,7 @@ const GuestLecture = () => {
     },
   ];
 
-  const title = "Guest Lecture";
+  const title = "Guests";
 
   return (
     <div className="py-20">

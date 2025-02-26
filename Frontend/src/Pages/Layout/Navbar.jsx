@@ -35,10 +35,10 @@ const Navbar = () => {
                 <a href="/events">Events</a>
               </li>
               <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="/guest-lecture">Guest Lecture</a>
+                <a href="/events/guest-lecture">Guest Lecture</a>
               </li>
               <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="#">Workshop</a>
+                <a href="/events/workshop">Workshop</a>
               </li>
               <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
                 <a href="#">Accomadation</a>
