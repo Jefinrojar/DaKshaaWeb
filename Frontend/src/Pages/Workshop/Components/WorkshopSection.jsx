@@ -1,5 +1,5 @@
 import React from "react";
-import Photo1 from "../../../assets/HeroImg.png";
+import Photo1 from "../../../assets/Ai.jpg";
 import { Slide, Fade } from "react-awesome-reveal";
 
 // Workshop data
@@ -44,9 +44,9 @@ const workshops = [
 
 const WorkshopSection = () => {
   return (
-    <div className="container mx-auto">
-      <h1 className="text-center text-white font-bold text-3xl mb-14 mt-5 sm:mt-0">
-        Workshop Section
+    <div className="container mx-auto mt-[120px]">
+      <h1 className="text-center text-white font-bold text-3xl mb-14 mt- sm:mt-0">
+        Workshop
       </h1>
 
       {/* cards section */}
