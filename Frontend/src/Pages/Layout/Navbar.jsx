@@ -1,12 +1,36 @@
 import logo from "../../assets/logo.png";
 import collegeLogo from "../../assets/collegeLogo.png";
-import { React, useState } from "react";
+import round from "../../assets/round.svg";
+import { React, useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("Home"); // State to track active link
+
+  // Function to determine the active link based on the current URL
+  const getActiveLinkFromURL = () => {
+    const path = window.location.pathname;
+    if (path === "/") return "Home";
+    if (path === "/events") return "Events";
+    if (path === "/events/guest-lecture") return "Guest Lecture";
+    if (path === "/events/workshop") return "Workshop";
+    if (path === "/sponsers") return "Sponsers";
+    if (path === "/contact") return "Contact";
+    return "Home"; // Default to Home if no match
+  };
+
+  // Update active link on component mount or URL change
+  useEffect(() => {
+    setActiveLink(getActiveLinkFromURL());
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleLinkClick = (linkName) => {
+    setActiveLink(linkName); // Update active link
+    setIsMenuOpen(false); // Close the menu on mobile after clicking a link
   };
 
   return (
@@ -27,24 +51,72 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="md:col-span-6 col-span-12 mt-4">
             <div className="gradient-line animate-blinkOpacity relative"></div>
-            <ul className={`${isMenuOpen ? "block" : "hidden"} font-poppins md:flex mt-2 text-white justify-center items-center text- gap-12`}>
-              <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="/">Home</a>
+            <ul className={`${isMenuOpen ? "block" : "hidden"} font-poppins md:flex mt-2 text-white justify-center items-center gap-12`}>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Home" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Home")}
+              >
+                <a href="/" className="relative">
+                  {activeLink === "Home" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Home
+                </a>
               </li>
-              <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="/events">Events</a>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Events" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Events")}
+              >
+                <a href="/events" className="relative">
+                  {activeLink === "Events" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Events
+                </a>
               </li>
-              <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="/events/guest-lecture">Guest Lecture</a>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Guest Lecture" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Guest Lecture")}
+              >
+                <a href="/events/guest-lecture" className="relative">
+                  {activeLink === "Guest Lecture" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Guest Lecture
+                </a>
               </li>
-              <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="/events/workshop">Workshop</a>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Workshop" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Workshop")}
+              >
+                <a href="/events/workshop" className="relative">
+                  {activeLink === "Workshop" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Workshop
+                </a>
               </li>
-              <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="#">Accomadation</a>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Sponsers" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Sponsers")}
+              >
+                <a href="/sponsers" className="relative">
+                  {activeLink === "Sponsers" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Sponsers
+                </a>
               </li>
-              <li className="cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8">
-                <a href="#">Contact</a>
+              <li
+                className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Contact" ? "active" : ""}`}
+                onClick={() => handleLinkClick("Contact")}
+              >
+                <a href="/contact" className="relative">
+                  {activeLink === "Contact" && (
+                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                  )}
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

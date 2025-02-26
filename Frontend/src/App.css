@@ -8,7 +8,20 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@keyframes flicker {
+    0%, 100% {
+      opacity: 1;
+      filter: brightness(1);
+    }
+    50% {
+      opacity: 0.8;
+      filter: brightness(1.5);
+    }
+  }
+  
+  .flicker {
+    animation: flicker 1s infinite;
+  }
 .font-poppins{
     font-family: "poppins", serif;
 }
@@ -96,8 +109,21 @@
 .clip-path-slant-left {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
-
-
+.clip{
+    clip-path: polygon(11% 0, 100% 0, 100% 73%, 89% 100%, 0 100%, 0 27%);
+}
+.clip-bottom-right{
+    clip-path: polygon(100% 0, 100% 85%, 92% 100%, 0 100%, 0 0);
+}
+.clip-bottom-right-2{
+    clip-path: polygon(100% 100%, 10% 100%, 0 70%, 0 0, 100% 0);
+}
+.clip-bottom-left{
+    clip-path: polygon(100% 100%, 8% 100%, 0 83%, 0 0, 100% 0);
+}
+.clip-arrow-right{
+    clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+}
 
 body{
     background: rgb(11,29,39);

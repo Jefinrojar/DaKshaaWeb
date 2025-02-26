@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const GuestLectureCard = ({ name, title, image, time, date, location }) => {
     return (
         <motion.div 
-            className="bg-[#0F172A] p-6 rounded-2xl shadow-lg text-white w-80 text-center border-2 border-white"
+            className="bg-[#0F172A] p-6 shadow-lg text-white w-80 text-center border-2 border-white"
             whileHover={{ scale: 1.05 }}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -14,7 +14,7 @@ const GuestLectureCard = ({ name, title, image, time, date, location }) => {
                 <img
                     src={image}
                     alt={name}
-                    className="w-60 h-48 mx-auto rounded-xl object-cover border-2 border-white"
+                    className="w-60 h-48 mx-auto object-cover border-2 border-white"
                 />
                 <h2 className="text-xl font-bold mt-4">{name}</h2>
                 <p className="text-sm text-gray-300 mt-2">{title}</p>
