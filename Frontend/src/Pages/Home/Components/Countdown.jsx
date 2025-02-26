@@ -44,48 +44,47 @@ const CountdownTimer = () => {
   
   return (
     <>
-    <p className='text-red-500 text-3xl text-center mb-12'>
-        <span className='inline-flex items-center gap-4 px-4 py-2 border-2 border-red-800 bg-red-500 bg-opacity-40'>
-            <img className='w-12' src={warning} alt="Warning Icon" />
-            21st & 22nd March, 2025
-        </span>
+    <p className='text-red-500 text-2xl text-center mb-12' data-aos="fade-up">
+      <span className='inline-flex items-center gap-4 px-4 py-2 border-4 border-red-800 bg-red-500 bg-opacity-40 flicker'>
+        <img className='w-12' src={warning} alt="Warning Icon" />
+        21st & 22nd March, 2025
+      </span>
     </p>
     <div className="relative w-full my-8 flex justify-center">
       {/* SVG for the curved line */}
 
       <img className='absolute w-full' src={divider} alt="" />
       {/* Timer container */}
-      <div 
-        className="relative px-12 py-4 flex items-center justify-between z-10" 
-        style={{ 
-          backgroundColor: '#020752', 
-          borderRadius: '30px',
-          boxShadow: '0 0 10px rgba(0, 0, 255, 0.5)',
-          border: '1px solid #ffff'
-        }}
-      >
-        {/* Days */}
-        <div className="flex flex-col items-center mx-5">
-          <div className="text-lg font-poppins uppercase text-white">Days</div>
-          <div className="text-8xl font-digital font-bold text-white">{formatNumber(timeLeft.days)}</div>
-        </div>
-        
-        {/* Hours */}
-        <div className="flex flex-col items-center ml-5 mr-3">
-          <div className="text-sm font-poppins uppercase text-white">Hours</div>
-          <div className="text-6xl font-digital font-bold text-white">{formatNumber(timeLeft.hours)} :</div>
-        </div>
-        
-        {/* Minutes */}
-        <div className="flex flex-col items-center mx-3">
-          <div className="text-sm font-poppins uppercase text-white">Minutes</div>
-          <div className="text-6xl font-digital font-bold text-white">{formatNumber(timeLeft.minutes)} :</div>
-        </div>
-        
-        {/* Seconds */}
-        <div className="flex flex-col items-center mx-3">
-          <div className="text-sm font-poppins uppercase text-white">Seconds</div>
-          <div className="text-6xl font-digital font-bold text-white">{formatNumber(timeLeft.seconds)}</div>
+      <div className='border-2 border-sky-900 p-2' data-aos="fade-up">
+        <div 
+          className="relative px-12 py-4 bg-sky-900 bg-opacity-70 flex items-center justify-between z-10 clip" 
+          style={{  
+            boxShadow: '0 0 10px rgba(0, 0, 255, 0.5)',
+          }}
+        >
+          {/* Days */}
+          <div className="flex flex-col items-center mx-5">
+            <div className="text-lg font-poppins uppercase text-white">Days</div>
+            <div className="text-8xl font-digital font-bold text-white">{formatNumber(timeLeft.days)}</div>
+          </div>
+          
+          {/* Hours */}
+          <div className="flex flex-col items-center ml-5 mr-3">
+            <div className="text-sm font-poppins uppercase text-white">Hours</div>
+            <div className="text-6xl font-digital font-bold text-white">{formatNumber(timeLeft.hours)} :</div>
+          </div>
+          
+          {/* Minutes */}
+          <div className="flex flex-col items-center mx-3">
+            <div className="text-sm font-poppins uppercase text-white">Minutes</div>
+            <div className="text-6xl font-digital font-bold text-white">{formatNumber(timeLeft.minutes)} :</div>
+          </div>
+          
+          {/* Seconds */}
+          <div className="flex flex-col items-center mx-3">
+            <div className="text-sm font-poppins uppercase text-white">Seconds</div>
+            <div className="text-6xl font-digital font-bold text-white">{formatNumber(timeLeft.seconds)}</div>
+          </div>
         </div>
       </div>
     </div>

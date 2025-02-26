@@ -50,7 +50,7 @@ const pulseAnimation = {
 };
 
 const HeroSection = () => {
-  const eventDetails = ["2 DAYS", "|", "14 DEPARTMENTS", "|", "15+ EVENTS"];
+  const eventDetails = ["2 DAYS", "14 DEPARTMENTS", "15+ EVENTS"];
 
   return (
     <motion.div
@@ -74,24 +74,26 @@ const HeroSection = () => {
         </motion.div>
 
         {/* Event Details with Wave Animation */}
-        <motion.div className="mt-6 flex justify-center md:justify-start space-x-6 md:text-xl ml-4">
+        <motion.div className="mt-6 flex justify-center md:justify-start space-x-6 md:text-xl">
           {eventDetails.map((word, i) => (
-            <motion.span
-              key={i}
-              className="font-kohSantepheap" // Apply Koh Santepheap font
-              variants={wordWaveAnimation}
-              initial="hidden"
-              animate="visible"
-              custom={i}
-            >
-              {word}
-            </motion.span>
+            <motion.div className="border-2 border-sky-900 px-1 py-4">
+                <motion.span
+                key={i}
+                className="bg-sky-900 px-10 py-3 bg-opacity-80 clip-bottom-right-2" // Apply Koh Santepheap font
+                variants={wordWaveAnimation}
+                initial="hidden"
+                animate="visible"
+                custom={i}
+              >
+                {word}
+              </motion.span>
+            </motion.div>
           ))}
         </motion.div>
 
         {/* Register Button with Infinite Pulse */}
         <motion.button
-          className="mt-6 px-6 py-3 ml-24 bg-[#01013F] border-2 border-white hover:bg-blue-800 transition-all text-white font-semibold text-lg rounded-xl shadow-xl"
+          className="mt-8 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-2xl shadow-xl"
           whileHover={{ scale: 1.1, rotate: 2 }}
           whileTap={{ scale: 0.9 }}
           variants={pulseAnimation} // Infinite pulsing animation
