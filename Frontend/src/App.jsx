@@ -11,6 +11,7 @@ import GuestLecture from "./Pages/GuestLecture/GuestLecture";
 import Footer from "./Pages/Layout/Footer";
 import Workshop from "./Pages/Workshop/Workshop";
 import Sponsers from "./Pages/Sponsers/Sponsers";
+import Contact from "./Pages/Home/Components/Contact";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/sponsers" element={<Sponsers />} />
         <Route path="/events/guest-lecture" element={<GuestLecture />} />
         <Route path="/events/workshop" element={<Workshop />} />
+        <Route path="/contact" element={<Contact/>} />
         
       </Routes>
       <Footer/>
