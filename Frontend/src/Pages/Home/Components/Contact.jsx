@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaFacebook, FaLinkedin, FaYoutube, FaUser, FaChevronDown, FaChevronUp, FaBuilding } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import { v4 as uuidv4 } from 'uuid';
 
 const InquiryCard = ({ inquiry }) => (
     <motion.div 
@@ -65,6 +66,67 @@ const Contact = () => {
         { name: "Bob Williams", mobile: "+9988776655", email: "bob@startup.com", company: "InnovateX" },
     ];
 
+    const [formData, setFormData] = useState({
+        username: '',
+        email_id: '',
+        mobile_number: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const { username, email_id, mobile_number, message } = formData;
+
+        if (!username || !email_id || !mobile_number || !message) {
+            alert("All fields are required!");
+            return;
+        }
+
+        const user_id = uuidv4();
+
+        try {
+            const response = await fetch('http://localhost:3000/add-contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    user_id,
+                    username,
+                    email_id,
+                    mobile_number,
+                    message
+                }),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                alert("Contact details added successfully!");
+                setFormData({
+                    username: '',
+                    email_id: '',
+                    mobile_number: '',
+                    message: ''
+                });
+            } else {
+                alert(result.error || "Failed to add contact details.");
+            }
+        } catch (error) {
+            console.error("❌ Error submitting form:", error);
+            alert("Internal Server Error");
+        }
+    };
+
     return (
         <motion.div 
             initial={{ opacity: 0 }}
@@ -125,12 +187,12 @@ const Contact = () => {
                         className="p-6 bg-gray-800 rounded-lg h-fit"
                     >
                         <h1 className="text-2xl font-bold mb-4">Contact</h1>
-                        <form className="space-y-4">
+                        <form className="space-y-4" onSubmit={handleSubmit}>
                             {[
-                                { placeholder: "Name", icon: <FaUser className="text-gray-400 mr-2" /> },
-                                { placeholder: "Mobile", icon: <FaPhone className="text-green-400 mr-2" /> },
-                                { placeholder: "Email", icon: <FaEnvelope className="text-red-400 mr-2" /> },
-                                { placeholder: "Message", icon: <FaMapMarkerAlt className="text-blue-400 mr-2" />, isTextArea: true }
+                                { placeholder: "Name", icon: <FaUser className="text-gray-400 mr-2" />, name: "username" },
+                                { placeholder: "Mobile", icon: <FaPhone className="text-green-400 mr-2" />, name: "mobile_number" },
+                                { placeholder: "Email", icon: <FaEnvelope className="text-red-400 mr-2" />, name: "email_id" },
+                                { placeholder: "Message", icon: <FaMapMarkerAlt className="text-blue-400 mr-2" />, name: "message", isTextArea: true }
                             ].map((input, index) => (
                                 <motion.div 
                                     key={index}
@@ -139,15 +201,29 @@ const Contact = () => {
                                 >
                                     {input.icon}
                                     {input.isTextArea ? (
-                                        <textarea placeholder={input.placeholder} className="bg-transparent w-full outline-none text-white resize-none h-24"></textarea>
+                                        <textarea 
+                                            name={input.name}
+                                            placeholder={input.placeholder} 
+                                            className="bg-transparent w-full outline-none text-white resize-none h-24"
+                                            value={formData[input.name]}
+                                            onChange={handleChange}
+                                        ></textarea>
                                     ) : (
-                                        <input type="text" placeholder={input.placeholder} className="bg-transparent w-full outline-none text-white" />
+                                        <input 
+                                            type="text" 
+                                            name={input.name}
+                                            placeholder={input.placeholder} 
+                                            className="bg-transparent w-full outline-none text-white" 
+                                            value={formData[input.name]}
+                                            onChange={handleChange}
+                                        />
                                     )}
                                 </motion.div>
                             ))}
                             <motion.button 
                                 whileHover={{ scale: 1.05 }}
                                 className="w-full p-2 bg-blue-500 rounded-lg hover:bg-blue-600 text-white"
+                                type="submit"
                             >Submit</motion.button>
                         </form>
                     </motion.div>

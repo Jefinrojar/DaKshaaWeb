@@ -1,9 +1,13 @@
 const express = require("express");
 const { v4: uuidv4 } = require("uuid"); // Import UUID generator
 const pool = require("./db"); // Import DB connection
-
+const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Middleware for JSON parsing
 app.use(express.json());
