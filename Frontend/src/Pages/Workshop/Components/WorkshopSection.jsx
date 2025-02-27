@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+import { Slide } from "react-awesome-reveal";
 import { motion } from "framer-motion";
-import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg';
-import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg';
-import care4 from '../../../assets/WorkshopImages/care4.jpg';
-import dftt from '../../../assets/WorkshopImages/dftt.jpg';
-import garuda from '../../../assets/WorkshopImages/garuda.jpg';
-import macro from '../../../assets/WorkshopImages/macro.jpg';
-import millet from '../../../assets/WorkshopImages/millet.jpg';
-import seeka from '../../../assets/WorkshopImages/seeka.jpg';
+import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg'
+import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg'
+import care4 from '../../../assets/WorkshopImages/care4.jpg'
+import dftt from '../../../assets/WorkshopImages/dftt.jpg'
+import garuda from '../../../assets/WorkshopImages/garuda.jpg'
+import macro from '../../../assets/WorkshopImages/macro.jpg'
+import millet from '../../../assets/WorkshopImages/millet.jpg'
+import seeka from '../../../assets/WorkshopImages/seeka.jpg'
+
 import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
 import Photo3 from "../../../assets/workshop_card/bt.jpg";
@@ -23,7 +25,7 @@ import Photo12 from "../../../assets/workshop_card/mech.jpg";
 import Photo13 from "../../../assets/workshop_card/tex.jpg";
 import Photo14 from "../../../assets/workshop_card/vlsi.jpg";
 
-// Workshop data (unchanged)
+// Workshop data
 const workshops = [
   {
     id: 1,
@@ -266,22 +268,14 @@ const workshops = [
 ];
 
 const WorkshopSection = () => {
+  const title = "Workshop";
   const [selectedWorkshop, setSelectedWorkshop] = useState(null);
 
-  const handleOverlayClick = (e) => {
-    if (e.target === e.currentTarget) {
-      setSelectedWorkshop(null);
-    }
-  };
-
-  const handleViewClick = (workshop) => {
-    setSelectedWorkshop(workshop);
-  };
-
   return (
-    <div className="p-6">
-      <h1 className="text-center font-bold text-white text-2xl md:text-4xl mb-8 mt-20">
-        {"Workshop".split("").map((char, index) => (
+    <div className="container mx-auto mb-28 mt-[120px]">
+      {/* Animated Title */}
+      <h1 className="text-center font-bold text-white md:text-5xl text-2xl mb-10 mt-8">
+        {title.split("").map((char, index) => (
           <motion.span
             key={index}
             style={{ display: "inline-block" }}
@@ -293,136 +287,88 @@ const WorkshopSection = () => {
         ))}
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-x-6 justify-items-center px-4">
+      {/* Cards Section */}
+      <div className="grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6">
         {workshops.map((workshop) => (
-          <div
-            key={workshop.id}
-            className="relative group cursor-pointer overflow-hidden duration-500 
-                      w-80 h-96 bg-sky-900 bg-opacity-30 border border-sky-900 text-gray-50 p-5"
-            onClick={() => setSelectedWorkshop(workshop)}
-          >
-            <img
-              src={workshop.img}
-              alt={workshop.title}
-              className="group-hover:scale-110 w-full h-72 duration-500 object-cover"
-            />
-            <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
-              <div className="absolute -z-10 left-0 w-full h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
-              <span className="text-lg text-center md:text-xl font-bold">{workshop.title}</span>
-              <p className="group-hover:opacity-100 w-full duration-500 opacity-0">{workshop.dept}</p>
-              <button
-                className="group-hover:opacity-100 w-full duration-500 opacity-0 text-base mt-2 border border-white px-2 py-1 hover:bg-white/20"
-                onClick={() => handleViewClick(workshop)}
-              >
-                View
-              </button>
+          <div className="md:p-3 p-3 border border-sky-800">
+            <div
+              key={workshop.id}
+              className="text-white shadow-md overflow-hidden relative group"
+            >
+              {/* Image Container */}
+              <div className="relative md:w-full md:max-w-[300px] w-60">
+                <img
+                  src={workshop.img}
+                  alt={workshop.title}
+                  className="w-full"
+                />
+
+                {/* Overlay Section */}
+                <div className="absolute inset-0 flex flex-col space-y-4 items-center justify-center text-center text-white bg-sky-800/60 opacity-0 backdrop-blur-sm group-hover:opacity-100 transition duration-500 px-4">
+                  <Slide cascade>
+                    <h1 className="text-xl font-semibold cursor-default">{workshop.title}</h1>
+                    <button
+                      className="border border-white px-4 py-1 hover:bg-white/20 duration-300"
+                      onClick={() => setSelectedWorkshop(workshop)}
+                    >
+                      View
+                    </button>
+                  </Slide>
+                </div>
+              </div>
+              <p className="text-center my-2 text-sky-500">{workshop.dept}</p>
             </div>
           </div>
         ))}
       </div>
 
+      {/* Modal */}
       {selectedWorkshop && (
-        <div
-          className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-70 
-                    backdrop-blur-md z-50 overflow-y-auto p-2 sm:p-4"
-          onClick={handleOverlayClick}
-        >
-          <motion.div
-            initial={{ scale: 0.9, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            exit={{ scale: 0.9, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="relative w-full max-w-[90%] sm:max-w-lg md:max-w-2xl mx-auto"
-          >
+        <div className="fixed inset-0 flex items-center md:justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50">
+          <div className="p-2 border border-sky-800 relative md:mx-4 sm:mx-0 ml-8">
             <button
-              className="absolute top-[-36px] right-0 sm:top-[-12px] sm:right-[-12px] w-8 h-8 
-                        bg-red-500 text-white rounded-full flex items-center justify-center 
-                        text-xl font-bold hover:bg-red-600 transition-colors duration-200 
-                        shadow-md z-20"
+              className="absolute -top-7 -right-6 text-3xl font-bold text-gray-500 hover:text-red-500"
               onClick={() => setSelectedWorkshop(null)}
             >
-              ×
+              &times;
             </button>
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 text-white 
-                          p-4 sm:p-6 rounded-xl shadow-2xl border border-gray-700/50">
-              <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
-                <motion.img
-                  initial={{ x: -20, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ delay: 0.1 }}
-                  className="w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-lg 
-                            border-2 border-blue-500/20 shadow-md flex-shrink-0"
+            <div className="bg-sky-800/80 text-white clip-bottom-right-3  shadow-lg md:max-w-7xl md:w-full w-72 relative">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <img
+                  className="w-44 h-44 md:w-72 md:h-72"
                   src={selectedWorkshop.img}
-                  alt={selectedWorkshop.title}
+                  alt=""
                 />
-                <div className="w-full space-y-3 sm:space-y-4">
-                  <motion.div
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.2 }}
-                  >
-                    <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r 
-                                 from-blue-400 to-cyan-300 bg-clip-text text-transparent 
-                                 leading-tight">
-                      {selectedWorkshop.title}
-                    </h1>
-                    <p className="font-medium text-gray-300 mb-2 text-xs sm:text-sm">
-                      {selectedWorkshop.dept}
-                    </p>
-                  </motion.div>
-                  
-                  <div className="border-t border-gray-700/50 pt-3 sm:pt-4 space-y-2 sm:space-y-3">
-                    <p className="text-xs sm:text-sm">
-                      <span className="font-semibold text-blue-300">Company:</span> 
-                      <span className="text-gray-200 ml-2">{selectedWorkshop.companyName}</span>
-                    </p>
+                <div className="w-full md:w-auto ml-8">
+                  <h1 className="text-lg mb-3 font-bold mt-2">
+                    {selectedWorkshop.title}
+                  </h1>
+                  <p className="font-semibold text-white/90 mb-2">
+                    {selectedWorkshop.dept}
+                  </p>
+                  <hr />
 
-                    {(selectedWorkshop.facultyCo1 || selectedWorkshop.facultyCoNo1) && (
-                      <p className="text-xs sm:text-sm">
-                        <span className="font-semibold text-blue-300">Faculty 1:</span>
-                        <span className="text-gray-200 ml-2">{selectedWorkshop.facultyCo1} {selectedWorkshop.facultyCoNo1}</span>
-                      </p>
-                    )}
-                    {(selectedWorkshop.facultyCo2 || selectedWorkshop.facultyCoNo2) && (
-                      <p className="text-xs sm:text-sm">
-                        <span className="font-semibold text-blue-300">Faculty 2:</span>
-                        <span className="text-gray-200 ml-2">{selectedWorkshop.facultyCo2} {selectedWorkshop.facultyCoNo2}</span>
-                      </p>
-                    )}
-                    {(selectedWorkshop.studentCo1 || selectedWorkshop.studentCoNo1) && (
-                      <p className="text-xs sm:text-sm">
-                        <span className="font-semibold text-blue-300">Student 1:</span>
-                        <span className="text-gray-200 ml-2">{selectedWorkshop.studentCo1} {selectedWorkshop.studentCoNo1}</span>
-                      </p>
-                    )}
-                    {(selectedWorkshop.studentCo2 || selectedWorkshop.studentCoNo2) && (
-                      <p className="text-xs sm:text-sm">
-                        <span className="font-semibold text-blue-300">Student 2:</span>
-                        <span className="text-gray-200 ml-2">{selectedWorkshop.studentCo2} {selectedWorkshop.studentCoNo2}</span>
-                      </p>
-                    )}
-                    {(selectedWorkshop.studentCo3 || selectedWorkshop.studentCoNo3) && (
-                      <p className="text-xs sm:text-sm">
-                        <span className="font-semibold text-blue-300">Student 3:</span>
-                        <span className="text-gray-200 ml-2">{selectedWorkshop.studentCo3} {selectedWorkshop.studentCoNo3}</span>
-                      </p>
-                    )}
-                  </div>
+                  <p className="mt-4"><b>Company Name:</b> {selectedWorkshop.companyName}</p>
+                  <img
+                    className="w-1/2 md:w-1/3 my-4 md:mx-0"
+                    src={selectedWorkshop.companyImg}
+                    alt=""
+                  />
 
-                  {selectedWorkshop.companyImg && (
-                    <motion.img
-                      initial={{ y: 20, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ delay: 0.3 }}
-                      className="w-32 sm:w-40 mt-3 sm:mt-4 rounded-lg border border-gray-700/50 shadow-sm"
-                      src={selectedWorkshop.companyImg}
-                      alt={selectedWorkshop.companyName}
-                    />
-                  )}
+                  <p className="font-bold">Student Co-ordinators:</p>
+                  <ul className="list-disc ml-4">
+                    <li>{selectedWorkshop.studentCo1}: {selectedWorkshop.studentCoNo1}</li>
+                    <li>{selectedWorkshop.studentCo2}: {selectedWorkshop.studentCoNo2}</li>
+                    <li>{selectedWorkshop.studentCo3}: {selectedWorkshop.studentCoNo3}</li>
+                  </ul>
+                  <p className="font-bold mt-8">Faculty Co-ordinator:</p>
+                  <ul className="list-disc ml-4 text-sm mb-6">
+                    <li>{selectedWorkshop.facultyCo}: {selectedWorkshop.facultyCoNo}</li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       )}
     </div>

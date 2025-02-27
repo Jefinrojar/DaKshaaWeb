@@ -173,7 +173,7 @@ const Events = () => {
         {/* Circular Event Selector */}
 
         <motion.div className="w-full lg:w-2/3 md:w-2/3 flex flex-col items-center lg:items-start py-6 lg:py-10 relative lg:pl-20">
-          <motion.div className="absolute inset-1 md:right-12 flex items-center justify-center">
+          <motion.div className="absolute inset-0 md:left-5 flex items-center justify-center">
             <motion.div
               className="text-white text-center cursor-pointer"
               whileHover={{ scale: 1.1 }}

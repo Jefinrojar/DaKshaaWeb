@@ -31,7 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/events/guest-lecture" element={<GuestLecture />} />
+        <Route path="/events/conference" element={<GuestLecture />} />
         <Route path="/events/workshop" element={<Workshop />} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/events/hormonics" element={<Harmonics/>} />
