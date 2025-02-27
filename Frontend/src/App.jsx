@@ -14,6 +14,8 @@ import Sponsors  from "./Pages/Sponsors/Sponsors";
 import Contact from "./Pages/Home/Components/Contact";
 import Harmonics from "./Pages/Harmonics/Harmonics";
 import EventDetails from "./Pages/Events/EventDetails/EventDetails";
+import Teams from "./Pages/Teams/Teams";
+
 function App() {
   
   useEffect(() => {
@@ -36,6 +38,9 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/events/hormonics" element={<Harmonics/>} />
         <Route path="/event/:eventId" element={<EventDetails />} />
+        <Route path="/teams" element={<Teams />} />
+
+        
       </Routes>
       <Footer/>
     </Router>
