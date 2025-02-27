@@ -1,5 +1,13 @@
 import React from 'react';
-import Photo1 from "../../../assets/workshop_card/Ai.jpg";
+import Photo1 from "../../../assets/photo1.jpg";
+import Photo2 from "../../../assets/photo2.jpg";
+import Photo3 from "../../../assets/photo3.jpg";
+import Photo4 from "../../../assets/photo4.jpg";
+import Photo5 from "../../../assets/photo5.jpg";
+import Photo6 from "../../../assets/photo6.jpg";
+import Photo7 from "../../../assets/photo7.jpg";
+import Photo8 from "../../../assets/photo8.jpg";
+
 import { motion } from 'framer-motion';
 
 const Card = () => {
@@ -12,14 +20,13 @@ const Card = () => {
     { id: 6, image: Photo6, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
     { id: 7, image: Photo7, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
     { id: 8, image: Photo8, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-
   ];
 
   const title = "Harmonics";
 
   return (
-    <div className="p-28">
-      <h1 className="text-center font-bold text-white text-5xl mb-10 mt-8">
+    <div className="p-6 sm:p-8 md:p-10">
+      <h1 className="text-center font-bold text-white text-4xl sm:text-5xl mb-8 sm:mb-10 mt-20 sm:mt-[120px]">
         {title.split("").map((char, index) => (
           <motion.span
             key={index}
@@ -31,14 +38,21 @@ const Card = () => {
           </motion.span>
         ))}
       </h1>
-      <div className="flex flex-wrap justify-center gap-10">
+
+      {/* Grid Layout - 3 Cards Per Row */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-12 sm:gap-y-16 justify-center px-4 sm:px-8">
         {cards.map((card) => (
-          <div key={card.id} className="relative group cursor-pointer overflow-hidden duration-500 w-64 h-80 bg-sky-900 bg-opacity-30 border border-sky-900 text-gray-50 p-5">
-            <img src={card.image} alt="Icon" className="group-hover:scale-110 w-full h-60 duration-500" />
-            <div className="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
-              <div className="absolute -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
-              <span className="text-xl font-bold">{card.title}</span>
-              <p className="group-hover:opacity-100 w-56 duration-500 opacity-0">{card.text}</p>
+          <div 
+            key={card.id} 
+            className="relative group cursor-pointer overflow-hidden duration-500 
+                       w-full sm:w-64 md:w-72 lg:w-80 h-80 sm:h-96 bg-sky-900 
+                       bg-opacity-30 border border-sky-900 text-gray-50 p-5"
+          >
+            <img src={card.image} alt="Icon" className="group-hover:scale-110 w-full h-56 sm:h-72 duration-500" />
+            <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
+              <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
+              <span className="text-lg sm:text-xl font-bold">{card.title}</span>
+              <p className="group-hover:opacity-100 w-full duration-500 opacity-0">{card.text}</p>
             </div>
           </div>
         ))}
@@ -48,4 +62,3 @@ const Card = () => {
 }
 
 export default Card;
-
