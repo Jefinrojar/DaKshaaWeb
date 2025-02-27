@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <section>
       <HeroSection/>
-      <CountdownTimer/>
       <About/>
     </section>
   )

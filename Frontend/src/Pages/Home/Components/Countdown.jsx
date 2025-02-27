@@ -37,27 +37,27 @@ const CountdownTimer = () => {
   const formatNumber = (num) => (num < 10 ? `0${num}` : num);
 
   return (
-    <>
+    <div className="flex flex-col md:mt-20 mt-0 items-center md:items-start md:justify-center">
       <p
-        className="text-red-500 text-lg sm:text-xl md:text-2xl text-center mb-6 sm:mb-10 md:mb-12"
-        data-aos="fade-up"
+        className="text-red-400 text-sm md:text-xl mb-4 md:mb-0 mt-16"
+        
       >
-        <span className="inline-flex items-center gap-2 sm:gap-4 px-3 sm:px-4 py-1 sm:py-2 border-4 border-red-800 bg-red-500 bg-opacity-40 flicker">
-          <img className="w-8 sm:w-10 md:w-12" src={warning} alt="Warning Icon" />
+        <span className="inline-flex items-center gap-2 sm:gap-4 px-3 sm:px-4 py-1 sm:py-2 border-2 border-red-800 bg-red-500 bg-opacity-40 flicker">
+          <img className="w-8 sm:w-10 md:w-8" src={warning} alt="Warning Icon" />
           21st & 22nd March, 2025
         </span>
       </p>
-      <div className="relative w-full my-6 sm:my-8 flex justify-center">
+      <div className="relative sm:my-8 flex">
         {/* Divider SVG */}
-        <img
+        {/* <img
           className="absolute w-full max-w-[100%] h-auto top-1/2 -translate-y-1/2"
           src={divider}
           alt="Divider"
-        />
+        /> */}
         {/* Timer Container */}
-        <div className="border-2 border-sky-900 p-2 sm:p-3 md:p-4" data-aos="fade-up">
+        <div className="border-2 border-sky-900 p-2 sm:p-3 md:p-2">
           <div
-            className="relative px-4 sm:px-8 md:px-12 py-3 sm:py-4 bg-sky-900 bg-opacity-70 flex flex-wrap justify-center sm:justify-between items-center z-10 clip"
+            className="relative px-4 sm:px-8 md:px-8 py-3 md:py-2 sm:py-4 bg-sky-900 bg-opacity-70 flex flex-wrap justify-center sm:justify-between items-center z-10 clip"
             style={{ boxShadow: "0 0 10px rgba(0, 0, 255, 0.5)" }}
           >
             {/* Days */}
@@ -102,7 +102,7 @@ const CountdownTimer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
