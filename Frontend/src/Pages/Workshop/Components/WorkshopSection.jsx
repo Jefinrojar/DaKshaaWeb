@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import { Slide } from "react-awesome-reveal";
 import { motion } from "framer-motion";
-import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg'
-import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg'
-import care4 from '../../../assets/WorkshopImages/care4.jpg'
-import dftt from '../../../assets/WorkshopImages/dftt.jpg'
-import garuda from '../../../assets/WorkshopImages/garuda.jpg'
-import macro from '../../../assets/WorkshopImages/macro.jpg'
-import millet from '../../../assets/WorkshopImages/millet.jpg'
-import seeka from '../../../assets/WorkshopImages/seeka.jpg'
-
+import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg';
+import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg';
+import care4 from '../../../assets/WorkshopImages/care4.jpg';
+import dftt from '../../../assets/WorkshopImages/dftt.jpg';
+import garuda from '../../../assets/WorkshopImages/garuda.jpg';
+import macro from '../../../assets/WorkshopImages/macro.jpg';
+import millet from '../../../assets/WorkshopImages/millet.jpg';
+import seeka from '../../../assets/WorkshopImages/seeka.jpg';
 import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
 import Photo3 from "../../../assets/workshop_card/bt.jpg";
@@ -25,7 +23,7 @@ import Photo12 from "../../../assets/workshop_card/mech.jpg";
 import Photo13 from "../../../assets/workshop_card/tex.jpg";
 import Photo14 from "../../../assets/workshop_card/vlsi.jpg";
 
-// Workshop data
+// Workshop data (unchanged)
 const workshops = [
   {
     id: 1,
@@ -34,14 +32,14 @@ const workshops = [
     dept: "Department of AIDS",
     title: "Ui Path Supported Workshop 'Robotic Process Automation'",
     facultyCo: "",
-    facultyCoNo:"",
+    facultyCoNo: "",
     studentCo1: "",
     studentCo2: "",
     studentCo3: "",
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"Ui Path",
+    companyName: "Ui Path",
     companyImg: ""
   },
   {
@@ -58,7 +56,7 @@ const workshops = [
     studentCoNo1: "+91 94892 43775",
     studentCoNo2: "+91 81445 96872",
     studentCoNo3: "+91 93635 75964",
-    companyName:"IITM Pravartak Technologies Foundation",
+    companyName: "IITM Pravartak Technologies Foundation",
     companyImg: Pravartak
   },
   {
@@ -75,7 +73,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"",
+    companyName: "",
     companyImg: ""
   },
   {
@@ -92,7 +90,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"",
+    companyName: "",
     companyImg: ""
   },
   {
@@ -109,7 +107,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"Virtuospark",
+    companyName: "Virtuospark",
     companyImg: virtuospark,
   },
   {
@@ -126,7 +124,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"",
+    companyName: "",
     companyImg: "",
   },
   {
@@ -143,7 +141,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"",
+    companyName: "",
     companyImg: "",
   },
   {
@@ -160,7 +158,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"",
+    companyName: "",
     companyImg: "",
   },
   {
@@ -177,7 +175,7 @@ const workshops = [
     studentCoNo1: "+91 75503 48891",
     studentCoNo2: "+91 74188 83634",
     studentCoNo3: "+91 73058 44895",
-    companyName:"E-MILLET PRODUCTS",
+    companyName: "E-MILLET PRODUCTS",
     companyImg: millet,
   },
   {
@@ -194,7 +192,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"Seeka Host India",
+    companyName: "Seeka Host India",
     companyImg: seeka,
   },
   {
@@ -211,7 +209,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"Garuda Aerospace",
+    companyName: "Garuda Aerospace",
     companyImg: garuda,
   },
   {
@@ -228,7 +226,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"Macro Technology Pvt Ltd",
+    companyName: "Macro Technology Pvt Ltd",
     companyImg: macro,
   },
   {
@@ -245,7 +243,7 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName:"Care 4 U India Pvt, Ltd",
+    companyName: "Care 4 U India Pvt, Ltd",
     companyImg: care4,
   },
   {
@@ -262,20 +260,24 @@ const workshops = [
     studentCo2: "Aishvarieya V",
     studentCoNo1: "+91 82702 78279",
     studentCoNo2: "+91 63746 84519",
-    companyName:"DFTTraining Institute Private Limited",
+    companyName: "DFTTraining Institute Private Limited",
     companyImg: dftt,
   },
 ];
 
 const WorkshopSection = () => {
-  const title = "Workshop";
   const [selectedWorkshop, setSelectedWorkshop] = useState(null);
 
+  const handleOverlayClick = (e) => {
+    if (e.target === e.currentTarget) {
+      setSelectedWorkshop(null);
+    }
+  };
+
   return (
-    <div className="container mx-auto mb-28 mt-[120px]">
-      {/* Animated Title */}
-      <h1 className="text-center font-bold text-white text-5xl mb-10 mt-8">
-        {title.split("").map((char, index) => (
+    <div className="p-6">
+      <h1 className="text-center font-bold text-white text-2xl md:text-4xl mb-8 mt-20">
+        {"Workshop".split("").map((char, index) => (
           <motion.span
             key={index}
             style={{ display: "inline-block" }}
@@ -287,76 +289,104 @@ const WorkshopSection = () => {
         ))}
       </h1>
 
-      {/* Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-x-6 justify-items-center px-4">
         {workshops.map((workshop) => (
-          <div className="p-3 border border-sky-800">
-            <div
-              key={workshop.id}
-              className="text-white shadow-md overflow-hidden relative group"
-            >
-              {/* Image Container */}
-              <div className="relative w-full max-w-[300px]">
-                <img
-                  src={workshop.img}
-                  alt={workshop.title}
-                  className="w-full"
-                />
-
-                {/* Overlay Section */}
-                <div className="absolute inset-0 flex flex-col space-y-4 items-center justify-center text-center text-white bg-sky-800/60 opacity-0 backdrop-blur-sm group-hover:opacity-100 transition duration-500 px-4">
-                  <Slide cascade>
-                    <h1 className="text-xl font-semibold cursor-default">{workshop.title}</h1>
-                    <button
-                      className="border border-white px-4 py-1 hover:bg-white/20 duration-300"
-                      onClick={() => setSelectedWorkshop(workshop)}
-                    >
-                      View
-                    </button>
-                  </Slide>
-                </div>
-              </div>
-              <p className="text-center my-2 text-sky-500">{workshop.dept}</p>
+          <div
+            key={workshop.id}
+            className="relative group cursor-pointer overflow-hidden duration-500 
+                      w-80 h-96 bg-sky-900 bg-opacity-30 border border-sky-900 text-gray-50 p-5"
+            onClick={() => setSelectedWorkshop(workshop)}
+          >
+            <img
+              src={workshop.img}
+              alt={workshop.title}
+              className="group-hover:scale-110 w-full h-72 duration-500 object-cover"
+            />
+            <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
+              <div className="absolute -z-10 left-0 w-full h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
+              <span className="text-lg text-center md:text-xl font-bold">{workshop.title}</span>
+              <p className="group-hover:opacity-100 w-full duration-500 opacity-0">{workshop.dept}</p>
+              <button
+                className="group-hover:opacity-100 w-full duration-500 opacity-0 text-base mt-2 border border-white px-2 py-1 hover:bg-white/20"
+                onClick={(e) => e.stopPropagation()}
+              >
+                View
+              </button>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Modal */}
       {selectedWorkshop && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50">
-          <div className="p-2 border border-sky-800 relative">
+        <div
+          className="fixed inset-0 flex items-start justify-center bg-black bg-opacity-20 
+                    backdrop-blur-sm z-50 overflow-y-auto"
+          onClick={handleOverlayClick}
+        >
+          <div
+            className="p-2 relative w-full max-w-[95%] my-6"
+          >
             <button
-              className="absolute -top-7 -right-6 text-3xl font-bold text-gray-500 hover:text-red-500"
+              className="absolute -top-5 right-0 text-2xl font-bold text-gray-500 hover:text-red-500"
               onClick={() => setSelectedWorkshop(null)}
             >
-              &times;
+              ×
             </button>
-            <div className="bg-sky-800/80 text-white clip-bottom-right-3 p-3 shadow-lg max-w-7xl w-full relative">
-              <div className="flex items-center gap-8">
-                <img className="w-72 h-72" src={selectedWorkshop.img} alt="" />
-                <div>
-                  <h1 className="text-2xl font-bold mt-2">
+            <div className="bg-sky-800/80 text-white p-3 shadow-lg w-full rounded-lg">
+              <div className="flex flex-col items-center gap-4">
+                <img
+                  className="w-72 h-72 object-cover rounded-lg"
+                  src={selectedWorkshop.img}
+                  alt={selectedWorkshop.title}
+                />
+                <div className="w-full">
+                  <h1 className="text-2xl font-bold mt-2 leading-tight">
                     {selectedWorkshop.title}
                   </h1>
-                  <p className="font-semibold text-white/90 mb-2">
+                  <p className="font-semibold text-white/90 mb-2 text-base">
                     {selectedWorkshop.dept}
                   </p>
                   <hr />
-                  
-                  <p className="mt-4"><b>Company Name:</b> {selectedWorkshop.companyName}</p>
-                  <img className="w-1/3 my-4" src={selectedWorkshop.companyImg} alt="" />
-
-                  <p className="font-bold">Student Co-ordinators:</p>
-                  <ul className="list-disc ml-4">
-                    <li>{selectedWorkshop.studentCo1}: {selectedWorkshop.studentCoNo1}</li>
-                    <li>{selectedWorkshop.studentCo2}: {selectedWorkshop.studentCoNo2}</li>
-                    <li>{selectedWorkshop.studentCo3}: {selectedWorkshop.studentCoNo3}</li>
-                  </ul>
-                  <p className="font-bold mt-8">Faculty Co-ordinator:</p>
-                  <ul className="list-disc ml-4">
-                    <li>{selectedWorkshop.facultyCo}: {selectedWorkshop.facultyCoNo}</li>
-                  </ul>
+                  <p className="mt-4 text-base">
+                    <b>Company Name:</b> {selectedWorkshop.companyName}
+                  </p>
+                  {(selectedWorkshop.facultyCo1 || selectedWorkshop.facultyCoNo1) && (
+                    <p className="mt-4 text-base">
+                      <b>Faculty Coordinator 1:</b> {selectedWorkshop.facultyCo1}{" "}
+                      {selectedWorkshop.facultyCoNo1}
+                    </p>
+                  )}
+                  {(selectedWorkshop.facultyCo2 || selectedWorkshop.facultyCoNo2) && (
+                    <p className="mt-4 text-base">
+                      <b>Faculty Coordinator 2:</b> {selectedWorkshop.facultyCo2}{" "}
+                      {selectedWorkshop.facultyCoNo2}
+                    </p>
+                  )}
+                  {(selectedWorkshop.studentCo1 || selectedWorkshop.studentCoNo1) && (
+                    <p className="mt-4 text-base">
+                      <b>Student Coordinator 1:</b> {selectedWorkshop.studentCo1}{" "}
+                      {selectedWorkshop.studentCoNo1}
+                    </p>
+                  )}
+                  {(selectedWorkshop.studentCo2 || selectedWorkshop.studentCoNo2) && (
+                    <p className="mt-4 text-base">
+                      <b>Student Coordinator 2:</b> {selectedWorkshop.studentCo2}{" "}
+                      {selectedWorkshop.studentCoNo2}
+                    </p>
+                  )}
+                  {(selectedWorkshop.studentCo3 || selectedWorkshop.studentCoNo3) && (
+                    <p className="mt-4 text-base">
+                      <b>Student Coordinator 3:</b> {selectedWorkshop.studentCo3}{" "}
+                      {selectedWorkshop.studentCoNo3}
+                    </p>
+                  )}
+                  {selectedWorkshop.companyImg && (
+                    <img
+                      className="w-1/2 my-4 rounded-lg"
+                      src={selectedWorkshop.companyImg}
+                      alt={selectedWorkshop.companyName}
+                    />
+                  )}
                 </div>
               </div>
             </div>
