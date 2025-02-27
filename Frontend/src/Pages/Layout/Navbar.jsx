@@ -13,7 +13,7 @@ const Navbar = () => {
     const path = window.location.pathname;
     if (path === "/") return "Home";
     if (path === "/events") return "Events";
-    if (path === "/events/guest-lecture") return "Guest Lecture";
+    if (path === "/events/conference") return "Conference";
     if (path === "/events/workshop") return "Workshop";
     if (path === "/sponsors") return "Sponsors";
     if (path === "/contact") return "Contact";
@@ -61,7 +61,7 @@ const Navbar = () => {
                 {[
                   { name: "Home", path: "/" },
                   { name: "Events", path: "/events" },
-                  { name: "Guest Lecture", path: "/events/guest-lecture" },
+                  { name: "Conference", path: "/events/conference" },
                   { name: "Workshop", path: "/events/workshop" },
                   { name: "Hormonics", path: "/events/hormonics" },
                   { name: "Sponsors", path: "/sponsors" },
@@ -74,7 +74,7 @@ const Navbar = () => {
                   >
                     <span className="relative">
                       {activeLink === name && (
-                        <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
+                        <img className="absolute md:-top-5 md:left-1/2 right-20 top-1 w-3 -translate-x-1/2" src={round} alt="" />
                       )}
                       {name}
                     </span>

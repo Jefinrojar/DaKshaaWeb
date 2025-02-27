@@ -56,7 +56,7 @@ const HeroSection = () => {
   return (
     <>
       <motion.div
-        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-20 mt-20 text-white overflow-hidden"
+        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-24 mt-24 text-white overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -69,30 +69,30 @@ const HeroSection = () => {
           <motion.img
             src={HeroImg}
             alt="Tech Face"
-            className="w-[70%] md:w-[90%] max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] h-auto transition-all hover:scale-105"
+            className="w-[70%] md:w-[95%] max-w-[400px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[700px] h-auto md:h-[500px] transition-all hover:scale-105"
             variants={floatAnimation}
             animate="animate"
           />
         </motion.div>
 
         {/* Left Content (Bottom on Mobile, Left on Desktop) */}
-        <motion.div className="flex flex-col justify-between mt-8 md:ml-52 md:mt-0 w-full md:w-1/2 order-2 md:order-1">
+        <motion.div className="flex flex-col justify-between mt-8 md:ml-52 md:mt-14 w-full md:w-1/2 order-2 md:order-1">
           {/* Daksha Image */}
           <div>
             <motion.div variants={fadeInUp}>
               <img
                 src={Daksha}
                 alt="Daksha"
-                className="w-[80%] max-w-[500px] h-auto sm:w-[400px] md:w-[500px] lg:w-[600px]"
+                className="w-[60%] max-w-[500px] h-auto sm:w-[400px] md:w-[500px] lg:w-[600px]"
               />
             </motion.div>
 
             {/* Event Details with Wave Animation */}
-            <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start gap-1 sm:gap-6 text-xs md:text-lg lg:text-xl">
+            <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start gap-2 sm:gap-4 text-xs md:text-lg lg:text-xl whitespace-nowrap">
               {eventDetails.map((word, i) => (
                 <motion.div
                   key={i}
-                  className="border-2 border-sky-900 px-0 md:px-1 py-2 sm:py-3 md:py-4"
+                  className="border-2 border-sky-900 px-2 md:px-4 py-2 sm:py-3 md:py-4 flex-shrink-0"
                 >
                   <motion.span
                     className="bg-sky-900 px-4 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3 bg-opacity-80 clip-bottom-right-2"
