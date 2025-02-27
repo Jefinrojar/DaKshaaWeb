@@ -9,7 +9,7 @@ const InquiryCard = ({ inquiry }) => (
         animate={{ opacity: 1, scale: 1 }} 
         exit={{ opacity: 0, scale: 0.8 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="bg-gray-900 p-4 rounded-lg mb-4 text-white shadow-lg"
+        className="bg-gray-900 p-4 rounded-lg mb-4 text-white shadow-lg w-full"
     >
         <p><FaUser className="inline mr-2 text-blue-400" /> {inquiry.name}</p>
         <p><FaPhone className="inline mr-2 text-green-400" /> {inquiry.mobile}</p>
@@ -26,7 +26,7 @@ const InquirySection = ({ title, inquiries }) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className="mt-4 p-4 bg-gray-800 rounded-lg text-white"
+            className="mt-4 p-4 bg-gray-800 rounded-lg text-white w-full"
         >
             <motion.div 
                 whileTap={{ scale: 0.95 }}
@@ -43,7 +43,7 @@ const InquirySection = ({ title, inquiries }) => {
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
                         transition={{ duration: 0.5, ease: "easeOut" }}
-                        className="mt-3"
+                        className="mt-3 overflow-hidden"
                     >
                         {inquiries.map((inquiry, index) => (
                             <InquiryCard key={index} inquiry={inquiry} />
@@ -132,18 +132,18 @@ const Contact = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="flex justify-center py-10 mt-36"
+            className="flex justify-center py-10 mt-36 w-full overflow-x-hidden"
         >
             <motion.div 
                 initial={{ opacity: 0, y: 20 }} 
                 animate={{ opacity: 1, y: 0 }} 
                 transition={{ duration: 0.6, ease: "easeOut" }}
-                className="w-full max-w-screen-lg mx-auto p-6 text-white border-4 border-gray-700 rounded-lg bg-gray-900 bg-opacity-80 shadow-2xl overflow-hidden"
+                className="w-full max-w-screen-lg mx-auto p-4 sm:p-6 text-white border-4 border-gray-700 rounded-lg bg-gray-900 bg-opacity-80 shadow-2xl"
             >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
+                    <div className="w-full">
                         <h1 className="font-bold mb-4 text-xl">Connect</h1>
-                        <motion.div className="social-icon flex space-x-4 mb-4 items-center w-full">
+                        <motion.div className="social-icon flex space-x-2 sm:space-x-4 mb-4 items-center w-full">
                             {[
                                 { icon: <FaLinkedin />, link: "#", color: "text-blue-500" },
                                 { icon: <FaInstagram />, link: "#", color: "text-pink-500" },
@@ -156,7 +156,7 @@ const Contact = () => {
                                     whileHover={{ scale: 1.2, rotate: 5 }}
                                     whileTap={{ scale: 0.9 }}
                                     transition={{ type: "spring", stiffness: 200 }}
-                                    className={`text-2xl w-12 h-12 flex items-center justify-center ${social.color} rounded-full bg-gray-700 hover:bg-opacity-80`}
+                                    className={`text-xl sm:text-2xl w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center ${social.color} rounded-full bg-gray-700 hover:bg-opacity-80`}
                                 >
                                     {social.icon}
                                 </motion.a>
@@ -166,15 +166,15 @@ const Contact = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ duration: 1, ease: "easeOut" }}
-                            className="map"
+                            className="map w-full"
                         >
                             <iframe 
-                                className="gmap_iframe w-[450px] h-[250px] border-4 border-white rounded-lg" 
+                                className="gmap_iframe w-full h-[200px] sm:h-[250px] border-4 border-white rounded-lg" 
                                 frameBorder="0" 
                                 scrolling="no" 
                                 marginHeight="0" 
                                 marginWidth="0" 
-                                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=K.S.Rangasamy College Of Technology&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                src="https://maps.google.com/maps?width=600&height=400&hl=en&q=K.S.Rangasamy College Of Technology&t=&z=14&ie=UTF8&iwloc=B&output=embed"
                             ></iframe>
                         </motion.div>
                         <InquirySection title="General Inquiries" inquiries={generalInquiries} />
@@ -184,7 +184,7 @@ const Contact = () => {
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.6, ease: "easeOut" }}
-                        className="p-6 bg-gray-800 rounded-lg h-fit"
+                        className="p-4 sm:p-6 bg-gray-800 rounded-lg h-fit w-full"
                     >
                         <h1 className="text-2xl font-bold mb-4">Contact</h1>
                         <form className="space-y-4" onSubmit={handleSubmit}>
@@ -197,7 +197,7 @@ const Contact = () => {
                                 <motion.div 
                                     key={index}
                                     whileFocus={{ scale: 1.05 }}
-                                    className="flex items-start bg-gray-700 p-2 rounded-lg"
+                                    className="flex items-start bg-gray-700 p-2 rounded-lg w-full"
                                 >
                                     {input.icon}
                                     {input.isTextArea ? (
