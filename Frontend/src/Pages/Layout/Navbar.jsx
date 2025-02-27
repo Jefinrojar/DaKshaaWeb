@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50">
+    <div className="fixed top-0 w-screen backdrop-blur-sm md:backdrop-blur-none z-50">
       <div className="mx-5 md:mx-20 py-3">
         <div className="grid grid-cols-12">
           <img className="col-span-6 md:col-span-3 w-32 md:w-48" src={logo} alt="Logo" />
@@ -59,7 +59,7 @@ const Navbar = () => {
               >
                 <a href="/" className="relative">
                   {activeLink === "Home" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Home
                 </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
               >
                 <a href="/events" className="relative">
                   {activeLink === "Events" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Events
                 </a>
@@ -81,7 +81,7 @@ const Navbar = () => {
               >
                 <a href="/events/guest-lecture" className="relative">
                   {activeLink === "Guest Lecture" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Conference
                 </a>
@@ -92,7 +92,7 @@ const Navbar = () => {
               >
                 <a href="/events/workshop" className="relative">
                   {activeLink === "Workshop" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Workshop
                 </a>
@@ -103,7 +103,7 @@ const Navbar = () => {
               >
                 <a href="/events/hormonics" className="relative">
                   {activeLink === "Hormonics" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Harmonics
                 </a>
@@ -114,7 +114,7 @@ const Navbar = () => {
               >
                 <a href="/sponsors" className="relative">
                   {activeLink === "Sponsors" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Sponsors
                 </a>
@@ -125,7 +125,7 @@ const Navbar = () => {
               >
                 <a href="/contact" className="relative">
                   {activeLink === "Contact" && (
-                    <img className="absolute -top-5 w-3 left-1/2 -translate-x-1/2" src={round} alt="" />
+                    <img className="absolute md:-top-5 md:left-1/2 right-12 top-1 w-3  -translate-x-1/2" src={round} alt="" />
                   )}
                   Contact
                 </a>

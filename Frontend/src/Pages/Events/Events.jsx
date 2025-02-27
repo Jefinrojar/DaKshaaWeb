@@ -8,12 +8,13 @@ import TechnicalImage from "../../assets/EventsImages/technical.png";
 import NonTechnicalImage from "../../assets/EventsImages/non-technical.png";
 import Cultural from "../../assets/EventsImages/culturals.jpg";
 import Workshop from "../../assets/EventsImages/workshop.jpg";
+import AidsImage from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai&ds.jpg"
 
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(1);
   const [rotation, setRotation] = useState(0);
-  const [isHovered, setIsHovered] = useState(false); // State to track hover for slider
-  const [hoveredCircle, setHoveredCircle] = useState(null); // State to track hover for circles
+  const [isHovered, setIsHovered] = useState(false);
+  const [hoveredCircle, setHoveredCircle] = useState(null);
   const navigate = useNavigate();
 
   const events = [
@@ -23,7 +24,7 @@ const Events = () => {
       name: "Technical Events",
       descriptionImages: [
         {
-          image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: AidsImage,
           eventId: "technical-event-1",
         },
         {
@@ -170,12 +171,26 @@ const Events = () => {
 
       <div className="w-full flex flex-col lg:flex-row py-3 relative px-4 sm:px-6 md:px-10">
         {/* Circular Event Selector */}
-        <div className="w-full lg:w-2/3 md:w-2/3 flex flex-col items-center lg:items-start py-6 lg:py-10 relative lg:pl-20">
+
+        <motion.div className="w-full lg:w-2/3 md:w-2/3 flex flex-col items-center lg:items-start py-6 lg:py-10 relative lg:pl-20">
+          <motion.div className="absolute inset-1 md:right-12 flex items-center justify-center">
+            <motion.div
+              className="text-white text-center cursor-pointer"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <p className="text-[10px] sm:text-xl md:text-2xl font-bold">Spin the Wheel</p>
+              <p className="text-[7px] sm:text-base md:text-lg">Click on an event to start</p>
+            </motion.div>
+          </motion.div>
+
           <motion.div
             className="relative w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px] flex items-center justify-center rounded-full"
             animate={{ rotate: rotation }}
             transition={{ type: "spring", stiffness: 100, damping: 15, mass: 1 }}
           >
+            {/* Centered Content */}
+
             {events.map((event, index) => {
               const angle = (index / events.length) * 2 * Math.PI;
               const radius = window.innerWidth < 1024 ? (window.innerWidth < 768 ? 80 : 120) : 240;
@@ -211,7 +226,7 @@ const Events = () => {
               );
             })}
           </motion.div>
-        </div>
+        </motion.div>
 
         {/* Event Details Slider */}
         <div className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-6 md:p-10">
