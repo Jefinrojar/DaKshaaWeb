@@ -250,10 +250,12 @@ const EventDetails = () => {
                 </motion.button>
 
                 <ScrollAnimation>
-                    <div className="text-center border-2 border-[#9DD3FF] shadow-lg flex flex-col gap-4 p-10 items-center bg-[#1a1a2ea3]">
-                        <p className="font-semibold text-3xl text-[#9DD3FF] border-2 border-[#9DD3FF] px-3 py-3">Description</p>
-                        <img src={event.image} alt={event.title} className="w-56 h-56 object-cover mb-4 shadow-md" />
-                        <p className="text-xl mb-4 text-gray-300">{event.description}</p>
+                    <div className="border border-sky-800 p-2">
+                        <div className="text-center border border-sky-800 clip-bottom-right flex flex-col gap-4 p-10 items-center bg-sky-900/20">
+                            <p className="font-semibold text-3xl text-sky-600 border border-sky-800 px-3 py-3">Description</p>
+                            <img src={event.image} alt={event.title} className="w-56 h-56 object-cover mb-4 shadow-md" />
+                            <p className="text-xl mb-4 text-sky-600">{event.description}</p>
+                        </div>
                     </div>
                 </ScrollAnimation>
 
@@ -264,10 +266,10 @@ const EventDetails = () => {
                                 {['Description', 'Rounds', 'Rules', 'Schedule', 'Contact'].map((item, index) => (
                                     <motion.div
                                         key={index}
-                                        className="px-10 py-5 border-2 border-[#9DD3FF] bg-[#1a1a2ea3] cursor-pointer hover:bg-[#16213e] transition-colors duration-300"
+                                        className="border-2 border-sky-900 p-1"
                                         whileHover={{ scale: 1.05 }}
                                     >
-                                        <h1 className="text-xl font-semibold text-[#9DD3FF]">{item}</h1>
+                                        <h1 className="bg-sky-900 px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">{item}</h1>
                                     </motion.div>
                                 ))}
                             </div>
@@ -275,62 +277,68 @@ const EventDetails = () => {
 
                         {/* Rounds Section */}
                         <ScrollAnimation>
-                            <div className="mt-6 border-2 border-[#9DD3FF] shadow-lg p-10 bg-[#1a1a2ea3]">
-                                <h2 className="text-center font-semibold text-3xl mb-5 text-[#9DD3FF] border-2 border-[#9DD3FF] px-3 py-3">Rounds</h2>
-                                <div className="flex flex-col gap-7">
-                                    {event.rounds.map((round, index) => (
-                                        <motion.div key={index} className="flex flex-col gap-3" variants={itemVariants}>
-                                            <h1 className="font-semibold text-2xl text-[#9DD3FF]">{round.title}</h1>
-                                            <p className="text-xl text-gray-300">{round.description}</p>
-                                        </motion.div>
-                                    ))}
+                            <div className="border border-sky-800 p-2">
+                                <div className="border border-sky-800 shadow-lg p-10">
+                                    <h2 className="text-center font-semibold text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Rounds</h2>
+                                    <div className="flex flex-col gap-7">
+                                        {event.rounds.map((round, index) => (
+                                            <motion.div key={index} className="flex flex-col gap-3" variants={itemVariants}>
+                                                <h1 className="font-semibold text-2xl text-sky-600">{round.title}</h1>
+                                                <p className="text-xl text-sky-300">{round.description}</p>
+                                            </motion.div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </ScrollAnimation>
 
                         {/* Rules Section */}
                         <ScrollAnimation>
-                            <div className="mt-6 border-2 border-[#9DD3FF] shadow-lg p-10 bg-[#1a1a2ea3]">
-                                <h2 className="text-center font-semibold text-3xl mb-5 text-[#9DD3FF] border-2 border-[#9DD3FF] px-3 py-3">Rules</h2>
-                                <ul className="list-disc pl-6 text-xl text-gray-300">
-                                    {event.rules.map((rule, index) => (
-                                        <motion.li key={index} variants={itemVariants}>
-                                            {rule}
-                                        </motion.li>
-                                    ))}
-                                </ul>
-                            </div>
+                           <div className="border border-sky-800 p-2 mt-6">
+                            <div className="bg-sky-900/30 shadow-lg p-10">
+                                    <h2 className="text-center font-semibold text-3xl mb-5 text-sky-600 bg-inherit border border-sky-800 px-3 py-3">Rules</h2>
+                                    <ul className="list-disc pl-6 text-xl text-sky-300">
+                                        {event.rules.map((rule, index) => (
+                                            <motion.li key={index} variants={itemVariants}>
+                                                {rule}
+                                            </motion.li>
+                                        ))}
+                                    </ul>
+                                </div>
+                           </div>
                         </ScrollAnimation>
 
                         {/* Schedule Section */}
                         <ScrollAnimation>
-                            <div className="mt-6 border-2 border-[#9DD3FF] p-10 bg-[#1a1a2ea3]">
-                                <h2 className="text-3xl text-center font-semibold mb-8 text-[#9DD3FF] border-2 border-[#9DD3FF] px-3 py-3">Schedule</h2>
-                                {event.schedule.map((schedule, index) => (
-                                    <motion.div key={index} className="border-gray-300 pb-2 mb-2" variants={itemVariants}>
-                                        <motion.button
-                                            className="flex justify-between items-center w-full text-xl font-medium p-3 border-2 bg-[#16213e] text-[#9DD3FF] hover:bg-[#1a1a2e] transition-colors duration-300"
-                                            onClick={() => toggleRound(index)}
-                                            whileHover={{ scale: 1.05 }}
-                                            whileTap={{ scale: 0.95 }}
-                                        >
-                                            {schedule.round}
-                                            {openRound === index ? <ChevronUp /> : <ChevronDown />}
-                                        </motion.button>
-                                        {openRound === index && (
-                                            <motion.div
-                                                className="mt-2 p-3 border-2 rounded-lg bg-[#1a1a2ea3] text-gray-300"
-                                                initial={{ opacity: 0, y: -10 }}
-                                                animate={{ opacity: 1, y: 0 }}
-                                                transition={{ duration: 0.3 }}
+                            <div className="border border-sky-800 p-2 mt-6">
+                                <div className="p-10">
+                                    <h2 className="text-3xl text-center font-semibold mb-8 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Schedule</h2>
+                                    {event.schedule.map((schedule, index) => (
+                                        <motion.div key={index} className="border-gray-300 pb-2 mb-2" variants={itemVariants}>
+                                            <motion.button
+                                                className="flex justify-between items-center w-full text-xl font-medium p-3 border border-sky-800 text-sky-500 hover:bg-sky-700 transition-colors duration-300"
+                                                onClick={() => toggleRound(index)}
+                                                whileHover={{ scale: 1.05 }}
+                                                whileTap={{ scale: 0.95 }}
                                             >
-                                                <p className="text-lg">Date: {schedule.date}</p>
-                                                <p className="text-lg">Time: {schedule.time}</p>
-                                                <p className="text-lg">Location: {schedule.location}</p>
-                                            </motion.div>
-                                        )}
-                                    </motion.div>
-                                ))}
+                                                {schedule.round}
+                                                {openRound === index ? <ChevronUp /> : <ChevronDown />}
+                                            </motion.button>
+                                            {openRound === index && (
+                                                <motion.div
+                                                    className="mt-2 p-3 border border-sky-900 bg-transparent text-gray-300"
+                                                    initial={{ opacity: 0, y: -10 }}
+                                                    animate={{ opacity: 1, y: 0 }}
+                                                    transition={{ duration: 0.3 }}
+                                                >
+                                                    <p className="text-lg">Date: {schedule.date}</p>
+                                                    <p className="text-lg">Time: {schedule.time}</p>
+                                                    <p className="text-lg">Location: {schedule.location}</p>
+                                                </motion.div>
+                                            )}
+                                        </motion.div>
+                                    ))}
+                                </div>
                             </div>
                         </ScrollAnimation>
                     </>
@@ -338,10 +346,12 @@ const EventDetails = () => {
 
                 {/* Contact Section */}
                 <ScrollAnimation>
-                    <div className="mt-6 border-2 border-[#9DD3FF] p-10 bg-[#1a1a2ea3] rounded-lg">
-                        <h2 className="text-3xl text-center font-bold mb-8 text-[#9DD3FF] border-2 border-[#9DD3FF] px-3 py-3">Contact</h2>
-                        <p className="text-xl text-gray-300">{event.contact.name} - {event.contact.phone}</p>
-                        <p className="text-xl text-gray-300">{event.contact.email}</p>
+                    <div className="border border-sky-800 p-3 mt-6">
+                        <div className="bg-sky-900/20 p-10">
+                            <h2 className="text-3xl text-center font-bold mb-8 text-sky-600 border border-sky-800 px-3 py-3">Contact</h2>
+                            <p className="text-xl text-sky-300">{event.contact.name} - {event.contact.phone}</p>
+                            <p className="text-xl text-sky-300">{event.contact.email}</p>
+                        </div>
                     </div>
                 </ScrollAnimation>
             </div>
