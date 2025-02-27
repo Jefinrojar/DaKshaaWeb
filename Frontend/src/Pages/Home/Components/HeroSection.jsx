@@ -56,7 +56,7 @@ const HeroSection = () => {
   return (
     <>
       <motion.div
-        className="h-screen mx-4 flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-20 mt-24 text-white overflow-hidden"
+        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-20 mt-20 text-white overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
