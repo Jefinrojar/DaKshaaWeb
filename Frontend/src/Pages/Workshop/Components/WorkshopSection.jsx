@@ -274,6 +274,10 @@ const WorkshopSection = () => {
     }
   };
 
+  const handleViewClick = (workshop) => {
+    setSelectedWorkshop(workshop);
+  };
+
   return (
     <div className="p-6">
       <h1 className="text-center font-bold text-white text-2xl md:text-4xl mb-8 mt-20">
@@ -308,7 +312,7 @@ const WorkshopSection = () => {
               <p className="group-hover:opacity-100 w-full duration-500 opacity-0">{workshop.dept}</p>
               <button
                 className="group-hover:opacity-100 w-full duration-500 opacity-0 text-base mt-2 border border-white px-2 py-1 hover:bg-white/20"
-                onClick={(e) => e.stopPropagation()}
+                onClick={() => handleViewClick(workshop)}
               >
                 View
               </button>
@@ -319,70 +323,98 @@ const WorkshopSection = () => {
 
       {selectedWorkshop && (
         <div
-          className="fixed inset-0 flex items-start justify-center bg-black bg-opacity-20 
-                    backdrop-blur-sm z-50 overflow-y-auto"
+          className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-70 
+                    backdrop-blur-md z-50 overflow-y-auto p-2 sm:p-4"
           onClick={handleOverlayClick}
         >
-          <div
-            className="p-2 relative w-full max-w-[95%] my-6"
+          <motion.div
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0.9, opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="relative w-full max-w-[90%] sm:max-w-lg md:max-w-2xl mx-auto"
           >
             <button
-              className="absolute -top-5 right-0 text-2xl font-bold text-gray-500 hover:text-red-500"
+              className="absolute top-[-36px] right-0 sm:top-[-12px] sm:right-[-12px] w-8 h-8 
+                        bg-red-500 text-white rounded-full flex items-center justify-center 
+                        text-xl font-bold hover:bg-red-600 transition-colors duration-200 
+                        shadow-md z-20"
               onClick={() => setSelectedWorkshop(null)}
             >
               ×
             </button>
-            <div className="bg-sky-800/80 text-white p-3 shadow-lg w-full rounded-lg">
-              <div className="flex flex-col items-center gap-4">
-                <img
-                  className="w-72 h-72 object-cover rounded-lg"
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 text-white 
+                          p-4 sm:p-6 rounded-xl shadow-2xl border border-gray-700/50">
+              <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+                <motion.img
+                  initial={{ x: -20, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ delay: 0.1 }}
+                  className="w-32 h-32 sm:w-48 sm:h-48 object-cover rounded-lg 
+                            border-2 border-blue-500/20 shadow-md flex-shrink-0"
                   src={selectedWorkshop.img}
                   alt={selectedWorkshop.title}
                 />
-                <div className="w-full">
-                  <h1 className="text-2xl font-bold mt-2 leading-tight">
-                    {selectedWorkshop.title}
-                  </h1>
-                  <p className="font-semibold text-white/90 mb-2 text-base">
-                    {selectedWorkshop.dept}
-                  </p>
-                  <hr />
-                  <p className="mt-4 text-base">
-                    <b>Company Name:</b> {selectedWorkshop.companyName}
-                  </p>
-                  {(selectedWorkshop.facultyCo1 || selectedWorkshop.facultyCoNo1) && (
-                    <p className="mt-4 text-base">
-                      <b>Faculty Coordinator 1:</b> {selectedWorkshop.facultyCo1}{" "}
-                      {selectedWorkshop.facultyCoNo1}
+                <div className="w-full space-y-3 sm:space-y-4">
+                  <motion.div
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.2 }}
+                  >
+                    <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r 
+                                 from-blue-400 to-cyan-300 bg-clip-text text-transparent 
+                                 leading-tight">
+                      {selectedWorkshop.title}
+                    </h1>
+                    <p className="font-medium text-gray-300 mb-2 text-xs sm:text-sm">
+                      {selectedWorkshop.dept}
                     </p>
-                  )}
-                  {(selectedWorkshop.facultyCo2 || selectedWorkshop.facultyCoNo2) && (
-                    <p className="mt-4 text-base">
-                      <b>Faculty Coordinator 2:</b> {selectedWorkshop.facultyCo2}{" "}
-                      {selectedWorkshop.facultyCoNo2}
+                  </motion.div>
+                  
+                  <div className="border-t border-gray-700/50 pt-3 sm:pt-4 space-y-2 sm:space-y-3">
+                    <p className="text-xs sm:text-sm">
+                      <span className="font-semibold text-blue-300">Company:</span> 
+                      <span className="text-gray-200 ml-2">{selectedWorkshop.companyName}</span>
                     </p>
-                  )}
-                  {(selectedWorkshop.studentCo1 || selectedWorkshop.studentCoNo1) && (
-                    <p className="mt-4 text-base">
-                      <b>Student Coordinator 1:</b> {selectedWorkshop.studentCo1}{" "}
-                      {selectedWorkshop.studentCoNo1}
-                    </p>
-                  )}
-                  {(selectedWorkshop.studentCo2 || selectedWorkshop.studentCoNo2) && (
-                    <p className="mt-4 text-base">
-                      <b>Student Coordinator 2:</b> {selectedWorkshop.studentCo2}{" "}
-                      {selectedWorkshop.studentCoNo2}
-                    </p>
-                  )}
-                  {(selectedWorkshop.studentCo3 || selectedWorkshop.studentCoNo3) && (
-                    <p className="mt-4 text-base">
-                      <b>Student Coordinator 3:</b> {selectedWorkshop.studentCo3}{" "}
-                      {selectedWorkshop.studentCoNo3}
-                    </p>
-                  )}
+
+                    {(selectedWorkshop.facultyCo1 || selectedWorkshop.facultyCoNo1) && (
+                      <p className="text-xs sm:text-sm">
+                        <span className="font-semibold text-blue-300">Faculty 1:</span>
+                        <span className="text-gray-200 ml-2">{selectedWorkshop.facultyCo1} {selectedWorkshop.facultyCoNo1}</span>
+                      </p>
+                    )}
+                    {(selectedWorkshop.facultyCo2 || selectedWorkshop.facultyCoNo2) && (
+                      <p className="text-xs sm:text-sm">
+                        <span className="font-semibold text-blue-300">Faculty 2:</span>
+                        <span className="text-gray-200 ml-2">{selectedWorkshop.facultyCo2} {selectedWorkshop.facultyCoNo2}</span>
+                      </p>
+                    )}
+                    {(selectedWorkshop.studentCo1 || selectedWorkshop.studentCoNo1) && (
+                      <p className="text-xs sm:text-sm">
+                        <span className="font-semibold text-blue-300">Student 1:</span>
+                        <span className="text-gray-200 ml-2">{selectedWorkshop.studentCo1} {selectedWorkshop.studentCoNo1}</span>
+                      </p>
+                    )}
+                    {(selectedWorkshop.studentCo2 || selectedWorkshop.studentCoNo2) && (
+                      <p className="text-xs sm:text-sm">
+                        <span className="font-semibold text-blue-300">Student 2:</span>
+                        <span className="text-gray-200 ml-2">{selectedWorkshop.studentCo2} {selectedWorkshop.studentCoNo2}</span>
+                      </p>
+                    )}
+                    {(selectedWorkshop.studentCo3 || selectedWorkshop.studentCoNo3) && (
+                      <p className="text-xs sm:text-sm">
+                        <span className="font-semibold text-blue-300">Student 3:</span>
+                        <span className="text-gray-200 ml-2">{selectedWorkshop.studentCo3} {selectedWorkshop.studentCoNo3}</span>
+                      </p>
+                    )}
+                  </div>
+
                   {selectedWorkshop.companyImg && (
-                    <img
-                      className="w-1/2 my-4 rounded-lg"
+                    <motion.img
+                      initial={{ y: 20, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ delay: 0.3 }}
+                      className="w-32 sm:w-40 mt-3 sm:mt-4 rounded-lg border border-gray-700/50 shadow-sm"
                       src={selectedWorkshop.companyImg}
                       alt={selectedWorkshop.companyName}
                     />
@@ -390,7 +422,7 @@ const WorkshopSection = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       )}
     </div>
