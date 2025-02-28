@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
@@ -8,10 +9,8 @@ import TechnicalImage from "../../assets/EventsImages/technical.png";
 import NonTechnicalImage from "../../assets/EventsImages/non-technical.png";
 import Cultural from "../../assets/EventsImages/culturals.jpg";
 import Workshop from "../../assets/EventsImages/workshop.jpg";
-import Tech1 from "../../assets/EventsImages/EventDetails/TechnicalImages/AI5.png"
 import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai.png"
 import Tech3 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai2.png"
-import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai3.png"
 import Tech5 from "../../assets/EventsImages/EventDetails/TechnicalImages/buildthon.png"
 import Tech6 from "../../assets/EventsImages/EventDetails/TechnicalImages/codathon.png"
 import Tech7 from "../../assets/EventsImages/EventDetails/TechnicalImages/cse.png"
@@ -39,6 +38,11 @@ import workshop3 from "../../assets/EventsImages/EventDetails/Workshop/IT.jpg"
 import workshop4 from "../../assets/EventsImages/EventDetails/Workshop/MCT.png"
 import workshop5 from "../../assets/EventsImages/EventDetails/Workshop/TXT.png"
 
+import Culturals1 from "../../assets/photo1.jpg"
+import Culturals2 from "../../assets/photo2.jpg"
+import Culturals3 from "../../assets/photo3.jpg"
+import Culturals4 from "../../assets/photo4.jpg"
+
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(1);
   const [rotation, setRotation] = useState(0);
@@ -53,20 +57,12 @@ const Events = () => {
       name: "Technical Events",
       descriptionImages: [
         {
-          image: Tech1,
-          eventId: "technical-event-1",
-        },
-        {
           image: Tech2,
-          eventId: "technical-event-2",
+          eventId: "technical-event-13",
         },
         {
           image: Tech3,
-          eventId: "technical-event-3",
-        },
-        {
-          image: Tech4,
-          eventId: "technical-event-4",
+          eventId: "technical-event-12",
         },
         {
           image: Tech5,
@@ -74,51 +70,43 @@ const Events = () => {
         },
         {
           image: Tech6,
-          eventId: "technical-event-6",
+          eventId: "technical-event-14",
         },
         {
           image: Tech7,
-          eventId: "technical-event-7",
+          eventId: "technical-event-1",
         },
         {
           image: Tech8,
-          eventId: "technical-event-8",
-        },
-        {
-          image: Tech9,
-          eventId: "technical-event-9",
-        },
-        {
-          image: Tech10,
           eventId: "technical-event-10",
         },
         {
+          image: Tech9,
+          eventId: "technical-event-7",
+        },
+        {
+          image: Tech10,
+          eventId: "technical-event-6",
+        },
+        {
           image: Tech11,
-          eventId: "technical-event-11",
+          eventId: "technical-event-8",
         },
         {
           image: Tech12,
-          eventId: "technical-event-12",
-        },
-        {
-          image: Tech13,
-          eventId: "technical-event-13",
+          eventId: "technical-event-5",
         },
         {
           image: Tech14,
-          eventId: "technical-event-14",
+          eventId: "technical-event-4",
         },
         {
           image: Tech15,
           eventId: "technical-event-15",
         },
         {
-          image: Tech16,
-          eventId: "technical-event-16",
-        },
-        {
           image: Tech17,
-          eventId: "technical-event-17",
+          eventId: "technical-event-3",
         },
       ],
     },
@@ -129,19 +117,19 @@ const Events = () => {
       descriptionImages: [
         {
           image:Nontech1,
-          eventId: "non-technical-event-1",
+          eventId: "non-technical-event-6",
         },
         {
           image:Nontech2,
-          eventId: "non-technical-event-2",
+          eventId: "non-technical-event-1",
         },
         {
           image: Nontech3,
-          eventId: "non-technical-event-3",
+          eventId: "non-technical-event-2",
         },
         {
           image: Nontech4,
-          eventId: "non-technical-event-4",
+          eventId: "non-technical-event-8",
         },
         {
           image: Nontech5,
@@ -149,7 +137,7 @@ const Events = () => {
         },
         {
           image: Nontech6,
-          eventId: "non-technical-event-6",
+          eventId: "non-technical-event-10",
         },
         {
           image: Nontech5,
@@ -163,16 +151,20 @@ const Events = () => {
       name: "Culturals",
       descriptionImages: [
         {
-          image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: Culturals1,
           eventId: "culturals-event-1",
         },
         {
-          image: "https://images.unsplash.com/photo-1718563552473-2d97b224e801?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: Culturals2,
           eventId: "culturals-event-2",
         },
         {
-          image: "https://images.unsplash.com/photo-1732491482042-bfb6bc27678e?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: Culturals3,
           eventId: "culturals-event-3",
+        },
+        {
+          image: Culturals4,
+          eventId: "culturals-event-4",
         },
       ],
     },
@@ -183,19 +175,19 @@ const Events = () => {
       descriptionImages: [
         {
           image: workshop1,
-          eventId: "workshop-1",
+          eventId: "workshop-6",
         },
         {
           image: workshop2,
-          eventId: "workshop-2",
+          eventId: "workshop-10",
         },
         {
           image: workshop3,
-          eventId: "workshop-3",
+          eventId: "workshop-2",
         },
         {
           image: workshop4,
-          eventId: "workshop-4",
+          eventId: "workshop-9",
         },
         {
           image: workshop5,

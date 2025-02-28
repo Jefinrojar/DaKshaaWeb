@@ -29,6 +29,7 @@ import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/Computer
 import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/ElectricalandElectronicsEngineering.png"
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/MechanicalEngineering.png"
 import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/TextileTechnology.png"
+import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/AIDS.png"
 
 
 import Workshop1 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of EEE - Industry IOT.png"
@@ -36,6 +37,12 @@ import Workshop2 from "../../../assets/EventsImages/EventDetails/Workshop/Depart
 import Workshop3 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of Textile - Medi Tex.png"
 import Workshop4 from "../../../assets/EventsImages/EventDetails/Workshop/Frame 2.png"
 import Workshop5 from "../../../assets/EventsImages/EventDetails/Workshop/DigitalMarketing.jpg"
+import Workshop6 from "../../../assets/EventsImages/EventDetails/Workshop/CSE.png"
+
+import Culturals1 from "../../../assets/photo1.jpg"
+import Culturals2 from "../../../assets/photo2.jpg"
+import Culturals3 from "../../../assets/photo3.jpg"
+import Culturals4 from "../../../assets/photo4.jpg"
 
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL
@@ -1383,7 +1390,7 @@ const EventDetails = () => {
             title: "Short Film Contest",
             description:
                 "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format. Winners will be judged on creativity, storytelling, and impact! 🎬✨",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech6,
             rounds: [
             ],
             rules: [
@@ -1527,10 +1534,10 @@ const EventDetails = () => {
         },
         // Culturals
         "culturals-event-1": {
-            title: "Traditional Dance Performance",
+            title: "Mastro Mania",
             description:
-                "Experience the beauty of traditional dance forms from different cultures.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "Musicians performing with musical instruments.",
+            image: Culturals1,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1550,10 +1557,10 @@ const EventDetails = () => {
             registrationLink: "https://example.com/register/dance-performance", // Registration link
         },
         "culturals-event-2": {
-            title: "Traditional Dance Performance",
+            title: "Musical Mavericks",
             description:
-                "Experience the beauty of traditional dance forms from different cultures.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "Musicians performing with musical instruments.",
+            image: Culturals2,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1573,10 +1580,10 @@ const EventDetails = () => {
             registrationLink: "https://example.com/register/dance-performance", // Registration link
         },
         "culturals-event-3": {
-            title: "Traditional Dance Performance",
+            title: "Beat Battle",
             description:
-                "Experience the beauty of traditional dance forms from different cultures.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "Synchronized dance performance by group.",
+            image: Culturals3,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1596,10 +1603,10 @@ const EventDetails = () => {
             registrationLink: "https://example.com/register/dance-performance", // Registration link
         },
         "culturals-event-4": {
-            title: "Traditional Dance Performance",
+            title: "Hashtag Hilarity",
             description:
-                "Experience the beauty of traditional dance forms from different cultures.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "Meme Creation-Humorous digital content with creativity.",
+            image: Culturals4,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1760,7 +1767,7 @@ const EventDetails = () => {
             title: "Mobile Application Development By RemitBee India Private Limited - Chennai",
             description:
                 "In today’s digital world, mobile applications are a key driver of how individuals and businesses engage with technology. This Mobile Application Development Workshop aims to equip participants with a solid grasp of mobile app development across both Android and iOS platforms. The workshop will feature hands-on training, live coding, and a mini-project to implement learned concepts in practice",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop6,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1890,7 +1897,7 @@ const EventDetails = () => {
             title: "Industry IoT using LoRaWAN Technology By Enthu Technology Solutions India Pvt Ltd",
             description:
                 "Workshop delves into LoRaWAN technology and its role in Industrial IoT (IIoT), enabling long-range, low-power wireless communication for various applications. Participants will gain insights into LoRaWAN architecture, device communication, network deployment, and security protocols. The workshop will cover smart manufacturing, asset tracking, environmental monitoring, and predictive maintenance, with hands-on sessions and real-world case studies to equip attendees with practical skills for implementing IoT solutions in industrial automation and efficiency.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop1,
             contact: {
                 facultyCoordinator: [
                     {
