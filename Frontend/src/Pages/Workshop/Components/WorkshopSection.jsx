@@ -11,6 +11,11 @@ import garuda from '../../../assets/WorkshopImages/garuda.jpg'
 import macro from '../../../assets/WorkshopImages/macro.jpg'
 import millet from '../../../assets/WorkshopImages/millet.jpg'
 import seeka from '../../../assets/WorkshopImages/seeka.jpg'
+import Cokupa from '../../../assets/WorkshopImages/Cokupa.png'
+import EnthuTechnology from '../../../assets/WorkshopImages/EnthuTechnology.png'
+
+
+
 
 import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
@@ -26,6 +31,7 @@ import Photo11 from "../../../assets/workshop_card/mct.jpg";
 import Photo12 from "../../../assets/workshop_card/mech.jpg";
 import Photo13 from "../../../assets/workshop_card/tex.jpg";
 import Photo14 from "../../../assets/workshop_card/vlsi.jpg";
+
 
 // Workshop data
 const workshops = [
@@ -54,12 +60,10 @@ const workshops = [
     title: "AI for Game Development",
     facultyCo: "Mrs R S Sivaranjini",
     facultyCoNo: "+91 96770 55783",
-    studentCo1: "Kavinesh K  III-Year/CSE(AIML)",
-    studentCo2: "Ruban B III-Year/CSE(AIML)",
-    studentCo3: "Pavithran G II-Year/CSE(AIML)",
-    studentCoNo1: "+91 94892 43775",
-    studentCoNo2: "+91 81445 96872",
-    studentCoNo3: "+91 93635 75964",
+    studentCo1: "Surendra Krishana R  III-Year/CSE(AIML)",
+    studentCo2: "Sriharan S III-Year/CSE(AIML)",
+    studentCoNo1: "+91 8438878063",
+    studentCoNo2: "+91 9629729009",
     companyName: "IITM Pravartak Technologies Foundation",
     companyImg: Pravartak
   },
@@ -69,15 +73,19 @@ const workshops = [
     department: "Bio-Technology",
     dept: "Department of BT",
     title: "Next Generation Sequencing (NGS)",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
-    companyName: "",
+    facultyCo: " Dr. Puniethaa Prabhu",
+    facultyCoNo: "+91 9080195801",
+    facultyCo1: " Dr. Sidhra S",
+    facultyCoNo1: "+91 8870681797",
+    studentCo1: "Javeed Akthar G",
+    studentCo2: "Mohammed Arkam K",
+    studentCo3: "Sanjay Kumar K",
+    studentCo4: "Meriam Janitta J",
+    studentCoNo1: "+91 9345647270",
+    studentCoNo2: "+91 7904655755",
+    studentCoNo3: "+91 8807076569",
+    studentCoNo4: "+91 7010347812",
+    companyName: "Genotypic Technology - Bengaluru",
     companyImg: ""
   },
   {
@@ -103,12 +111,12 @@ const workshops = [
     department: "Computer Science and Business Systems",
     dept: "Department of CSBS",
     title: "Unlocking Digital Potential: A Workshop on Modern Marketing",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
+    facultyCo: "Mr. P. Venkatesh",
+    facultyCoNo: "+91 89033 66916",
+    studentCo1: "K. Mohanakumaran",
     studentCo2: "",
     studentCo3: "",
-    studentCoNo1: "",
+    studentCoNo1: "+91 88384 01078",
     studentCoNo2: "",
     studentCoNo3: "",
     companyName: "Virtuospark",
@@ -119,17 +127,13 @@ const workshops = [
     img: Photo6,
     department: "Computer Science and Engineering",
     dept: "Department of CSE",
-    title: "Mobile App Development",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
-    companyName: "",
-    companyImg: "",
+    title: "Mobile Application Development",
+    facultyCo: "Mr K.Dinesh Kumar",
+    facultyCoNo: "+91 9360287212",
+    studentCo1: "Alyushra A III-Year/CSE",
+    studentCoNo1: "+91 6369548280",
+    companyName: "RemitBee India Private Limited - Chennai",
+    companyImg: Cokupa
   },
   {
     id: 7,
@@ -139,14 +143,13 @@ const workshops = [
     title: "Industry IoT using LoRaWAN Technology",
     facultyCo: "",
     facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
+    studentCo1: "Nishanthini III-Year/ECE",
+    studentCo2: "Rithan II-Year/ECE",
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName: "",
-    companyImg: "",
+    companyName: "Enthu Technology Solutions India Pvt Ltd",
+    companyImg: EnthuTechnology,
   },
   {
     id: 8,
@@ -154,15 +157,13 @@ const workshops = [
     department: "Electrical and Electronics Engineering",
     dept: "Department of EEE",
     title: "NI Lab view",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
-    companyName: "",
+    facultyCo: "Thangadurai A",
+    facultyCoNo: "+91 9095322233",
+    studentCo1: "Nivitha V P",
+    studentCo2: "Karmuhilan V",
+    studentCoNo1: "+91 9003344108",
+    studentCoNo2: "+91 9025244374",
+    companyName: " Mew Technology - Bangalore",
     companyImg: "",
   },
   {
@@ -188,14 +189,12 @@ const workshops = [
     department: "Information Technology",
     dept: "Department of IT",
     title: "Digital Marketing",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
+    facultyCo: "Mr. P. Dinesh Kumar",
+    facultyCoNo: "+91 96888 37873",
+    studentCo1: "F.Anisa III Year/IT",
+    studentCo2: "E.Balasastha III Year/IT",
+    studentCoNo1: "+91 99426 51212",
+    studentCoNo2: "+91 99426 51212",
     companyName: "Seeka Host India",
     companyImg: seeka,
   },
@@ -205,14 +204,12 @@ const workshops = [
     department: "Mechatronics Engineering",
     dept: "Department of MCT",
     title: "Soaring High: Hands-On Drone Building and Flight Workshop",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
+    facultyCo: "Mr. S. Hari Prasadh",
+    facultyCoNo: "+91 7092821630",
+    facultyCo1: "Mr. R. Vivek",
+    facultyCoNo1: "+91 7200458826",
+    studentCo1: "Soundarrajan A",
+    studentCoNo1: "+91 9442727410",
     companyName: "Garuda Aerospace",
     companyImg: garuda,
   },
@@ -222,14 +219,10 @@ const workshops = [
     department: "Mechanical Engineering",
     dept: "Department of MECH",
     title: "Design and development of automotive Product",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
+    facultyCo: "Dr.K.Raja",
+    facultyCoNo: "+91 9842314481",
+    studentCo1: " Lingeshwaran S L",
     studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
     companyName: "Macro Technology Pvt Ltd",
     companyImg: macro,
   },
@@ -256,12 +249,12 @@ const workshops = [
     department: "VLSI",
     dept: "Department of VLSI",
     title: "From Digital Logic to DFT",
-    facultyCo1: "Mr. S. Pradeep",
-    facultyCoNo1: "+91 81221 39862",
-    facultyCo2: "Mrs. S. Gomathi",
-    facultyCoNo2: "+91 98942 79244",
-    studentCo1: "Harikesavaraj J",
-    studentCo2: "Aishvarieya V",
+    facultyCo: "Mr. S. Pradeep",
+    facultyCoNo: "+91 81221 39862",
+    facultyCo1: "Mrs. S. Gomathi",
+    facultyCoNo1: "+91 98942 79244",
+    studentCo1: "Harikesavaraj J II-Year/EE(VLSI D&T)",
+    studentCo2: "Aishvarieya V II-Year/EE(VLSI D&T)",
     studentCoNo1: "+91 82702 78279",
     studentCoNo2: "+91 63746 84519",
     companyName: "DFTTraining Institute Private Limited",
@@ -377,27 +370,26 @@ const WorkshopSection = () => {
                   />
 
                   <p className="font-bold">Student Co-ordinators:</p>
-                  <ul className="list-disc ml-4">
-                    <li>
-                      {selectedWorkshop.studentCo1}:{" "}
-                      {selectedWorkshop.studentCoNo1}
-                    </li>
-                    <li>
-                      {selectedWorkshop.studentCo2}:{" "}
-                      {selectedWorkshop.studentCoNo2}
-                    </li>
-                    <li>
-                      {selectedWorkshop.studentCo3}:{" "}
-                      {selectedWorkshop.studentCoNo3}
-                    </li>
+                  <ul className="list-disc ml-6">
+                    {selectedWorkshop.studentCo1 && <li>{selectedWorkshop.studentCo1}</li>}
+                    {selectedWorkshop.studentCo2 && <li>{selectedWorkshop.studentCo2}</li>}
+                    {selectedWorkshop.studentCo3 && <li>{selectedWorkshop.studentCo3}</li>}
                   </ul>
                   <p className="font-bold mt-8">Faculty Co-ordinator:</p>
                   <ul className="list-disc ml-4 text-sm mb-6">
-                    <li>
-                      {selectedWorkshop.facultyCo}:{" "}
-                      {selectedWorkshop.facultyCoNo}
-                    </li>
+                    {selectedWorkshop.facultyCo && selectedWorkshop.facultyCoNo && (
+                      <li>{selectedWorkshop.facultyCo}: {selectedWorkshop.facultyCoNo}</li>
+                    )}
+                    {selectedWorkshop.facultyCo1 && selectedWorkshop.facultyCoNo1 && (
+                      <li>{selectedWorkshop.facultyCo1}: {selectedWorkshop.facultyCoNo1}</li>
+                    )}
                   </ul>
+                  <button
+                      className="border border-white px-6 py-2 hover:bg-white/20 duration-300 mb-5"
+                      onClick={() => setSelectedWorkshop(workshop)}
+                    >
+                      REGISTER NOW!
+                    </button>
                 </div>
               </div>
             </div>
