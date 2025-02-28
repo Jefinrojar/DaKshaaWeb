@@ -251,7 +251,7 @@ const Events = () => {
         {/* Circular Event Selector */}
 
         <motion.div className="w-full lg:w-2/3 md:w-2/3 flex flex-col items-center lg:items-start py-6 lg:py-10 relative lg:pl-20">
-          <motion.div className="absolute inset-0 md:left-5 flex items-center justify-center">
+          <motion.div className="absolute inset-0 md:right-20 flex items-center justify-center">
             <motion.div
               className="text-white text-center cursor-pointer"
               whileHover={{ scale: 1.1 }}
@@ -307,7 +307,7 @@ const Events = () => {
         </motion.div>
 
         {/* Event Details Slider */}
-        <div className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-6 md:p-10">
+        <div className="w-full lg:w-2/5 flex items-center justify-center p-4 sm:p-6 md:p-10">
           <motion.div
             key={selectedEventData?.name}
             className="w-full h-auto shadow-2xl border border-sky-800 p-3 bg-gradient-to-b text-sky-500 transition-all duration-500"
@@ -323,7 +323,7 @@ const Events = () => {
                 {selectedEventData?.descriptionImages.map((slide, index) => (
                   <div
                     key={`slide-${slide.eventId}-${index}`}
-                    className="relative flex flex-col items-center justify-center p-4 rounded-xl shadow-lg h-[200px] sm:h-[300px] md:h-[400px] lg:h-[450px] cursor-pointer"
+                    className="relative flex flex-col items-center justify-center p-4 rounded-xl shadow-lg h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] cursor-pointer"
                     onClick={() => handleSlideClick(slide.eventId)}
                     onMouseEnter={() => setIsHovered(true)} // Set hover state to true
                     onMouseLeave={() => setIsHovered(false)} // Set hover state to false
