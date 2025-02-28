@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import AidsImage from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai&ds.jpg"
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL
 
