@@ -1,8 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import HeroImg from "../../../assets/Heroimg.png";
 import Daksha from "../../../assets/DaKshaa T25.png";
-import Countdown from './Countdown';
+import Countdown from "./Countdown";
+import RegisterAni from "../../../assets/registerani.gif";
 
 // Wave Animation for Words (Description & Event Details)
 const wordWaveAnimation = {
@@ -51,10 +53,41 @@ const pulseAnimation = {
 };
 
 const HeroSection = () => {
-  const eventDetails = ["2 DAYS", "14 DEPARTMENTS", "15+ EVENTS"];
+  const navigate = useNavigate(); // Initialize useNavigate
+  const eventDetails = ["2 DAYS", "20+ WORKSHOPS", "15+ EVENTS"];
+
+  // Function to handle navigation
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
 
   return (
     <>
+      <motion.div
+        className="hidden md:flex mt-6 absolute right-10 top-14 sm:mt-8 bg-opacity-70 transition-all text-white font-semibold text-center items-center justify-center overflow-hidden"
+        variants={pulseAnimation}
+        animate="animate"
+        style={{
+          backgroundImage: `url(${RegisterAni})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          borderRadius: "50%", // Make it round
+          width: "180px", // Increased size
+          height: "180px", // Increased size
+        }}
+      >
+        <motion.span
+          className="z-10 text-sm cursor-pointer md:text-base bg-sky-700/90 px-5 py-3 clip"
+          whileHover={{
+            scale: 1.1, // Slightly enlarge the text on hover
+            backgroundColor: "rgba(3, 105, 161, 0.95)", // Change background color on hover
+            transition: { duration: 0.3, ease: "easeInOut" }, // Smooth transition
+          }}
+        >
+          REGISTER NOW
+        </motion.span>
+      </motion.div>
+
       <motion.div
         className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-24 mt-24 text-white overflow-hidden"
         initial="hidden"
@@ -87,12 +120,22 @@ const HeroSection = () => {
               />
             </motion.div>
 
+            
+
             {/* Event Details with Wave Animation */}
-            <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start gap-2 sm:gap-4 text-xs md:text-lg lg:text-xl whitespace-nowrap">
+            <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start gap-2 sm:gap-4 text-xs md:text-lg lg:text-base whitespace-nowrap">
               {eventDetails.map((word, i) => (
                 <motion.div
                   key={i}
-                  className="border-2 border-sky-900 px-2 md:px-4 py-2 sm:py-3 md:py-4 flex-shrink-0"
+                  className="border-2 border-sky-900 px-2 lg:px-2 md:px-4 py-2 sm:py-3 md:py-4 flex-shrink-0 cursor-pointer"
+                  whileHover={{ scale: 1.05 }} // Slightly increase scale on hover
+                  onClick={() => {
+                    if (word === "20+ WORKSHOPS") {
+                      handleNavigation("/events/workshop"); // Navigate to workshops
+                    } else if (word === "15+ EVENTS") {
+                      handleNavigation("/events"); // Navigate to events
+                    }
+                  }}
                 >
                   <motion.span
                     className="bg-sky-900 px-4 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3 bg-opacity-80 clip-bottom-right-2"
@@ -107,16 +150,35 @@ const HeroSection = () => {
               ))}
             </motion.div>
 
-            {/* Register Button with Infinite Pulse */}
-            <motion.button
-              className="mt-6 sm:mt-8 px-4 sm:px-6 py-2 sm:py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-base md:text-lg sm:text-xl shadow-xl"
-              whileHover={{ scale: 1.1, rotate: 2 }}
-              whileTap={{ scale: 0.9 }}
-              variants={pulseAnimation}
-              animate="animate"
+            {/* Register Button - Mobile (Below Image) */}
+         <div className="md:hidden flex justify-center mt-6">
+          <motion.div
+            className="bg-opacity-70 transition-all text-white font-medium text-center flex items-center justify-center overflow-hidden"
+            variants={pulseAnimation}
+            animate="animate"
+            style={{
+              backgroundImage: `url(${RegisterAni})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              borderRadius: "50%",
+              width: "120px",
+              height: "120px",
+            }}
+          >
+            <motion.span
+              className="z-10 clip text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
+              whileHover={{
+                scale: 1.1,
+                backgroundColor: "rgba(3, 105, 161, 0.95)",
+                transition: { duration: 0.3, ease: "easeInOut" },
+              }}
             >
-              REGISTER NOW!
-            </motion.button>
+              REGISTER NOW
+            </motion.span>
+          </motion.div>
+        </div>
+
+            {/* Register Button with Infinite Pulse */}
           </div>
           <Countdown />
         </motion.div>
