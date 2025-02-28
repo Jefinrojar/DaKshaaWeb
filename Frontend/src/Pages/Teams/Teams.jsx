@@ -7,7 +7,7 @@ function Teams() {
   const title = "Our"
   const title2 = "Teams"
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary to-primary/70 grid place-items-center md:mt-28 md:mx-20">
+    <div className="min-h-screen bg-gradient-to-br from-primary to-primary/70 grid place-items-center mt-28 md:mt-28 md:mx-20">
       <h1
         className="text-center font-bold text-white md:text-5xl text-3xl mt-0 md:mt-8 md:mb-12"
         data-aos="fade-down" // Add AOS animation

@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       {/* Mobile View (up to md breakpoint) and Desktop Heading */}
-      <div className="-mt-10 md:mt-16">
+      <div className="-mt-10 md:mt-8">
         <p
           className="text-3xl sm:text-5xl md:text-7xl text-sky-500 font-semibold text-center"
           data-aos="fade-down"
