@@ -188,16 +188,7 @@ const Events = () => {
 
   const selectedEventData = events.find((event) => event.id === selectedEvent) || null;
 
-  const letterAnimation = (index) => ({
-    y: [0, -20, 0],
-    transition: {
-      delay: index * 0.2,
-      duration: 3,
-      repeat: Infinity,
-      repeatType: "mirror",
-      ease: "easeInOut",
-    },
-  });
+  const title = "Events"
 
   const handleSlideClick = (eventId) => {
     navigate(`/event/${eventId}`);
@@ -239,13 +230,21 @@ const Events = () => {
       transition={{ duration: 1, ease: "easeInOut" }}
       className="w-full"
     >
-      <h1 className="font-bold w-full text-center mt-32 md:mt-16 lg:mt-32 space-x-2 text-2xl sm:text-3xl md:text-4xl text-white">
-        {Array.from("Events").map((letter, index) => (
-          <motion.span key={index} initial={{ y: 0 }} animate={letterAnimation(index)} style={{ display: "inline-block" }}>
-            {letter}
-          </motion.span>
-        ))}
-      </h1>
+      <h1
+              className="text-center font-bold text-white md:text-5xl  text-3xl mt-0 md:mt-28 md:mb-12"
+              data-aos="fade-down" // Add AOS animation
+            >
+              {title.split("").map((char, index) => (
+                <motion.span
+                  key={index}
+                  style={{ display: "inline-block" }}
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+                >
+                  {char}
+                </motion.span>
+              ))}
+            </h1>
 
       <div className="w-full flex flex-col lg:flex-row py-3 relative px-4 sm:px-6 md:px-10">
         {/* Circular Event Selector */}
