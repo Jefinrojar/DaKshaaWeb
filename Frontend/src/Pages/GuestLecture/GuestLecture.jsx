@@ -50,7 +50,7 @@ const GuestLecture = () => {
   ];
 
   return (
-    <div className="py-20">
+    <div className="my-24">
       {/* Single Global Title at the Top */}
       <h1
               className="text-center font-bold text-white md:text-5xl text-3xl mt-0 mb-12 md:mt-8"

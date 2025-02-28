@@ -262,7 +262,7 @@ const Events = () => {
       className="w-full"
     >
       <h1
-              className="text-center font-bold text-white md:text-5xl  text-3xl mt-0 md:mt-28 md:mb-12"
+              className="text-center font-bold text-white md:text-5xl  text-3xl mt-24 md:mt-28 md:mb-12"
               data-aos="fade-down" // Add AOS animation
             >
               {title.split("").map((char, index) => (
