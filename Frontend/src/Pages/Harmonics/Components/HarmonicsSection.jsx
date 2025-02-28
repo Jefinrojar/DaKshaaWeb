@@ -18,7 +18,7 @@ const Card = () => {
 
   return (
     <div className="p-6 sm:p-8 md:p-10">
-      <h1 className="text-center font-bold text-white text-4xl sm:text-5xl mb-8 sm:mb-10 mt-20 sm:mt-[120px]">
+      <h1 className="text-center font-bold text-white text-4xl sm:text-5xl mb-8 sm:mb-10 mt-20 sm:mt-[10px]">
         {title.split("").map((char, index) => (
           <motion.span
             key={index}

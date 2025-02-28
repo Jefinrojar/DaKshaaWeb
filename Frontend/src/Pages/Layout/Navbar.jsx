@@ -18,6 +18,7 @@ const Navbar = () => {
     if (path === "/sponsors") return "Sponsors";
     if (path === "/contact") return "Contact";
     if (path === "/events/hormonics") return "Hormonics";
+    if (path === "/startups") return "Startups";
     return "Home";
   };
 
@@ -57,15 +58,16 @@ const Navbar = () => {
 
             <div className="md:col-span-6 col-span-12 mt-4">
               <div className="gradient-line animate-blinkOpacity invisible md:visible relative"></div>
-              <ul className={`${isMenuOpen ? "block" : "hidden"} font-poppins md:flex mt-2 text-white justify-center items-center gap-12`}>
+              <ul className={`${isMenuOpen ? "block" : "hidden"} font-poppins md:flex mt-2 text-white justify-center items-center gap-8`}>
                 {[
                   { name: "Home", path: "/" },
                   { name: "Events", path: "/events" },
                   { name: "Conference", path: "/events/conference" },
                   { name: "Workshop", path: "/events/workshop" },
                   { name: "Hormonics", path: "/events/hormonics" },
+                  { name: "Startups", path: "/startups" },
                   { name: "Sponsors", path: "/sponsors" },
-                  { name: "Contact", path: "/contact" }
+                  { name: "Contact", path: "/contact" },
                 ].map(({ name, path }) => (
                   <li
                     key={name}

@@ -36,7 +36,7 @@ const teamMembers = [
 ];
 
 const categories = [
-  "All", "Creativity & Initiatives", "Design", "Events", "Finance", 
+  "All", "Website Designers & Developers", "Design", "Events", "Finance", 
   "Guest Lectures", "Hospitality", "Human Resources", "Industry Relations", "Internal Audit", 
   "Marketing", "Media Relations", "Operations", "Supply Chain", "Technology"
 ];

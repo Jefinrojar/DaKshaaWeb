@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+
 import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai&ds.jpg"
 import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai.png"
 import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai2.png"
@@ -35,6 +36,7 @@ import Workshop2 from "../../../assets/EventsImages/EventDetails/Workshop/Depart
 import Workshop3 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of Textile - Medi Tex.png"
 import Workshop4 from "../../../assets/EventsImages/EventDetails/Workshop/Frame 2.png"
 import Workshop5 from "../../../assets/EventsImages/EventDetails/Workshop/DigitalMarketing.jpg"
+
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL
 
