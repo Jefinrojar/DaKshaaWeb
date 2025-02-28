@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Slide } from "react-awesome-reveal";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg'
 import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg'
 import care4 from '../../../assets/WorkshopImages/care4.jpg'
@@ -264,10 +266,20 @@ const WorkshopSection = () => {
   const title = "Workshop";
   const [selectedWorkshop, setSelectedWorkshop] = useState(null);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true, // Whether animation should happen only once
+    });
+  }, []);
+
   return (
     <div className="container mx-auto mb-28 mt-[120px]">
       {/* Animated Title */}
-      <h1 className="text-center font-bold text-white md:text-5xl text-2xl mb-10 mt-8">
+      <h1
+        className="text-center font-bold text-white md:text-5xl text-2xl mb-10 mt-8"
+        data-aos="fade-down" // Add AOS animation
+      >
         {title.split("").map((char, index) => (
           <motion.span
             key={index}
@@ -282,12 +294,14 @@ const WorkshopSection = () => {
 
       {/* Cards Section */}
       <div className="grid grid-cols-1 w-full sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6">
-        {workshops.map((workshop) => (
-          <div className="md:p-3 p-3 border border-sky-800">
-            <div
-              key={workshop.id}
-              className="text-white shadow-md overflow-hidden relative group"
-            >
+        {workshops.map((workshop, index) => (
+          <div
+            key={workshop.id}
+            className="md:p-3 p-3 border border-sky-800"
+            data-aos="fade-up" // Add AOS animation
+            data-aos-delay={index * 100} // Staggered delay for each card
+          >
+            <div className="text-white shadow-md overflow-hidden relative group">
               {/* Image Container */}
               <div className="relative md:w-full md:max-w-[300px] w-60">
                 <img
@@ -299,7 +313,9 @@ const WorkshopSection = () => {
                 {/* Overlay Section */}
                 <div className="absolute inset-0 flex flex-col space-y-4 items-center justify-center text-center text-white bg-sky-800/60 opacity-0 backdrop-blur-sm group-hover:opacity-100 transition duration-500 px-4">
                   <Slide cascade>
-                    <h1 className="text-xl font-semibold cursor-default">{workshop.title}</h1>
+                    <h1 className="text-xl font-semibold cursor-default">
+                      {workshop.title}
+                    </h1>
                     <button
                       className="border border-white px-4 py-1 hover:bg-white/20 duration-300"
                       onClick={() => setSelectedWorkshop(workshop)}
@@ -318,15 +334,18 @@ const WorkshopSection = () => {
       {/* Modal */}
       {selectedWorkshop && (
         <div className="fixed inset-0 flex items-center md:justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50">
-          <div className="p-2 border border-sky-800 relative md:mx-4 sm:mx-0 ml-8">
+          <div
+            className="p-2 border border-sky-800 relative md:mx-4 sm:mx-0 ml-8"
+            data-aos="zoom-in" // Add AOS animation for modal
+          >
             <button
               className="absolute -top-7 -right-6 text-3xl font-bold text-gray-500 hover:text-red-500"
               onClick={() => setSelectedWorkshop(null)}
             >
               &times;
             </button>
-            <div className="bg-sky-800/80 text-white clip-bottom-right-3  shadow-lg md:max-w-7xl md:w-full w-72 relative">
-              <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="bg-sky-800/60 text-white clip-bottom-right-3 shadow-lg md:max-w-7xl md:w-full w-72 relative">
+              <div className="flex flex-col md:flex-row items-center gap-8 px-3">
                 <img
                   className="w-44 h-44 md:w-72 md:h-72"
                   src={selectedWorkshop.img}
@@ -341,7 +360,9 @@ const WorkshopSection = () => {
                   </p>
                   <hr />
 
-                  <p className="mt-4"><b>Company Name:</b> {selectedWorkshop.companyName}</p>
+                  <p className="mt-4">
+                    <b>Company Name:</b> {selectedWorkshop.companyName}
+                  </p>
                   <img
                     className="w-1/2 md:w-1/3 my-4 md:mx-0"
                     src={selectedWorkshop.companyImg}

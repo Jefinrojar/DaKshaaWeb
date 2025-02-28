@@ -37,7 +37,7 @@ const CountdownTimer = () => {
   const formatNumber = (num) => (num < 10 ? `0${num}` : num);
 
   return (
-    <div className="flex flex-col md:mt-20 mt-0 items-center md:items-start md:justify-center md:pb-24">
+    <div className="flex flex-col md:mt-6 mt-0 items-center md:items-start md:justify-center md:pb-24">
       <p
         className="text-red-400 text-sm md:text-xl mb-4 md:mb-0 mt-16 "
         
