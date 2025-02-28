@@ -1,25 +1,17 @@
 import React from 'react';
-import Photo1 from "../../../assets/photo1.jpg";
+import Photo1 from "../../../assets/photo1.png";
 import Photo2 from "../../../assets/photo2.jpg";
 import Photo3 from "../../../assets/photo3.jpg";
 import Photo4 from "../../../assets/photo4.jpg";
-import Photo5 from "../../../assets/photo5.jpg";
-import Photo6 from "../../../assets/photo6.jpg";
-import Photo7 from "../../../assets/photo7.jpg";
-import Photo8 from "../../../assets/photo8.jpg";
 
 import { motion } from 'framer-motion';
 
 const Card = () => {
   const cards = [
-    { id: 1, image: Photo1, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 2, image: Photo2, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 3, image: Photo3, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 4, image: Photo4, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 5, image: Photo5, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 6, image: Photo6, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 7, image: Photo7, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-    { id: 8, image: Photo8, title: "Hover me!", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+    { id: 1, image: Photo1, title: "Mastro Mania", text: "Musicians performing with musical instruments." },
+    { id: 2, image: Photo2, title: "Musical Mavericks", text: "Solo singing is a Individual vocal performance with expression." },
+    { id: 3, image: Photo3, title: "Beat Battle", text: "Synchronized dance performance by group." },
+    { id: 4, image: Photo4, title: "Hashtag Hilarity", text: "Meme Creation-Humorous digital content with creativity." },
   ];
 
   const title = "Harmonics";
@@ -40,7 +32,7 @@ const Card = () => {
       </h1>
 
       {/* Grid Layout - 3 Cards Per Row */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-12 sm:gap-y-16 justify-center px-4 sm:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 sm:gap-x-10 gap-y-12 sm:gap-y-16 justify-center px-4 sm:px-8">
         {cards.map((card) => (
           <div 
             key={card.id} 
