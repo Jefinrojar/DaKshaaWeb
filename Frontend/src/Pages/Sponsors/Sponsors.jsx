@@ -39,8 +39,7 @@ function Sponsors() {
     uipath,
     titsc,
   ];
-  const letter = "Sponsors";
-  const letters = letter.split("");
+  const title = "Sponsors";
 
   const letterAnimation = (index) => ({
     y: [0, -5, 0],
@@ -66,18 +65,21 @@ function Sponsors() {
 
   return (
     <div className="mt-16 text-white min-h-screen flex flex-col items-center py-10 px-4 sm:px-8 lg:px-16 space-y-16">
-      <h1 className="font-bold text-center text-3xl">
-        {letters.map((char, index) => (
-          <motion.span
-            key={index}
-            initial={{ y: 0 }}
-            animate={letterAnimation(index)}
-            style={{ display: "inline-block" }}
-          >
-            {char}
-          </motion.span>
-        ))}
-      </h1>
+      <h1
+              className="text-center font-bold text-white md:text-5xl text-3xl mt-0 md:mt-8"
+              data-aos="fade-down" // Add AOS animation
+            >
+              {title.split("").map((char, index) => (
+                <motion.span
+                  key={index}
+                  style={{ display: "inline-block" }}
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+                >
+                  {char}
+                </motion.span>
+              ))}
+            </h1>
 
       {/* Event Sponsors Section */}
       <div className="text-center w-full">

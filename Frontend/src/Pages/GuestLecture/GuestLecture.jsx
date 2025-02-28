@@ -52,22 +52,21 @@ const GuestLecture = () => {
   return (
     <div className="py-20">
       {/* Single Global Title at the Top */}
-      <h1 className="text-center font-bold text-white text-5xl mb-10 mt-8">
-        {title.split("").map((char, index) => (
-          <motion.span
-            key={index}
-            style={{ display: "inline-block" }}
-            animate={{ y: [0, -10, 0] }}
-            transition={{
-              repeat: Infinity,
-              duration: 2,
-              delay: index * 0.1,
-            }}
-          >
-            {char}
-          </motion.span>
-        ))}
-      </h1>
+      <h1
+              className="text-center font-bold text-white md:text-5xl text-3xl mt-0 mb-12 md:mt-8"
+              data-aos="fade-down" // Add AOS animation
+            >
+              {title.split("").map((char, index) => (
+                <motion.span
+                  key={index}
+                  style={{ display: "inline-block" }}
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+                >
+                  {char}
+                </motion.span>
+              ))}
+            </h1>
 
       {/* Frames with Lecture Cards */}
       {frames.map((frame, frameIndex) => (
