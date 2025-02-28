@@ -8,7 +8,7 @@ import TechnicalImage from "../../assets/EventsImages/technical.png";
 import NonTechnicalImage from "../../assets/EventsImages/non-technical.png";
 import Cultural from "../../assets/EventsImages/culturals.jpg";
 import Workshop from "../../assets/EventsImages/workshop.jpg";
-import Tech1 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai&ds.jpg"
+import Tech1 from "../../assets/EventsImages/EventDetails/TechnicalImages/AI5.png"
 import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai.png"
 import Tech3 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai2.png"
 import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai3.png"
@@ -23,14 +23,21 @@ import Tech12 from "../../assets/EventsImages/EventDetails/TechnicalImages/mct.p
 import Tech13 from "../../assets/EventsImages/EventDetails/TechnicalImages/mech.png"
 import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/pitch.png"
 import Tech15 from "../../assets/EventsImages/EventDetails/TechnicalImages/tex.png"
+import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai4.png"
+import Tech17 from "../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
+
 import Nontech1 from "../../assets/EventsImages/EventDetails/Nontech/ComputerScienceandBusinessSystem.png"
 import Nontech2 from "../../assets/EventsImages/EventDetails/Nontech/ComputerScienceandEngineering.png"
 import Nontech3 from "../../assets/EventsImages/EventDetails/Nontech/ElectricalandElectronicsEngineering.png"
 import Nontech4 from "../../assets/EventsImages/EventDetails/Nontech/MechanicalEngineering.png"
 import Nontech5 from "../../assets/EventsImages/EventDetails/Nontech/TextileTechnology.png"
-
-
-
+import Nontech6 from "../../assets/EventsImages/EventDetails/Nontech/AIDS.png"
+import Nontech7 from "../../assets/EventsImages/EventDetails/Nontech/BT.png"
+import workshop1 from "../../assets/EventsImages/EventDetails/Workshop/CSE.png"
+import workshop2 from "../../assets/EventsImages/EventDetails/Workshop/EEE.png"
+import workshop3 from "../../assets/EventsImages/EventDetails/Workshop/IT.jpg"
+import workshop4 from "../../assets/EventsImages/EventDetails/Workshop/MCT.png"
+import workshop5 from "../../assets/EventsImages/EventDetails/Workshop/TXT.png"
 
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(1);
@@ -105,6 +112,14 @@ const Events = () => {
           image: Tech15,
           eventId: "technical-event-15",
         },
+        {
+          image: Tech16,
+          eventId: "technical-event-16",
+        },
+        {
+          image: Tech17,
+          eventId: "technical-event-17",
+        },
       ],
     },
     {
@@ -131,7 +146,15 @@ const Events = () => {
         {
           image: Nontech5,
           eventId: "non-technical-event-5",
-        }
+        },
+        {
+          image: Nontech6,
+          eventId: "non-technical-event-6",
+        },
+        {
+          image: Nontech5,
+          eventId: "non-technical-event-6",
+        },
       ],
     },
     {
@@ -159,16 +182,24 @@ const Events = () => {
       name: "Workshop",
       descriptionImages: [
         {
-          image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: workshop1,
           eventId: "workshop-1",
         },
         {
-          image: "https://images.unsplash.com/photo-1718563552473-2d97b224e801?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: workshop2,
           eventId: "workshop-2",
         },
         {
-          image: "https://images.unsplash.com/photo-1732491482042-bfb6bc27678e?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: workshop3,
           eventId: "workshop-3",
+        },
+        {
+          image: workshop4,
+          eventId: "workshop-4",
+        },
+        {
+          image: workshop5,
+          eventId: "workshop-5",
         },
       ],
     },

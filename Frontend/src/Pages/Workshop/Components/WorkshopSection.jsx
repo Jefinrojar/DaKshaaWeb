@@ -13,9 +13,8 @@ import millet from '../../../assets/WorkshopImages/millet.jpg'
 import seeka from '../../../assets/WorkshopImages/seeka.jpg'
 import Cokupa from '../../../assets/WorkshopImages/Cokupa.png'
 import EnthuTechnology from '../../../assets/WorkshopImages/EnthuTechnology.png'
-
-
-
+import uipath from '../../../assets/WorkshopImages/uipath.png'
+import Ictacademy from '../../../assets/WorkshopImages/Ictacademy.png'
 
 import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
@@ -41,16 +40,17 @@ const workshops = [
     department: "Artificial Intelligence and Data Science",
     dept: "Department of AIDS",
     title: "Ui Path Supported Workshop 'Robotic Process Automation'",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
-    studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
-    studentCoNo3: "",
+    facultyCo: "Mr  N.Giridharan",
+    facultyCoNo: "+91 8925325252",
+    studentCo1: "Gowrinath V",
+    studentCo2: "Durga S",
+    studentCoNo1: "+91 8056570574",
+    studentCoNo2: "+91 9080191925",
     companyName: "Ui Path",
-    companyImg: ""
+    companyImg: uipath,
+    companyImg1: Ictacademy
+
+    
   },
   {
     id: 2,
@@ -363,12 +363,18 @@ const WorkshopSection = () => {
                   <p className="mt-4">
                     <b>Company Name:</b> {selectedWorkshop.companyName}
                   </p>
-                  <img
-                    className="w-1/2 md:w-1/3 my-4 md:mx-0"
-                    src={selectedWorkshop.companyImg}
-                    alt=""
-                  />
-
+                  <div className="flex gap-2 my-4">
+                    <img
+                      className="w-1/2 md:w-1/3 h-full object-cover"
+                      src={selectedWorkshop.companyImg}
+                      alt=""
+                    />
+                    <img
+                      className="w-1/2 md:w-1/3 h-full object-cover"
+                      src={selectedWorkshop.companyImg1}
+                      alt=""
+                    />
+                  </div>
                   <p className="font-bold">Student Co-ordinators:</p>
                   <ul className="list-disc ml-6">
                     {selectedWorkshop.studentCo1 && <li>{selectedWorkshop.studentCo1}</li>}
