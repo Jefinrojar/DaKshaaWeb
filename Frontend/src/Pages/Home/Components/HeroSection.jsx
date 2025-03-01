@@ -54,7 +54,7 @@ const pulseAnimation = {
 
 const HeroSection = () => {
   const navigate = useNavigate(); // Initialize useNavigate
-  const eventDetails = ["2 DAYS", "20+ WORKSHOPS", "15+ EVENTS"];
+  const eventDetails = ["2 DAYS", "20+ WORKSHOPS", "25+ EVENTS"];
 
   // Function to handle navigation
   const handleNavigation = (path) => {

@@ -18,6 +18,7 @@ const Navbar = () => {
     if (path === "/sponsors") return "Sponsors";
     if (path === "/contact") return "Contact";
     if (path === "/startups") return "Startups";
+
     return "Home";
   };
 
@@ -161,7 +162,7 @@ const Navbar = () => {
 
             {/* College Logo */}
             <div className="hidden md:col-span-3 md:flex justify-end items-center">
-              <img className="w-56" src={collegeLogo} alt="College Logo" />
+              <a href="https://ksrct.ac.in/"><img className="w-56" src={collegeLogo} alt="College Logo" /></a>
             </div>
           </div>
         </div>
