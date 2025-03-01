@@ -17,7 +17,7 @@ import vlsi from "./assets/vlsi.jpg";
 
 function Sponsors() {
   const eventSponsors = [abb];
-  const workshopSponsors = [aiml,civil,csbs,ft,it,mech,txt,ict,millet,infinity,garuda,uipath,vlsi];
+  const workshopSponsors = [aiml, civil, csbs, ft, it, mech, txt, ict, millet, infinity, garuda, uipath, vlsi];
   const letter = "Sponsors";
   const letters = letter.split("");
 
@@ -58,23 +58,23 @@ function Sponsors() {
         ))}
       </h1>
 
-     {/* Event Sponsors Section */}
-<div className="text-center w-full">
-  <h2 className="text-2xl font-bold mb-6">Event Sponsors</h2>
-  <div className="flex justify-center items-center">
-    {eventSponsors.map((image, index) => (
-      <motion.div
-        key={index}
-        initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
-        animate={cardEntryAnimation(index)}
-        whileHover={{ scale: 1.15, rotateY: 5 }}
-        className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
-      >
-        <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Sponsor ${index + 1}`} />
-      </motion.div>
-    ))}
-  </div>
-</div>
+      {/* Event Sponsors Section */}
+      <div className="text-center w-full">
+        <h2 className="text-2xl font-bold mb-6">Event Sponsors</h2>
+        <div className="flex justify-center items-center">
+          {eventSponsors.map((image, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
+              animate={cardEntryAnimation(index)}
+              whileHover={{ scale: 1.15, rotateY: 5 }}
+              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
+            >
+              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Sponsor ${index + 1}`} />
+            </motion.div>
+          ))}
+        </div>
+      </div>
 
 
       {/* Workshop Sponsors Section */}
@@ -93,6 +93,7 @@ function Sponsors() {
             </motion.div>
           ))}
         </div>
+        
       </div>
     </div>
   );
