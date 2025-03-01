@@ -1,44 +1,49 @@
 import React, { useState } from "react";
 
+// Developers 
 import sharan from '../../../assets/team_members/sharan.jpg'
 import jefin from '../../../assets/team_members/jefin.jpg'
 import praveen from '../../../assets/team_members/praveen.jpg'
+import aabid from '../../../assets/team_members/aabid.jpg'
+import arul from '../../../assets/team_members/arul.jpg'
+import anisa from '../../../assets/team_members/anisa.png'
+import lakma from '../../../assets/team_members/lakma.jpg'
+import aakash from '../../../assets/team_members/aakash.jpg'
+import gobiha from '../../../assets/team_members/gobiha.jpg'
+import vignesh from '../../../assets/team_members/vignesh.jpg'
+import bala from '../../../assets/team_members/bala.jpg'
 
-import img1 from "../../../assets/teamimage/img1.jpg";
-import img2 from "../../../assets/teamimage/img2.jpg";
-import img3 from "../../../assets/teamimage/img3.jpg";
+import ruban from '../../../assets/team_members/ruban.jpg'
+import rithika from '../../../assets/team_members/rithika.jpg'
+import kavinesh from '../../../assets/team_members/kavinesh.jpg'
+import gopinath from '../../../assets/team_members/gopinath.jpg'
+import monisha from '../../../assets/team_members/monisha.jpg'
+
 import img4 from "../../../assets/teamimage/img4.jpg";
 import img5 from "../../../assets/teamimage/img5.jpg";
-import img6 from "../../../assets/teamimage/img6.jpg";
-import img7 from "../../../assets/teamimage/img7.jpg";
-import img8 from "../../../assets/teamimage/img8.jpg";
-import img9 from "../../../assets/teamimage/img9.jpg";
-import img10 from "../../../assets/teamimage/img10.jpg";
-import img11 from "../../../assets/teamimage/img11.jpg";
-import img12 from "../../../assets/teamimage/img12.jpg";
-import img13 from "../../../assets/teamimage/img13.jpg";
-import img14 from "../../../assets/teamimage/img14.jpg";
-import img15 from "../../../assets/teamimage/img15.jpg";
-import img16 from "../../../assets/teamimage/img16.jpg";
 
 const teamMembers = [
   { id: 1, name: "Sharan", department: "Department of IT", img: sharan, category: "Developers" },
   { id: 2, name: "Jefin Rojar", department: "Department of IT", img: jefin, category: "Developers" },
   { id: 3, name: "Praveen", department: "Department of IT", img: praveen, category: "Developers" },
-  { id: 4, name: "Shaik Aabid Farhan", department: "Department of IT", img: img4, category: "Developers" },
-  { id: 5, name: "Gobiha", department: "Department of IT", img: img4, category: "Developers" },
-  { id: 6, name: "Arul", department: "Department of IT", img: img5, category: "Developers" },
-  { id: 7, name: "Balasaastha", department: "Department of IT", img: img5, category: "Designers" },
-  { id: 8, name: "Anisa Fairoz", department: "Department of IT", img: img5, category: "Designers" },
-  { id: 9, name: "Aakash Kannan", department: "Department of IT", img: img5, category: "Designers" },
-  { id: 10, name: "Dhanush Shankar", department: "Department of IT", img: img5, category: "Designers" },
+  { id: 4, name: "Shaik Aabid Farhan", department: "Department of IT", img: aabid, category: "Developers" },
+  { id: 5, name: "Gobiha", department: "Department of IT", img: gobiha, category: "Web-Designers" },
+  { id: 6, name: "Arul", department: "Department of IT", img: arul, category: "Developers" },
+  { id: 7, name: "Balasaastha", department: "Department of IT", img: bala, category: "Web-Designers" },
+  { id: 8, name: "Anisa Fairoz", department: "Department of IT", img: anisa, category: "Web-Designers" },
+  { id: 9, name: "Aakash Kannan", department: "Department of IT", img: aakash, category: "Web-Designers" },
+  { id: 10, name: "Dhanush Shankar", department: "Department of IT", img: img5, category: "Web-Designers" },
+  { id: 14, name: "Kavinesh", department: "Department of AIML", img: kavinesh, category: "Co-ordinators" },
+  { id: 11, name: "Vignesh", department: "Department of IT", img: vignesh, category: "Co-ordinators" },
+  { id: 12, name: "Ruban", department: "Department of AIML", img: ruban, category: "Co-ordinators" },
+  { id: 13, name: "Rithika", department: "Department of AIML", img: rithika, category: "Co-ordinators" },
+  { id: 15, name: "Gopinath", department: "Department of AIML", img: gopinath, category: "Co-ordinators" },
+  { id: 16, name: "Monisha", department: "Department of CSE", img: monisha, category: "Co-ordinators" },
   
 ];
 
 const categories = [
-  "All", "Developers", "Designers", "Events", "Finance", 
-  "Guest Lectures", "Hospitality", "Human Resources", "Industry Relations", "Internal Audit", 
-  "Marketing", "Media Relations", "Operations", "Supply Chain", "Technology"
+  "All", "Developers", "Web-Designers", "Flyer-Designers", "Co-ordinators",
 ];
 
 const Teams = () => {
