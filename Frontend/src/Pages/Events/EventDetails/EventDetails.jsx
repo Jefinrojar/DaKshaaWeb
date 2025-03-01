@@ -420,34 +420,31 @@ const EventDetails = () => {
         "technical-event-7": {
             title: "ElectroBuzz",
             description:
-                "The Electronics Challenge is a two-stage competition that tests participants' technical skills and problem-solving abilities. In the first stage, teams must quickly sort electronic components in order, while the second stage involves identifying and fixing faults in a given circuit. With time constraints and provided tools, the event challenges precision and efficiency, rewarding the top-performing teams.",
+                "The event consists of two stages where teams will compete to demonstrate their proficiency in handling electronic components and solving real-world circuit issues. In the first stage, participants will race against time to sort and organize electronic components, while in the second stage, they will diagnose and fix faults in a given circuit. The event encourages teamwork, quick thinking, and technical expertise, with winners being selected based on performance in each stage. The top three teams will be awarded prizes.",
             image: Tech9,
             rounds: [
                 {
-                    title: "Round 1: Quick Sorting and Finding of Electronics Components",
+                    title: "Round 1:",
                     description: [
-                        "Quick Sorting and Finding of Electronics Components",
-                        "Task: Arrange the given electronic components in increasing order within the specified time.",
-                        "Duration: 3 minutes",
-                        "First 6 places move to next stage"
+                        "Participants will be given a set electronic components, arrange the given electronic components in increasing order within the specified time.",
+                        "Duration: 1 hour",
                     ],
                 },
                 {
                     title: "Round 2: Circuit Debugging",
                     description: [
-                        "Team Size: 2-3 Participant",
-                        "Task: Identify and fix faults in the given circuit within the given time.",
-                        "Duration: 15 minutes",
-                        "Equipment Provided: Power supply, multimeter, CRO (if needed) and other necessary tools",
+                        "Participants will be given a electronic circuit , they want to identify and fix faults in the given circuit within the given time.",
+                        "Duration: 1.5 hours", 
                     ]
                 },
             ],
             rules: [
-                "Eligibility: Open to all students from food science, technology, and related disciplines. Teams can have a maximum of 2 members.",
-                "Product Criteria: The product must be an innovative infusion of nutrition and flavor in street food. It should not be an exact replica of an existing market product.",
-                "Poster Guidelines: Size: A2 (420 × 594 mm) , Must include product name, concept, ingredients, nutritional benefits, and uniqueness, Clear visuals, infographics, and creativity are encouraged",
-                "Product Display: Each team must bring and showcase their product for evaluation.",
-                "Presentation: Time Limit:5 minutes per team ,Must cover product innovation, nutritional benefits, and SDG alignment, Judges may ask questions after the presentation ",
+                "Participants can compete individually or in teams of 2-4 members.",
+                "Yes, inter-college team members are allowed",
+                "Yes, inter-specialization team members are allowed.",
+                "No external tools allowed.",
+                "Complete tasks within the given time limit.",
+                "Damaging equipment will lead to disqualification."
             ],
             schedule: [
                 {
@@ -466,22 +463,21 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mr G Bharath, AP/FT",
-                        phone: "9047976171",
+                        name: "Mrs.K.Gokiladevi (AP/ECE)",
+                        phone: "9715205353",
+                        email: "gogiladevi@ksrct.ac.in"
                     }
                 ],
                 studentCoordinator: [
                     {
-                        name: "Surya S, III Year/FT ",
-                        phone: "9360492992",
+                        name: "Sanjay Kumar R (III-Year/ECE)",
+                        phone: "7397031629",
+                        email: "sanjaykumar.ramasamy22@gmail.com"
                     },
                     {
-                        name: "Rajulapati Yatheeswar N A, II Year/FT ",
-                        phone: "9441236991",
-                    },
-                    {
-                        name: "Vijaya Yugeshwar R II Year/FT ",
-                        phone: "9585768184",
+                        name: "Kowshika K (II-Year/CSE(AIML))",
+                        phone: "9342806195",
+                        email: "kowshika1912@gmail.com"
                     },
                 ],
             },

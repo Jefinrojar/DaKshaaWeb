@@ -45,6 +45,12 @@ function StartupSection() {
               Launched to support aspiring entrepreneurs, StartupTN provides
               funding, mentorship, incubation, networking opportunities, and
               policy support to innovative startups across various sectors.
+              <button
+                className="mb-8 w-full md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+                onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
+              >
+                REGISTER NOW!
+              </button>
             </p>
           </div>
         </div>
@@ -67,7 +73,15 @@ function StartupSection() {
               assistance. The program aims to bridge the gap between urban and
               rural entrepreneurship by fostering innovation in smaller towns
               and villages.
+              <button
+                className="mb-8  w-full md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+                onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
+              >
+                REGISTER NOW!
+              </button>
             </p>
+
+
           </div>
         </div>
       </div>
@@ -87,6 +101,12 @@ function StartupSection() {
               entrepreneurs, and small businesses across India. It aims to
               create a strong ecosystem for startups by providing resources,
               mentorship, networking opportunities, and funding support.
+              <button
+                className="mb-8 w-full md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+                onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
+              >
+                REGISTER NOW!
+              </button>
             </p>
           </div>
         </div>

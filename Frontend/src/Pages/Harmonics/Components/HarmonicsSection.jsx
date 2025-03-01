@@ -18,7 +18,9 @@ const Card = () => {
 
   return (
     <div className="p-6 sm:p-8 md:p-10">
-      <h1 className="text-center font-bold text-white text-4xl sm:text-5xl mb-8 sm:mb-10 mt-20 sm:mt-[10px]">
+
+      <h1 className="text-center font-bold text-white text-4xl sm:text-5xl mb-8 sm:mb-10 mt-20 sm:mt-[10px] md:mt-14">
+
         {title.split("").map((char, index) => (
           <motion.span
             key={index}
@@ -30,12 +32,18 @@ const Card = () => {
           </motion.span>
         ))}
       </h1>
+      <button
+        className="mb-8 w-80 md:ml-[600px] md:w-auto md:mt-5 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+        onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
+      >
+        REGISTER NOW!
+      </button>
 
       {/* Grid Layout - 3 Cards Per Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 sm:gap-x-10 gap-y-12 sm:gap-y-16 justify-center px-4 sm:px-8">
         {cards.map((card) => (
-          <div 
-            key={card.id} 
+          <div
+            key={card.id}
             className="relative group cursor-pointer overflow-hidden duration-500 
                        w-full sm:w-64 md:w-72 lg:w-80 h-80 sm:h-96 bg-sky-900 
                        bg-opacity-30 border border-sky-900 text-gray-50 p-5"

@@ -116,11 +116,11 @@ const Events = () => {
       name: "Non-Technical Events",
       descriptionImages: [
         {
-          image:Nontech1,
+          image: Nontech1,
           eventId: "non-technical-event-6",
         },
         {
-          image:Nontech2,
+          image: Nontech2,
           eventId: "non-technical-event-1",
         },
         {
@@ -254,20 +254,20 @@ const Events = () => {
       className="w-full"
     >
       <h1
-              className="text-center font-bold text-white md:text-5xl  text-3xl mt-24 md:mt-28 md:mb-12"
-              data-aos="fade-down" // Add AOS animation
-            >
-              {title.split("").map((char, index) => (
-                <motion.span
-                  key={index}
-                  style={{ display: "inline-block" }}
-                  animate={{ y: [0, -10, 0] }}
-                  transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
-                >
-                  {char}
-                </motion.span>
-              ))}
-            </h1>
+        className="text-center font-bold text-white md:text-5xl  text-3xl mt-24 md:mt-28 md:mb-12"
+        data-aos="fade-down" // Add AOS animation
+      >
+        {title.split("").map((char, index) => (
+          <motion.span
+            key={index}
+            style={{ display: "inline-block" }}
+            animate={{ y: [0, -10, 0] }}
+            transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+          >
+            {char}
+          </motion.span>
+        ))}
+      </h1>
 
       <div className="w-full flex flex-col lg:flex-row py-3 relative px-4 sm:px-6 md:px-10">
         {/* Circular Event Selector */}
