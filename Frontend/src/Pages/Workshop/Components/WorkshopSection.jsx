@@ -48,7 +48,6 @@ const workshops = [
     studentCoNo2: "+91 9080191925",
     companyName: "Ui Path",
     companyImg: uipath,
-    companyImg1: Ictacademy
 
     
   },
@@ -102,8 +101,8 @@ const workshops = [
     studentCoNo1: "",
     studentCoNo2: "",
     studentCoNo3: "",
-    companyName: "",
-    companyImg: ""
+    companyName: "Ictacademy",
+    companyImg: Ictacademy
   },
   {
     id: 5,
