@@ -105,13 +105,21 @@ function About() {
                 Dakshaa T25
               </p>
               <p className="text-sky-400 font-poppins leading-5 sm:leading-7 mt-10 sm:mt-14 md:mt-16 text-justify text-xs sm:text-base md:text-lg pb-4 sm:pb-8 md:pb-10">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-                recusandae voluptatibus cupiditate, laudantium quis, repellat
-                velit tenetur nemo dolorum ipsa suscipit, eos esse. Consequuntur
-                minima quia aperiam ipsum maiores perspiciatis libero nesciunt
-                omnis in iure neque at voluptas atque incidunt numquam, ut
-                deleniti sint eligendi? Enim quo rerum beatae nemo unde saepe
-                eos inventore nisi excepturi?
+                DaKshaa T25 is a premier National Level Techno-Cultural Fest
+                that brings together innovation, creativity, and talent under
+                one grand stage. Designed to foster technical excellence and
+                artistic expression, this fest serves as a vibrant platform for
+                students and professionals across the country to showcase their
+                skills, exchange ideas, and compete at the highest level. With a
+                perfect blend of technology, culture, and entertainment, DaKshaa
+                T25 features an array of events, including technical challenges,
+                hackathons, workshops, cultural performances, and interactive
+                sessions with industry experts. Whether you're a tech enthusiast
+                eager to dive into the latest advancements or an artist looking
+                to mesmerize the audience, DaKshaa T25 has something for
+                everyone. Join us as we celebrate innovation, embrace
+                creativity, and redefine excellence at one of the most awaited
+                techno-cultural festivals in the country!
               </p>
             </div>
           </div>
@@ -127,9 +135,22 @@ function About() {
               <p className="absolute px-8 pr-12 py-3 top-0 left-0 text-2xl clip-path-slant-right font-poppins text-white bg-sky-500 bg-opacity-70">
                 Dakshaa T25
               </p>
-              <p className="text-sky-400 font-poppins leading-7 mt-16 text-justify pb-10">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-                recusandae voluptatibus cupiditate...
+              <p className="text-sky-400 font-poppins leading-6 mt-16 text-justify pb-6">
+                DaKshaa T25 is a premier National Level Techno-Cultural Fest
+                that brings together innovation, creativity, and talent under
+                one grand stage. Designed to foster technical excellence and
+                artistic expression, this fest serves as a vibrant platform for
+                students and professionals across the country to showcase their
+                skills, exchange ideas, and compete at the highest level. With a
+                perfect blend of technology, culture, and entertainment, DaKshaa
+                T25 features an array of events, including technical challenges,
+                hackathons, workshops, cultural performances, and interactive
+                sessions with industry experts. Whether you're a tech enthusiast
+                eager to dive into the latest advancements or an artist looking
+                to mesmerize the audience, DaKshaa T25 has something for
+                everyone. Join us as we celebrate innovation, embrace
+                creativity, and redefine excellence at one of the most awaited
+                techno-cultural festivals in the country!
               </p>
             </div>
           </div>
