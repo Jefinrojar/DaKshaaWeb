@@ -4,9 +4,7 @@ import abb from "./assets/abb.png";
 import aiml from "./assets/aiml.jpg";
 import civil from "./assets/civil.jpg";
 import csbs from "./assets/csbs.avif";
-import ft from "./assets/ft.jpg";
 import garuda from "./assets/garuda.jpg";
-import ict from "./assets/ict.jpg";
 import infinity from "./assets/infinity.jpg";
 import it from "./assets/it.png";
 import mech from "./assets/mech.jpg";
@@ -17,7 +15,7 @@ import vlsi from "./assets/vlsi.jpg";
 
 function Sponsors() {
   const eventSponsors = [abb];
-  const workshopSponsors = [aiml,civil,csbs,ft,it,mech,txt,ict,millet,infinity,garuda,uipath,vlsi];
+  const workshopSponsors = [aiml,civil,csbs,it,mech,txt,millet,infinity,garuda,uipath,vlsi];
   const letter = "Sponsors";
   const letters = letter.split("");
 
