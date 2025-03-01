@@ -2041,7 +2041,7 @@ const EventDetails = () => {
 
                 {/* Register Now Button */}
                 <motion.button
-                    className="mb-8 w-full md:w-auto md:ml-72 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+                    className="mb-8 w-60 ml-12 md:w-auto md:ml-72 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
                     whileHover={{ scale: 1.1, rotate: 2 }}
                     whileTap={{ scale: 0.9 }}
                     variants={pulseAnimation} // Infinite pulsing animation
@@ -2055,7 +2055,7 @@ const EventDetails = () => {
                     <div className="border border-sky-800 p-2">
                         <div className="text-center border border-sky-800 clip-bottom-right flex flex-col gap-4 p-4 md:p-10 items-center bg-sky-900/20">
                             <p className="font-semibold text-2xl md:text-3xl text-sky-600 border border-sky-800 px-3 py-3">Description</p>
-                            <img src={event.image} alt={event.title} className="w-40 h-40 md:w-56 md:h-56 object-cover mb-4 shadow-md" />
+                            <img src={event.image} alt={event.title} className="w-40 h-40 md:w-96 md:h-96 object-cover mb-4 shadow-md" />
                             <p className="text-lg md:text-xl mb-4 text-sky-600">{event.description}</p>
                         </div>
                     </div>

@@ -32,6 +32,8 @@ import Nontech4 from "../../assets/EventsImages/EventDetails/Nontech/MechanicalE
 import Nontech5 from "../../assets/EventsImages/EventDetails/Nontech/TextileTechnology.png"
 import Nontech6 from "../../assets/EventsImages/EventDetails/Nontech/AIDS.png"
 import Nontech7 from "../../assets/EventsImages/EventDetails/Nontech/BT.png"
+
+
 import workshop1 from "../../assets/EventsImages/EventDetails/Workshop/CSE.png"
 import workshop2 from "../../assets/EventsImages/EventDetails/Workshop/EEE.png"
 import workshop3 from "../../assets/EventsImages/EventDetails/Workshop/IT.jpg"

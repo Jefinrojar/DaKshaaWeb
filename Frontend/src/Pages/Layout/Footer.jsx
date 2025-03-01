@@ -18,11 +18,11 @@ const Footer = () => {
                     <div className="flex flex-col items-center md:items-start gap-2 mt-3 md:mt-4">
                         <div className="flex items-center gap-2 md:gap-3 leading-8">
                             <FaPhone className="text-white text-lg md:text-xl" />
-                            <p className="text-base md:text-lg">(04288) 274741 to 274744</p>
+                            <p className="text-base md:text-lg">9489243775(Kavinesh K)<br /> 6383945083(Ajay V)<br />6381118259(Vignesh K) <br />9159069646(Vasanth S)</p>
                         </div>
                         <div className="flex items-center gap-2 md:gap-3 leading-8">
                             <FaEnvelope className="text-white text-lg md:text-xl" />
-                            <p className="text-base md:text-lg">office@ksrct.ac.in, info@ksrct.ac.in</p>
+                            <p className="text-base md:text-lg">dakshaa@ksrct.ac.in</p>
                         </div>
                     </div>
                 </div>
