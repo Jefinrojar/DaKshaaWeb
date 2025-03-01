@@ -120,8 +120,6 @@ const HeroSection = () => {
               />
             </motion.div>
 
-            
-
             {/* Event Details with Wave Animation */}
             <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start gap-2 sm:gap-4 text-xs md:text-lg lg:text-base whitespace-nowrap">
               {eventDetails.map((word, i) => (
@@ -149,34 +147,36 @@ const HeroSection = () => {
                 </motion.div>
               ))}
             </motion.div>
+            
+            <h1 className="text-2xl font-orbitron md:text-4xl mt-4 md:mt-4"><q > Prize pool of <span className="text-purple-600">5 Lakhs</span> </q></h1>
 
             {/* Register Button - Mobile (Below Image) */}
-         <div className="md:hidden flex justify-center mt-6">
-          <motion.div
-            className="bg-opacity-70 transition-all text-white font-medium text-center flex items-center justify-center overflow-hidden"
-            variants={pulseAnimation}
-            animate="animate"
-            style={{
-              backgroundImage: `url(${RegisterAni})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              borderRadius: "50%",
-              width: "120px",
-              height: "120px",
-            }}
-          >
-            <motion.span
-              className="z-10 clip text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
-              whileHover={{
-                scale: 1.1,
-                backgroundColor: "rgba(3, 105, 161, 0.95)",
-                transition: { duration: 0.3, ease: "easeInOut" },
-              }}
-            >
-              REGISTER NOW
-            </motion.span>
-          </motion.div>
-        </div>
+            <div className="md:hidden flex justify-center mt-6">
+              <motion.div
+                className="bg-opacity-70 transition-all text-white font-medium text-center flex items-center justify-center overflow-hidden"
+                variants={pulseAnimation}
+                animate="animate"
+                style={{
+                  backgroundImage: `url(${RegisterAni})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  borderRadius: "50%",
+                  width: "120px",
+                  height: "120px",
+                }}
+              >
+                <motion.span
+                  className="z-10 clip text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
+                  whileHover={{
+                    scale: 1.1,
+                    backgroundColor: "rgba(3, 105, 161, 0.95)",
+                    transition: { duration: 0.3, ease: "easeInOut" },
+                  }}
+                >
+                  REGISTER NOW
+                </motion.span>
+              </motion.div>
+            </div>
 
             {/* Register Button with Infinite Pulse */}
           </div>
