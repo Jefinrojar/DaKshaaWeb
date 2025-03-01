@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import abb from "./assets/abb.png";
+import unstop from "./assets/unstop.png";
+
 import aiml from "./assets/aiml.jpg";
 import civil from "./assets/civil.jpg";
 import csbs from "./assets/csbs.avif";
@@ -12,11 +14,12 @@ import millet from "./assets/millet.jpg";
 import txt from "./assets/txt.jpg";
 import uipath from "./assets/uipath.jpg";
 import vlsi from "./assets/vlsi.jpg";
+import cse from "./assets/cse.jpg";
+import bt from "./assets/bt.jpeg";
 
 function Sponsors() {
-  const eventSponsors = [abb];
-  const workshopSponsors = [aiml, civil, csbs, ft, it, mech, txt, ict, millet, infinity, garuda, uipath, vlsi];
-  const workshopSponsors = [aiml,civil,csbs,it,mech,txt,millet,infinity,garuda,uipath,vlsi];
+  const eventSponsors = [abb, unstop];
+  const workshopSponsors = [aiml, civil, csbs, it, cse, mech, txt, millet, infinity, garuda, uipath, vlsi, bt];
   const letter = "Sponsors";
   const letters = letter.split("");
 
@@ -57,10 +60,10 @@ function Sponsors() {
         ))}
       </h1>
 
-      {/* Event Sponsors Section */}
+      {/* Event Partner Section */}
       <div className="text-center w-full">
-        <h2 className="text-2xl font-bold mb-6">Event Sponsors</h2>
-        <div className="flex justify-center items-center">
+        <h2 className="text-3xl font-bold mb-10">Event Partner</h2>
+        <div className="flex justify-center items-center gap-24 ">
           {eventSponsors.map((image, index) => (
             <motion.div
               key={index}
@@ -69,16 +72,15 @@ function Sponsors() {
               whileHover={{ scale: 1.15, rotateY: 5 }}
               className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
             >
-              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Sponsor ${index + 1}`} />
+              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Partner ${index + 1}`} />
             </motion.div>
           ))}
         </div>
       </div>
 
-
-      {/* Workshop Sponsors Section */}
+      {/* Co-Partner Section */}
       <div className="text-center w-full">
-        <h2 className="text-2xl font-bold m-10">Workshop Sponsors</h2>
+        <h2 className="text-3xl font-bold m-10">Co-Partner</h2>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12 place-items-center">
           {workshopSponsors.map((image, index) => (
             <motion.div
@@ -88,11 +90,10 @@ function Sponsors() {
               whileHover={{ scale: 1.15, rotateY: 5 }}
               className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
             >
-              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Workshop Sponsor ${index + 1}`} />
+              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Co-Partner ${index + 1}`} />
             </motion.div>
           ))}
         </div>
-        
       </div>
     </div>
   );
