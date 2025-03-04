@@ -12,6 +12,8 @@ import aakash from '../../../assets/team_members/aakash.jpg'
 import gobiha from '../../../assets/team_members/gobiha.jpg'
 import vignesh from '../../../assets/team_members/vignesh.jpg'
 import bala from '../../../assets/team_members/bala.jpg'
+import Dhanush from '../../../assets/team_members/Dhanush Shankar.jpg'
+
 
 import ruban from '../../../assets/team_members/ruban.jpg'
 import rithika from '../../../assets/team_members/rithika.jpg'
@@ -32,7 +34,7 @@ const teamMembers = [
   { id: 7, name: "Balasaastha", department: "Department of IT", img: bala, category: "Web-Designers" },
   { id: 8, name: "Anisa Fairoz", department: "Department of IT", img: anisa, category: "Web-Designers" },
   { id: 9, name: "Aakash Kannan", department: "Department of IT", img: aakash, category: "Web-Designers" },
-  { id: 10, name: "Dhanush Shankar", department: "Department of IT", img: img5, category: "Web-Designers" },
+  { id: 10, name: "Dhanush Shankar", department: "Department of IT", img: Dhanush, category: "Web-Designers" },
   { id: 14, name: "Kavinesh", department: "Department of AIML", img: kavinesh, category: "Co-ordinators" },
   { id: 11, name: "Vignesh", department: "Department of IT", img: vignesh, category: "Co-ordinators" },
   { id: 12, name: "Ruban", department: "Department of AIML", img: ruban, category: "Co-ordinators" },
