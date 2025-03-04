@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import GuestLectureCard from "./Components/GuestLectureCards";
-import photo1 from "../../assets/conference/builders.png";
-import photo2 from "../../assets/conference/LS.png";
-import photo3 from "../../assets/conference/ES.png"
-import photo4 from "../../assets/conference/CSE.png";
+import cs from "../../assets/conference/cs.png";
+import mech from "../../assets/conference/mech.png";
+import els from "../../assets/conference/els.png";
+import is from "../../assets/conference/is.png";
+
 
 const GuestLecture = () => {
   const title = "Conference"; // Single title at the top
@@ -16,7 +17,7 @@ const GuestLecture = () => {
           name: "Building & Mechanical Science",
           // title: "Founder of Thyrocare Technologies Ltd",
           description: "The School of Building & Mechanical Sciences at KSRCT focuses on engineering excellence, innovation, and hands-on learning in mechanical, mechatronics, and civil engineering. It offers state-of-the-art facilities, an industry-driven curriculum, and advanced research opportunities. Mechanical engineering emphasizes design, manufacturing, robotics, and aerospace; mechatronics integrates mechanical, electronics, and computing for AI-driven automation and Industry 4.0; civil engineering specializes in sustainable infrastructure and smart cities. With cutting-edge labs, strong industry partnerships, and a practical learning approach, KSRCT ensures students excel in automotive, aerospace, robotics, and construction sectors, preparing them for global career opportunities.",
-          image: photo1,
+          image: mech,
         },
       ],
     },
@@ -25,7 +26,7 @@ const GuestLecture = () => {
         {
           name: "Life Science",
           // title: "CEO of Alphabet & Google",
-          image: photo2,
+          image: is,
         },
       ],
     },
@@ -34,7 +35,7 @@ const GuestLecture = () => {
         {
           name: "Electrical Sciences",
           // title: "Former President of India",
-          image: photo3,
+          image: els,
         },
       ],
     },
@@ -43,7 +44,7 @@ const GuestLecture = () => {
         {
           name: "Computer Sciences",
           // title: "CEO of Tesla & SpaceX",
-          image: photo4,
+          image: cs,
         },
       ],
     },
