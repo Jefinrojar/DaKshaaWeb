@@ -39,10 +39,10 @@ import Workshop4 from "../../../assets/EventsImages/EventDetails/Workshop/Frame 
 import Workshop5 from "../../../assets/EventsImages/EventDetails/Workshop/DigitalMarketing.jpg"
 import Workshop6 from "../../../assets/EventsImages/EventDetails/Workshop/CSE.png"
 
-import Culturals1 from "../../../assets/photo1.jpg"
-import Culturals2 from "../../../assets/photo2.jpg"
-import Culturals3 from "../../../assets/photo3.jpg"
-import Culturals4 from "../../../assets/photo4.jpg"
+import Culturals1 from "../../../assets/MUSICAL.png"
+import Culturals2 from "../../../assets/INSTRUMENT.png"
+import Culturals3 from "../../../assets/GROUP.png"
+import Culturals4 from "../../../assets/SOLO DANCE.png"
 
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL

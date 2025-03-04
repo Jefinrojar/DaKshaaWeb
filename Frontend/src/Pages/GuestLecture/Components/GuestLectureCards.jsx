@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const GuestLectureCard = ({ name, title, image, time, date, location }) => {
     return (
         <motion.div

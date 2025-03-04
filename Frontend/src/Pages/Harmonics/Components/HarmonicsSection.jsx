@@ -1,17 +1,20 @@
 import React from 'react';
-import Photo1 from "../../../assets/photo1.png";
-import Photo2 from "../../../assets/photo2.jpg";
-import Photo3 from "../../../assets/photo3.jpg";
-import Photo4 from "../../../assets/photo4.jpg";
+import dance from "../../../assets/SOLO DANCE.png"
+import group from "../../../assets/GROUP.png";
+import instruments from "../../../assets/INSTRUMENT.png";
+import musical from "../../../assets/MUSICAL.png";
+
+
+
 
 import { motion } from 'framer-motion';
 
 const Card = () => {
   const cards = [
-    { id: 1, image: Photo1, title: "Mastro Mania", text: "Musicians performing with musical instruments." },
-    { id: 2, image: Photo2, title: "Musical Mavericks", text: "Solo singing is a Individual vocal performance with expression." },
-    { id: 3, image: Photo3, title: "Beat Battle", text: "Synchronized dance performance by group." },
-    { id: 4, image: Photo4, title: "Solo dance", text: "Solo dance is expressive, graceful, and captivating." },
+    { id: 1, image: instruments, title:"INSTRUMENT", text: "Musicians performing with musical instruments." },
+    { id: 2, image: musical, title: "Musical", text: "Solo singing is a Individual vocal performance with expression." },
+    { id: 3, image: group, title: "Group Dance", text: "Synchronized dance performance by group." },
+    { id: 4, image: dance, title: "Solo Dance", text: "Solo dance is expressive, graceful, and captivating." },
   ];
 
   const title = "Harmonics";
