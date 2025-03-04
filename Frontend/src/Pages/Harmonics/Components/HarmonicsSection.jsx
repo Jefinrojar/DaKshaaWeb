@@ -11,7 +11,7 @@ const Card = () => {
     { id: 1, image: Photo1, title: "Mastro Mania", text: "Musicians performing with musical instruments." },
     { id: 2, image: Photo2, title: "Musical Mavericks", text: "Solo singing is a Individual vocal performance with expression." },
     { id: 3, image: Photo3, title: "Beat Battle", text: "Synchronized dance performance by group." },
-    { id: 4, image: Photo4, title: "Hashtag Hilarity", text: "Meme Creation-Humorous digital content with creativity." },
+    { id: 4, image: Photo4, title: "Solo dance", text: "Solo dance is expressive, graceful, and captivating." },
   ];
 
   const title = "Harmonics";
