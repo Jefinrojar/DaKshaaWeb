@@ -1,8 +1,8 @@
 import React from 'react';
-import dance from "../../../assets/SOLO DANCE.png"
-import group from "../../../assets/GROUP.png";
-import instruments from "../../../assets/INSTRUMENT.png";
-import musical from "../../../assets/MUSICAL.png";
+import dance from "../../../assets/HORMONICS/SOLO DANCE.png"
+import group from "../../../assets/HORMONICS/GROUP.png";
+import instruments from "../../../assets/HORMONICS/INSTRUMENT.png";
+import musical from "../../../assets/HORMONICS/MUSICAL.png";
 
 
 
