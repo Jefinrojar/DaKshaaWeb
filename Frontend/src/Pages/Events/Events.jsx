@@ -40,10 +40,10 @@ import workshop3 from "../../assets/EventsImages/EventDetails/Workshop/IT.jpg"
 import workshop4 from "../../assets/EventsImages/EventDetails/Workshop/MCT.png"
 import workshop5 from "../../assets/EventsImages/EventDetails/Workshop/TXT.png"
 
-import Culturals1 from "../../assets/MUSICAL.png"
-import Culturals2 from "../../assets/INSTRUMENT.png"
-import Culturals3 from "../../assets/GROUP.png"
-import Culturals4 from "../../assets/SOLO DANCE.png"
+import Culturals1 from "../../assets/HORMONICS/MUSICAL.png"
+import Culturals2 from "../../assets/HORMONICS/INSTRUMENT.png"
+import Culturals3 from "../../assets/HORMONICS/GROUP.png"
+import Culturals4 from "../../assets/HORMONICS/SOLO DANCE.png"
 
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(1);
