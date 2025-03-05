@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,11 +10,27 @@ import isua from "../../../assets/startup/isua.jpg";
 function StartupSection() {
   const title = "Startups";
 
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS for other animations
+  }, []);
+
+  // Framer Motion variants for the load animation
+  const containerVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
+  };
+
   return (
-    <div className="text-white">
+    <motion.div
+      className="text-white"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }} // Ensures the animation only plays once
+      variants={containerVariants}
+    >
       <h1
         className="text-center font-bold text-white md:text-5xl text-3xl mt-0 md:mt-8"
-        data-aos="fade-down" // Add AOS animation
+        data-aos="fade-down" // AOS animation for the title
       >
         {title.split("").map((char, index) => (
           <motion.span
@@ -28,8 +44,8 @@ function StartupSection() {
         ))}
       </h1>
 
+      {/* Startup Tamil Nadu Section */}
       <div className="grid grid-cols-1 md:grid-cols-12 mt-16 mx-0 md:mx-20 gap-8">
-        {/* Startup Tamil Nadu Section */}
         <div className="md:col-span-4 flex flex-col items-center md:items-start">
           <div className="relative inline-block mb-4 md:mb-12">
             <img src={startuptn} alt="" className="border-none w-44 md:w-56" />
@@ -47,7 +63,7 @@ function StartupSection() {
               policy support to innovative startups across various sectors.
               <button
                 className="mb-8 w-full md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
-                onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
+                onClick={() => window.open("www.google.com", "_blank")}
               >
                 REGISTER NOW!
               </button>
@@ -55,8 +71,7 @@ function StartupSection() {
           </div>
         </div>
       </div>
-     
-    </div>
+    </motion.div>
   );
 }
 

@@ -288,29 +288,34 @@ const Events = () => {
 
           <motion.div
             className="relative w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px] flex items-center justify-center rounded-full"
-            animate={{ rotate: rotation }}
+            animate={{ rotate: rotation }} // Rotate the container
             transition={{ type: "spring", stiffness: 100, damping: 15, mass: 1 }}
           >
             {/* Centered Content */}
-
             {events.map((event, index) => {
               const angle = (index / events.length) * 2 * Math.PI;
               const radius = window.innerWidth < 1024 ? (window.innerWidth < 768 ? 80 : 120) : 240;
               const x = Math.cos(angle) * radius;
               const y = Math.sin(angle) * radius;
-              const isActive = selectedEvent === event.id;
 
               return (
                 <motion.div
                   key={event.id}
-                  className={`absolute flex items-center justify-center w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-52 lg:h-52 rounded-full shadow-lg cursor-pointer transition-all duration-500 overflow-hidden border-4 border-white ${isActive ? "bg-yellow-500 scale-125 shadow-glow" : "bg-blue-500"
-                    } hover:w-16 hover:h-16 sm:hover:w-24 sm:hover:h-24 md:hover:w-28 md:hover:h-28 lg:hover:w-48 lg:hover:h-48`}
-                  style={{ transform: `translate(${x}px, ${y}px)` }}
-                  onClick={() => handleEventClick(event.id, index)}
+                  className={`absolute flex items-center justify-center w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-52 lg:h-52 rounded-full shadow-lg cursor-pointer transition-all duration-500 overflow-hidden border-4 border-sky-800 bg-blue-500 hover:w-16 hover:h-16 sm:hover:w-24 sm:hover:h-24 md:hover:w-28 md:hover:h-28 lg:hover:w-48 lg:hover:h-48`}
+                  style={{ transform: `translate(${x}px, ${y}px)` }} // Circles remain stationary
+                  onClick={() => {
+                    setSelectedEvent(event.id); // Update the selected event
+                    setRotation((prev) => prev + 360); // Rotate the container by 360 degrees
+                  }}
                   onMouseEnter={() => setHoveredCircle(event.id)} // Set hover state to true
                   onMouseLeave={() => setHoveredCircle(null)} // Set hover state to false
                 >
-                  <img src={event.image} alt={event.name} className="w-full h-full object-cover" />
+                  {/* Image */}
+                  <img
+                    src={event.image}
+                    alt={event.name}
+                    className="w-full h-full object-cover"
+                  />
                   {/* Backdrop and Event Name */}
                   {hoveredCircle === event.id && (
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -334,7 +339,7 @@ const Events = () => {
         <div className="w-full lg:w-2/5 flex items-center justify-center p-4 sm:p-6 md:p-10">
           <motion.div
             key={selectedEventData?.name}
-            className="w-full h-auto shadow-2xl border border-sky-800 p-3 bg-gradient-to-b text-sky-500 transition-all duration-500"
+            className="w-full h-auto shadow-2xl border border-sky-800 p-3 bg-gradient-to-b text-sky-600 transition-all duration-500"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
@@ -357,11 +362,10 @@ const Events = () => {
                       alt={`Slide ${index + 1}`}
                       className="w-full h-full object-cover shadow-md clip-bottom-left"
                     />
-                    {/* Backdrop and Text */}
                     {isHovered && (
-                      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                      <div className="absolute inset-0 bg-black bg-opacity-75 p-4 flex items-center justify-center">
                         <motion.span
-                          className="text-white text-2xl sm:text-3xl md:text-4xl font-bold"
+                          className="text-white text-2xl sm:text-3xl md:text-4xl font-bold p-4"
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           transition={{ duration: 0.5 }}
@@ -370,6 +374,7 @@ const Events = () => {
                         </motion.span>
                       </div>
                     )}
+                    {/* Backdrop and Text */}
                   </div>
                 ))}
               </Slider>
@@ -378,6 +383,7 @@ const Events = () => {
         </div>
       </div>
     </motion.div>
+
   );
 };
 
