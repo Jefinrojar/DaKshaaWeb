@@ -153,7 +153,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="w-full max-w-screen-lg mx-auto p-4 sm:p-6 text-white border-4 border-gray-700 rounded-lg bg-gray-900 bg-opacity-80 shadow-2xl"
+        className="w-full max-w-screen-lg mx-auto p-4 sm:p-6 text-white border-4 border-orange-400 rounded-lg bg-gray-900 bg-opacity-80 shadow-2xl"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="w-full">

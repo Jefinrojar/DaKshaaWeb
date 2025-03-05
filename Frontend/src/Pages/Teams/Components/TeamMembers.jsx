@@ -67,7 +67,7 @@ const Teams = () => {
             key={category}
             onClick={() => setSelectedCategory(category)}
             className={`p-1 font-semibold text-sky-400 ${
-              selectedCategory === category ? "bg-sky-900/60" : "bg-transparent border border-sky-800 hover:bg-sky-900/60"
+              selectedCategory === category ? "bg-sky-900/60" : "bg-transparent border border-orange-400 hover:bg-sky-900/60"
             }`}
           >
             <p className="bg-sky-900/30 p-2 clip-bottom-right">{category}</p>
@@ -95,25 +95,25 @@ const Teams = () => {
         {filteredMembers.map((member) => (
           <div 
           key={member.id} 
-          className="relative w-64 h-80 border-2 shadow-lg transition-all duration-300 ease-in hover:scale-105 border-sky-800 flex flex-col items-center p-4 group"
+          className="relative w-64 h-80 border-2 shadow-lg transition-all duration-300 ease-in hover:scale-105 border-orange-400 flex flex-col items-center p-4 group"
         >
           {/* Corner Borders */}
           <div className="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none">
             {/* Top Left */}
-            <div className="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-sky-800"></div>
+            <div className="absolute -top-3 -left-3 w-6 h-6 border-t-2 border-l-2 border-orange-400"></div>
             {/* Top Right */}
-            <div className="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-sky-800"></div>
+            <div className="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-orange-400"></div>
             {/* Bottom Left */}
-            <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-sky-800"></div>
+            <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-orange-400"></div>
             {/* Bottom Right */}
-            <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-sky-800"></div>
+            <div className="absolute -bottom-3 -right-3 w-6 h-6 border-b-2 border-r-2 border-orange-400"></div>
           </div>
         
           {/* Square Image */}
           <img 
             src={member.img} 
             alt={member.name} 
-            className="w-60 h-60 object-cover border-2 border-sky-800"
+            className="w-60 h-60 object-cover border-2 border-orange-400"
           />
           {/* Name */}
           <h3 className="text-sky-500 text-lg font-semibold mt-4">{member.name}</h3>
