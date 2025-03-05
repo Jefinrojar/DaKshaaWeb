@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 import collegeLogo from "../../assets/collegeLogo.png";
 import round from "../../assets/round.svg";
 import { React, useState, useEffect, useRef } from "react";
