@@ -1,5 +1,5 @@
 import logo from "../../assets/logo1.png";
-import collegeLogo from "../../assets/collegeLogo.png";
+import collegeLogo from "../../assets/collegeLogoWhite.png";
 import round from "../../assets/round.svg";
 import { React, useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";

@@ -23,7 +23,7 @@ const GuestLectureCard = ({ name, title, image, time, date, location }) => {
                             <img
                                 src={image}
                                 alt={name}
-                                className="w-full h-[250px] sm:h-[300px] md:h-full clip-top-left object-cover" // Responsive height
+                                className="w-full h-[250px] sm:h-[300px] md:h-full object-cover" // Responsive height
                             />
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const GuestLectureCard = ({ name, title, image, time, date, location }) => {
                             </motion.div>
                         </div> */}
                         <button
-                            className="mb-8 w-full md:w-auto md:mt-5 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+                            className="mb-8 w-full md:w-auto md:mt-5 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
                             onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
                         >
                             REGISTER NOW!

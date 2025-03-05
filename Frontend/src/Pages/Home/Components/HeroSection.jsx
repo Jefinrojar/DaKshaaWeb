@@ -148,7 +148,7 @@ const HeroSection = () => {
               ))}
             </motion.div>
             
-            <h1 className="text-2xl font-orbitron md:text-4xl mt-4 md:mt-4"><q > Prize pool of <span className="text-purple-600">5 Lakhs</span> </q></h1>
+            <h1 className="text-2xl font-orbitron md:text-4xl mt-4 md:mt-4"><q > Prize pool of <span className="text-[#F07629]">5 Lakhs</span> </q></h1>
 
             {/* Register Button - Mobile (Below Image) */}
             <div className="md:hidden flex justify-center mt-6">

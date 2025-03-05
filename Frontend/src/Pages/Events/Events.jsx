@@ -25,13 +25,13 @@ import Tech15 from "../../assets/EventsImages/EventDetails/TechnicalImages/tex.p
 import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/Ai4.png"
 import Tech17 from "../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
 
-import Nontech1 from "../../assets/EventsImages/EventDetails/Nontech/ComputerScienceandBusinessSystem.png"
-import Nontech2 from "../../assets/EventsImages/EventDetails/Nontech/ComputerScienceandEngineering.png"
-import Nontech3 from "../../assets/EventsImages/EventDetails/Nontech/ElectricalandElectronicsEngineering.png"
-import Nontech4 from "../../assets/EventsImages/EventDetails/Nontech/MechanicalEngineering.png"
-import Nontech5 from "../../assets/EventsImages/EventDetails/Nontech/TextileTechnology.png"
-import Nontech6 from "../../assets/EventsImages/EventDetails/Nontech/AIDS.png"
-import Nontech7 from "../../assets/EventsImages/EventDetails/Nontech/BT.png"
+import Nontech1 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSBS.png"
+import Nontech2 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.png"
+import Nontech3 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF EEE.png"
+import Nontech4 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.png"
+import Nontech5 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF TEXTILE.png"
+import Nontech6 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.png"
+import Nontech7 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.png"
 
 
 import workshop1 from "../../assets/EventsImages/EventDetails/Workshop/CSE.png"
