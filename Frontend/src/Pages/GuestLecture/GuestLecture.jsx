@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import GuestLectureCard from "./Components/GuestLectureCards";
-import cs from "../../assets/conference/cs.png";
-import mech from "../../assets/conference/mech.png";
-import els from "../../assets/conference/els.png";
-import is from "../../assets/conference/is.png";
+import cs from "../../assets/conference/3.png";
+import mech from "../../assets/conference/1.png";
+import els from "../../assets/conference/4.png";
+import is from "../../assets/conference/2.png";
 
 
 const GuestLecture = () => {

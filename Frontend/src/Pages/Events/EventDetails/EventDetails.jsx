@@ -24,12 +24,19 @@ import Tech17 from "../../../assets/EventsImages/EventDetails/TechnicalImages/vl
 import Tech18 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Bt.png"
 
 
-import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/ComputerScienceandBusinessSystem.png"
-import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/ComputerScienceandEngineering.png"
-import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/ElectricalandElectronicsEngineering.png"
-import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/MechanicalEngineering.png"
-import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/TextileTechnology.png"
-import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/AIDS.png"
+import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.png"
+import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSBS.png"
+import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.png"
+import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.png"
+import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.png"
+import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.png"
+import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.png"
+import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF EEE.png"
+import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF FOOD TECH.png"
+// import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF IT.png"
+import NonTech11 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.png"
+import NonTech12 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF TEXTILE.png"
+import NonTech13 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF VLSI.png"
 
 
 import Workshop1 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of EEE - Industry IOT.png"
@@ -851,7 +858,7 @@ const EventDetails = () => {
             title: "trailblazers: The Clue Hunt",
             description:
                 "Trailblazers is an interactive clue hunt event designed to test participants' problem-solving and teamwork skills. Teams will solve riddles, puzzles, and locate QR codes to progress through the challenge.",
-            image: NonTech2,
+            image: NonTech6,
             rounds: [
                 {
                     title: "Round 1",
@@ -905,7 +912,7 @@ const EventDetails = () => {
             title: "Tech-Link Challenge",
             description:
                 "Tech-Link Challenge encourages creative thinking and teamwork to tackle complex challenges in a fun and engaging way.",
-            image: NonTech3,
+            image: NonTech8,
             rounds: [
                 {
                     title: "Round 1",
@@ -966,7 +973,7 @@ const EventDetails = () => {
             title: "CONNEXION",
             description:
                 "We are delighted to present CONNEXION, a fun and engaging non-tech game that challenges your imagination, observation, and quick thinking. The game consists of three thrilling rounds, where the players connect the clues in the given images to reach the correct conclusion.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech13,
             rounds: [
                 {
                     title: "Round 1 – Guess Similar Words:",
@@ -1034,7 +1041,7 @@ const EventDetails = () => {
             title: "Dumb Charades - Act It Out!",
             description:
                 "A fun and engaging event where participants act out biotech-related words or phrases without speaking",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech4,
             rounds: [
                 {
                     title: "Round 1 – Qualifiers:",
@@ -1100,7 +1107,7 @@ const EventDetails = () => {
             title: "Its Talk Time",
             description:
                 "Two teams face off, taking turns to continue a given sentence within 5 seconds. Each team starts with 3 lives and failing to respond in time or providing an illogical continuation results in losing a life. The game continues until one team loses all three lives and gets eliminated. With pressure mounting and stories taking unexpected turns, teams must stay sharp and work together to keep the narrative flowing. The last team standing wins, proving their mastery of words and quick wit!",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech1,
             rounds: [
                 {
                     title: "Round 1",
@@ -1160,7 +1167,7 @@ const EventDetails = () => {
             title: "SyncX",
             description:
                 "Two teams face off, taking turns to continue a given sentence within 5 seconds. Each team starts with 3 lives and failing to respond in time or providing an illogical continuation results in losing a life. The game continues until one team loses all three lives and gets eliminated. With pressure mounting and stories taking unexpected turns, teams must stay sharp and work together to keep the narrative flowing. The last team standing wins, proving their mastery of words and quick wit!",
-            image: NonTech1,
+            image: NonTech2,
             rounds: [
                 {
                     title: "Round 1",
@@ -1228,7 +1235,7 @@ const EventDetails = () => {
             title: "A Guess Change",
             description:
                 "Unmasking Brands & Flavors: A Journey Through Corporate Identities & Culinary Secrets This event is designed to challenge participantsknowledge of corporate branding and food recognition through an interactive three-level game. It tests awareness, teamwork, and quick thinking in a fun and engaging way.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech9,
             rounds: [
                 {
                     title: "Level 1: Logo Guessing Challenge",
@@ -1304,7 +1311,7 @@ const EventDetails = () => {
             title: "one Click",
             description:
                 "Capture the beauty of our campus and showcase your photography skills in this exciting contest! Post your photo on social media with #ksrct1994 to gain bonus points based on likes. Participants receive certificates, and winners get a cash prize! 📸✨",
-            image: NonTech4,
+            image: NonTech11,
             rounds: [
             ],
             rules: [
@@ -1342,7 +1349,7 @@ const EventDetails = () => {
             title: "404:Meme Overload (Meme creation based on IT scenarios)",
             description:
                 "IT Meme Battle is a fun and creative competition where teams of one or two members create original IT-related memes. Participants can use image + text, GIFs, or even hand-drawn memes for extra creativity. Plagiarized content will lead to disqualification, and all memes must be appropriate and respectful. Submissions must be made within the given time limit. Let your humor and tech knowledge shine in this battle of wit and creativity.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech1,
             rounds: [
             ],
             rules: [
@@ -1386,7 +1393,7 @@ const EventDetails = () => {
             title: "Short Film Contest",
             description:
                 "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format. Winners will be judged on creativity, storytelling, and impact! 🎬✨",
-            image: NonTech6,
+            image: NonTech3,
             rounds: [
             ],
             rules: [
@@ -1433,7 +1440,7 @@ const EventDetails = () => {
             title: "Bike & Car Modification Showcase",
             description:
                 "This event is a platform for automobile enthusiasts to showcase their customized bikes and cars. Participants will display their creative designs, performance upgrades, and cutting-edge modifications. The event aims to celebrate engineering and artistic skills in vehicle customization.•Free of charge (No registration fee).•	Awards for top performers. •	Certificates for all participants. ",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech5,
             rounds: [
             ],
             rules: [
@@ -1484,7 +1491,7 @@ const EventDetails = () => {
             title: "Mind Maze",
             description:
                 "Mind Maze is an exciting non-technical event that challenges participants to decode hidden clues from images using logic, pattern recognition, and creative thinking. Participants will engage their problem-solving skills to uncover the mystery, aiming to be the first to solve the clue within the time limit.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: NonTech7,
             rounds: [
                 {
                     title: "Single Round",

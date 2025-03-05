@@ -4,8 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import startuptn from "../../../assets/startup/startuptn.jpg";
-import tnrise from "../../../assets/startup/tnrise.png";
-import isua from "../../../assets/startup/isua.jpg";
 
 function StartupSection() {
   const title = "Startups";

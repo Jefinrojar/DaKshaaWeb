@@ -1,6 +1,6 @@
 import React from "react";
 import college from "../../../assets/college.png";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/logo1.png";
 
 function About() {
   return (

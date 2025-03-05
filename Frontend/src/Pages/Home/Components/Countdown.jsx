@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import divider from "../../../assets/divider.svg";
 import warning from "../../../assets/warning.svg";
 
 const CountdownTimer = () => {
