@@ -15,6 +15,7 @@ import Cokupa from '../../../assets/WorkshopImages/Cokupa.png'
 import EnthuTechnology from '../../../assets/WorkshopImages/EnthuTechnology.png'
 import uipath from '../../../assets/WorkshopImages/uipath.png'
 import Ictacademy from '../../../assets/WorkshopImages/Ictacademy.png'
+import mewLogo from "../../../assets/WorkshopImages/mew logo BLUE.png"
 
 import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
@@ -163,7 +164,7 @@ const workshops = [
     studentCoNo1: "+91 9003344108",
     studentCoNo2: "+91 9025244374",
     companyName: " Mew Technology - Bangalore",
-    companyImg: "",
+    companyImg: mewLogo,
   },
   {
     id: 9,
