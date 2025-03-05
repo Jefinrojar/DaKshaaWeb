@@ -4,52 +4,77 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai&ds.jpg"
-import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai.png"
-import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai2.png"
-import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Ai3.png"
-import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/buildthon.png"
-import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/codathon.png"
-import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.png"
-import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/DESIGNATHON.png"
-import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ELECTROBUZZ.png"
-import Tech10 from "../../../assets/EventsImages/EventDetails/TechnicalImages/figma.png"
-import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ft.png"
-import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/mct.png"
-import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/mech.png"
-import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/pitch.png"
-import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/tex.png"
-import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/eee.png"
-import Tech17 from "../../../assets/EventsImages/EventDetails/TechnicalImages/vlsi.png"
-import Tech18 from "../../../assets/EventsImages/EventDetails/TechnicalImages/Bt.png"
+
+// Rewind & Crack - cse
+// VoltEdge - eee
+// SEMISPARK(PROJECT PRESENTATION) - vlsi
+// Biotech Shark Tank – Pitch Your Idea - Bio tech
+// ROBO SOCCER - MCT
+// Figma Fusion: The UI/UX Design Showdown - CSBS
+// ElectroBuzz - ECE
+// Urban Nourish: Street Food Remix - FT
+// Paper Presentation - mech
+// Designathon - mech
+// WebGenesis (Interactive Web Page Development) - IT
+// codeathon - Aiml
+// Rapid Coding- AIDS
+// Cook with Prompt -AIDS
+// Buildathon - civil
+
+import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSE.png"
+import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EEE.png"
+import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/vlsi.png"
+import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/BIO.png"
+import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.png"
+import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
+import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
+import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.png"
+import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.png"
+import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png"
+import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.png"
+import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.png"
+import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png"
+import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
+import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
+
+// import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EXPO.png"
 
 
-import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.png"
-import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSBS.png"
-import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.png"
+import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.png"
+import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF EEE.png"
+import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF VLSI.png"
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.png"
-import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.png"
-import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.png"
-import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.png"
-import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF EEE.png"
-import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF FOOD TECH.png"
-// import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF IT.png"
-import NonTech11 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.png"
-import NonTech12 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF TEXTILE.png"
-import NonTech13 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF VLSI.png"
+import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.png"
+import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSBS.png"
+import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF FOOD TECH.png"
+import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.png"
+import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.png"
+import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.png"
+import NonTech11 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.png"
+import NonTech12 from "../../../assets/EventsImages/EventDetails/Nontech/Department of InformationTechnology.png"
+import NonTech13 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF TEXTILE.png"
 
 
-import Workshop1 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of EEE - Industry IOT.png"
-import Workshop2 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of Mechatronics - Soaring High.png"
-import Workshop3 from "../../../assets/EventsImages/EventDetails/Workshop/Department Of Textile - Medi Tex.png"
-import Workshop4 from "../../../assets/EventsImages/EventDetails/Workshop/Frame 2.png"
-import Workshop5 from "../../../assets/EventsImages/EventDetails/Workshop/DigitalMarketing.jpg"
-import Workshop6 from "../../../assets/EventsImages/EventDetails/Workshop/CSE.png"
+import Workshop1 from "../../../assets/EventsImages/EventDetails/Workshop/vlsi.png"
+import Workshop2 from "../../../assets/EventsImages/EventDetails/Workshop/it.png"
+import Workshop3 from "../../../assets/EventsImages/EventDetails/Workshop/aids.png"
+import Workshop4 from "../../../assets/EventsImages/EventDetails/Workshop/aiml.png"
+import Workshop5 from "../../../assets/EventsImages/EventDetails/Workshop/csbs.png"
+import Workshop6 from "../../../assets/EventsImages/EventDetails/Workshop/cse.png"
+import Workshop7 from "../../../assets/EventsImages/EventDetails/Workshop/eee.png"
+import Workshop8 from "../../../assets/EventsImages/EventDetails/Workshop/biotech.png"
+import Workshop9 from "../../../assets/EventsImages/EventDetails/Workshop/mechatronics.png"
+import Workshop10 from "../../../assets/EventsImages/EventDetails/Workshop/ece.png"
+import Workshop11 from "../../../assets/EventsImages/EventDetails/Workshop/ft.png"
+import Workshop12 from "../../../assets/EventsImages/EventDetails/Workshop/mech.png"
+import Workshop13 from "../../../assets/EventsImages/EventDetails/Workshop/civil.png"
+import Workshop14 from "../../../assets/EventsImages/EventDetails/Workshop/textile.png"
 
-import Culturals1 from "../../../assets/MUSICAL.png"
-import Culturals2 from "../../../assets/INSTRUMENT.png"
-import Culturals3 from "../../../assets/GROUP.png"
-import Culturals4 from "../../../assets/SOLO DANCE.png"
+
+import Culturals1 from "../../../assets/HORMONICS/MUSICAL.png"
+import Culturals2 from "../../../assets/HORMONICS/INSTRUMENT.png"
+import Culturals3 from "../../../assets/HORMONICS/GROUP.png"
+import Culturals4 from "../../../assets/HORMONICS/SOLO DANCE.png"
 
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL
@@ -60,7 +85,7 @@ const EventDetails = () => {
             title: "Rewind & Crack",
             description:
                 "Rewind & Crack is a reverse coding competition that challenges participants to analyze and reconstruct algorithms. This event tests problem-solving skills, logical thinking, and coding efficiency through three progressive rounds.",
-            image: Tech7,
+            image: Tech1,
             rounds: [
                 {
                     title: "Round 1",
@@ -119,14 +144,14 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/ai-ml-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/rewind-and-crack-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418414", // Registration link
         },
 
         "technical-event-2": {
             title: "VoltEdge",
             description:
                 "This event offers a unique opportunity for participants to showcase their innovative solutions and problem-solving skills.",
-            image: Tech16,
+            image: Tech2,
             rounds: [
                 {
                     title: "Round 1: Qualifier (Basic Problems)",
@@ -176,13 +201,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/voltedge-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418417", // Registration link
         },
         "technical-event-3": {
             title: "SEMISPARK(PROJECT PRESENTATION) ",
             description:
                 "Project Presentation in the fields of IoT (Internet of Things),AI (Artificial Intelligence),Embedded Systems,E-Vehicle and Autonomous Vehicle, VLSI (Very Large Scale Integration), 3D Printing",
-            image: Tech17,
+            image: Tech3,
             rounds: [
                 {
                     title: "Round 1: Qualifier (Basic Problems)",
@@ -249,7 +274,7 @@ const EventDetails = () => {
             title: "Biotech Shark Tank – Pitch Your Idea",
             description:
                 "A biotech startup pitching event where participants present innovative ideas in life sciences.",
-            image: Tech18,
+            image: Tech4,
             rounds: [
                 {
                     title: "Round 1 – Abstract Submission",
@@ -306,13 +331,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/biotech-shark-tank-pitch-your-ideabiohackathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418676", // Registration link
         },
         "technical-event-5": {
             title: "ROBO SOCCER",
             description:
                 "Participants must design a manually controlled robot without using pre-made kits or commercial robots. Each bot must be exclusive to one team and fit within 30 cm x 30 cm x 30 cm (including wheels) with a maximum weight of 7 kg. Control can be wired or wireless, but only one person may operate the bot. Teams must bring their own power supply for wired bots, and all bots must be electrically powered (no IC engines) with a voltage limit of 24V DC. For safety, a manual emergency disconnect switch is mandatory",
-            image: Tech12,
+            image: Tech5,
             rounds: [
                 {
                     title: "Round 1 ",
@@ -364,13 +389,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/robo-soccer-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418434", // Registration link
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
             description:
                 "Participants will design a user interface (UI) and user experience (UX) for a provided project use case using Figma. 	Figma Account: Ensure you have an active Figma account before the event begins. If you don’t have one, sign up for free at figma.com.",
-            image: Tech10,
+            image: Tech6,
             rounds: [
                 {
                     title: "Round 1: Research & Ideation",
@@ -422,13 +447,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418683", // Registration link
         },
         "technical-event-7": {
             title: "ElectroBuzz",
             description:
                 "The event consists of two stages where teams will compete to demonstrate their proficiency in handling electronic components and solving real-world circuit issues. In the first stage, participants will race against time to sort and organize electronic components, while in the second stage, they will diagnose and fix faults in a given circuit. The event encourages teamwork, quick thinking, and technical expertise, with winners being selected based on performance in each stage. The top three teams will be awarded prizes.",
-            image: Tech9,
+            image: Tech7,
             rounds: [
                 {
                     title: "Round 1:",
@@ -488,13 +513,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/electrobuzz-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418672", // Registration link
         },
         "technical-event-8": {
             title: "Urban Nourish: Street Food Remix",
             description:
                 "Revolutionizing Street Food: A Fusion of Nutrition & Flavor This event aims to reinvent street food by integrating health-conscious innovations while maintaining cultural authenticity and taste. The goal is to develop a unique product that enhances nutrition without compromising on flavor.",
-            image: Tech11,
+            image: Tech8,
             rounds: [
                 {
                     title: "Round 1",
@@ -547,61 +572,61 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418430", // Registration link
         },
-        "technical-event-9": {
-            title: "Paper Presentation",
+        // "technical-event-9": {
+        //     title: "Paper Presentation",
 
-            description:
-                "Explore topics like Aerodynamics in Automobiles and Additive Manufacturing in Aerospace Engineering.",
-            image: Tech13,
-            rounds: [
-                {
-                    title: "Paper Presentation",
-                    description: "Paper Presenting",
-                }
-            ],
-            rules: [
-                "Presentations should be in PPT format.",
-                "Papers must be original and unpublished.",
-                "Participants must follow college instructions."
-            ],
-            schedule: [
-                {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Dr. P.S. Sampath",
-                        email: "sampathps@ksrct.ac.in",
-                        phone: "9962116570"
-                    }
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Avinesh G",
-                        email: "avineshavinesh65@gmail.com",
-                        phone: "9361002776"
-                    }
-                ]
-            },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
-        },
+        //     description:
+        //         "Explore topics like Aerodynamics in Automobiles and Additive Manufacturing in Aerospace Engineering.",
+        //     image: Tech9,
+        //     rounds: [
+        //         {
+        //             title: "Paper Presentation",
+        //             description: "Paper Presenting",
+        //         }
+        //     ],
+        //     rules: [
+        //         "Presentations should be in PPT format.",
+        //         "Papers must be original and unpublished.",
+        //         "Participants must follow college instructions."
+        //     ],
+        //     schedule: [
+        //         {
+        //             round: "Round 1",
+        //             date: "May 22, 2025",
+        //             time: "9:00 AM to 11:00 AM",
+        //             location: "Tech Hub, Innovation Center",
+        //         },
+        //         {
+        //             round: "Round 2",
+        //             date: "May 23, 2025",
+        //             time: "1:00 PM to 3:00 PM",
+        //             location: "Tech Hub, Innovation Center",
+        //         },
+        //     ],
+        //     contact: {
+        //         facultyCoordinator: [
+        //             {
+        //                 name: "Dr. P.S. Sampath",
+        //                 email: "sampathps@ksrct.ac.in",
+        //                 phone: "9962116570"
+        //             }
+        //         ],
+        //         studentCoordinator: [
+        //             {
+        //                 name: "Avinesh G",
+        //                 email: "avineshavinesh65@gmail.com",
+        //                 phone: "9361002776"
+        //             }
+        //         ]
+        //     },
+        //     registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+        // },
         "technical-event-10": {
             title: "Designathon",
             description: "A creative design competition where participants transform sketches into 3D models, culminating in real-life product modeling.",
-            image: Tech8,
+            image: Tech9,
             rounds: [
                 { "title": "Round 1", "description": "Participants will work on 2D sketching." },
                 { "title": "Round 2", "description": "Participants will be given a 2D sketch to convert into a 3D model." },
@@ -647,12 +672,12 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/designathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418423", // Registration link
         },
         "technical-event-11": {
             title: "WebGenesis (Interactive Web Page Development)",
             description: "WebGenesis challenges teams of two to showcase their creativity and technical skills by building an interactive web page from scratch. Participants can use HTML, CSS, JavaScript, or frameworks like React, ensuring originality and adherence to UI/UX principles. Pre-made templates are not allowed, and all code must be written from the ground up. The competition will be judged based on functionality, responsiveness, and creativity, emphasizing seamless performance, adaptability across devices, and innovative design. This is your chance to bring ideas to life, craft engaging web experiences, and stand out as a web development innovator.",
-            image: Tech11,
+            image: Tech15,
             rounds: [
                
             ],
@@ -702,10 +727,10 @@ const EventDetails = () => {
             },
             registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
         },
-        "technical-event-12": {
+        "technical-event-13": {
             title: "Rapid Coding",
             description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
-            image: Tech3,
+            image: Tech12,
             rounds: [
                
             ],
@@ -749,12 +774,12 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/electro-buzz-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418418", // Registration link
         },
-        "technical-event-13": {
+        "technical-event-12": {
             title: "Cook with Prompt",
             description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
-            image: Tech2,
+            image: Tech13,
             rounds: [
                
             ],
@@ -796,12 +821,12 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/biotech-shark-tank-pitch-your-ideabiohackathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418425", // Registration link
         },
         "technical-event-14": {
             title: "Codathon",
             description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
-            image: Tech1,
+            image: Tech11,
             rounds: [
                
             ],
@@ -851,14 +876,72 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+            registrationLink: "https://unstop.com/p/codathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418436", // Registration link
         },
+
+        "technical-event-15": {
+            title: "Buildathon",
+            description: "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
+            image: Tech14,
+            rounds: [
+               
+            ],
+            rules: [
+                "Are inter-college team members allowed? Yes",
+                "Are inter-specialization team members allowed? Yes",
+                "The design brief, which will include the task, theme, and specific requirements, will be provided at the start of the Designathon.  Participants must create their design based on the provided brief, focusing on originality and creative solutions",
+                "The design process is limited to a total duration of one hour. Only Google SketchUp can be used to create the design for this competition",
+                "The judging will be based on the following criteria: Creativity, Time Management, Technical Execution, and Adherence to the Design brief. The jury's decision will be final and binding.",
+                "Participation Type: Individual",
+                "Charge per Person/Team: Rs.350",
+                "Any form of plagiarism will lead to disqualification."
+
+            ],
+            schedule: [
+                {
+                    round: "Round 1",
+                    date: "May 22, 2025",
+                    time: "9:00 AM to 11:00 AM",
+                    location: "Tech Hub, Innovation Center",
+                },
+                {
+                    round: "Round 2",
+                    date: "May 23, 2025",
+                    time: "1:00 PM to 3:00 PM",
+                    location: "Tech Hub, Innovation Center",
+                },
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Dr.K.Vijaya Sundravel",
+                        email:"vijayasundravel@ksrct.ac.in",
+                        phone: "9688676665"
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        name: "T.Rithiga",
+                        email:"trithika36@gmail.com ",
+                        phone: "9344868518 "
+                    },
+                    {
+                        name: "S.Sandhiya",
+                        email:"sandiyas704@gmail.comm",
+                        phone: "9659953151"
+                    }
+                ]
+            },
+            registrationLink: "https://unstop.com/p/buildthonultratech-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419334", // Registration link
+        },
+       
+
         // Non-Technical Events
         "non-technical-event-1": {
             title: "trailblazers: The Clue Hunt",
             description:
                 "Trailblazers is an interactive clue hunt event designed to test participants' problem-solving and teamwork skills. Teams will solve riddles, puzzles, and locate QR codes to progress through the challenge.",
-            image: NonTech6,
+            image: NonTech1,
             rounds: [
                 {
                     title: "Round 1",
@@ -906,13 +989,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/trailblazer-the-clue-hunt-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418469", // Registration link
         },
         "non-technical-event-2": {
             title: "Tech-Link Challenge",
             description:
                 "Tech-Link Challenge encourages creative thinking and teamwork to tackle complex challenges in a fun and engaging way.",
-            image: NonTech8,
+            image: NonTech2,
             rounds: [
                 {
                     title: "Round 1",
@@ -967,13 +1050,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/tech-link-challenge-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418532", // Registration link
         },
         "non-technical-event-3": {
             title: "CONNEXION",
             description:
                 "We are delighted to present CONNEXION, a fun and engaging non-tech game that challenges your imagination, observation, and quick thinking. The game consists of three thrilling rounds, where the players connect the clues in the given images to reach the correct conclusion.",
-            image: NonTech13,
+            image: NonTech3,
             rounds: [
                 {
                     title: "Round 1 – Guess Similar Words:",
@@ -1035,7 +1118,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/connexion-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418457", // Registration link
         },
         "non-technical-event-4": {
             title: "Dumb Charades - Act It Out!",
@@ -1101,13 +1184,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/dumcharads-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418539", // Registration link
         },
         "non-technical-event-5": {
             title: "Its Talk Time",
             description:
                 "Two teams face off, taking turns to continue a given sentence within 5 seconds. Each team starts with 3 lives and failing to respond in time or providing an illogical continuation results in losing a life. The game continues until one team loses all three lives and gets eliminated. With pressure mounting and stories taking unexpected turns, teams must stay sharp and work together to keep the narrative flowing. The last team standing wins, proving their mastery of words and quick wit!",
-            image: NonTech1,
+            image: NonTech5,
             rounds: [
                 {
                     title: "Round 1",
@@ -1161,13 +1244,13 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/its-talk-time-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418537", // Registration link
         },
         "non-technical-event-6": {
             title: "SyncX",
             description:
                 "Two teams face off, taking turns to continue a given sentence within 5 seconds. Each team starts with 3 lives and failing to respond in time or providing an illogical continuation results in losing a life. The game continues until one team loses all three lives and gets eliminated. With pressure mounting and stories taking unexpected turns, teams must stay sharp and work together to keep the narrative flowing. The last team standing wins, proving their mastery of words and quick wit!",
-            image: NonTech2,
+            image: NonTech6,
             rounds: [
                 {
                     title: "Round 1",
@@ -1229,13 +1312,13 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/o/GkDu5K7?utm_medium=Share&utm_source=shortUrl", // Registration link
         },
         "non-technical-event-7": {
             title: "A Guess Change",
             description:
                 "Unmasking Brands & Flavors: A Journey Through Corporate Identities & Culinary Secrets This event is designed to challenge participantsknowledge of corporate branding and food recognition through an interactive three-level game. It tests awareness, teamwork, and quick thinking in a fun and engaging way.",
-            image: NonTech9,
+            image: NonTech7,
             rounds: [
                 {
                     title: "Level 1: Logo Guessing Challenge",
@@ -1305,13 +1388,13 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/corporate-crests-a-guess-change-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418495", // Registration link
         },
         "non-technical-event-8": {
             title: "one Click",
             description:
                 "Capture the beauty of our campus and showcase your photography skills in this exciting contest! Post your photo on social media with #ksrct1994 to gain bonus points based on likes. Participants receive certificates, and winners get a cash prize! 📸✨",
-            image: NonTech11,
+            image: NonTech8,
             rounds: [
             ],
             rules: [
@@ -1343,13 +1426,13 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/one-click-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418498", // Registration link
         },
         "non-technical-event-9": {
             title: "404:Meme Overload (Meme creation based on IT scenarios)",
             description:
                 "IT Meme Battle is a fun and creative competition where teams of one or two members create original IT-related memes. Participants can use image + text, GIFs, or even hand-drawn memes for extra creativity. Plagiarized content will lead to disqualification, and all memes must be appropriate and respectful. Submissions must be made within the given time limit. Let your humor and tech knowledge shine in this battle of wit and creativity.",
-            image: NonTech1,
+            image: NonTech12,
             rounds: [
             ],
             rules: [
@@ -1387,13 +1470,13 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/mime-on-chatgpt-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418489", // Registration link
         },
         "non-technical-event-10": {
             title: "Short Film Contest",
             description:
                 "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format. Winners will be judged on creativity, storytelling, and impact! 🎬✨",
-            image: NonTech3,
+            image: NonTech9,
             rounds: [
             ],
             rules: [
@@ -1434,64 +1517,14 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/short-film-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418534", // Registration link
         },
+        
         "non-technical-event-11": {
-            title: "Bike & Car Modification Showcase",
-            description:
-                "This event is a platform for automobile enthusiasts to showcase their customized bikes and cars. Participants will display their creative designs, performance upgrades, and cutting-edge modifications. The event aims to celebrate engineering and artistic skills in vehicle customization.•Free of charge (No registration fee).•	Awards for top performers. •	Certificates for all participants. ",
-            image: NonTech5,
-            rounds: [
-            ],
-            rules: [
-                "Open to all students and automobile enthusiasts.",
-                "Individual participation.",
-                "Yes,inter-college participants are allowed.",
-                "Yes, inter-specialization participants are allowed.",
-                "Only legally compliant modified bikes and cars are allowed.",
-                "Vehicles must be in safe, working condition.",
-                "No reckless behavior (e.g., burnouts, excessive revving)."
-            ],
-            schedule: [
-               
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Mr. S. Insol Rajasekar (AP/CSE(AIML))",
-                        email:": insolrajasekar@ksrct.ac.in",
-                        phone: "8220512436",
-                    },
-
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Jaya Krishana S (III-Year/CSE(AIML))",
-                        email:"jayakrishna0023@gmail.com",
-                        phone: "6380994224",
-
-                    },
-                    {
-                        name: "Ruban B (III-Year/CSE(AIML))",
-                        email:"rubanmusthafa253@gmail.com",
-                        phone: "8144596872",
-
-                    },
-                    {
-                        name: "Dhayaneshwaran S S ",
-                        phone: "8220698518",
-
-                    }
-
-                ],
-            },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
-        },
-        "non-technical-event-12": {
             title: "Mind Maze",
             description:
                 "Mind Maze is an exciting non-technical event that challenges participants to decode hidden clues from images using logic, pattern recognition, and creative thinking. Participants will engage their problem-solving skills to uncover the mystery, aiming to be the first to solve the clue within the time limit.",
-            image: NonTech7,
+            image: NonTech10,
             rounds: [
                 {
                     title: "Single Round",
@@ -1533,7 +1566,99 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/art-exhibition", // Registration link
+            registrationLink: "https://unstop.com/p/mind-maze-decode-the-clue-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419338", // Registration link
+        },
+        "non-technical-event-12": {
+            title: "Waste to Best 2025",
+            description:
+                "This event invites Engineering and Polytechnic students to showcase innovative solutions by transforming waste into creative, functional, or technological models. Participants will present their projects in a 5-7 minute pitch, focusing on creativity, sustainability, and practicality. The competition enhances problem-solving, entrepreneurial skills, and environmental awareness, offering career and networking opportunities in sustainability.",
+            image: NonTech11,
+            rounds: [
+                {
+                    title: "Single Round",
+                    description: [
+                        "Each participant/team will get 5-7 minutes to present their project",
+                        "Craft and Art – Creative decorative items from waste.",
+                        "Utility and Innovation – Functional products from waste.",
+                        "Technology & Science Models – Prototypes for environmental sustainability",
+                    ]
+                },
+            ],
+            rules: [
+                "A poster or short PowerPoint presentation explaining the idea is recommended",
+                "A short demonstration of the product/model is encouraged.",
+                "All work must be original. Plagiarism or copied designs will lead to disqualification.",
+                "The decision of the judges will be final and binding.",
+                "Participants should ensure cleanliness and dispose of leftover waste properly.",
+            ],
+            schedule: [
+               
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Dr.M.Velumani/AP/Civil",
+                        email:"velumani@ksrct.ac.in",
+                        phone: "9787978886",
+                    },
+
+                ],
+                studentCoordinator: [
+                    {
+                        name: "R.K.Aswin",
+                        email:"rkaswin07@gmail.com",
+                        phone: "8148934756",
+
+                    }
+                ],
+            },
+            registrationLink: "https://unstop.com/p/waste-to-best-2025-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419227", // Registration link
+        },
+        "non-technical-event-13": {
+            title: "Glorify the Face with Colours",
+            description:
+                "The Glorify the Face with Colours workshop is an exciting opportunity for students and enthusiasts to explore the art and science of facial aesthetics through color application. This session delves into color theory, skin tone analysis, and the impact of hues on facial appearance, focusing on textile-based cosmetics, fashion coordination, and makeup artistry. Participants will learn how to enhance facial features using the right color palettes, understand psychological effects of colors, and experiment with practical applications. Ideal for those interested in fashion, styling, and personal grooming, this workshop blends creativity with scientific principles for a transformative experience.",
+            image: NonTech13,
+            rounds: [
+                {
+                    title: "Single Round",
+                    description: [
+                        "The Glorify the Face with Colours workshop is an exciting opportunity for students and enthusiasts to explore the art and science of facial aesthetics through color application. ",
+                    ]
+                },
+            ],
+            rules: [
+                "Theme: On the Spot",
+                "Two Participants per Team",
+                "Duration:1 Hr",
+                "Participants have to bring their own colours, brushes etc",
+                "Juries Judgement is Final",
+            ],
+            schedule: [
+               
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Mr.P. Maheswaran AP/Textile ",
+                        phone: "9600589068",
+                    },
+
+                ],
+                studentCoordinator: [
+                    {
+                        name: "V.Sandhiya 2nd year / Textile ",
+                        phone: "6369670394",
+
+                    },
+                    {
+                        name: "S.A.Hariharan 2nd year / Textile",
+                        phone: "7092102427",
+
+                    }
+                ],
+            },
+            registrationLink: "https://unstop.com/p/glorify-the-face-with-colours-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418515", // Registration link
         },
         // Culturals
         "culturals-event-1": {
@@ -1557,7 +1682,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/dance-performance", // Registration link
+            registrationLink: "https://unstop.com/p/mastro-mania-instrument-players-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419211", // Registration link
         },
         "culturals-event-2": {
             title: "Musical Mavericks",
@@ -1580,7 +1705,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/dance-performance", // Registration link
+            registrationLink: "https://unstop.com/p/musical-mavericks-solo-singing-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419209", // Registration link
         },
         "culturals-event-3": {
             title: "Beat Battle",
@@ -1603,12 +1728,12 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/dance-performance", // Registration link
+            registrationLink: "https://unstop.com/p/beat-battle-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419207", // Registration link
         },
         "culturals-event-4": {
-            title: "Hashtag Hilarity",
+            title: "Solo Dancing",
             description:
-                "Meme Creation-Humorous digital content with creativity.",
+                "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
             image: Culturals4,
             contact: {
                 facultyCoordinator: [
@@ -1626,7 +1751,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/dance-performance", // Registration link
+            registrationLink: "https://unstop.com/p/solo-dance-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419213", // Registration link
         },
 
         // Workshop
@@ -1634,7 +1759,7 @@ const EventDetails = () => {
             title: "Design for Testability (DFT) Demystified: The Basics you need to Know",
             description:
                 "Join our workshop to gain a basic understanding of DFT and its importance in the semiconductor industry. Open to UG & PG students from all branches, with mandatory attendance for certification. Participation certificates will be provided to all attendees!",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop1,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1657,13 +1782,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419380", // Registration link
         },
         "workshop-2": {
             title: "Digital Marketing",
             description:
                 "Join our Digital Marketing Workshop to learn from industry experts Mr. Gowdham Subramaniam (Director, Seeka Host India) and Mr. Dinesh Kumar VM (General Manager, ClickDo, UK). Gain insights into digital marketing strategies and industry trends. Don’t miss this opportunity to enhance your marketing skills! 🚀",
-            image: Workshop5,
+            image: Workshop2,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1685,13 +1810,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/digital-marketing-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418394", // Registration link
         },
         "workshop-3": {
             title: "Ui Path Supported Workshop” Robotic Process Automation”",
             description:
                 "Join our UiPath-Supported Workshop on Robotic Process Automation (RPA) led by Mr. M. Senthil, Lead Technical Trainer at ICT Academy, Chennai. Gain hands-on experience in automation tools and techniques to enhance workflow efficiency. Don’t miss this opportunity to elevate your automation skills! 🚀",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop3,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1718,7 +1843,7 @@ const EventDetails = () => {
             title: "AI on Game Developing",
             description:
                 "The AI on Game Developing Workshop, organized by IITM Pravartak Technologies Foundation, is a two-day event designed to introduce participants to the integration of Artificial Intelligence (AI) in game development. This hands-on workshop covers key AI techniques such as pathfinding, decision-making algorithms, and neural networks, enabling participants to create intelligent game characters, optimize game mechanics, and enhance player experience. Open to students, professionals, and AI/game development enthusiasts, no prior experience is required—just a basic understanding of programming is recommended. Inter-specialization teams are welcome, and registration is free! 🚀🎮",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop4,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1742,13 +1867,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/ai-for-game-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418317", // Registration link
         },
         "workshop-5": {
             title: "Unlocking Digital Potential: A Workshop on Modern Marketing",
             description:
                 "Join Unlocking Digital Potential: A Workshop on Modern Marketing led by Mr. M. Ranjith Prasanth, Digital Marketer at Virtuspark Technologies Pvt. Ltd., Erode. Gain insights into the latest digital marketing trends and strategies. Don't miss this opportunity to enhance your marketing skills! 🚀",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop5,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1764,7 +1889,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418389", // Registration link
         },
         "workshop-6": {
             title: "Mobile Application Development By RemitBee India Private Limited - Chennai",
@@ -1788,13 +1913,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/mobile-app-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418399", // Registration link
         },
         "workshop-7": {
             title: "Do Engineering using NI LabVIEW By Mew Technology, Bangalore",
             description:
                 "Participants will learn to create virtual instruments, control hardware, and analyze data. The workshop focuses on practical applications in engineering and control systems. The LabVIEW workshop covers topics like graphical programming, data acquisition, and control systems design. Participants will explore creating virtual instruments, interfacing hardware, and data analysis techniques",
-            image: Workshop1,
+            image: Workshop7,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1818,13 +1943,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/do-engineering-using-ni-labview-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418405", // Registration link
         },
         "workshop-8": {
             title: "Next Generation Sequencing technologies in Health Care By Genotypic Technology, Bengaluru",
             description:
                 "An interactive workshop providing hands-on experience and insights into cutting-edge sequencing technologies.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop8,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1865,13 +1990,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419204", // Registration link
         },
         "workshop-9": {
             title: "Soaring High: Hands-on Drone Building and Flight workshop By Garuda Aerospace",
             description:
                 "Join our Hands-on Drone Building and Flight Workshop and experience the thrill of creating and flying your own drone! This interactive session covers drone assembly, aerodynamics, and real-world applications, giving you practical insights into UAV technology. With expert guidance, you'll build your drone from scratch and take it for a test flight, mastering essential piloting skills. Whether you're a beginner or a tech enthusiast, this workshop will elevate your knowledge and take you to new heights!",
-            image: Workshop2,
+            image: Workshop9,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1894,13 +2019,13 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/buildthonultratech-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419226", // Registration link
         },
         "workshop-10": {
             title: "Industry IoT using LoRaWAN Technology By Enthu Technology Solutions India Pvt Ltd",
             description:
                 "Workshop delves into LoRaWAN technology and its role in Industrial IoT (IIoT), enabling long-range, low-power wireless communication for various applications. Participants will gain insights into LoRaWAN architecture, device communication, network deployment, and security protocols. The workshop will cover smart manufacturing, asset tracking, environmental monitoring, and predictive maintenance, with hands-on sessions and real-world case studies to equip attendees with practical skills for implementing IoT solutions in industrial automation and efficiency.",
-            image: Workshop1,
+            image: Workshop10,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1924,13 +2049,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419339", // Registration link
         },
         "workshop-11": {
             title: "Millet Fiesta: From Farm To Fork By Technical  Director Dr. P. Sathiyamoorthy ,Moon Foods",
             description:
                 "'Value Addition in Millet': Millets are highly nutritious, climate-resilient grains that offer immense potential for health benefits and economic growth. This workshop aims to explore innovative ways to enhance the value of millets through processing, product development, and marketing strategies.",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop11,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1955,13 +2080,13 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419228", // Registration link
         },
         "workshop-12": {
             title: "Design and development of automotive Product By Mr.K.Santhosh Kumar, Support Manger, Macro Technology Pvt Ltd, Erode.",
             description:
                 "The Design and Development of Automotive Products is a comprehensive process that combines innovation, engineering, and cutting-edge technology to create high-performance vehicles and components. From conceptualization and prototyping to testing and manufacturing, this process ensures safety, efficiency, and sustainability in automotive solutions. Engineers and designers work collaboratively to optimize aerodynamics, materials, and electronic systems, integrating advanced technologies like AI, IoT, and automation. Whether developing electric vehicles, smart mobility solutions, or high-performance car components, this field plays a crucial role in shaping the future of transportation. ",
-            image: "https://images.unsplash.com/photo-1739609579483-00b49437cc45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: Workshop12,
             contact: {
                 facultyCoordinator: [
                     {
@@ -1977,7 +2102,64 @@ const EventDetails = () => {
                     },                    
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418360", // Registration link
+        },
+        "workshop-13": {
+            title: "Building Information Modeling (BIM) By ICT Academy, Chennai, Tamil Nadu",
+            description:
+                "The Building Information Modeling (BIM) workshop aims to introduce participants to the fundamentals of BIM technology and its applications in the construction industry. Participants will gain hands-on experience with BIM software tools and learn how to effectively utilize BIM for project planning, design, construction, and management. The Workshop “BIM in structural Design Development’ focused on enhancing architectural design skills through hands-on activities and software training. Participants utilized BIM Revit Architecture software to create 3D plans, elevations, and views. The workshop featured a building plan as exercise and emphasized innovation and creativity in design solutions. Mentors provided guidance and feedback throughout the workshop to refine participants, architectural concepts. Overall, the Workshop inspired participants to push the boundaries of architectural design and pursue excellence in their craft.",
+            image: Workshop13,
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Dr. S. Gunasekar",
+                        email: "gunasekar@ksrct.ac.in",
+                        phone: "9976876238",
+                    }
+                ],
+                studentCoordinator: [
+                    {
+                        name: "B. Susimitha",
+                        email: "bsusimitha18@gmail.com",
+                        phone: "6374735128",                       
+                    },                    
+                    {
+                        name: "S. Suja",
+                        email: "sujavishalini234@gmail.com",
+                        phone: "9500534225",                       
+                    },                    
+                ],
+            },
+            registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaa-t25-ksrangasamy-college-of-technology-1419222", // Registration link
+        },
+        "workshop-14": {
+            title: "Medi Tex By Mr.T.Sureshram, Proprietor Care 4 U India Pvt, Ltd.,Tirupur",
+            description:
+                "The Medi-Tex Workshop is a valuable opportunity for students, researchers, and professionals in textile technology to explore advancements in medical textiles. This workshop will cover key topics such as smart textiles for healthcare, antibacterial fabrics, wound care materials, compression garments, and innovations in bio-textiles. Experts from the industry and academia will provide insights into material selection, fabrication techniques, and applications in medical fields. Participants will gain hands-on experience, engage in discussions on sustainability and regulations, and network with professionals. This workshop is ideal for those looking to enhance their knowledge and explore career opportunities in the growing field of medical textiles.",
+            image: Workshop14,
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Dr.K.R.Nanadagopal AP/Textile ",
+                        phone: "9003436705",
+                    },
+                    {
+                        name: "Mr.G.Devanand, AP / Textile",
+                        phone: "9952841869",
+                    }
+                ],
+                studentCoordinator: [
+                    {
+                        name: "Akshaya , 3rd  /Textile ",
+                        phone: "7871969769",                       
+                    },                    
+                    {
+                        name: "R.Hiruthik , 2nd /Textile ",
+                        phone: "9965227394",                       
+                    },                    
+                ],
+            },
+            registrationLink: "https://unstop.com/p/medi-tex-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419223", // Registration link
         },
     };
     
