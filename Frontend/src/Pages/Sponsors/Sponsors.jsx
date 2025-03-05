@@ -74,7 +74,7 @@ function Sponsors() {
               initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
               animate={cardEntryAnimation(index)}
               whileHover={{ scale: 1.15, rotateY: 5 }}
-              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
+              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-orange-400 shadow-orange-500"
             >
               <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Partner ${index + 1}`} />
             </motion.div>
@@ -92,7 +92,7 @@ function Sponsors() {
               initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
               animate={cardEntryAnimation(index)}
               whileHover={{ scale: 1.15, rotateY: 5 }}
-              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
+              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-orange-400 shadow-orange-500"
             >
               <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Register Partner ${index + 1}`} />
             </motion.div>
@@ -110,7 +110,7 @@ function Sponsors() {
               initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
               animate={cardEntryAnimation(index)}
               whileHover={{ scale: 1.15, rotateY: 5 }}
-              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
+              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-orange-400 shadow-orange-500"
             >
               <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Co-Partner ${index + 1}`} />
             </motion.div>
