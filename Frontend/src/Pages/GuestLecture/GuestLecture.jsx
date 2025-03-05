@@ -14,7 +14,7 @@ const GuestLecture = () => {
     {
       lectures: [
         {
-          name: "Building & Mechanical Science",
+          name: "National Conference on Innovations in Science",
           // title: "Founder of Thyrocare Technologies Ltd",
           description: "The School of Building & Mechanical Sciences at KSRCT focuses on engineering excellence, innovation, and hands-on learning in mechanical, mechatronics, and civil engineering. It offers state-of-the-art facilities, an industry-driven curriculum, and advanced research opportunities. Mechanical engineering emphasizes design, manufacturing, robotics, and aerospace; mechatronics integrates mechanical, electronics, and computing for AI-driven automation and Industry 4.0; civil engineering specializes in sustainable infrastructure and smart cities. With cutting-edge labs, strong industry partnerships, and a practical learning approach, KSRCT ensures students excel in automotive, aerospace, robotics, and construction sectors, preparing them for global career opportunities.",
           image: mech,
@@ -24,7 +24,7 @@ const GuestLecture = () => {
     {
       lectures: [
         {
-          name: "Life Science",
+          name: "Technology",
           // title: "CEO of Alphabet & Google",
           image: is,
         },
@@ -33,7 +33,7 @@ const GuestLecture = () => {
     {
       lectures: [
         {
-          name: "Electrical Sciences",
+          name: "Engineering",
           // title: "Former President of India",
           image: els,
         },
@@ -42,7 +42,7 @@ const GuestLecture = () => {
     {
       lectures: [
         {
-          name: "Computer Sciences",
+          name: "Mathematics (NCISTEM)",
           // title: "CEO of Tesla & SpaceX",
           image: cs,
         },
