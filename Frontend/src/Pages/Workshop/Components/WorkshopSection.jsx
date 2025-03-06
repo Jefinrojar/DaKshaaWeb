@@ -16,6 +16,8 @@ import EnthuTechnology from '../../../assets/WorkshopImages/EnthuTechnology.png'
 import uipath from '../../../assets/WorkshopImages/uipath.png'
 import Ictacademy from '../../../assets/WorkshopImages/Ictacademy.png'
 import mewLogo from "../../../assets/WorkshopImages/mew logo BLUE.png"
+import bt from "../../../assets/WorkshopImages/BT.png"
+
 
 import Photo1 from "../../../assets/workshop_card/Ai.jpg";
 import Photo2 from "../../../assets/workshop_card/Aiml.jpg";
@@ -86,7 +88,7 @@ const workshops = [
     studentCoNo3: "+91 8807076569",
     studentCoNo4: "+91 7010347812",
     companyName: "Genotypic Technology - Bengaluru",
-    companyImg: ""
+    companyImg: bt
   },
   {
     id: 4,
