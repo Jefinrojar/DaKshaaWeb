@@ -35,7 +35,7 @@ import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AI
 import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.png"
 import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png"
 import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
-import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
+import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
 
 // import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EXPO.png"
 
@@ -934,6 +934,58 @@ const EventDetails = () => {
             },
             registrationLink: "https://unstop.com/p/buildthonultratech-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419334", // Registration link
         },
+        "technical-event-16": {
+            title: "Eye on Pick Glass",
+            description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
+            image: Tech16,
+            rounds: [
+               
+            ],
+            rules: [
+                "Only one participant",
+                "Have to detect the given fabric",
+                "Counting glass will be provided and has to be returned Safely",
+                "Duration:15 Minutes",
+                "Juries Judgement is Final."
+
+            ],
+            schedule: [
+                {
+                    round: "",
+                    date: "",
+                    time: "",
+                    location: "",
+                },
+                {
+                    round: "",
+                    date: "",
+                    time: "",
+                    location: "",
+                },
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Mr.M.Arunkumar ",
+                        email:"arunkumar@ksrct.ac.in",
+                        phone: "8056989930"
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        name: "A.V. Raghavendhar ",
+                        email:"a.v.raghavendhar516@gmail.com",
+                        phone: "8778239221"
+                    },
+                    {
+                        name: "K.Harini ",
+                        email:"mailto:harinikumar25102005@gmail.com",
+                        phone: "8667393828"
+                    }
+                ]
+            },
+            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418433", // Registration link
+        },
        
 
         // Non-Technical Events
@@ -1641,6 +1693,7 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr.P. Maheswaran AP/Textile ",
+                        email:"pmaheswaran@ksrct.ac.in",
                         phone: "9600589068",
                     },
 
@@ -1648,11 +1701,13 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "V.Sandhiya 2nd year / Textile ",
+                        email:"sandhiya07082006@gmail.com",
                         phone: "6369670394",
 
                     },
                     {
                         name: "S.A.Hariharan 2nd year / Textile",
+                        email:"harihraran18@gmail.com",
                         phone: "7092102427",
 
                     }
@@ -2141,20 +2196,24 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Dr.K.R.Nanadagopal AP/Textile ",
+                        email:"",
                         phone: "9003436705",
                     },
                     {
                         name: "Mr.G.Devanand, AP / Textile",
+                        email:"devanandg@ksrct.ac.in ",
                         phone: "9952841869",
                     }
                 ],
                 studentCoordinator: [
                     {
                         name: "Akshaya , 3rd  /Textile ",
+                        email:"akshayasrini007@gmail.com",
                         phone: "7871969769",                       
                     },                    
                     {
                         name: "R.Hiruthik , 2nd /Textile ",
+                        email:"hiruthik4463@gmail.com",
                         phone: "9965227394",                       
                     },                    
                 ],
