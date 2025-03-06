@@ -127,6 +127,12 @@ const Navbar = () => {
                       >
                         Hormonics
                       </li>
+                      <li
+                        className="px-4 py-2 hover:bg-sky-700"
+                        onClick={() => handleLinkClick("Hackathon", "/events/hackathon")}
+                      >
+                        Hackathon
+                      </li>
                     </ul>
                   )}
                 </li>

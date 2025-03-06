@@ -1,8 +1,8 @@
 import React from 'react'
-
+import AccommodationDetails from './Components/AccomodationDetails'
 function Accomodation() {
   return (
-    <div>Accomodation</div>
+    <AccommodationDetails/>
   )
 }
 
