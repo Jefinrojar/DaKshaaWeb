@@ -210,8 +210,12 @@ const EventDetails = () => {
             image: Tech3,
             rounds: [
                 {
-                    title: "Round 1: Qualifier (Basic Problems)",
-                    description: "Each team will have 10 minutes to present their project",
+                    title: "Round 1",
+                    description: "Each team will have to explain their project",
+                },
+                {
+                    title: "Round 2",
+                    description: "The selected projects should be presented for atmost 10 minutes",
                 },
             ],
             rules: [
@@ -224,23 +228,25 @@ const EventDetails = () => {
                 "Winner Prize Amount is Rs. 1000 will be awarded to the winning team",
                 "Presentation Structure:",
                 "1.	Title Slide: Include the project title, team name, team members' names, institution/company and date.",
-                "2.	Title Slide: Include the project title, team name, team members' names, institution/company and date.",
-                "3. Methodology: Describe the approach, tools and techniques used.",
-                "4.	Results & Findings: Present key data, graphs and observations.",
-                "5. Conclusion & Future Work: Summarize key takeaways and propose future improvements.",
-                "6.	References: List sources and citations used in the project.",
-                "7.	Q&A Slide: Be prepared for audience questions."
+                "2. Methodology: Describe the approach, tools and techniques used.",
+                "3.	Results & Findings: Present key data, graphs and observations.",
+                "4. Conclusion & Future Work: Summarize key takeaways and propose future improvements.",
+                "5.	References: List sources and citations used in the project.",
+                "6.	Q&A Slide: Be prepared for audience questions.",
+                "Submission Requirements:",
+                "The hardware be demonstrated as part of the submission. (if applicable)",
+                "Two copies of the Powerpoint presentation be submitted to the Student Coordinators."
             ],
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 22, 2025",
+                    date: "March 21, 2025",
                     time: "9:00 AM to 11:00 AM",
                     location: "Tech Hub, Innovation Center",
                 },
                 {
                     round: "Round 2",
-                    date: "May 23, 2025",
+                    date: "March 21, 2025",
                     time: "1:00 PM to 3:00 PM",
                     location: "Tech Hub, Innovation Center",
                 },
@@ -249,7 +255,7 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mrs. C. Saranya ",
-                        phone: "Mrs. C. Saranya ",
+                        phone: "9994588990",
                     },
                     {
                         name: "Mr. D. Poornakumar",
@@ -349,6 +355,7 @@ const EventDetails = () => {
                 "Arena size – 10 x 8 feet",
                 "Each match is given a time of 2-4 minutes based on number of teams registered.",
                 "Each match has two halves",
+                "Kindly bring your own laptop and use your personal internet connection for the session",
                 "Change of battery will not be allowed during the match",
                 "The team with higher goals is considered winner of that match",
                 "Intentional ramming of opponent bot is considered penalty.",
@@ -366,25 +373,26 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs. V. Indumathi",
-                        email: "indumathi@ksrct.ac.in",
-                        phone: "9965137001",
+                        name: "Mr. R. Karthik",
+                        email: "karthikr@ksrct.ac.in",
+                        phone: "9965010204",
                     },
-                    {
-                        name: "Dr. M. Sasikumar",
-                        email: "sasikumarm@ksrct.ac.in",
-                        phone: "9965167895",
-                    },
+       
                 ],
                 studentCoordinator: [
                     {
-                        name: "Gokkarneashvarnath V",
-                        email: "gokkarmct@gmail.com",
-                        phone: "9444177711",
+                        name: "Dhanush Kumar S",
+                        email: "dk255767@gmail.com",
+                        phone: "7502218281",
+                    },
+                    {
+                        name: "Gokulnath M",
+                        email: "mohangokul4469@gmail.com",
+                        phone: "9944389099",
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/robo-soccer-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418434", // Registration link
+            registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420145", // Registration link
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
@@ -569,55 +577,55 @@ const EventDetails = () => {
             },
             registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418430", // Registration link
         },
-        // "technical-event-9": {
-        //     title: "Paper Presentation",
+        "technical-event-9": {
+            title: "Paper Presentation",
 
-        //     description:
-        //         "Explore topics like Aerodynamics in Automobiles and Additive Manufacturing in Aerospace Engineering.",
-        //     image: Tech9,
-        //     rounds: [
-        //         {
-        //             title: "Paper Presentation",
-        //             description: "Paper Presenting",
-        //         }
-        //     ],
-        //     rules: [
-        //         "Presentations should be in PPT format.",
-        //         "Papers must be original and unpublished.",
-        //         "Participants must follow college instructions."
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Round 1",
-        //             date: "May 22, 2025",
-        //             time: "9:00 AM to 11:00 AM",
-        //             location: "Tech Hub, Innovation Center",
-        //         },
-        //         {
-        //             round: "Round 2",
-        //             date: "May 23, 2025",
-        //             time: "1:00 PM to 3:00 PM",
-        //             location: "Tech Hub, Innovation Center",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 name: "Dr. P.S. Sampath",
-        //                 email: "sampathps@ksrct.ac.in",
-        //                 phone: "9962116570"
-        //             }
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 name: "Avinesh G",
-        //                 email: "avineshavinesh65@gmail.com",
-        //                 phone: "9361002776"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
-        // },
+            description:
+                "Explore topics like Aerodynamics in Automobiles and Additive Manufacturing in Aerospace Engineering.",
+            image: Tech9,
+            rounds: [
+                {
+                    title: "Paper Presentation",
+                    description: "Paper Presenting",
+                }
+            ],
+            rules: [
+                "Presentations should be in PPT format.",
+                "Papers must be original and unpublished.",
+                "Participants must follow college instructions."
+            ],
+            schedule: [
+                {
+                    round: "Round 1",
+                    date: "May 22, 2025",
+                    time: "9:00 AM to 11:00 AM",
+                    location: "Tech Hub, Innovation Center",
+                },
+                {
+                    round: "Round 2",
+                    date: "May 23, 2025",
+                    time: "1:00 PM to 3:00 PM",
+                    location: "Tech Hub, Innovation Center",
+                },
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Dr. P.S. Sampath",
+                        email: "sampathps@ksrct.ac.in",
+                        phone: "9962116570"
+                    }
+                ],
+                studentCoordinator: [
+                    {
+                        name: "Avinesh G",
+                        email: "avineshavinesh65@gmail.com",
+                        phone: "9361002776"
+                    }
+                ]
+            },
+            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
+        },
         "technical-event-10": {
             title: "Designathon",
             description: "A creative design competition where participants transform sketches into 3D models, culminating in real-life product modeling.",
@@ -1101,17 +1109,22 @@ const EventDetails = () => {
                 {
                     title: "Round 1 – Guess Similar Words:",
                     description:
-                        "Participants will present their artwork to the judges.",
+                        "Image will be shown to the team player they have to identify the represent a word or phrase by correlating the images within 30 seconds",
                 },
                 {
                     title: "Round 2 – Guess the Movie Name: ",
                     description:
-                        "Finalists will create a new piece of art on the spot.",
+                        "Clue images will be given to the team. They have to connect the clue image and identify the movie name correctly within 40 seconds.",
                 },
                 {
                     title: "Round 3 – Guess the Song:",
                     description:
-                        "Round 3 – Guess the Song:",
+                        "Prepare the challenge your music knowledge here clue images will be shown, providing clues for the popular song. Contestants should identify the song within a minute.",
+                },
+                {
+                    title: "All the Movie names, Songs and Words are tamil.",
+                    description:
+                        "",
                 },
             ],
             rules: [
@@ -1125,13 +1138,19 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 24, 2025",
+                    date: "March 21, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
                 {
                     round: "Round 2",
-                    date: "May 25, 2025",
+                    date: "March 21, 2025",
+                    time: "2:00 PM to 4:00 PM",
+                    location: "Art Gallery, Creative Center",
+                },
+                {
+                    round: "Round 3",
+                    date: "March 21, 2025",
                     time: "2:00 PM to 4:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
@@ -1821,7 +1840,7 @@ const EventDetails = () => {
                         phone: "8270278279",
                     },
                     {
-                        name: "Aishvareiya V , Second Year EE (VLSI D&T)",
+                        name: "Aishvarieya V , Second Year EE (VLSI D&T)",
                         phone: "6374684519",
                     },
                 ],
@@ -1881,7 +1900,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://example.com/register/robotics-workshop", // Registration link
+            registrationLink: "https://unstop.com/p/robotic-process-automation-rpa-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418385", // Registration link
         },
         "workshop-4": {
             title: "AI on Game Developing",
@@ -1921,15 +1940,16 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                       
+                        name: "Mr. P. Venkatesh",
+                        email:"venkateshp@ksrct.ac.in",
+                        phone: "8903366916",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        
-                    },
-                    {
-                       
+                        name: "Mohanakumaran K",
+                        email:"mohanakumaran2004@gmail.com",
+                        phone: "8838401078",
                     },
                 ],
             },
@@ -1960,7 +1980,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/mobile-app-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418399", // Registration link
         },
         "workshop-7": {
-            title: "Do Engineering using NI LabVIEW By Mew Technology, Bangalore",
+            title: "Do Engineering using NI Lab VIEW By Mew Technology, Bangalore",
             description:
                 "Participants will learn to create virtual instruments, control hardware, and analyze data. The workshop focuses on practical applications in engineering and control systems. The LabVIEW workshop covers topics like graphical programming, data acquisition, and control systems design. Participants will explore creating virtual instruments, interfacing hardware, and data analysis techniques",
             image: Workshop7,
@@ -2185,7 +2205,7 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Dr.K.R.Nanadagopal AP/Textile ",
-                        email:"",
+                        email:"nandagopakr@ksrct.ac.in",
                         phone: "9003436705",
                     },
                     {

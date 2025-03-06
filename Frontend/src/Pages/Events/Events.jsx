@@ -131,6 +131,10 @@ const Events = () => {
           eventId: "technical-event-15",
         },
         {
+          image: Tech15,
+          eventId: "technical-event-9",
+        },
+        {
           image: Tech16,
           eventId: "technical-event-16",
         },
