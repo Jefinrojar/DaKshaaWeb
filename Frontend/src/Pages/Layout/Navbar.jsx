@@ -18,6 +18,7 @@ const Navbar = () => {
     if (path === "/sponsors") return "Sponsors";
     if (path === "/contact") return "Contact";
     if (path === "/startups") return "Startups";
+    if (path === "/accomodation") return "Accomodation";
 
     return "Home";
   };
@@ -134,7 +135,7 @@ const Navbar = () => {
                   className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Startups" ? "active" : ""}`}
                   onClick={() => handleLinkClick("Startups", "/startups")}
                 >
-                  Startups
+                  Idea&nbsp;Pitching
                 </li>
 
                 <li
@@ -142,6 +143,13 @@ const Navbar = () => {
                   onClick={() => handleLinkClick("Sponsors", "/sponsors")}
                 >
                   Sponsors
+                </li>
+
+                <li
+                  className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Accomodation" ? "active" : ""}`}
+                  onClick={() => handleLinkClick("Accomodation", "/accomodation")}
+                >
+                  Accomodation
                 </li>
 
                 <li

@@ -355,7 +355,6 @@ const EventDetails = () => {
                 "Arena size – 10 x 8 feet",
                 "Each match is given a time of 2-4 minutes based on number of teams registered.",
                 "Each match has two halves",
-                "Kindly bring your own laptop and use your personal internet connection for the session",
                 "Change of battery will not be allowed during the match",
                 "The team with higher goals is considered winner of that match",
                 "Intentional ramming of opponent bot is considered penalty.",
@@ -392,7 +391,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420145", // Registration link
+            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
@@ -412,6 +411,7 @@ const EventDetails = () => {
             rules: [
                 "Participants must submit a Figma file with their design at the end of each round.",
                 "Ensure that all files are well-organized and clearly named.",
+                "Kindly bring your own laptop and use your personal internet connection for the session",
                 "All designs must be original. Any form of plagiarism or copying of existing designs will lead to disqualification.",
                 "Participants may use assets (icons, images, fonts) from free online resources, but they must be properly attributed if necessary.",
             ],
@@ -432,21 +432,22 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs. V. Indhumathi",
-                        email: "indhumathi@ksrct.ac.in",
-                        phone: "9965137001",
+                        name: "Mr. R. Karthik",
+                        email: "karthikr@ksrct.ac.in",
+                        phone: "9965010204",
                     },
-                    {
-                        name: "Dr. M. Sasikumar",
-                        email: "sasikumarm@ksrct.ac.in",
-                        phone: "9965167895",
-                    },
+                    
                 ],
                 studentCoordinator: [
                     {
-                        name: "Gokkarneashvarnath V",
-                        email: "gokkarmct@gmail.com",
-                        phone: "9444177711",
+                        name: "Dhanush Kumar S",
+                        email: "dk255767@gmail.com",
+                        phone: "7502218281",
+                    },
+                    {
+                        name: "Gokulnath M",
+                        email: "mohangokul4469@gmail.com",
+                        phone: "9944389099",
                     },
                 ],
             },
