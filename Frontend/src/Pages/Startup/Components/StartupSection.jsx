@@ -6,7 +6,10 @@ import "aos/dist/aos.css";
 import startuptn from "../../../assets/startup/startuptn.jpg";
 
 function StartupSection() {
-  const title = "Startups";
+  const title1 = "Idea";
+  const title2 = "Elevator";
+  const title3 = "Pitching";
+  const title4 = "Contest";
 
   useEffect(() => {
     AOS.init({ duration: 1000 }); // Initialize AOS for other animations
@@ -27,14 +30,44 @@ function StartupSection() {
       variants={containerVariants}
     >
       <h1
-        className="text-center font-bold text-white md:text-5xl text-3xl mt-0 md:mt-8"
+        className="text-center font-bold text-white md:text-4xl text-3xl mt-0 md:mt-8"
         data-aos="fade-down" // AOS animation for the title
       >
-        {title.split("").map((char, index) => (
+        {title1.split("").map((char, index) => (
           <motion.span
             key={index}
             style={{ display: "inline-block" }}
-            animate={{ y: [0, -10, 0] }}
+            animate={{ y: [0, -5, 0] }}
+            transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+          >
+            {char}
+          </motion.span>
+        ))}&nbsp;
+        {title2.split("").map((char, index) => (
+          <motion.span
+            key={index}
+            style={{ display: "inline-block" }}
+            animate={{ y: [0, -5, 0] }}
+            transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+          >
+            {char}
+          </motion.span>
+        ))}&nbsp;
+        {title3.split("").map((char, index) => (
+          <motion.span
+            key={index}
+            style={{ display: "inline-block" }}
+            animate={{ y: [0, -5, 0] }}
+            transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
+          >
+            {char}
+          </motion.span>
+        ))}&nbsp;
+        {title4.split("").map((char, index) => (
+          <motion.span
+            key={index}
+            style={{ display: "inline-block" }}
+            animate={{ y: [0, -5, 0] }}
             transition={{ repeat: Infinity, duration: 2, delay: index * 0.1 }}
           >
             {char}

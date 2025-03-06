@@ -16,6 +16,7 @@ import Harmonics from "./Pages/Harmonics/Harmonics";
 import EventDetails from "./Pages/Events/EventDetails/EventDetails";
 import Teams from "./Pages/Teams/Teams";
 import Startup from "./Pages/Startup/Startup";
+import Accomodation from "./Pages/Accomodation/Accomodation";
 
 function App() {
   
@@ -41,6 +42,7 @@ function App() {
         <Route path="/event/:eventId" element={<EventDetails />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/startups" element={<Startup />} />
+        <Route path="/accomodation" element={<Accomodation />} />
       </Routes>
       <Footer/>
     </Router>
