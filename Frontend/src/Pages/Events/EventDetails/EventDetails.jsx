@@ -947,16 +947,11 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "",
-                    date: "",
-                    time: "",
-                    location: "",
+                    date: "March 22, 2025",
+                    time: "9:30AM -10:30AM",
+                    location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
                 },
-                {
-                    round: "",
-                    date: "",
-                    time: "",
-                    location: "",
-                },
+               
             ],
             contact: {
                 facultyCoordinator: [
@@ -1677,7 +1672,13 @@ const EventDetails = () => {
                 "Juries Judgement is Final",
             ],
             schedule: [
-               
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+ 
             ],
             contact: {
                 facultyCoordinator: [
