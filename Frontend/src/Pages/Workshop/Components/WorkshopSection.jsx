@@ -51,7 +51,7 @@ const workshops = [
     studentCoNo2: "+91 9080191925",
     companyName: "Ui Path",
     companyImg: uipath,
-    registrationLink: "https://unstop.com/p/robotic-process-automation-rpa-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418385",
+    registrationLink: "https://unstop.com/p/robotic-process-automation-rpa-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420161",
   },
   {
     id: 2,
@@ -67,7 +67,7 @@ const workshops = [
     studentCoNo2: "+91 9629729009",
     companyName: "IITM Pravartak Technologies Foundation",
     companyImg: Pravartak,
-    registrationLink: "https://unstop.com/p/ai-for-game-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418317",
+    registrationLink: "https://unstop.com/p/ai-on-game-development-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420117",
   },
   {
     id: 3,
@@ -89,7 +89,7 @@ const workshops = [
     studentCoNo4: "+91 7010347812",
     companyName: "Genotypic Technology - Bengaluru",
     companyImg: bt,
-    registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419204",
+    registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420259",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Ictacademy",
     companyImg: Ictacademy,
-    registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaa-t25-ksrangasamy-college-of-technology-1419222",
+    registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420174",
   },
   {
     id: 5,
@@ -125,7 +125,7 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Virtuospark",
     companyImg: virtuospark,
-    registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418389",
+    registrationLink: "https://unstop.com/p/unlocking-digital-potential-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420181",
   },
   {
     id: 6,
@@ -140,7 +140,7 @@ const workshops = [
     studentCoNo1: "+91 6369548280",
     companyName: "RemitBee India Private Limited - Chennai",
     companyImg: Cokupa,
-    registrationLink: "https://unstop.com/p/mobile-app-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418399",
+    registrationLink: "https://unstop.com/p/mobile-app-development-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420185",
   },
   {
     id: 7,
@@ -157,7 +157,7 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Enthu Technology Solutions India Pvt Ltd",
     companyImg: EnthuTechnology,
-    registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419339",
+    registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420136",
   },
   {
     id: 8,
@@ -173,7 +173,7 @@ const workshops = [
     studentCoNo2: "+91 9025244374",
     companyName: " Mew Technology - Bangalore",
     companyImg: mewLogo,
-    registrationLink: "https://unstop.com/p/do-engineering-using-ni-labview-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418405",
+    registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420207",
   },
   {
     id: 9,
@@ -191,7 +191,7 @@ const workshops = [
     studentCoNo3: "+91 73058 44895",
     companyName: "E-MILLET PRODUCTS",
     companyImg: millet,
-    registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419228",
+    registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420158",
   },
   {
     id: 10,
@@ -207,7 +207,7 @@ const workshops = [
     studentCoNo2: "+91 99426 51212",
     companyName: "Seeka Host India",
     companyImg: seeka,
-    registrationLink: "https://unstop.com/p/digital-marketing-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418394",
+    registrationLink: "https://unstop.com/p/digital-marketing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420209",
   },
   {
     id: 11,
@@ -223,7 +223,7 @@ const workshops = [
     studentCoNo1: "+91 9442727410",
     companyName: "Garuda Aerospace",
     companyImg: garuda,
-    registrationLink: "https://unstop.com/p/buildthonultratech-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419226",
+    registrationLink: "https://unstop.com/p/soaring-high-hands-on-drone-building-and-flight-workshop-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420148",
   },
   {
     id: 12,
@@ -238,7 +238,7 @@ const workshops = [
     studentCoNo1: "+91 8012439250",
     companyName: "Macbro Institute of Technology",
     companyImg: macro,
-    registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418360",
+    registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420128",
   },
   {
     id: 13,
@@ -258,7 +258,7 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Care 4 U India Pvt, Ltd",
     companyImg: TXT,
-    registrationLink: "https://unstop.com/p/medi-tex-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419223",
+    registrationLink: "https://unstop.com/p/medi-tex-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420143",
   },
   {
     id: 14,
@@ -276,7 +276,7 @@ const workshops = [
     studentCoNo2: "+91 63746 84519",
     companyName: "DFT Training Institute Private Limited",
     companyImg: dftt,
-    registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419380",
+    registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420202",
   },
 ];
 
