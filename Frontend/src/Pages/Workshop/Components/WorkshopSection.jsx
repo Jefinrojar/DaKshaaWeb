@@ -51,8 +51,7 @@ const workshops = [
     studentCoNo2: "+91 9080191925",
     companyName: "Ui Path",
     companyImg: uipath,
-
-    
+    registrationLink: "https://unstop.com/p/robotic-process-automation-rpa-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418385",
   },
   {
     id: 2,
@@ -67,14 +66,15 @@ const workshops = [
     studentCoNo1: "+91 8438878063",
     studentCoNo2: "+91 9629729009",
     companyName: "IITM Pravartak Technologies Foundation",
-    companyImg: Pravartak
+    companyImg: Pravartak,
+    registrationLink: "https://unstop.com/p/ai-for-game-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418317",
   },
   {
     id: 3,
     img: Photo3,
     department: "Bio-Technology",
     dept: "Department of BT",
-    title: "Next Generation Sequencing (NGS)",
+    title: "Next Generation Sequencing in Health care (NGS)",
     facultyCo: " Dr. Puniethaa Prabhu",
     facultyCoNo: "+91 9080195801",
     facultyCo1: " Dr. Sidhra S",
@@ -88,7 +88,8 @@ const workshops = [
     studentCoNo3: "+91 8807076569",
     studentCoNo4: "+91 7010347812",
     companyName: "Genotypic Technology - Bengaluru",
-    companyImg: bt
+    companyImg: bt,
+    registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419204",
   },
   {
     id: 4,
@@ -105,7 +106,8 @@ const workshops = [
     studentCoNo2: "+91 9500534225",
     studentCoNo3: "",
     companyName: "Ictacademy",
-    companyImg: Ictacademy
+    companyImg: Ictacademy,
+    registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaa-t25-ksrangasamy-college-of-technology-1419222",
   },
   {
     id: 5,
@@ -123,6 +125,7 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Virtuospark",
     companyImg: virtuospark,
+    registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418389",
   },
   {
     id: 6,
@@ -135,7 +138,8 @@ const workshops = [
     studentCo1: "Alyushra A III-Year/CSE",
     studentCoNo1: "+91 6369548280",
     companyName: "RemitBee India Private Limited - Chennai",
-    companyImg: Cokupa
+    companyImg: Cokupa,
+    registrationLink: "https://unstop.com/p/mobile-app-development-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418399",
   },
   {
     id: 7,
@@ -152,6 +156,7 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Enthu Technology Solutions India Pvt Ltd",
     companyImg: EnthuTechnology,
+    registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419339",
   },
   {
     id: 8,
@@ -167,6 +172,7 @@ const workshops = [
     studentCoNo2: "+91 9025244374",
     companyName: " Mew Technology - Bangalore",
     companyImg: mewLogo,
+    registrationLink: "https://unstop.com/p/do-engineering-using-ni-labview-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418405",
   },
   {
     id: 9,
@@ -184,6 +190,7 @@ const workshops = [
     studentCoNo3: "+91 73058 44895",
     companyName: "E-MILLET PRODUCTS",
     companyImg: millet,
+    registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419228",
   },
   {
     id: 10,
@@ -199,6 +206,7 @@ const workshops = [
     studentCoNo2: "+91 99426 51212",
     companyName: "Seeka Host India",
     companyImg: seeka,
+    registrationLink: "https://unstop.com/p/digital-marketing-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418394",
   },
   {
     id: 11,
@@ -214,6 +222,7 @@ const workshops = [
     studentCoNo1: "+91 9442727410",
     companyName: "Garuda Aerospace",
     companyImg: garuda,
+    registrationLink: "https://unstop.com/p/buildthonultratech-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419226",
   },
   {
     id: 12,
@@ -224,9 +233,10 @@ const workshops = [
     facultyCo: "Dr.K.Raja",
     facultyCoNo: "+91 9842314481",
     studentCo1: " Lingeshwaran S L",
-    studentCoNo1: "",
-    companyName: "Macro Technology Pvt Ltd",
+    studentCoNo1: "+91 8012439250",
+    companyName: "Macbro Institute of Technology",
     companyImg: macro,
+    registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418360",
   },
   {
     id: 13,
@@ -246,13 +256,14 @@ const workshops = [
     studentCoNo3: "",
     companyName: "Care 4 U India Pvt, Ltd",
     companyImg: TXT,
+    registrationLink: "https://unstop.com/p/medi-tex-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419223",
   },
   {
     id: 14,
     img: Photo14,
     department: "VLSI",
     dept: "Department of VLSI",
-    title: "From Digital Logic to DFT",
+    title: "DFT Demystified: The Basic you need to know",
     facultyCo: "Mr. S. Pradeep",
     facultyCoNo: "+91 81221 39862",
     facultyCo1: "Mrs. S. Gomathi",
@@ -261,10 +272,12 @@ const workshops = [
     studentCo2: "Aishvarieya V II-Year/EE(VLSI D&T)",
     studentCoNo1: "+91 82702 78279",
     studentCoNo2: "+91 63746 84519",
-    companyName: "DFTTraining Institute Private Limited",
+    companyName: "DFT Training Institute Private Limited",
     companyImg: dftt,
+    registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419380",
   },
 ];
+
 
 const WorkshopSection = () => {
   const title = "Workshop";
@@ -396,7 +409,7 @@ const WorkshopSection = () => {
                   </ul>
                   <button
                       className="border border-white px-6 py-2 hover:bg-white/20 duration-300 mb-5"
-                      onClick={() => setSelectedWorkshop(workshop)}
+                      onClick={() => window.open(selectedWorkshop.registrationLink, "_blank")}
                     >
                       REGISTER NOW!
                     </button>
