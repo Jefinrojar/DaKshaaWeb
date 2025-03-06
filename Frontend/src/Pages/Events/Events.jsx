@@ -24,7 +24,6 @@ import Tech11 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIML.
 import Tech12 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.jpg"
 import Tech13 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
 import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
-import Tech15 from "../../assets/EventsImages/EventDetails/TechnicalImages/IT.jpg"
 import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
 
 
@@ -130,10 +129,7 @@ const Events = () => {
           image: Tech14,
           eventId: "technical-event-15",
         },
-        {
-          image: Tech15,
-          eventId: "technical-event-9",
-        },
+       
         {
           image: Tech16,
           eventId: "technical-event-16",
