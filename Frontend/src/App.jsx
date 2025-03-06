@@ -17,6 +17,7 @@ import EventDetails from "./Pages/Events/EventDetails/EventDetails";
 import Teams from "./Pages/Teams/Teams";
 import Startup from "./Pages/Startup/Startup";
 import Accomodation from "./Pages/Accomodation/Accomodation";
+import Hackathon from "./Pages/Hackathon/Hackathon";
 
 function App() {
   
@@ -43,6 +44,7 @@ function App() {
         <Route path="/teams" element={<Teams />} />
         <Route path="/startups" element={<Startup />} />
         <Route path="/accomodation" element={<Accomodation />} />
+        <Route path="/events/hackathon" element={<Hackathon />} />
       </Routes>
       <Footer/>
     </Router>
