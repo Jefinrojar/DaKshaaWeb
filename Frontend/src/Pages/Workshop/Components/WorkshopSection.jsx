@@ -210,7 +210,7 @@ const workshops = [
     facultyCoNo: "+91 7092821630",
     facultyCo1: "Mr. R. Vivek",
     facultyCoNo1: "+91 7200458826",
-    studentCo1: "Soundarrajan A",
+    studentCo1: "Soundarrajan A III Year/MCT",
     studentCoNo1: "+91 9442727410",
     companyName: "Garuda Aerospace",
     companyImg: garuda,
