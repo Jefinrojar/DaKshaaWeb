@@ -44,20 +44,20 @@ import NonTech12 from "../../assets/EventsImages/EventDetails/Nontech/Department
 import NonTech13 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF TEXTILE.png"
 
 
-import Workshop1 from "../../assets/EventsImages/EventDetails/Workshop/vlsi.png"
-import Workshop2 from "../../assets/EventsImages/EventDetails/Workshop/it.png"
-import Workshop3 from "../../assets/EventsImages/EventDetails/Workshop/aids.png"
-import Workshop4 from "../../assets/EventsImages/EventDetails/Workshop/aiml.png"
-import Workshop5 from "../../assets/EventsImages/EventDetails/Workshop/csbs.png"
-import Workshop6 from "../../assets/EventsImages/EventDetails/Workshop/cse.png"
-import Workshop7 from "../../assets/EventsImages/EventDetails/Workshop/eee.png"
-import Workshop8 from "../../assets/EventsImages/EventDetails/Workshop/biotech.png"
-import Workshop9 from "../../assets/EventsImages/EventDetails/Workshop/mechatronics.png"
-import Workshop10 from "../../assets/EventsImages/EventDetails/Workshop/ece.png"
-import Workshop11 from "../../assets/EventsImages/EventDetails/Workshop/ft.png"
-import Workshop12 from "../../assets/EventsImages/EventDetails/Workshop/mech.png"
-import Workshop13 from "../../assets/EventsImages/EventDetails/Workshop/civil.png"
-import Workshop14 from "../../assets/EventsImages/EventDetails/Workshop/textile.png"
+import Workshop1 from "../../assets/EventsImages/EventDetails/Workshop/vlsi.jpg"
+import Workshop2 from "../../assets/EventsImages/EventDetails/Workshop/it.jpg"
+import Workshop3 from "../../assets/EventsImages/EventDetails/Workshop/aids.jpg"
+import Workshop4 from "../../assets/EventsImages/EventDetails/Workshop/aiml.jpg"
+import Workshop5 from "../../assets/EventsImages/EventDetails/Workshop/csbs.jpg"
+import Workshop6 from "../../assets/EventsImages/EventDetails/Workshop/cse.jpg"
+import Workshop7 from "../../assets/EventsImages/EventDetails/Workshop/eee.jpg"
+import Workshop8 from "../../assets/EventsImages/EventDetails/Workshop/biotech.jpg"
+import Workshop9 from "../../assets/EventsImages/EventDetails/Workshop/mechatronics.jpg"
+import Workshop10 from "../../assets/EventsImages/EventDetails/Workshop/ece.jpg"
+import Workshop11 from "../../assets/EventsImages/EventDetails/Workshop/ft.jpg"
+import Workshop12 from "../../assets/EventsImages/EventDetails/Workshop/mech.jpg"
+import Workshop13 from "../../assets/EventsImages/EventDetails/Workshop/civil.jpg"
+import Workshop14 from "../../assets/EventsImages/EventDetails/Workshop/textile.jpg"
 
 import Culturals1 from "../../assets/HORMONICS/MUSICAL.png"
 import Culturals2 from "../../assets/HORMONICS/INSTRUMENT.png"
@@ -439,7 +439,7 @@ const Events = () => {
                     <img
                       src={slide.image}
                       alt={`Slide ${index + 1}`}
-                      className="w-full h-full object-cover shadow-md clip-bottom-left"
+                      className="w-full h-full object-cover shadow-md"
                     />
                     {isHovered && (
                       <div className="absolute inset-0 bg-black bg-opacity-75 p-4 flex items-center justify-center">

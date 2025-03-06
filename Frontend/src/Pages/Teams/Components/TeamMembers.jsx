@@ -7,7 +7,6 @@ import praveen from '../../../assets/team_members/praveen.jpg'
 import aabid from '../../../assets/team_members/aabid.jpg'
 import arul from '../../../assets/team_members/arul.jpg'
 import anisa from '../../../assets/team_members/anisa.png'
-import lakma from '../../../assets/team_members/lakma.jpg'
 import aakash from '../../../assets/team_members/aakash.jpg'
 import gobiha from '../../../assets/team_members/gobiha.jpg'
 import vignesh from '../../../assets/team_members/vignesh.jpg'
@@ -20,9 +19,6 @@ import rithika from '../../../assets/team_members/rithika.jpg'
 import kavinesh from '../../../assets/team_members/kavinesh.jpg'
 import gopinath from '../../../assets/team_members/gopinath.jpg'
 import monisha from '../../../assets/team_members/monisha.jpg'
-
-import img4 from "../../../assets/teamimage/img4.jpg";
-import img5 from "../../../assets/teamimage/img5.jpg";
 
 const teamMembers = [
   { id: 1, name: "Sharan", department: "Department of IT", img: sharan, category: "Developers" },
