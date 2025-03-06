@@ -1,6 +1,7 @@
 import React from "react";
 import college from "../../../assets/college.png";
 import logo from "../../../assets/logo1.png";
+import startupLogo from "../../../assets/startup/logo.png";
 
 function About() {
   return (
@@ -160,6 +161,76 @@ function About() {
             alt="Dakshaa T25 Logo"
             data-aos="fade-left"
           />
+        </div>
+
+        {/* Mobile View for Startup TN */}
+        <div className="my-10 sm:my-20 md:my-28">
+          <div className="flex flex-col md:hidden mx-4 sm:mx-8 md:mx-16 lg:mx-28 mt-6 sm:mt-12 md:mt-16 justify-center items-center gap-4 sm:gap-8 md:gap-12">
+            <div
+              className="w-full border-2 border-sky-900 p-2 sm:p-3 md:p-4 h-full"
+              data-aos="fade-right"
+            >
+              <img
+                className="w-full md:w-1/2 max-w-[500px] bg-white p-2"
+                src={startupLogo}
+                alt="Startup TN Logo"
+                data-aos="fade-left"
+              />
+              <div className="h-auto bg-sky-900 bg-opacity-50 p-3 sm:p-6 md:p-8 relative">
+                <p className="absolute px-3 sm:px-6 md:px-8 py-1 sm:py-3 top-0 left-0 text-base sm:text-xl md:text-2xl font-poppins text-white bg-sky-500 bg-opacity-70">
+                  StartupTN
+                </p>
+                <p className="text-sky-400 font-poppins leading-5 sm:leading-7 mt-10 sm:mt-14 md:mt-16 text-justify text-xs sm:text-base md:text-lg pb-4 sm:pb-8 md:pb-10">
+                  StartupTN, in collaboration with K.S. Rangasamy College of
+                  Technology, proudly presents the Idea Elevator Pitching
+                  Contest as part of DaKshaa T25. This prestigious event serves
+                  as a dynamic platform for aspiring students to showcase their
+                  groundbreaking ideas in a fast-paced and impactful setting. As
+                  a parallel session of the Global Startup Meet, the contest
+                  brings together visionary minds, industry leaders, and
+                  investors, fostering an environment of innovation,
+                  collaboration, and entrepreneurial excellence. Participants
+                  will have the opportunity to pitch their ideas, receive
+                  valuable insights from experts, and gain exposure to potential
+                  funding and mentorship opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop View for TN Startup */}
+        <div className="hidden md:flex flex-row-reverse mx-28 mt-16 justify-center items-center gap-12">
+          <img
+            className="w-2/5 bg-white p-2"
+            src={startupLogo}
+            alt="Startup TN Logo"
+            data-aos="fade-left"
+          />
+          <div
+            className="w-3/5 border-2 border-sky-900 p-3 h-full"
+            data-aos="fade-right"
+          >
+            <div className="h-auto w-full bg-sky-900 bg-opacity-50 p-8 relative clip-bottom-left">
+              <p className="absolute px-8 pr-12 py-3 top-0 left-0 text-2xl clip-path-slant-right font-poppins text-white bg-sky-500 bg-opacity-70">
+                StartupTN
+              </p>
+              <p className="text-sky-400 font-poppins leading-6 mt-16 text-justify pb-6">
+                StartupTN, in collaboration with K.S. Rangasamy College of
+                Technology, proudly presents the Idea Elevator Pitching Contest
+                as part of DaKshaa T25. This prestigious event serves as a
+                dynamic platform for aspiring students to showcase their
+                groundbreaking ideas in a fast-paced and impactful setting. As a
+                parallel session of the Global Startup Meet, the contest brings
+                together visionary minds, industry leaders, and investors,
+                fostering an environment of innovation, collaboration, and
+                entrepreneurial excellence. Participants will have the
+                opportunity to pitch their ideas, receive valuable insights from
+                experts, and gain exposure to potential funding and mentorship
+                opportunities.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>

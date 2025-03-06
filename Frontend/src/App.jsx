@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home"
 import "./App.css";
 import ParticlesComponent from "./Pages/Layout/ParticlesComponent";
 import Navbar from "./Pages/Layout/Navbar";
+import Tags from "./Pages/Layout/Tags";
 import GuestLecture from "./Pages/GuestLecture/GuestLecture";
 import Footer from "./Pages/Layout/Footer";
 import Workshop from "./Pages/Workshop/Workshop";
@@ -31,6 +32,7 @@ function App() {
     <Router>
       <ParticlesComponent id="particlesBG" />
       <Navbar/>
+      <Tags />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
