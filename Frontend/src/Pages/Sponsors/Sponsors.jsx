@@ -11,18 +11,20 @@ import infinity from "./assets/infinity.jpg";
 import it from "./assets/it.png";
 import mech from "./assets/mech.jpg";
 import millet from "./assets/millet.jpg";
-import txt from "./assets/txt.jpg";
+import txt from "./assets/TXT.png";
 import uipath from "./assets/uipath.jpg";
 import vlsi from "./assets/vlsi.jpg";
 import cse from "./assets/cse.jpg";
 import bt from "./assets/bt.jpeg";
+import EEE from "./assets/EEE.jpg";
+
 
 
 
 function Sponsors() {
   const eventSponsors = [abb];
   const registerSponsors = [unstop]; 
-  const workshopSponsors = [aiml, civil, csbs, it, cse, mech, txt, millet, infinity, garuda, uipath, vlsi, bt];
+  const workshopSponsors = [aiml, civil, csbs, it, cse,EEE, mech, txt, millet, infinity, garuda, uipath, vlsi, bt];
   // Add more if needed
   const letter = "Sponsors";
   const letters = letter.split("");

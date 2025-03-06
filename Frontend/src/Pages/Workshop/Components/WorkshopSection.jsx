@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Pravartak from '../../../assets/WorkshopImages/Pravartak.jpg'
 import virtuospark from '../../../assets/WorkshopImages/virtuospark.jpg'
-import care4 from '../../../assets/WorkshopImages/care4.jpg'
+import TXT from '../../../assets/WorkshopImages/TXT.png'
 import dftt from '../../../assets/WorkshopImages/dftt.jpg'
 import garuda from '../../../assets/WorkshopImages/garuda.jpg'
 import macro from '../../../assets/WorkshopImages/macro.jpg'
@@ -234,16 +234,18 @@ const workshops = [
     department: "Textile Technology",
     dept: "Department of TXT",
     title: "Medi Tex",
-    facultyCo: "",
-    facultyCoNo: "",
-    studentCo1: "",
-    studentCo2: "",
+    facultyCo: "Dr.K.R.Nanadagopal ",
+    facultyCoNo: "+91 9003436705",
+    facultyCo1: "Mr.G.Devanand",
+    facultyCoNo1: "+91 9952841869",
+    studentCo1: "Akshaya III-Year/Textile",
+    studentCo2: "R.Hiruthik II-Year/Textile",
     studentCo3: "",
-    studentCoNo1: "",
-    studentCoNo2: "",
+    studentCoNo1: "+91 7871969769",
+    studentCoNo2: "+91 9965227394",
     studentCoNo3: "",
     companyName: "Care 4 U India Pvt, Ltd",
-    companyImg: care4,
+    companyImg: TXT,
   },
   {
     id: 14,
