@@ -2190,7 +2190,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/medi-tex-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1419223", // Registration link
         },
     };
-    
+     
     // Define animation variants
     const itemVariants = {
         hidden: { opacity: 0, y: 20 },
