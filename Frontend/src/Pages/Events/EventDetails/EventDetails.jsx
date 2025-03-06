@@ -943,6 +943,11 @@ const EventDetails = () => {
                         phone: "6382491543",
                         email: "aswinkannan0606@gmail.com",
                     },
+                    {
+                        name: "Arun K ",
+                        phone: "9345784766",
+                        email: "ksarun459@gmail.com",
+                    },
                 ],
             },
             registrationLink: "https://unstop.com/p/trailblazer-the-clue-hunt-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418469", // Registration link
@@ -1203,6 +1208,12 @@ const EventDetails = () => {
                         email: "akashadthi.sd@gmail.com",
                         phone: "6381279741",
                     },
+                    {
+                        name: "Deva S",
+                        email: "sivadeva2203@gmail.com",
+                        phone: "9976438984",
+                    },
+
 
                 ],
             },
@@ -1375,7 +1386,13 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Harshad Gajanan Shivpuje ",
+                        email:"harshadshivpujeg@gmail.com",
                         phone: "7708927651",
+                    },
+                    {
+                        name: "Rajesh Kumar S ",
+                        email:"rajesh2342005@gmail.com",
+                        phone: "9361688130",
                     }
 
                 ],
@@ -1513,9 +1530,9 @@ const EventDetails = () => {
 
                     },
                     {
-                        name: "Prathipa T (II-Year/ECE)",
-                        email:"thangavelprathiba@gmail.com",
-                        phone: "9342626157",
+                        name: "Harish V(III-Year/ECE)",
+                        email:"harishpvr23@gmail.com ",
+                        phone: "8825508742",
 
                     },
                 ],
@@ -1562,6 +1579,12 @@ const EventDetails = () => {
                         name: "R.K.Aswin",
                         email:"rkaswin07@gmail.com",
                         phone: "8148934756",
+
+                    },
+                    {
+                        name: "Nithiya Suriyan K",
+                        email:"viratsuryaviratsurya4@gmail.com",
+                        phone: "8056603518",
 
                     }
                 ],
@@ -1639,9 +1662,14 @@ const EventDetails = () => {
                 ],
                 studentCoordinator: [
                     {
-                        name: "Sarah Lee",
-                        phone: "6543210987",
-                        email: "sarah.lee@xyzmail.com",
+                        name: "Karthikeyan D",
+                        phone: "9790080274",
+                        email: "karthikeyanksr40@gmail.com",
+                    },
+                    {
+                        name: "Athisaya Raj",
+                        phone: "9566315990",
+                        email: "athisayaraj869@gmail.com",
                     },
                 ],
             },
@@ -1655,16 +1683,21 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Michael Brown",
-                        phone: "7654321098",
-                        email: "michael.b@xyzmail.com",
+                        name: "Dr.M.Malarvizhi",
+                        phone: "9095792265",
+                        email: "malarvizhi@ksrct.ac.in",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        name: "Sarah Lee",
-                        phone: "6543210987",
-                        email: "sarah.lee@xyzmail.com",
+                        name: "Mouriya S",
+                        phone: "8903689846",
+                        email: "balamouriya07@gmail.com",
+                    },
+                    {
+                        name: "vishwanth V ",
+                        phone: "9080012267",
+                        email: "wanthvish9894@gmail.com ",
                     },
                 ],
             },
@@ -1678,16 +1711,21 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Michael Brown",
-                        phone: "7654321098",
-                        email: "michael.b@xyzmail.com",
+                        name: "",
+                        phone: "",
+                        email: "",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        name: "Sarah Lee",
-                        phone: "6543210987",
-                        email: "sarah.lee@xyzmail.com",
+                        name: "Ramitha TR ",
+                        phone: "9345283931",
+                        email: "ramithakavin@gmail.com",
+                    },
+                    {
+                        name: "Gowshika M",
+                        phone: "8870593850",
+                        email: "mgowshika22@gmail.com",
                     },
                 ],
             },
@@ -1701,16 +1739,21 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Michael Brown",
-                        phone: "7654321098",
-                        email: "michael.b@xyzmail.com",
+                        name: "",
+                        phone: "",
+                        email: "",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        name: "Sarah Lee",
-                        phone: "6543210987",
-                        email: "sarah.lee@xyzmail.com",
+                        name: "Athityaa A",
+                        phone: "9345664042",
+                        email: "athikuti4@gmail.com",
+                    },
+                    {
+                        name: "Liji Samyukthaa S K ",
+                        phone: "9342381500",
+                        email: "skliji04@gmail.com",
                     },
                 ],
             },
