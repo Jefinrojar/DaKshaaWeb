@@ -45,7 +45,7 @@ import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTME
 import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF VLSI.jpg"
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.jpg"
 import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.jpg"
-import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSBS.jpg"
+import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
 import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF FOOD TECH.jpg"
 import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
 import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
@@ -1277,67 +1277,59 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/its-talk-time-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418537", // Registration link
         },
         "non-technical-event-6": {
-            title: "SyncX",
+            title: "Auction Arena",
             description:
-                "Two teams face off, taking turns to continue a given sentence within 5 seconds. Each team starts with 3 lives and failing to respond in time or providing an illogical continuation results in losing a life. The game continues until one team loses all three lives and gets eliminated. With pressure mounting and stories taking unexpected turns, teams must stay sharp and work together to keep the narrative flowing. The last team standing wins, proving their mastery of words and quick wit!",
+                "Auction Arena is a thrilling and interactive event designed to bring out the strategist in you! This fun-filled IPL-themed auction challenges participants to think analytically, bid smartly, and build the ultimate cricket squad. Participants must bid wisely, manage their budgets effectively, and build a well-balanced squad to outshine their competitors.",
             image: NonTech6,
             rounds: [
-                {
-                    title: "Round 1",
-                    description:
-                        "Guess the Song",
-                },
-                {
-                    title: "Round 2",
-                    description:
-                        "Guess the Celebrity",
-                },
-                {
-                    title: "Round 3",
-                    description:
-                        "Guess the Brand",
-                },
+              
             ],
             rules: [
-                "A team is asked to pick a chit of team names in a bowl and compete with chosen team",
-                "To the teams a list of 4 – 5 images will be displayed.",
-                "The teams must connect the word to find the answer which is related to songs",
-                "To every set 30 seconds time frame will be displayed to the teams.",
-                "From each round only 1 team will be chosen as winner. In case of tie, the teams will be made to play another round and then winner will be decided.",
+                "1)Minimum Requirements:",
+                "2 Batters",
+                "2 Bowlers",
+                "1 Wicketkeeper",
+                "5 Players who can bowl (e.g., 2 Bowlers + 3 All-rounders or 3 Bowlers + 2 All-rounders)",
+                "2) Maximum 4 Foreign Players Allowed in the playing XI:",
+                "3) Final Squad Composition:",
+                "11 Main Players",
+                "1 Impact Player",
+
+
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 24, 2025",
+                    round: "Slot1",
+                    date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    location: "AB(211),AB Block",
                 },
                 {
-                    round: "Round 2",
-                    date: "May 25, 2025",
+                    round: "Slot 2",
+                    date: "March 22, 2025",
                     time: "2:00 PM to 4:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    location: "AB(211),AB Block",
                 },
             ],
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Dr. C. Vijayakumar",
-                        email: "vijayakumarc@ksrct.ac.in",
-                        phone: "6379112939",
+                        name: "Mrs.T.Udhaya",
+                        email: "udhaya@ksrct.ac.in",
+                        phone: "8675587180",
                     },
-                    {
-                        name: "Dr. R Senthilmurugan",
-                        email: "senthilmurugan@ksrct.ac.in",
-                        phone: "9843488996",
-                    },
-
+                   
                 ],
                 studentCoordinator: [
                     {
-                        name: "Akash Raam S",
-                        email: "akashadthi.sd@gmail.com",
-                        phone: "6381279741",
+                        name: "Kishorekumar S",
+                        email: "kishoresenthilkumar25@gmail.com",
+                        phone: "9344276110",
+                    },
+                    {
+                        name: "Gogul J",
+                        email: "goguljeyaraj04@gmail.com",
+                        phone: "8807614376",
                     },
 
                 ],
