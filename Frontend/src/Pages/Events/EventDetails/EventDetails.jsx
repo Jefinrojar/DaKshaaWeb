@@ -345,8 +345,8 @@ const EventDetails = () => {
             image: Tech5,
             rounds: [
                 {
-                    title: "Round 1 ",
-                    description: "Participants must design a manually controlled robot without using pre-made kits or commercial robots.",
+                    title: " ",
+                    description: "",
                 },
             ],
             rules: [
@@ -361,23 +361,18 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
+                    round: "Round",
+                    date: "March 21, 2025",
+                    time: "11:00 AM to 1:30 PM",
+                    location: "MC 207,Mechatronics Block",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
+                
             ],
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs. V. Indhumathi",
-                        email: "indhumathi@ksrct.ac.in",
+                        name: "Mrs. V. Indumathi",
+                        email: "indumathi@ksrct.ac.in",
                         phone: "9965137001",
                     },
                     {
@@ -1250,9 +1245,9 @@ const EventDetails = () => {
             image: NonTech5,
             rounds: [
                 {
-                    title: "Round 1",
+                    title: "",
                     description:
-                        "The last team standing wins, proving their mastery of words and quick wit!",
+                        "",
                 },
             ],
             rules: [
@@ -1266,17 +1261,12 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 24, 2025",
+                    round: "Round",
+                    date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    location: "HPC LAB,Mechatronics Block",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 25, 2025",
-                    time: "2:00 PM to 4:00 PM",
-                    location: "Art Gallery, Creative Center",
-                },
+              
             ],
             contact: {
                 facultyCoordinator: [
