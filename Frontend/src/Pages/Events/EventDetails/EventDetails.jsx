@@ -117,16 +117,11 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 20, 2025",
+                    date: "March 21, 2025",
                     time: "10:00 AM to 12:00 PM",
-                    location: "IT Park, Silicon Valley",
+                    location: "CSE lab 1,IT Park",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 21, 2025",
-                    time: "2:00 PM to 4:00 PM",
-                    location: "IT Park, Silicon Valley",
-                },
+               
             ],
             contact: {
                 facultyCoordinator: [
@@ -351,8 +346,8 @@ const EventDetails = () => {
             image: Tech5,
             rounds: [
                 {
-                    title: "Round 1 ",
-                    description: "Participants must design a manually controlled robot without using pre-made kits or commercial robots.",
+                    title: " ",
+                    description: "",
                 },
             ],
             rules: [
@@ -368,17 +363,12 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
+                    round: "Round",
+                    date: "March 21, 2025",
+                    time: "11:00 AM to 1:30 PM",
+                    location: "MC 207,Mechatronics Block",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
+                
             ],
             contact: {
                 facultyCoordinator: [
@@ -387,7 +377,7 @@ const EventDetails = () => {
                         email: "karthikr@ksrct.ac.in",
                         phone: "9965010204",
                     },
-                    
+       
                 ],
                 studentCoordinator: [
                     {
@@ -965,16 +955,11 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "",
-                    date: "",
-                    time: "",
-                    location: "",
+                    date: "March 22, 2025",
+                    time: "9:30AM -10:30AM",
+                    location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
                 },
-                {
-                    round: "",
-                    date: "",
-                    time: "",
-                    location: "",
-                },
+               
             ],
             contact: {
                 facultyCoordinator: [
@@ -1009,34 +994,32 @@ const EventDetails = () => {
             image: NonTech1,
             rounds: [
                 {
-                    title: "Round 1",
+                    title: "",
                     description:
-                        "Participants will present their artwork to the judges.",
+                        "",
                 },
                 {
-                    title: "Round 2",
+                    title: "",
                     description:
-                        "Finalists will create a new piece of art on the spot.",
+                        "",
                 },
             ],
             rules: [
                 "Teams must stay together during the hunt.",
                 "No use of external help or mobile devices for assistance.",
-                "Participants must bring their own materials.",
+                "Duration: 60 Minutes & Team : 2-3 Members",
+                "Teams will solve riddles, find clues to unlock the next challenge.",
+                "Participants must collect tokens or codes at each location as proof of completion.",
+                "The team that collects the most treasures in the shortest time wins.",
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 24, 2025",
+                    round: "Round",
+                    date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    location: "IT Park",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 25, 2025",
-                    time: "2:00 PM to 4:00 PM",
-                    location: "Art Gallery, Creative Center",
-                },
+                
             ],
             contact: {
                 facultyCoordinator: [
@@ -1269,9 +1252,9 @@ const EventDetails = () => {
             image: NonTech5,
             rounds: [
                 {
-                    title: "Round 1",
+                    title: "",
                     description:
-                        "The last team standing wins, proving their mastery of words and quick wit!",
+                        "",
                 },
             ],
             rules: [
@@ -1285,17 +1268,12 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 24, 2025",
+                    round: "Round",
+                    date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    location: "HPC LAB,Mechatronics Block",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 25, 2025",
-                    time: "2:00 PM to 4:00 PM",
-                    location: "Art Gallery, Creative Center",
-                },
+              
             ],
             contact: {
                 facultyCoordinator: [
@@ -1711,7 +1689,13 @@ const EventDetails = () => {
                 "Juries Judgement is Final",
             ],
             schedule: [
-               
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+ 
             ],
             contact: {
                 facultyCoordinator: [
