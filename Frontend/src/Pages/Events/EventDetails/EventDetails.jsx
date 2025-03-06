@@ -1894,6 +1894,11 @@ const EventDetails = () => {
                         email:"mohanakumaran2004@gmail.com",
                         phone: "8838401078",
                     },
+                    {
+                        name: "Narendar P",
+                        email:"naren20062005@gmail.com",
+                        phone: "8508774247",
+                    },
                 ],
             },
             registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418389", // Registration link
@@ -1913,9 +1918,15 @@ const EventDetails = () => {
                 ],
                 studentCoordinator: [
                     {
-                        name: "Alyushra A",
-                        email:"alyushra96@gmail.com",
-                        phone: "6369548280",
+                        name: "Kaviya S",
+                        email:"kaviyasenthil12005@gmail.com",
+                        phone: "6382491543",
+                        
+                    },
+                    {
+                        name: "Obu Sharva Dharshini O ",
+                        email:"obusharvadharshinio@gmail.com",
+                        phone: "6381014001",
                         
                     },
                 ],
@@ -1930,9 +1941,9 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Karthik P",
-                        email:"karthikp@ksrct.ac.in",
-                        phone: "6380324452",
+                        name: "Mr. Thangadurai A",
+                        email:"thangaduraia@ksrct.ac.in ",
+                        phone: "9095322233",
                     },
                 ],
                 studentCoordinator: [
@@ -1943,9 +1954,9 @@ const EventDetails = () => {
                         
                     },
                     {
-                        name: "Karmuhilan V",
-                        email:"karmuhilan90252@gmail.com",
-                        phone: "9025244374",
+                        name: "Ramya T",
+                        email:"ramya.t036@gmail.com ",
+                        phone: "9994964915",
                         
                     },
                 ],
@@ -2105,8 +2116,14 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Lingeshwaran S L",
-                        email: "lingeshwaransl04@gmail.com",                       
-                    },                    
+                        email: "lingeshwaransl04@gmail.com",      
+                        phone:"8012439250",                 
+                    }, 
+                    {
+                        name: "Raghunath E",
+                        email: "lingeshwaransl04@gmail.com",   
+                        phone:"8248732445",                    
+                    },                      
                 ],
             },
             registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418360", // Registration link
