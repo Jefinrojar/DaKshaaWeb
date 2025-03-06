@@ -1914,7 +1914,7 @@ const EventDetails = () => {
                         name: "Mr K.Dinesh Kumar",
                         email:"dineshkumark@ksrct.ac.in",
                         phone: "9360287212",
-                    },
+                    }, 
                 ],
                 studentCoordinator: [
                     {
