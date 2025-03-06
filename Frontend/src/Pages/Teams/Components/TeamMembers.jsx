@@ -41,7 +41,7 @@ const teamMembers = [
 ];
 
 const categories = [
-  "All", "Developers", "Web-Designers", "Flyer-Designers", "Co-ordinators",
+  "All", "Developers", "Web-Designers", "Co-ordinators",
 ];
 
 const Teams = () => {

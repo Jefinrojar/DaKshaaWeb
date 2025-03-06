@@ -444,7 +444,7 @@ const Events = () => {
                     {isHovered && (
                       <div className="absolute inset-0 bg-black bg-opacity-75 p-4 flex items-center justify-center">
                         <motion.span
-                          className="text-white text-2xl sm:text-3xl md:text-4xl font-bold p-4"
+                          className="text-white text-2xl text-center sm:text-3xl md:text-4xl font-bold p-4"
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           transition={{ duration: 0.5 }}

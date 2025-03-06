@@ -199,6 +199,11 @@ const EventDetails = () => {
                         phone: "9342566322",
                         email: "bhuwanesh2004@gmail.com",
                     },
+                    {
+                        name: "Karmuhilan V",
+                        phone: "9025244374",
+                        email: "karmuhilan90252@gmail.com",
+                    },
                 ],
             },
             registrationLink: "https://unstop.com/p/voltedge-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418417", // Registration link
@@ -1039,9 +1044,9 @@ const EventDetails = () => {
                 ],
                 studentCoordinator: [
                     {
-                        name: "Karmuhilan V ",
-                        phone: "9025244374",
-                        email: "karmuhilan90252@gmail.com ",
+                        name: "Mujamil S",
+                        phone: "7502968410",
+                        email: "mujamilsulai2006@gmail.com ",
                     },
                     {
                         name: "Harshvarthan A",
@@ -1923,9 +1928,9 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Thangadurai A",
-                        email:"thangaduraia@ksrct.ac.in",
-                        phone: "9095322233",
+                        name: "Karthik P",
+                        email:"karthikp@ksrct.ac.in",
+                        phone: "6380324452",
                     },
                 ],
                 studentCoordinator: [
