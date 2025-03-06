@@ -34,7 +34,6 @@ import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AI
 import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.jpg"
 import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
 import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
-import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.jpg"
 import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
 
 // import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EXPO.png"
@@ -133,9 +132,14 @@ const EventDetails = () => {
                 ],
                 studentCoordinator: [
                     {
-                        name: "Kaviya S",
-                        phone: "6382491543",
-                        email: "kaviyasenthil12005@gmail.com",
+                        name: "Alyushra A",
+                        phone: "6369548280",
+                        email: "alyushra96@gmail.com",
+                    },
+                    {
+                        name: "Peranandha KL",
+                        phone: "8148537603",
+                        email: "peranandha17@gmail.com",
                     },
                 ],
             },
@@ -254,21 +258,20 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs. C. Saranya ",
-                        phone: "9994588990",
-                    },
-                    {
                         name: "Mr. D. Poornakumar",
+                        email:"poornakumard@ksrct.ac.in",
                         phone: "9003645614",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Moulishwaran V",
+                        email:"moulishmoulishwaran44@gmail.com",
                         phone: "8940451977",
                     },
                     {
                         name: "Jaishree A",
+                        email:"jaishreea2005@gmail.com",
                         phone: "9994371445",
                     },
                 ],
@@ -372,22 +375,22 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mr. R. Karthik",
-                        email: "karthikr@ksrct.ac.in",
-                        phone: "9965010204",
+                        name: "Mrs. V. Indumathi",
+                        email: "indumathi@ksrct.ac.in",
+                        phone: "9965137001",
                     },
        
                 ],
                 studentCoordinator: [
                     {
-                        name: "Dhanush Kumar S",
-                        email: "dk255767@gmail.com",
-                        phone: "7502218281",
+                        name: "Gokkarneashvarnath V",
+                        email: "gokkarmct@gmail.com ",
+                        phone: "9444177711",
                     },
                     {
-                        name: "Gokulnath M",
-                        email: "mohangokul4469@gmail.com",
-                        phone: "9944389099",
+                        name: "Gokul V",
+                        email: "gokulv992004@gmail.com",
+                        phone: "6382116360",
                     },
                 ],
             },
@@ -558,74 +561,25 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr G Bharath, AP/FT",
+                        email:"bharathg@ksrct.ac.in",
                         phone: "9047976171",
                     }
                 ],
                 studentCoordinator: [
                     {
                         name: "Surya S, III Year/FT ",
+                        email:"suryaarjun813@gmail.com",
                         phone: "9360492992",
                     },
                     {
-                        name: "Rajulapati Yatheeswar N A, II Year/FT ",
+                        name: "Yatheeswar R, II Year/FT ",
+                        email:"r.yatheeswar852@gmail.com",
                         phone: "9441236991",
                     },
-                    {
-                        name: "Vijaya Yugeshwar R II Year/FT ",
-                        phone: "9585768184",
-                    },
+                    
                 ],
             },
             registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418430", // Registration link
-        },
-        "technical-event-9": {
-            title: "Paper Presentation",
-
-            description:
-                "Explore topics like Aerodynamics in Automobiles and Additive Manufacturing in Aerospace Engineering.",
-            image: Tech9,
-            rounds: [
-                {
-                    title: "Paper Presentation",
-                    description: "Paper Presenting",
-                }
-            ],
-            rules: [
-                "Presentations should be in PPT format.",
-                "Papers must be original and unpublished.",
-                "Participants must follow college instructions."
-            ],
-            schedule: [
-                {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Dr. P.S. Sampath",
-                        email: "sampathps@ksrct.ac.in",
-                        phone: "9962116570"
-                    }
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Avinesh G",
-                        email: "avineshavinesh65@gmail.com",
-                        phone: "9361002776"
-                    }
-                ]
-            },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
         },
         "technical-event-10": {
             title: "Designathon",
@@ -658,79 +612,32 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        "name": "Mr. C. Ramesh",
-                        "email": "rameshc@ksrct.ac.in",
-                        "phone": "9629767778"
+                        name: "Mr. C. Ramesh",
+                        email: "rameshc@ksrct.ac.in",
+                        phone: "9629767778"
                     },
                     {
-                        "name": "Mr. M. Prasath",
-                        "email": "prasathm@ksrct.ac.in",
-                        "phone": "9788206877"
+                        name: "Mr. M. Prasath",
+                        email: "prasathm@ksrct.ac.in",
+                        phone: "9788206877"
                     }
                 ],
                 studentCoordinator: [
                     {
-                        "name": "K P Arunachalam",
-                        "email": "arunachalam122004@gmail.com",
-                        "phone": "9025972365"
+                        name: "K P Arunachalam",
+                        email: "arunachalam122004@gmail.com",
+                        phone: "9025972365"
+                    },
+                    {
+                        name: "Jagannathbalaaji N",
+                        email: "jbbalaaji74181@gmail.com",
+                        phone: "7418155343"
                     }
                 ]
             },
             registrationLink: "https://unstop.com/p/designathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418423", // Registration link
         },
-        "technical-event-11": {
-            title: "WebGenesis (Interactive Web Page Development)",
-            description: "WebGenesis challenges teams of two to showcase their creativity and technical skills by building an interactive web page from scratch. Participants can use HTML, CSS, JavaScript, or frameworks like React, ensuring originality and adherence to UI/UX principles. Pre-made templates are not allowed, and all code must be written from the ground up. The competition will be judged based on functionality, responsiveness, and creativity, emphasizing seamless performance, adaptability across devices, and innovative design. This is your chance to bring ideas to life, craft engaging web experiences, and stand out as a web development innovator.",
-            image: Tech15,
-            rounds: [
-               
-            ],
-            rules: [
-                "WebGenesis (Interactive Web Page Creation)",
-                "Team consists of 2 members",
-                "Teams can use HTML, CSS, JavaScript, or frameworks like React.",
-                "The webpage must be original and follow UI/UX principles.",
-                "No pre-made templates; teams must code from scratch.",
-                "Judging is based on functionality, responsiveness, and creativity.",
-
-            ],
-            schedule: [
-                {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        "name": "1.	Mr.P.Dinesh Kumar ",
-                        "email": "p.dineshkumar@ksrct.ac.in",
-                        "phone": "9688837873"
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        "name": "Akchayaa V P ",
-                        "email": "akchayaa1105@gmail.com",
-                        "phone": "9345865649"
-                    },
-                    {
-                        "name": "Sandhiya M",
-                        "email": "sandhiyamanikandan17@gmail.com",
-                        "phone": "9344806015"
-                    }
-                ]
-            },
-            registrationLink: "https://example.com/register/web-dev-bootcamp", // Registration link
-        },
+        
         "technical-event-13": {
             title: "Rapid Coding",
             description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
