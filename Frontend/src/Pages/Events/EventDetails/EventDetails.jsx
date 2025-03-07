@@ -1222,29 +1222,15 @@ const EventDetails = () => {
 
             ],
             rules: [
-                "1)Minimum Requirements:",
-                "2 Batters",
-                "2 Bowlers",
-                "1 Wicketkeeper",
-                "5 Players who can bowl (e.g., 2 Bowlers + 3 All-rounders or 3 Bowlers + 2 All-rounders)",
-                "2) Maximum 4 Foreign Players Allowed in the playing XI:",
-                "3) Final Squad Composition:",
-                "11 Main Players",
-                "1 Impact Player",
-
-
+                "Minimum Requirements: 2 Batters, 2 Bowlers, 1 Wicketkeeper, 5 Players who can bowl (e.g., 2 Bowlers + 3 All-rounders or 3 Bowlers + 2 All-rounders)",
+                "Maximum 4 Foreign Players Allowed in the playing XI:",
+                "Final Squad Composition: 11 Main Players, 1 Impact Player",
             ],
             schedule: [
                 {
                     round: "Slot1",
                     date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
-                    location: "AB(211),AB Block",
-                },
-                {
-                    round: "Slot 2",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 4:00 PM",
                     location: "AB(211),AB Block",
                 },
             ],
@@ -1918,9 +1904,9 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    date: "March 21, 2025 and March 22, 2025",
+                    time: "9:00 AM to 4:00 PM",
+                    location: "Language Enrichment Centre Lab, Academic Block",
                 },
 
             ],
