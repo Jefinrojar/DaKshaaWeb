@@ -54,7 +54,7 @@ const teamMembers = [
     name: "Gobiha",
     department: "Department of IT",
     img: gobiha,
-    category: "Web-Designers",
+    category: "Developers",
   },
   {
     id: 6,
