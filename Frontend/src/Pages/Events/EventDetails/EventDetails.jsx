@@ -524,8 +524,7 @@ const EventDetails = () => {
             image: Tech8,
             rounds: [
                 {
-                    title: "Round 1",
-                    description: "The event aligns with the following SDGs:",
+                    description: "The event aligns with the following SDGs:"
                 },
                 {
                     description: "SDG 2: Zero Hunger – Developing nutrient-rich street foods to improve food security, •	SDG 3: Good Health and Well-being – Encouraging healthier eating habits through innovative food formulations,•	SDG 9: Industry, Innovation, and Infrastructure – Promoting creativity and technological advancements in food processing,  ",
@@ -540,7 +539,7 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
+                    round: "Round",
                     date: "May 22, 2025",
                     time: "9:00 AM to 11:00 AM",
                     location: "Tech Hub, Innovation Center",
@@ -1274,7 +1273,7 @@ const EventDetails = () => {
             registrationLink: "", // Registration link
         },
         "non-technical-event-7": {
-            title: "A Guess Change",
+            title: "A Guess Challenge ",
             description:
                 "Unmasking Brands & Flavors: A Journey Through Corporate Identities & Culinary Secrets This event is designed to challenge participantsknowledge of corporate branding and food recognition through an interactive three-level game. It tests awareness, teamwork, and quick thinking in a fun and engaging way.",
             image: NonTech7,
@@ -1311,13 +1310,19 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 24, 2025",
+                    date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
                 {
                     round: "Round 2",
-                    date: "May 25, 2025",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 4:00 PM",
+                    location: "Art Gallery, Creative Center",
+                },
+                {
+                    round: "Round 3",
+                    date: "March 22, 2025",
                     time: "2:00 PM to 4:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
