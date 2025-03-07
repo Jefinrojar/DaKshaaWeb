@@ -143,7 +143,7 @@ function StartupSection() {
 
       {/* Section 2 */}
       <div className="flex flex-col md:flex-row justify-center my-10 mx-10 gap-10">
-        {["Eligibility", "Rules", "Category", "Schedule", "Panel", "Prize"].map(
+        {["Prize", "Panel", "Eligibility", "Rules", "Category", "Schedule"].map(
           (item, index) => (
             <motion.div
               key={index}
@@ -156,6 +156,89 @@ function StartupSection() {
             </motion.div>
           )
         )}
+      </div>
+
+      {/* Prize pool */}
+      <div className="border border-sky-800 p-2 mb-5">
+        <div className="border border-sky-800 shadow-lg p-4 md:p-10">
+          <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
+            Prize Pool
+          </h2>
+
+          {/* Prize List */}
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12">
+            {/* 1st Prize */}
+            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md">
+              <span className="text-2xl font-bold text-yellow-400">
+                🥇 1st Prize
+              </span>
+              <span className="text-3xl font-semibold text-white mt-2">
+                ₹10,000
+              </span>
+            </div>
+
+            {/* 2nd Prize */}
+            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md">
+              <span className="text-2xl font-bold text-gray-300">
+                🥈 2nd Prize
+              </span>
+              <span className="text-3xl font-semibold text-white mt-2">
+                ₹7,000
+              </span>
+            </div>
+
+            {/* 3rd Prize */}
+            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md">
+              <span className="text-2xl font-bold text-orange-400">
+                🥉 3rd Prize
+              </span>
+              <span className="text-3xl font-semibold text-white mt-2">
+                ₹5,000
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Panel */}
+      <div className="border border-sky-800 p-2 mb-5">
+        <div className="border border-sky-800 shadow-lg p-4 md:p-10">
+          <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
+            Panel
+          </h2>
+
+          {/* Grid Layout - Always 2 cards per row */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 sm:px-8">
+            {cards.map((card) => (
+              <div
+                key={card.id}
+                className="relative group cursor-pointer overflow-hidden duration-500 
+                     w-full max-w-xs mx-auto bg-sky-900 
+                     bg-opacity-30 border border-sky-900 text-gray-50 p-5 pb-10"
+              >
+                {/* Square Image */}
+                <div className="w-full aspect-square">
+                  <img
+                    src={card.image}
+                    alt="Icon"
+                    className="group-hover:scale-105 w-full h-full object-cover duration-500"
+                  />
+                </div>
+
+                {/* Hover Text Effect */}
+                <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-14">
+                  <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
+                  <span className="text-lg sm:text-xl font-bold block">
+                    {card.title}
+                  </span>
+                  <p className="group-hover:opacity-100 w-full duration-500 opacity-0 text-sm sm:text-base leading-5">
+                    {card.text}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* Eligibility */}
@@ -264,88 +347,9 @@ function StartupSection() {
         </div>
       </div>
 
-      {/* Panel */}
-      <div className="border border-sky-800 p-2 mb-5">
-        <div className="border border-sky-800 shadow-lg p-4 md:p-10">
-          <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
-            Panel
-          </h2>
+      
 
-          {/* Grid Layout - Always 2 cards per row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 sm:px-8">
-            {cards.map((card) => (
-              <div
-                key={card.id}
-                className="relative group cursor-pointer overflow-hidden duration-500 
-                     w-full max-w-xs mx-auto bg-sky-900 
-                     bg-opacity-30 border border-sky-900 text-gray-50 p-5 pb-10"
-              >
-                {/* Square Image */}
-                <div className="w-full aspect-square">
-                  <img
-                    src={card.image}
-                    alt="Icon"
-                    className="group-hover:scale-105 w-full h-full object-cover duration-500"
-                  />
-                </div>
-
-                {/* Hover Text Effect */}
-                <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-14">
-                  <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
-                  <span className="text-lg sm:text-xl font-bold block">
-                    {card.title}
-                  </span>
-                  <p className="group-hover:opacity-100 w-full duration-500 opacity-0 text-sm sm:text-base leading-5">
-                    {card.text}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Prize pool */}
-      <div className="border border-sky-800 p-2 mb-5">
-        <div className="border border-sky-800 shadow-lg p-4 md:p-10">
-          <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
-            Prize Pool
-          </h2>
-
-          {/* Prize List */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12">
-            {/* 1st Prize */}
-            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md">
-              <span className="text-2xl font-bold text-yellow-400">
-                🥇 1st Prize
-              </span>
-              <span className="text-3xl font-semibold text-white mt-2">
-                ₹10,000
-              </span>
-            </div>
-
-            {/* 2nd Prize */}
-            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md">
-              <span className="text-2xl font-bold text-gray-300">
-                🥈 2nd Prize
-              </span>
-              <span className="text-3xl font-semibold text-white mt-2">
-                ₹7,000
-              </span>
-            </div>
-
-            {/* 3rd Prize */}
-            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md">
-              <span className="text-2xl font-bold text-orange-400">
-                🥉 3rd Prize
-              </span>
-              <span className="text-3xl font-semibold text-white mt-2">
-                ₹5,000
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div className="w-full my-10 flex items-center justify-center">
         <button
           className="px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
