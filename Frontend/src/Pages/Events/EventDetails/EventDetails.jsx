@@ -524,14 +524,14 @@ const EventDetails = () => {
             image: Tech8,
             rounds: [
                 {
-                    description: "The event aligns with the following SDGs:"
+                    description: "Description:"
                 },
                 {
-                    description: "SDG 2: Zero Hunger – Developing nutrient-rich street foods to improve food security, •	SDG 3: Good Health and Well-being – Encouraging healthier eating habits through innovative food formulations,•	SDG 9: Industry, Innovation, and Infrastructure – Promoting creativity and technological advancements in food processing,  ",
+                    description: "The Food Technology Department hosting a poster presentation on nutrient-infused street foods, focusing on functional foods, fortification, and balanced recipes. Participants have to showcase the innovative ways to enhance traditional street foods with added nutrients. Judges will evaluate posters on scientific accuracy, creativity, and practicality. The event encouraged discussions on nutrition, affordability, and consumer acceptance, promoting healthier eating choices.    ",
                 },
             ],
             rules: [
-                "Eligibility: Open to all students from food science, technology, and related disciplines. Teams can have a maximum of 2 members.",
+                "Eligibility: Open to all departments. Teams can have a maximum of 2 members.",
                 "Product Criteria: The product must be an innovative infusion of nutrition and flavor in street food. It should not be an exact replica of an existing market product.",
                 "Poster Guidelines: Size: A2 (420 × 594 mm) , Must include product name, concept, ingredients, nutritional benefits, and uniqueness, Clear visuals, infographics, and creativity are encouraged",
                 "Product Display: Each team must bring and showcase their product for evaluation.",
@@ -564,6 +564,10 @@ const EventDetails = () => {
                         name: "Yatheeswar R, II Year/FT ",
                         email: "r.yatheeswar852@gmail.com",
                         phone: "9441236991",
+                    },
+                    {
+                        name: "Vijaya Yugeshwar R, II Year/FT ",
+                        phone: "9585768184",
                     },
 
                 ],
@@ -1331,8 +1335,8 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mrs. K. Kavitha , AP/Maths",
-                        email: "kavithak@ksrct.ac.in",
                         phone: "9600933007",
+                        email: "kavithak@ksrct.ac.in",
                     },
 
                 ],
@@ -1340,14 +1344,17 @@ const EventDetails = () => {
                     {
                         name: "Lega C, III Year/FT ",
                         phone: "9360115935",
+                        email: "lega.chandhrasekar07@gmail.com",
                     },
                     {
                         name: "Pavithra R, II Year/FT",
                         phone: "9345894830",
+                        email:"rppavithra2006@gmail.com",
                     },
                     {
                         name: "Hariprasath K, II Year/FT",
                         phone: "9080753031",
+                        email:"prasath202hari@gmail.com",
                     },
 
                 ],
@@ -2181,6 +2188,7 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr. S. Nithishkumar, AP/FT",
+                        email:"nithishkumar@ksrct.ac.in",
                         phone: "8973333396",
                     }
                 ],
@@ -2188,16 +2196,17 @@ const EventDetails = () => {
                     {
                         name: "Pugazh Vendhan R, III Year/FT",
                         phone: "7550348891",
-
+                        email: "vendhanpugazh0@gmail.com",
                     },
                     {
                         name: "Shahana B, II Year/FT",
                         phone: "7418883634",
-
+                        email: "shahanabhaskaran041@gmail.com",
                     },
                     {
                         name: "Santhosh S, II Year/FT",
                         phone: "7305844895",
+                        email: "santhoshhaterz05@gmail.com",
                     },
                 ],
             },
