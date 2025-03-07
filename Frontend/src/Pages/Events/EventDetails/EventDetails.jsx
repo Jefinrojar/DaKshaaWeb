@@ -120,7 +120,7 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "CSE lab 1,IT Park",
                 },
-               
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -259,19 +259,19 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr. D. Poornakumar",
-                        email:"poornakumard@ksrct.ac.in",
+                        email: "poornakumard@ksrct.ac.in",
                         phone: "9003645614",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Moulishwaran V",
-                        email:"moulishmoulishwaran44@gmail.com",
+                        email: "moulishmoulishwaran44@gmail.com",
                         phone: "8940451977",
                     },
                     {
                         name: "Jaishree A",
-                        email:"jaishreea2005@gmail.com",
+                        email: "jaishreea2005@gmail.com",
                         phone: "9994371445",
                     },
                 ],
@@ -370,7 +370,7 @@ const EventDetails = () => {
                     time: "11:00 AM to 1:30 PM",
                     location: "MC 207,Mechatronics Block",
                 },
-                
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -379,7 +379,7 @@ const EventDetails = () => {
                         email: "indumathi@ksrct.ac.in",
                         phone: "9965137001",
                     },
-       
+
                 ],
                 studentCoordinator: [
                     {
@@ -439,7 +439,7 @@ const EventDetails = () => {
                         email: "karthikr@ksrct.ac.in",
                         phone: "9965010204",
                     },
-                    
+
                 ],
                 studentCoordinator: [
                     {
@@ -473,7 +473,7 @@ const EventDetails = () => {
                     title: "Round 2: Circuit Debugging",
                     description: [
                         "Participants will be given a electronic circuit , they want to identify and fix faults in the given circuit within the given time.",
-                        "Duration: 1.5 hours", 
+                        "Duration: 1.5 hours",
                     ]
                 },
             ],
@@ -556,22 +556,22 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr G Bharath, AP/FT",
-                        email:"bharathg@ksrct.ac.in",
+                        email: "bharathg@ksrct.ac.in",
                         phone: "9047976171",
                     }
                 ],
                 studentCoordinator: [
                     {
                         name: "Surya S, III Year/FT ",
-                        email:"suryaarjun813@gmail.com",
+                        email: "suryaarjun813@gmail.com",
                         phone: "9360492992",
                     },
                     {
                         name: "Yatheeswar R, II Year/FT ",
-                        email:"r.yatheeswar852@gmail.com",
+                        email: "r.yatheeswar852@gmail.com",
                         phone: "9441236991",
                     },
-                    
+
                 ],
             },
             registrationLink: "https://unstop.com/p/urban-nourish-street-food-remix-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420164", // Registration link
@@ -632,13 +632,13 @@ const EventDetails = () => {
             },
             registrationLink: "https://unstop.com/p/designathon-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420135", // Registration link
         },
-        
+
         "technical-event-13": {
             title: "Rapid Coding",
             description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
             image: Tech12,
             rounds: [
-               
+
             ],
             rules: [
                 "The event is open to all individual participants.",
@@ -687,7 +687,7 @@ const EventDetails = () => {
             description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
             image: Tech13,
             rounds: [
-               
+
             ],
             rules: [
                 "The event is open to all individual participants.",
@@ -734,7 +734,7 @@ const EventDetails = () => {
             description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
             image: Tech11,
             rounds: [
-               
+
             ],
             rules: [
                 "Open to all students with a passion for coding.",
@@ -765,19 +765,19 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
-                        email:"harshinirp@ksrct.ac.in",
+                        email: "harshinirp@ksrct.ac.in",
                         "phone": "9361446506"
                     },
                 ],
                 studentCoordinator: [
                     {
                         "name": "Praveen S (II-Year/CSE(AIML))",
-                        "email":"saravananpraveen1157@gmail.com",
+                        "email": "saravananpraveen1157@gmail.com",
                         "phone": "6369493352 "
                     },
                     {
                         "name": "Pavithran G (II-Year/CSE(AIML))",
-                        "email":"techpavithran18@gmail.com",
+                        "email": "techpavithran18@gmail.com",
                         "phone": "9363575964"
                     }
                 ]
@@ -790,7 +790,7 @@ const EventDetails = () => {
             description: "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
             image: Tech14,
             rounds: [
-               
+
             ],
             rules: [
                 "Are inter-college team members allowed? Yes",
@@ -821,19 +821,19 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Dr.K.Vijaya Sundravel",
-                        email:"vijayasundravel@ksrct.ac.in",
+                        email: "vijayasundravel@ksrct.ac.in",
                         phone: "9688676665"
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "T.Rithiga",
-                        email:"trithika36@gmail.com ",
+                        email: "trithika36@gmail.com ",
                         phone: "9344868518 "
                     },
                     {
                         name: "S.Sandhiya",
-                        email:"sandiyas704@gmail.comm",
+                        email: "sandiyas704@gmail.comm",
                         phone: "9659953151"
                     }
                 ]
@@ -845,7 +845,7 @@ const EventDetails = () => {
             description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
             image: Tech16,
             rounds: [
-               
+
             ],
             rules: [
                 "Only one participant",
@@ -862,32 +862,32 @@ const EventDetails = () => {
                     time: "9:30AM -10:30AM",
                     location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
                 },
-               
+
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr.M.Arunkumar ",
-                        email:"arunkumar@ksrct.ac.in",
+                        email: "arunkumar@ksrct.ac.in",
                         phone: "8056989930"
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "A.V. Raghavendhar ",
-                        email:"a.v.raghavendhar516@gmail.com",
+                        email: "a.v.raghavendhar516@gmail.com",
                         phone: "8778239221"
                     },
                     {
                         name: "K.Harini ",
-                        email:"mailto:harinikumar25102005@gmail.com",
+                        email: "mailto:harinikumar25102005@gmail.com",
                         phone: "8667393828"
                     }
                 ]
             },
             registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
         },
-       
+
 
         // Non-Technical Events
         "non-technical-event-1": {
@@ -922,7 +922,7 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "IT Park",
                 },
-                
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -1181,7 +1181,7 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "HPC LAB,Mechatronics Block",
                 },
-              
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -1220,7 +1220,7 @@ const EventDetails = () => {
                 "Auction Arena is a thrilling and interactive event designed to bring out the strategist in you! This fun-filled IPL-themed auction challenges participants to think analytically, bid smartly, and build the ultimate cricket squad. Participants must bid wisely, manage their budgets effectively, and build a well-balanced squad to outshine their competitors.",
             image: NonTech6,
             rounds: [
-              
+
             ],
             rules: [
                 "1)Minimum Requirements:",
@@ -1256,7 +1256,7 @@ const EventDetails = () => {
                         email: "udhaya@ksrct.ac.in",
                         phone: "8675587180",
                     },
-                   
+
                 ],
                 studentCoordinator: [
                     {
@@ -1367,7 +1367,7 @@ const EventDetails = () => {
                 "For Individual 50 rupees"
             ],
             schedule: [
-               
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -1381,12 +1381,12 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Harshad Gajanan Shivpuje ",
-                        email:"harshadshivpujeg@gmail.com",
+                        email: "harshadshivpujeg@gmail.com",
                         phone: "7708927651",
                     },
                     {
                         name: "Rajesh Kumar S ",
-                        email:"rajesh2342005@gmail.com",
+                        email: "rajesh2342005@gmail.com",
                         phone: "9361688130",
                     }
 
@@ -1409,7 +1409,7 @@ const EventDetails = () => {
                 "Submission Time – Memes must be submitted within the given time limit.",
             ],
             schedule: [
-               
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -1423,13 +1423,13 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Lakma Varshini R ",
-                        email:"lakmavarshini4@gmail.com",
+                        email: "lakmavarshini4@gmail.com",
                         phone: "6381118259",
 
                     },
                     {
                         name: "Vignesh K ",
-                        email:"vigneshblue3162@gmail.com",
+                        email: "vigneshblue3162@gmail.com",
                         phone: "6381083683",
 
                     }
@@ -1454,7 +1454,7 @@ const EventDetails = () => {
                 "•	Winners will be judged based on creativity, storytelling, and overall impact."
             ],
             schedule: [
-               
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -1485,7 +1485,7 @@ const EventDetails = () => {
             },
             registrationLink: "https://unstop.com/p/short-film-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420239", // Registration link
         },
-        
+
         "non-technical-event-11": {
             title: "Mind Maze",
             description:
@@ -1506,13 +1506,13 @@ const EventDetails = () => {
                 "No external help or resources can be used during the event."
             ],
             schedule: [
-               
+
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mrs M Devaki (AP/ECE))",
-                        email:"devaki@ksrct.ac.in",
+                        email: "devaki@ksrct.ac.in",
                         phone: "9095059424",
                     },
 
@@ -1520,13 +1520,13 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Dharaniboopathi M (III-Year/ECE)",
-                        email:"dharani1865@gmail.com",
+                        email: "dharani1865@gmail.com",
                         phone: "9790115706",
 
                     },
                     {
                         name: "Harish V(III-Year/ECE)",
-                        email:"harishpvr23@gmail.com ",
+                        email: "harishpvr23@gmail.com ",
                         phone: "8825508742",
 
                     },
@@ -1558,13 +1558,13 @@ const EventDetails = () => {
                 "Participants should ensure cleanliness and dispose of leftover waste properly.",
             ],
             schedule: [
-               
+
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Dr.M.Velumani/AP/Civil",
-                        email:"velumani@ksrct.ac.in",
+                        email: "velumani@ksrct.ac.in",
                         phone: "9787978886",
                     },
 
@@ -1572,13 +1572,13 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "R.K.Aswin",
-                        email:"rkaswin07@gmail.com",
+                        email: "rkaswin07@gmail.com",
                         phone: "8148934756",
 
                     },
                     {
                         name: "Nithiya Suriyan K",
-                        email:"viratsuryaviratsurya4@gmail.com",
+                        email: "viratsuryaviratsurya4@gmail.com",
                         phone: "8056603518",
 
                     }
@@ -1613,13 +1613,13 @@ const EventDetails = () => {
                     time: "2:00 PM to 3:00 PM",
                     location: "Textile chemical processing laboratory,Textile Block ",
                 },
- 
+
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr.P. Maheswaran AP/Textile ",
-                        email:"pmaheswaran@ksrct.ac.in",
+                        email: "pmaheswaran@ksrct.ac.in",
                         phone: "9600589068",
                     },
 
@@ -1627,13 +1627,13 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "V.Sandhiya 2nd year / Textile ",
-                        email:"sandhiya07082006@gmail.com",
+                        email: "sandhiya07082006@gmail.com",
                         phone: "6369670394",
 
                     },
                     {
                         name: "S.A.Hariharan 2nd year / Textile",
-                        email:"harihraran18@gmail.com",
+                        email: "harihraran18@gmail.com",
                         phone: "7092102427",
 
                     }
@@ -1761,6 +1761,15 @@ const EventDetails = () => {
             description:
                 "Join our workshop to gain a basic understanding of DFT and its importance in the semiconductor industry. Open to UG & PG students from all branches, with mandatory attendance for certification. Participation certificates will be provided to all attendees!",
             image: Workshop1,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
@@ -1772,6 +1781,7 @@ const EventDetails = () => {
                         phone: "812213986",
                     },
                 ],
+
                 studentCoordinator: [
                     {
                         name: "Hari Kesavaraj J , Second Year EE (VLSI D&T)",
@@ -1790,24 +1800,33 @@ const EventDetails = () => {
             description:
                 "Join our Digital Marketing Workshop to learn from industry experts Mr. Gowdham Subramaniam (Director, Seeka Host India) and Mr. Dinesh Kumar VM (General Manager, ClickDo, UK). Gain insights into digital marketing strategies and industry trends. Don’t miss this opportunity to enhance your marketing skills! 🚀",
             image: Workshop2,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr.P.Dinesh Kumar ",
                         phone: "9688837873",
-                        email:"p.dineshkumar@ksrct.ac.in"
+                        email: "p.dineshkumar@ksrct.ac.in"
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Anisa F",
                         phone: "9942651212",
-                        email:"anisafairoz@gmail.com"
+                        email: "anisafairoz@gmail.com"
                     },
                     {
                         name: "Balasastha E",
-                        phone:"8056520787",
-                        email:"balasastha85266@gmail.com"
+                        phone: "8056520787",
+                        email: "balasastha85266@gmail.com"
                     },
                 ],
             },
@@ -1818,6 +1837,15 @@ const EventDetails = () => {
             description:
                 "Join our UiPath-Supported Workshop on Robotic Process Automation (RPA) led by Mr. M. Senthil, Lead Technical Trainer at ICT Academy, Chennai. Gain hands-on experience in automation tools and techniques to enhance workflow efficiency. Don’t miss this opportunity to elevate your automation skills! 🚀",
             image: Workshop3,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
@@ -1829,12 +1857,12 @@ const EventDetails = () => {
                     {
                         name: "Gowrinath V",
                         phone: "8056570574",
-                        
+
                     },
                     {
                         name: "Durga S",
-                        phone:"9080191925",
-                        
+                        phone: "9080191925",
+
                     },
                 ],
             },
@@ -1845,26 +1873,35 @@ const EventDetails = () => {
             description:
                 "The AI on Game Developing Workshop, organized by IITM Pravartak Technologies Foundation, is a two-day event designed to introduce participants to the integration of Artificial Intelligence (AI) in game development. This hands-on workshop covers key AI techniques such as pathfinding, decision-making algorithms, and neural networks, enabling participants to create intelligent game characters, optimize game mechanics, and enhance player experience. Open to students, professionals, and AI/game development enthusiasts, no prior experience is required—just a basic understanding of programming is recommended. Inter-specialization teams are welcome, and registration is free! 🚀🎮",
             image: Workshop4,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mrs. R.S. Sivaranjani (AP/CSE(AIML))",
-                        email:"sivaranjani.rs@ksrct.ac.in",
+                        email: "sivaranjani.rs@ksrct.ac.in",
                         phone: "9677055783",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Surendra Krishana R (III-Year/CSE(AIML))",
-                        email:"surendirakrishna.info@gmail.com",
+                        email: "surendirakrishna.info@gmail.com",
                         phone: "8438878063",
-                        
+
                     },
                     {
                         name: "Sriharan S (III-Year/CSE(AIML))",
-                        email:"sriharan2544@gmail.com",
-                        phone:"9629729009",
-                        
+                        email: "sriharan2544@gmail.com",
+                        phone: "9629729009",
+
                     },
                 ],
             },
@@ -1875,23 +1912,32 @@ const EventDetails = () => {
             description:
                 "Join Unlocking Digital Potential: A Workshop on Modern Marketing led by Mr. M. Ranjith Prasanth, Digital Marketer at Virtuspark Technologies Pvt. Ltd., Erode. Gain insights into the latest digital marketing trends and strategies. Don't miss this opportunity to enhance your marketing skills! 🚀",
             image: Workshop5,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr. P. Venkatesh",
-                        email:"venkateshp@ksrct.ac.in",
+                        email: "venkateshp@ksrct.ac.in",
                         phone: "8903366916",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Mohanakumaran K",
-                        email:"mohanakumaran2004@gmail.com",
+                        email: "mohanakumaran2004@gmail.com",
                         phone: "8838401078",
                     },
                     {
                         name: "Narendar P",
-                        email:"naren20062005@gmail.com",
+                        email: "naren20062005@gmail.com",
                         phone: "8508774247",
                     },
                 ],
@@ -1903,26 +1949,35 @@ const EventDetails = () => {
             description:
                 "In today’s digital world, mobile applications are a key driver of how individuals and businesses engage with technology. This Mobile Application Development Workshop aims to equip participants with a solid grasp of mobile app development across both Android and iOS platforms. The workshop will feature hands-on training, live coding, and a mini-project to implement learned concepts in practice",
             image: Workshop6,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr K.Dinesh Kumar",
-                        email:"dineshkumark@ksrct.ac.in",
+                        email: "dineshkumark@ksrct.ac.in",
                         phone: "9360287212",
-                    }, 
+                    },
                 ],
                 studentCoordinator: [
                     {
                         name: "Kaviya S",
-                        email:"kaviyasenthil12005@gmail.com",
+                        email: "kaviyasenthil12005@gmail.com",
                         phone: "6382491543",
-                        
+
                     },
                     {
                         name: "Obu Sharva Dharshini O ",
-                        email:"obusharvadharshinio@gmail.com",
+                        email: "obusharvadharshinio@gmail.com",
                         phone: "6381014001",
-                        
+
                     },
                 ],
             },
@@ -1933,26 +1988,35 @@ const EventDetails = () => {
             description:
                 "Participants will learn to create virtual instruments, control hardware, and analyze data. The workshop focuses on practical applications in engineering and control systems. The LabVIEW workshop covers topics like graphical programming, data acquisition, and control systems design. Participants will explore creating virtual instruments, interfacing hardware, and data analysis techniques",
             image: Workshop7,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr. Thangadurai A",
-                        email:"thangaduraia@ksrct.ac.in ",
+                        email: "thangaduraia@ksrct.ac.in ",
                         phone: "9095322233",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Nivitha V P",
-                        email:"nivithapalanisamy88@gmail.com",
+                        email: "nivithapalanisamy88@gmail.com",
                         phone: "9003344108",
-                        
+
                     },
                     {
                         name: "Ramya T",
-                        email:"ramya.t036@gmail.com ",
+                        email: "ramya.t036@gmail.com ",
                         phone: "9994964915",
-                        
+
                     },
                 ],
             },
@@ -1963,43 +2027,52 @@ const EventDetails = () => {
             description:
                 "An interactive workshop providing hands-on experience and insights into cutting-edge sequencing technologies.",
             image: Workshop8,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Dr. Puniethaa Prabhu",
-                        email:"punithaa@ksrct.ac.in",
+                        email: "punithaa@ksrct.ac.in",
                         phone: "9080195801",
                     },
                     {
                         name: "Dr. Sidhra S",
-                        email:"sidhra@ksrct.ac.in",
+                        email: "sidhra@ksrct.ac.in",
                         phone: "8870681797",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Javeed Akthar G",
-                        email:"javeedakthar13@gmail.com",
+                        email: "javeedakthar13@gmail.com",
                         phone: "9345647270",
-                        
+
                     },
                     {
                         name: "Sanjay Kumar K",
-                        email:"sanjaysanjay212004@gmail.com",
+                        email: "sanjaysanjay212004@gmail.com",
                         phone: "8807076569",
-                        
+
                     },
                     {
                         name: "Mohammed Arkam K",
-                        email:"mohammedarkamsheriff@gmail.com",
+                        email: "mohammedarkamsheriff@gmail.com",
                         phone: "7904655755",
-                        
+
                     },
                     {
                         name: "Meriam Janitta J",
-                        email:"janitta967@gmail.com",
+                        email: "janitta967@gmail.com",
                         phone: "7010347812",
-                        
+
                     },
                 ],
             },
@@ -2010,25 +2083,34 @@ const EventDetails = () => {
             description:
                 "Join our Hands-on Drone Building and Flight Workshop and experience the thrill of creating and flying your own drone! This interactive session covers drone assembly, aerodynamics, and real-world applications, giving you practical insights into UAV technology. With expert guidance, you'll build your drone from scratch and take it for a test flight, mastering essential piloting skills. Whether you're a beginner or a tech enthusiast, this workshop will elevate your knowledge and take you to new heights!",
             image: Workshop9,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr. S. Hari Prasadh",
-                        email:"hariprasadh@ksrct.ac.in",
+                        email: "hariprasadh@ksrct.ac.in",
                         phone: "7092821630",
                     },
                     {
                         name: "Mr. R. Vivek",
-                        email:"vivekr@ksrct.ac.in",
+                        email: "vivekr@ksrct.ac.in",
                         phone: "7200458826",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Soundarrajan A",
-                        email:"soundarrajan2004@gmail.com",
+                        email: "soundarrajan2004@gmail.com",
                         phone: "9442727410",
-                        
+
                     }
                 ],
             },
@@ -2039,26 +2121,35 @@ const EventDetails = () => {
             description:
                 "Workshop delves into LoRaWAN technology and its role in Industrial IoT (IIoT), enabling long-range, low-power wireless communication for various applications. Participants will gain insights into LoRaWAN architecture, device communication, network deployment, and security protocols. The workshop will cover smart manufacturing, asset tracking, environmental monitoring, and predictive maintenance, with hands-on sessions and real-world case studies to equip attendees with practical skills for implementing IoT solutions in industrial automation and efficiency.",
             image: Workshop10,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mrs. Jayamani S (AP/ECE)",
-                        email:"jayamani@ksrct.ac.in",
+                        email: "jayamani@ksrct.ac.in",
                         phone: "9629297054",
                     }
                 ],
                 studentCoordinator: [
                     {
                         name: "Nishathini (III-Year/ECE)",
-                        email:"nishanthinirajendren12@gmail.com",
+                        email: "nishanthinirajendren12@gmail.com",
                         phone: "8838948748",
-                        
+
                     },
                     {
                         name: "Rithan V (II-Year/ECE)",
-                        email:"rithanv78@gmail.com",
+                        email: "rithanv78@gmail.com",
                         phone: "9025033891",
-                        
+
                     },
                 ],
             },
@@ -2069,6 +2160,15 @@ const EventDetails = () => {
             description:
                 "'Value Addition in Millet': Millets are highly nutritious, climate-resilient grains that offer immense potential for health benefits and economic growth. This workshop aims to explore innovative ways to enhance the value of millets through processing, product development, and marketing strategies.",
             image: Workshop11,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
@@ -2080,12 +2180,12 @@ const EventDetails = () => {
                     {
                         name: "Pugazh Vendhan R, III Year/FT",
                         phone: "7550348891",
-                        
+
                     },
                     {
                         name: "Shahana B, II Year/FT",
                         phone: "7418883634",
-                        
+
                     },
                     {
                         name: "Santhosh S, II Year/FT",
@@ -2100,6 +2200,15 @@ const EventDetails = () => {
             description:
                 "The Design and Development of Automotive Products is a comprehensive process that combines innovation, engineering, and cutting-edge technology to create high-performance vehicles and components. From conceptualization and prototyping to testing and manufacturing, this process ensures safety, efficiency, and sustainability in automotive solutions. Engineers and designers work collaboratively to optimize aerodynamics, materials, and electronic systems, integrating advanced technologies like AI, IoT, and automation. Whether developing electric vehicles, smart mobility solutions, or high-performance car components, this field plays a crucial role in shaping the future of transportation. ",
             image: Workshop12,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
@@ -2111,14 +2220,14 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Lingeshwaran S L",
-                        email: "lingeshwaransl04@gmail.com",      
-                        phone:"8012439250",                 
-                    }, 
+                        email: "lingeshwaransl04@gmail.com",
+                        phone: "8012439250",
+                    },
                     {
                         name: "Raghunath E",
-                        email: "lingeshwaransl04@gmail.com",   
-                        phone:"8248732445",                    
-                    },                      
+                        email: "lingeshwaransl04@gmail.com",
+                        phone: "8248732445",
+                    },
                 ],
             },
             registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420128", // Registration link
@@ -2128,6 +2237,15 @@ const EventDetails = () => {
             description:
                 "The Building Information Modeling (BIM) workshop aims to introduce participants to the fundamentals of BIM technology and its applications in the construction industry. Participants will gain hands-on experience with BIM software tools and learn how to effectively utilize BIM for project planning, design, construction, and management. The Workshop “BIM in structural Design Development’ focused on enhancing architectural design skills through hands-on activities and software training. Participants utilized BIM Revit Architecture software to create 3D plans, elevations, and views. The workshop featured a building plan as exercise and emphasized innovation and creativity in design solutions. Mentors provided guidance and feedback throughout the workshop to refine participants, architectural concepts. Overall, the Workshop inspired participants to push the boundaries of architectural design and pursue excellence in their craft.",
             image: Workshop13,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
@@ -2140,13 +2258,13 @@ const EventDetails = () => {
                     {
                         name: "B. Susimitha",
                         email: "bsusimitha18@gmail.com",
-                        phone: "6374735128",                       
-                    },                    
+                        phone: "6374735128",
+                    },
                     {
                         name: "S. Suja",
                         email: "sujavishalini234@gmail.com",
-                        phone: "9500534225",                       
-                    },                    
+                        phone: "9500534225",
+                    },
                 ],
             },
             registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420174", // Registration link
@@ -2156,36 +2274,45 @@ const EventDetails = () => {
             description:
                 "The Medi-Tex Workshop is a valuable opportunity for students, researchers, and professionals in textile technology to explore advancements in medical textiles. This workshop will cover key topics such as smart textiles for healthcare, antibacterial fabrics, wound care materials, compression garments, and innovations in bio-textiles. Experts from the industry and academia will provide insights into material selection, fabrication techniques, and applications in medical fields. Participants will gain hands-on experience, engage in discussions on sustainability and regulations, and network with professionals. This workshop is ideal for those looking to enhance their knowledge and explore career opportunities in the growing field of medical textiles.",
             image: Workshop14,
+            schedule: [
+                {
+                    round: "Round ",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 3:00 PM",
+                    location: "Textile chemical processing laboratory,Textile Block ",
+                },
+
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Dr.K.R.Nanadagopal AP/Textile ",
-                        email:"nandagopakr@ksrct.ac.in",
+                        email: "nandagopakr@ksrct.ac.in",
                         phone: "9003436705",
                     },
                     {
                         name: "Mr.G.Devanand, AP / Textile",
-                        email:"devanandg@ksrct.ac.in ",
+                        email: "devanandg@ksrct.ac.in ",
                         phone: "9952841869",
                     }
                 ],
                 studentCoordinator: [
                     {
                         name: "Akshaya , 3rd  /Textile ",
-                        email:"akshayasrini007@gmail.com",
-                        phone: "7871969769",                       
-                    },                    
+                        email: "akshayasrini007@gmail.com",
+                        phone: "7871969769",
+                    },
                     {
                         name: "R.Hiruthik , 2nd /Textile ",
-                        email:"hiruthik4463@gmail.com",
-                        phone: "9965227394",                       
-                    },                    
+                        email: "hiruthik4463@gmail.com",
+                        phone: "9965227394",
+                    },
                 ],
             },
             registrationLink: "https://unstop.com/p/medi-tex-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420143", // Registration link
         },
     };
-     
+
     // Define animation variants
     const itemVariants = {
         hidden: { opacity: 0, y: 20 },
@@ -2331,42 +2458,51 @@ const EventDetails = () => {
                             </div>
                         </ScrollAnimation>
 
-                        {/* Schedule Section */}
-                        <ScrollAnimation>
-                            <div className="border border-sky-800 p-2 mt-6">
-                                <div className="p-4 md:p-10">
-                                    <h2 className="text-2xl md:text-3xl text-center font-semibold mb-8 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Schedule</h2>
-                                    {event.schedule.map((schedule, index) => (
-                                        <motion.div key={index} className="border-gray-300 pb-2 mb-2" variants={itemVariants}>
-                                            <motion.button
-                                                className="flex justify-between items-center w-full text-lg md:text-xl font-medium p-3 border border-sky-800 text-sky-500 hover:bg-sky-700 transition-colors duration-300"
-                                                onClick={() => toggleRound(index)}
-                                                whileHover={{ scale: 1.05 }}
-                                                whileTap={{ scale: 0.95 }}
-                                            >
-                                                {schedule.round}
-                                                {openRound === index ? <ChevronUp /> : <ChevronDown />}
-                                            </motion.button>
-                                            {openRound === index && (
-                                                <motion.div
-                                                    className="mt-2 p-3 border border-sky-900 bg-transparent text-gray-300"
-                                                    initial={{ opacity: 0, y: -10 }}
-                                                    animate={{ opacity: 1, y: 0 }}
-                                                    transition={{ duration: 0.3 }}
-                                                >
-                                                    <p className="text-base md:text-lg">Date: {schedule.date}</p>
-                                                    <p className="text-base md:text-lg">Time: {schedule.time}</p>
-                                                    <p className="text-base md:text-lg">Location: {schedule.location}</p>
-                                                </motion.div>
-                                            )}
-                                        </motion.div>
-                                    ))}
-                                </div>
-                            </div>
-                        </ScrollAnimation>
+
                     </>
                 )}
 
+
+                {/* Schedule Section */}
+                <div className="border border-sky-800 p-2 mt-6">
+                    <div className="p-4 md:p-10">
+                        <h2 className="text-2xl md:text-3xl text-center font-semibold mb-8 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
+                            Schedule
+                        </h2>
+
+                        {event?.schedule?.length > 0 ? (
+                            event.schedule.map((schedule, index) => (
+                                <motion.div key={index} className="border-gray-300 pb-2 mb-2" variants={itemVariants}>
+                                    <motion.button
+                                        className="flex justify-between items-center w-full text-lg md:text-xl font-medium p-3 border border-sky-800 text-sky-500 hover:bg-sky-700 transition-colors duration-300"
+                                        onClick={() => toggleRound(index)}
+                                        whileHover={{ scale: 1.05 }}
+                                        whileTap={{ scale: 0.95 }}
+                                    >
+                                        {schedule.round}
+                                        {openRound === index ? <ChevronUp /> : <ChevronDown />}
+                                    </motion.button>
+
+                                    {openRound === index && (
+                                        <motion.div
+                                            className="mt-2 p-3 border border-sky-900 bg-transparent text-gray-300"
+                                            initial="hidden"
+                                            animate="visible"
+                                            variants={itemVariants}
+                                            transition={{ duration: 0.3 }}
+                                        >
+                                            <p className="text-base md:text-lg">Date: {schedule.date}</p>
+                                            <p className="text-base md:text-lg">Time: {schedule.time}</p>
+                                            <p className="text-base md:text-lg">Location: {schedule.location}</p>
+                                        </motion.div>
+                                    )}
+                                </motion.div>
+                            ))
+                        ) : (
+                            <p className="text-gray-300 text-center">No schedule available.</p>
+                        )}
+                    </div>
+                </div>
                 {/* Contact Section */}
                 <ScrollAnimation>
                     <div className="border border-sky-800 p-3 mt-6">

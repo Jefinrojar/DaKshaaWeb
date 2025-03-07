@@ -6,7 +6,7 @@ const HackathonSection = () => {
     // Example data as an array of objects
     const eventDetails = {
         id: "hackathon-event-1",
-        title: "Hackathon 2023",
+        title: "Hackathon 2025",
         descriptions: [
             { image: "https://images.unsplash.com/photo-1739993070804-bb121822134e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", text: "Join the biggest hackathon of the year and showcase your skills!" },
             { image: "https://images.unsplash.com/photo-1739993070804-bb121822134e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", text: "Collaborate with top minds and innovate new solutions." },
@@ -68,7 +68,6 @@ const HackathonSection = () => {
         },
     };
 
-
     // Use the first event in the array for demonstration
     const event = eventDetails;
 
@@ -90,9 +89,21 @@ const HackathonSection = () => {
         },
     };
 
+    // Load Animation
+    const loadAnimation = {
+        initial: { opacity: 0, y: 50 },
+        animate: { opacity: 1, y: 0 },
+        transition: { duration: 0.5 },
+    };
 
     return (
-        <div className="p-4 md:p-10 mt-24 text-white min-h-screen">
+        <motion.div
+            initial="initial"
+            animate="animate"
+            transition="transition"
+            variants={loadAnimation}
+            className="p-4 md:p-10 mt-24 text-white min-h-screen"
+        >
             <div className="max-w-4xl mx-auto text-white p-4 md:p-6">
                 <h1 className="text-3xl md:text-5xl font-bold text-center mb-8 text-[#9DD3FF]">{event.title}</h1>
 
@@ -107,6 +118,8 @@ const HackathonSection = () => {
                 >
                     REGISTER NOW!
                 </motion.button>
+
+                {/* Rest of the content */}
                 <div className="flex flex-col md:flex-row justify-between my-10 gap-4">
                     {['Description', 'Rounds', 'Rules', 'Schedule', 'Contact'].map((item, index) => (
                         <motion.div
@@ -118,6 +131,8 @@ const HackathonSection = () => {
                         </motion.div>
                     ))}
                 </div>
+
+                {/* Description Section */}
                 <div className="border border-sky-800 p-2 mb-6 ">
                     <div className="flex flex-col gap-8  border p-4  border-sky-800 bg-sky-900/30">
                         <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">{eventDetails?.title}</p>
@@ -128,11 +143,11 @@ const HackathonSection = () => {
                                 className={`flex flex-col md:flex-row items-center gap-6 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                                     }`}
                             >
-                                <div className="w-40 h-40 md:w-48 md:h-48">
+                                <div className="w-40 h-40 md:w-72 md:h-72">
                                     <img
                                         src={desc.image}
                                         alt={`Hackathon image ${index + 1}`}
-                                        className="w-full h-full object-cover rounded-lg shadow-lg"
+                                        className="w-full h-full object-cover border border-sky-800"
                                     />
                                 </div>
                                 <div className="text-center md:text-left">
@@ -143,6 +158,47 @@ const HackathonSection = () => {
                     </div>
                 </div>
 
+                {/* Rewards and Recognition Section */}
+                <div className="border border-sky-800 p-2 mb-5">
+                    <div className="border border-sky-800 shadow-lg p-4 md:p-10">
+                        <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
+                            Rewards and Recognition
+                        </h2>
+
+                        {/* Prize List */}
+                        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12">
+                            {/* 1st Prize */}
+                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md mt-28">
+                                <span className="text-2xl font-bold text-yellow-400">
+                                    🥈 2nd Prize
+                                </span>
+                                <span className="text-3xl font-semibold text-white mt-2">
+                                    ₹7,000
+                                </span>
+                            </div>
+
+                            {/* 2nd Prize */}
+                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md mb-20">
+                                <span className="text-2xl font-bold text-gray-300">
+                                    🥇 1st Prize
+                                </span>
+                                <span className="text-3xl font-semibold text-white mt-2">
+                                    ₹10,000
+                                </span>
+                            </div>
+
+                            {/* 3rd Prize */}
+                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 mt-28 shadow-md">
+                                <span className="text-2xl font-bold text-orange-400">
+                                    🥉 3rd Prize
+                                </span>
+                                <span className="text-3xl font-semibold text-white mt-2">
+                                    ₹5,000
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 {/* Rounds Section */}
                 <div className="border border-sky-800 p-2">
@@ -212,8 +268,6 @@ const HackathonSection = () => {
                     </div>
                 </div>
 
-
-
                 {/* Contact Section */}
                 <div className="border border-sky-800 p-3 mt-6">
                     <div className="bg-sky-900/20 p-4 md:p-10">
@@ -245,7 +299,7 @@ const HackathonSection = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </motion.div>
     );
 };
 
