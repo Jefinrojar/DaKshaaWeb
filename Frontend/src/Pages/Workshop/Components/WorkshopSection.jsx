@@ -352,10 +352,14 @@ const WorkshopSection = () => {
 
       {/* Modal */}
       {selectedWorkshop && (
-        <div className="fixed inset-0 flex items-center md:justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50">
+        <div
+          className="fixed inset-0 flex items-center md:justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50"
+          onClick={() => setSelectedWorkshop(null)} // Close modal on backdrop click
+        >
           <div
             className="p-2 border border-sky-800 relative md:mx-4 sm:mx-0 ml-8"
-            data-aos="zoom-in" // Add AOS animation for modal
+            data-aos="zoom-in"
+            onClick={(e) => e.stopPropagation()} // Prevent click from closing modal when clicking inside it
           >
             <button
               className="absolute -top-7 -right-6 text-3xl font-bold text-gray-500 hover:text-red-500"
@@ -410,11 +414,11 @@ const WorkshopSection = () => {
                     )}
                   </ul>
                   <button
-                      className="border border-white px-6 py-2 hover:bg-white/20 duration-300 mb-5"
-                      onClick={() => window.open(selectedWorkshop.registrationLink, "_blank")}
-                    >
-                      REGISTER NOW!
-                    </button>
+                    className="border border-white px-6 py-2 hover:bg-white/20 duration-300 mb-5"
+                    onClick={() => window.open(selectedWorkshop.registrationLink, "_blank")}
+                  >
+                    REGISTER NOW!
+                  </button>
                 </div>
               </div>
             </div>
