@@ -1272,7 +1272,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://unstop.com/p/syncx-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420225", // Registration link
         },
         "non-technical-event-7": {
             title: "A Guess Challenge ",
