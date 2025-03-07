@@ -27,7 +27,7 @@ import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/VLS
 import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/BIO.jpg"
 import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
 
-import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.jpg"
+import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
 import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
 
 import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
@@ -417,16 +417,10 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
+                    round: "Event Timing",
                     date: "May 21, 2025",
                     time: "9:00 AM to 12:00 PM",
                     location: "Language Enrichment Centre Lab, Academic Block",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 21, 2025",
-                    time: "1:00 PM to 4:00 PM",
-                    location: "Tech Hub, Innovation Center",
                 },
             ],
             contact: {
@@ -650,7 +644,7 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
+                    round: "Event Timing",
                     date: "March 22, 2025",
                     time: "10:00 AM to 11:30 PM",
                     location: "AI Lab, Mechatronics Block",
@@ -1233,6 +1227,12 @@ const EventDetails = () => {
                     round: "Slot1",
                     date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
+                    location: "AB(211),AB Block",
+                },
+                {
+                    round: "Slot2",
+                    date: "March 22, 2025",
+                    time: "1:00 PM to 4:00 PM",
                     location: "AB(211),AB Block",
                 },
             ],
@@ -1920,7 +1920,7 @@ const EventDetails = () => {
             image: Workshop5,
             schedule: [
                 {
-                    round: "Round ",
+                    round: "Event Timing",
                     date: "March 21, 2025 and March 22, 2025",
                     time: "9:00 AM to 4:00 PM",
                     location: "AB 209, Academic Block",

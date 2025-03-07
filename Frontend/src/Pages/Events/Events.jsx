@@ -16,7 +16,7 @@ import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/EEE.pn
 import Tech3 from "../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
 import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/BIO.jpg"
 import Tech5 from "../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
-import Tech6 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.jpg"
+import Tech6 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
 import Tech7 from "../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
 import Tech8 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
 import Tech9 from "../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
