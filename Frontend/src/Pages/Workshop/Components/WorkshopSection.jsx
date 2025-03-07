@@ -189,7 +189,7 @@ const workshops = [
     studentCoNo1: "+91 75503 48891",
     studentCoNo2: "+91 74188 83634",
     studentCoNo3: "+91 73058 44895",
-    companyName: "E-MILLET PRODUCTS",
+    companyName: "Moon Foods",
     companyImg: millet,
     registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420158",
   },
