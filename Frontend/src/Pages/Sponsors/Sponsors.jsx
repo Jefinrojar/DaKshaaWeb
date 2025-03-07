@@ -18,6 +18,9 @@ import cse from "./assets/cse.jpg";
 import bt from "./assets/bt.jpeg";
 import EEE from "./assets/EEE.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 
 
@@ -53,13 +56,14 @@ function Sponsors() {
 
   return (
     <div className="mt-16 text-white min-h-screen flex flex-col items-center py-10 px-4 sm:px-8 lg:px-16 space-y-16">
-      <h1 className="font-bold text-center text-3xl">
+      <h1 className="font-bold text-center text-3xl" data-aos="fade-down">
         {letters.map((char, index) => (
           <motion.span
             key={index}
             initial={{ y: 0 }}
             animate={letterAnimation(index)}
             style={{ display: "inline-block" }}
+            
           >
             {char}
           </motion.span>

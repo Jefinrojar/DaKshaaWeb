@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AccommodationDetails = () => {
   const [selectedDate, setSelectedDate] = useState(["March 21"]);
-  const [selectedGender, setSelectedGender] = useState("Male");
   const [includeFood, setIncludeFood] = useState(false);
   const pricePerDay = includeFood ? 450 : 300;
   const totalPrice = selectedDate.length * pricePerDay;
@@ -22,10 +23,14 @@ const AccommodationDetails = () => {
     },
   });
 
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div>
       <div className="flex justify-center items-center mt-36 text-white">
-        <h1 className="font-bold text-center text-3xl">
+        <h1 className="font-bold text-center text-3xl" data-aos="fade-down">
           {letters.map((char, index) => (
             <motion.span
               key={index}
@@ -38,12 +43,16 @@ const AccommodationDetails = () => {
           ))}
         </h1>
       </div>
-      {/* Outer Container with Border and Background */}
-      <div className="border border-sky-800 p-3 max-w-6xl mx-auto mt-8 mb-10 lg:ml-48">
+
+      {/* Outer Container */}
+      <div
+        className="border border-sky-800 p-3 max-w-6xl mx-auto mt-8 mb-10 lg:ml-48"
+        data-aos="fade-up"
+      >
         <div className="border border-sky-800 bg-sky-900/30 p-6 shadow-lg w-full mx-auto clip-bottom-right">
           <div className="flex flex-col md:flex-row text-white">
             {/* Left Section */}
-            <div className="w-full md:w-1/2 p-4">
+            <div className="w-full md:w-1/2 p-4" data-aos="fade-right">
               <h2 className="text-xl font-semibold mb-2">Accommodation Charges</h2>
               <p>Rs. 300 per day</p>
 
@@ -61,20 +70,21 @@ const AccommodationDetails = () => {
                 </p>
               </div>
 
-              {/* Registration Info */}
+              {/* Registration Button */}
               <button
                 className="mb-8 w-full md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
                 onClick={() => window.open("www.google.com", "_blank")}
+                data-aos="zoom-in"
               >
                 BOOK NOW!
               </button>
             </div>
 
             {/* Vertical Divider */}
-            <div className="border-l border-white h-auto md:h-[450px] mx-4"></div>
+            <div className="border-l border-sky-800 h-auto md:h-[450px] mx-4" data-aos="fade" />
 
             {/* Right Section */}
-            <div className="w-full md:w-1/2 p-4">
+            <div className="w-full md:w-1/2 p-4" data-aos="fade-left">
               <h2 className="text-xl font-semibold mb-2">Lunch Charges</h2>
               <p>Rs. 100 per lunch</p>
 
@@ -95,7 +105,7 @@ const AccommodationDetails = () => {
                 {["March 21", "March 22"].map((date, index) => (
                   <React.Fragment key={date}>
                     <button
-                      className="px-10 py-2 border bg-sky-900/30 text-white w-full md:w-auto"
+                      className="px-10 py-2 border border-sky-800 bg-sky-900/30 text-white w-full md:w-auto"
                       onClick={() =>
                         setSelectedDate((prev) =>
                           prev.includes(date)
@@ -103,11 +113,15 @@ const AccommodationDetails = () => {
                             : [...prev, date]
                         )
                       }
+                      data-aos="flip-left"
                     >
                       {date}
                     </button>
                     {index === 0 && (
-                      <div className="border-l-2 border-gray-500 h-12 md:h-auto w-0 my-4 md:my-0"></div>
+                      <div
+                        className="border-l-2 border-sky-800 h-12 md:h-auto w-0 my-4 md:my-0"
+                        data-aos="fade"
+                      ></div>
                     )}
                   </React.Fragment>
                 ))}
@@ -118,12 +132,14 @@ const AccommodationDetails = () => {
                 <button
                   className="mb-8 w-32 md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-sm md:text-xl shadow-xl"
                   onClick={() => window.open("www.google.com", "_blank")}
+                  
                 >
                   BOOK NOW!
                 </button>
                 <button
                   className="mb-8 w-32 md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-sm md:text-xl shadow-xl"
                   onClick={() => window.open("www.google.com", "_blank")}
+                  
                 >
                   BOOK NOW!
                 </button>

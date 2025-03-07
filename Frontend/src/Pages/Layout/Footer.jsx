@@ -7,7 +7,7 @@ import dakshaa from '../../assets/logo1.png';
 const Footer = () => {
     return (
         <div className="footer bg-gray-900 text-white py-12 md:py-24 text-base">
-            <div className="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-12 text-center md:text-left">
+            <div className="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-0 px-6 md:px-12 text-center md:text-left">
                 
                 <div className="logo flex justify-center md:justify-start">
                     <img src={ksrct} alt="KSRCT Logo" className="h-16 w-auto md:h-20" />
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
 
                 <div className="address">
-                    <h3 className="text-2xl md:text-3xl font-semibold">Address</h3>
+                    <h3 className="text-2xl md:text-3xl ml-0 md:ml-8 font-semibold">Address</h3>
                     <div className="flex flex-col items-center md:flex-row md:items-start gap-2 md:gap-3 mt-2 md:mt-3 text-center md:text-left">
                         <div className="flex justify-center md:justify-start">
                             <FaMapMarkerAlt className="text-white text-lg md:text-xl mt-1 md:mt-2" />
