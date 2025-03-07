@@ -391,8 +391,6 @@ const Events = () => {
                     setSelectedEvent(event.id); // Update the selected event
                     setRotation((prev) => prev + 360); // Rotate the container by 360 degrees
                   }}
-                  onMouseEnter={() => setHoveredCircle(event.id)} // Set hover state to true
-                  onMouseLeave={() => setHoveredCircle(null)} // Set hover state to false
                 >
                   {/* Image */}
                   <img
@@ -400,24 +398,23 @@ const Events = () => {
                     alt={event.name}
                     className="w-full h-full object-cover"
                   />
-                  {/* Backdrop and Event Name */}
-                  {hoveredCircle === event.id && (
-                    <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                      <motion.span
-                        className="text-white text-[10px] lg:text-xl md:text-2xl font-bold text-center"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 0.5 }}
-                      >
-                        {event.name}
-                      </motion.span>
-                    </div>
-                  )}
+                  {/* Permanent Backdrop and Event Name */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <motion.span
+                      className="text-white text-[10px] lg:text-xl md:text-2xl font-bold text-center"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      {event.name}
+                    </motion.span>
+                  </div>
                 </motion.div>
               );
             })}
           </motion.div>
         </motion.div>
+
 
         {/* Event Details Slider */}
         <div className="w-full lg:w-2/5 flex items-center justify-center p-4 sm:p-6 md:p-10">
