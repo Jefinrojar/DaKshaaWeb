@@ -102,7 +102,7 @@ const Navbar = () => {
                   </svg>
 
                   {isDropdownOpen && (
-                    <ul className="absolute left-0 mt-48 bg-sky-900/40 border border-sky-800 clip-bottom-right text-sm shadow-lg w-44 text-center z-50">
+                    <ul className="absolute left-0 mt-52 bg-sky-900/40 border border-sky-800 clip-bottom-right text-sm shadow-lg w-44 text-center z-50">
                       <li
                         className="px-4 py-2 hover:bg-sky-700"
                         onClick={() => handleLinkClick("Events", "/events")}

@@ -26,8 +26,10 @@ import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EEE
 import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
 import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/BIO.jpg"
 import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
+
 import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.jpg"
 import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
+
 import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
 import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
 import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.jpg"
@@ -214,16 +216,12 @@ const EventDetails = () => {
             image: Tech3,
             rounds: [
                 {
-                    title: "Round 1",
-                    description: "Each team will have to explain their project",
-                },
-                {
-                    title: "Round 2",
-                    description: "The selected projects should be presented for atmost 10 minutes",
+                    title: "",
+                    description: "A technical project presentation competition where teams (1-3 members) showcase innovative projects in engineering, technology, or innovation. Each team gets 10 minutes to present and 5 minutes for Q&A, with originality being crucial. The winning team gets Rs. 1000, and attendance is mandatory for certification.",
                 },
             ],
             rules: [
-                "Each team consist of 2 to 4 members",
+                "Each team consist of 1 to 3 members",
                 "Each team will have 10 minutes to present their project.",
                 "An additional 5 minutes will be allocated for Q&A.",
                 "All projects be based on engineering, technology, or innovation",
@@ -245,13 +243,7 @@ const EventDetails = () => {
                 {
                     round: "Round 1",
                     date: "March 21, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "March 21, 2025",
-                    time: "1:00 PM to 3:00 PM",
+                    time: "9:00 AM to 3:00 PM",
                     location: "Tech Hub, Innovation Center",
                 },
             ],
@@ -261,6 +253,11 @@ const EventDetails = () => {
                         name: "Mr. D. Poornakumar",
                         email: "poornakumard@ksrct.ac.in",
                         phone: "9003645614",
+                    },
+                    {
+                        name: "Mrs. C. Saranya",
+                        email: "saranyac@ksrct.ac.in",
+                        phone: "9994588990",
                     },
                 ],
                 studentCoordinator: [
@@ -529,8 +526,7 @@ const EventDetails = () => {
             image: Tech8,
             rounds: [
                 {
-                    title: "Round 1",
-                    description: "The event aligns with the following SDGs:",
+                    description: "The event aligns with the following SDGs:"
                 },
                 {
                     description: "SDG 2: Zero Hunger – Developing nutrient-rich street foods to improve food security, •	SDG 3: Good Health and Well-being – Encouraging healthier eating habits through innovative food formulations,•	SDG 9: Industry, Innovation, and Infrastructure – Promoting creativity and technological advancements in food processing,  ",
@@ -545,7 +541,7 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
+                    round: "Round",
                     date: "May 22, 2025",
                     time: "9:00 AM to 11:00 AM",
                     location: "Tech Hub, Innovation Center",
@@ -1067,20 +1063,24 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Dr. N.Lalithamani ",
+                        email: "lalithamani@ksrct.ac.in",
                         phone: "8925568867",
                     },
                     {
-                        name: "Dr. P.Sundhathirakumar ",
+                        name: "Dr. P.Suthanthirakumar",
+                        email: "suthanthirakumar@ksrct.ac.in",
                         phone: "9500825738",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Sathiya Jeeva M ",
+                        email: "sathiyajeevamtp@gmail.com",
                         phone: "6380343664",
                     },
                     {
                         name: "Deepasri M ",
+                        email: "deepasrimanikandan@gmail.com",
                         phone: "7695945259",
                     },
                 ],
@@ -1275,7 +1275,7 @@ const EventDetails = () => {
             registrationLink: "", // Registration link
         },
         "non-technical-event-7": {
-            title: "A Guess Change",
+            title: "A Guess Challenge ",
             description:
                 "Unmasking Brands & Flavors: A Journey Through Corporate Identities & Culinary Secrets This event is designed to challenge participantsknowledge of corporate branding and food recognition through an interactive three-level game. It tests awareness, teamwork, and quick thinking in a fun and engaging way.",
             image: NonTech7,
@@ -1312,13 +1312,19 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 24, 2025",
+                    date: "March 22, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
                 {
                     round: "Round 2",
-                    date: "May 25, 2025",
+                    date: "March 22, 2025",
+                    time: "2:00 PM to 4:00 PM",
+                    location: "Art Gallery, Creative Center",
+                },
+                {
+                    round: "Round 3",
+                    date: "March 22, 2025",
                     time: "2:00 PM to 4:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
@@ -1519,9 +1525,9 @@ const EventDetails = () => {
                 ],
                 studentCoordinator: [
                     {
-                        name: "Dharaniboopathi M (III-Year/ECE)",
-                        email: "dharani1865@gmail.com",
-                        phone: "9790115706",
+                        name: "Prathipa T (II-Year/ECE)",
+                        email: "thangavelprathiba@gmail.com",
+                        phone: "9342626157",
 
                     },
                     {
@@ -1535,7 +1541,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/mind-maze-decode-the-clue-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420258", // Registration link
         },
         "non-technical-event-12": {
-            title: "Waste to Best 2025",
+            title: "Waste to Wealth 2025",
             description:
                 "This event invites Engineering and Polytechnic students to showcase innovative solutions by transforming waste into creative, functional, or technological models. Participants will present their projects in a 5-7 minute pitch, focusing on creativity, sustainability, and practicality. The competition enhances problem-solving, entrepreneurial skills, and environmental awareness, offering career and networking opportunities in sustainability.",
             image: NonTech11,
@@ -1774,10 +1780,12 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Dr.S.Gomathi",
+                        email: "gomathi@ksrct.ac.in",
                         phone: "9894279244",
                     },
                     {
                         name: "Mr.S.Pradeep ",
+                        email: "pradeeps@ksrct.ac.in",
                         phone: "812213986",
                     },
                 ],
@@ -1785,10 +1793,12 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Hari Kesavaraj J , Second Year EE (VLSI D&T)",
+                        email: "harikesavaraj1806@gmail.com",
                         phone: "8270278279",
                     },
                     {
                         name: "Aishvarieya V , Second Year EE (VLSI D&T)",
+                        email: "aishvarieyav5@gmail.com",
                         phone: "6374684519",
                     },
                 ],

@@ -43,7 +43,7 @@ const ParticlesComponent = (props) => {
         events: {
           onClick: {
             enable: true,
-            mode: "push",
+            mode: "none",
           },
           onHover: {
             enable: true,
@@ -88,7 +88,7 @@ const ParticlesComponent = (props) => {
           density: {
             enable: true,
           },
-          value: 200,
+          value: 400,
         },
         opacity: {
           value: 0.3,
