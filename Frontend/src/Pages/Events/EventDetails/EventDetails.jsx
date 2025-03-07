@@ -550,12 +550,7 @@ const EventDetails = () => {
                     time: "9:00 AM to 11:00 AM",
                     location: "Tech Hub, Innovation Center",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
+            
             ],
             contact: {
                 facultyCoordinator: [
