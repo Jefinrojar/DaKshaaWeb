@@ -1535,7 +1535,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/mind-maze-decode-the-clue-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420258", // Registration link
         },
         "non-technical-event-12": {
-            title: "Waste to Best 2025",
+            title: "Waste to Wealth 2025",
             description:
                 "This event invites Engineering and Polytechnic students to showcase innovative solutions by transforming waste into creative, functional, or technological models. Participants will present their projects in a 5-7 minute pitch, focusing on creativity, sustainability, and practicality. The competition enhances problem-solving, entrepreneurial skills, and environmental awareness, offering career and networking opportunities in sustainability.",
             image: NonTech11,
