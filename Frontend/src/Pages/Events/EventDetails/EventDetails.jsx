@@ -2030,9 +2030,9 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    date: "March 21, 2025",
+                    time: "10:00 AM to 4:00 PM",
+                    location: "Bio tech smart class,BIOTECH Block ",
                 },
 
             ],
@@ -2086,9 +2086,9 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    date: "March 21 & 22, 2025",
+                    time: "9:00 AM to 4:00 PM",
+                    location: "Centre of Excellence in Drone Technology,Mechatronics Block ",
                 },
 
             ],
