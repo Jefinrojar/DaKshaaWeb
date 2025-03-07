@@ -45,7 +45,7 @@ import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTME
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.jpg"
 import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.jpg"
 import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
-import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF FOOD TECH.jpg"
+import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.png"
 import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
 import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
 import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.jpg"
@@ -416,14 +416,14 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
+                    date: "May 21, 2025",
+                    time: "9:00 AM to 12:00 PM",
+                    location: "Language Enrichment Centre Lab, Academic Block",
                 },
                 {
                     round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
+                    date: "May 21, 2025",
+                    time: "1:00 PM to 4:00 PM",
                     location: "Tech Hub, Innovation Center",
                 },
             ],
@@ -545,7 +545,7 @@ const EventDetails = () => {
                     time: "9:00 AM to 11:00 AM",
                     location: "Tech Hub, Innovation Center",
                 },
-            
+
             ],
             contact: {
                 facultyCoordinator: [
@@ -633,11 +633,11 @@ const EventDetails = () => {
             description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
             image: Tech12,
             rounds: [
-
+                {description: "Rapid coding is about solving problems quickly and efficiently without compromising on too much quality. Start by understanding the problem clearly before coding and focus on using tools and libraries you're familiar with to speed up the process. Write simple, readable code, avoiding overcomplicated solutions. Build the core functionality first and improve it later, without getting stuck on perfection. Test your code as you go and use version control to keep track of your progress. If you're working with others, communicate well and divide tasks effectively. Reuse code snippets for common tasks, and use helpful tools like code editors with auto-completion. Finally, don’t aim for perfection upfront—focus on getting it done and improving it later as you learn and grow your skills."}
             ],
             rules: [
                 "The event is open to all individual participants.",
-                "Each problem must be solved within the time limits imposed for each round.",
+                "Each problem must be solved within the time limits imposed.",
                 "Participants can submit their code multiple times, but only the last submission will be considered for scoring.",
                 "The time limit for each problem will be visible throughout the competition. ",
                 "All code must be original. Any attempt to copy code from other participants or external sources will lead to disqualification.",
@@ -646,32 +646,29 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
+                    date: "March 22, 2025",
+                    time: "10:00 AM to 11:30 PM",
+                    location: "AI Lab, Mechatronics Block",
                 },
             ],
             contact: {
                 facultyCoordinator: [
                     {
-                        "name": "Mrs .S.Sripriya ",
-                        "phone": "9962435353"
+                        name: "Mrs .S.Sripriya ",
+                        phone: "9962435353",
+                        email: "sripriya@ksrct.ac.in",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        "name": "Kavin R ",
-                        "phone": "7904148796 "
+                        name: "Kavin R ",
+                        email: "kavinkavicric5@gmail.com",
+                        phone: "7904148796 "
                     },
                     {
-                        "name": "Saran G",
-                        "phone": "8940108788"
+                        name: "Saran G",
+                        email: "saransaran4371@gmail.com",
+                        phone: "8940108788"
                     }
                 ]
             },
@@ -682,7 +679,10 @@ const EventDetails = () => {
             description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
             image: Tech13,
             rounds: [
+                {
 
+                    description: "The event will consist of a single round where participants will engage in a prompt creation challenge based on AI image generation. Each participant will be given a set of predefined themes or concepts, and their task is to craft clear, creative, and effective prompts that generate AI images closely matching the given theme. The challenge will be conducted within a fixed time frame, and participants must complete their prompts before the deadline. Entries will be evaluated based on clarity, creativity, and relevance to the theme. The best prompts that produce accurate and visually appealing AI-generated results will determine the winners. "
+                },
             ],
             rules: [
                 "The event is open to all individual participants.",
@@ -692,33 +692,30 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
+                    round: "Event Timing",
+                    date: "March 22, 2025",
+                    time: "11:30 AM to 01:00 PM",
+                    location: "AI Lab, Mechatronics Block",
                 },
             ],
             contact: {
                 facultyCoordinator: [
                     {
-                        "name": "Mrs.S.Gayathri ",
-                        "phone": "9486657591"
+                        name: "Mrs.S.Gayathri ",
+                        email: "gayathris@ksrct.ac.in",
+                        phone: "9486657591"
                     },
                 ],
                 studentCoordinator: [
                     {
-                        "name": "Vasanth S",
-                        "phone": "9159069646 "
+                        name: "Vasanth S",
+                        email: "vasanth04754646@gmail.com",
+                        phone: "9159069646 "
                     },
                     {
-                        "name": "Harish M",
-                        "phone": "6369303123"
+                        name: "Harish M",
+                        email: "harishmohankumar03@gmail.com",
+                        phone: "6369303123"
                     }
                 ]
             },
@@ -1426,9 +1423,10 @@ const EventDetails = () => {
         "non-technical-event-10": {
             title: "Short Film Contest",
             description:
-                "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format. Winners will be judged on creativity, storytelling, and impact! 🎬✨",
+                "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format.",
             image: NonTech9,
             rounds: [
+                { description: "The event is open to both individual participants and teams, with each team consisting of 2 to 5 members. Participants will create a short film based on themes such as environmental awareness, food adulteration, science fiction, or sustainable development goals. The short film must be original and have a duration of 3 to 10 minutes. All submissions must be in a standard video file format (MP4, MOV, or AVI). Entries will be evaluated based on creativity, storytelling, and overall impact. The best films that effectively convey their message while showcasing originality and strong narrative skills will determine the winners." }
             ],
             rules: [
                 "The event is open to all individual participants and teams. Teams may consist of 2 to 5 members.",
@@ -1439,12 +1437,18 @@ const EventDetails = () => {
                 "•	Winners will be judged based on creativity, storytelling, and overall impact."
             ],
             schedule: [
-
+                {
+                    round: "Event Timing",
+                    date: "March 22, 2025",
+                    time: "01:30 PM to 02:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr.S.Raja ",
+                        email: "rajas@ksrct.ac.in",
                         phone: "75028281440",
                     },
 
@@ -1452,20 +1456,16 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Karthikeyan S A",
+                        email: "karthikeyansa8@gmail.com",
                         phone: "7358996885",
 
                     },
                     {
                         name: "Tamilselvan C",
+                        email: "tamilambani056@gmail.com",
                         phone: "6374148544",
 
                     },
-                    {
-                        name: "Dhayaneshwaran S S ",
-                        phone: "8220698518",
-
-                    }
-
                 ],
             },
             registrationLink: "https://unstop.com/p/short-film-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420239", // Registration link
@@ -1828,10 +1828,10 @@ const EventDetails = () => {
             image: Workshop3,
             schedule: [
                 {
-                    round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    round: "Workshop timing",
+                    date: "March 21, 2025",
+                    time: "10:00 AM to 3:00 PM",
+                    location: "AI Lab, Mechatronics Block",
                 },
 
             ],
@@ -1839,17 +1839,20 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr N.Giridharan ",
+                        email: "giridharan@ksrct.ac.in",
                         phone: "8925325252",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Gowrinath V",
+                        email: "gowrigowri75392@gmail.com",
                         phone: "8056570574",
 
                     },
                     {
                         name: "Durga S",
+                        email: "durgasaran2004@gmail.com",
                         phone: "9080191925",
 
                     },
@@ -1906,7 +1909,7 @@ const EventDetails = () => {
                     round: "Round ",
                     date: "March 21, 2025 and March 22, 2025",
                     time: "9:00 AM to 4:00 PM",
-                    location: "Language Enrichment Centre Lab, Academic Block",
+                    location: "AB 209, Academic Block",
                 },
 
             ],
