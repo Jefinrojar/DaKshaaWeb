@@ -5,7 +5,7 @@ import unstop from "./assets/unstop.png";
 
 import aiml from "./assets/aiml.jpg";
 import civil from "./assets/civil.jpg";
-import csbs from "./assets/csbs.avif";
+import csbs from "./assets/CSBS1.jpg";
 import garuda from "./assets/garuda.jpg";
 import infinity from "./assets/infinity.jpg";
 import it from "./assets/it.png";
