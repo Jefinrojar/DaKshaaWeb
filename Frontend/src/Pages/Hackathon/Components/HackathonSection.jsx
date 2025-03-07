@@ -168,37 +168,26 @@ const HackathonSection = () => {
                         {/* Prize List */}
                         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12">
                             {/* 1st Prize */}
-                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md mt-28">
-                                <span className="text-2xl font-bold text-yellow-400">
-                                    🥈 2nd Prize
-                                </span>
-                                <span className="text-3xl font-semibold text-white mt-2">
-                                    ₹7,000
-                                </span>
+                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-2 sm:order-1">
+                                <span className="text-2xl font-bold text-yellow-400">🥈 2nd Prize</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹7,000</span>
                             </div>
 
-                            {/* 2nd Prize */}
-                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 shadow-md mb-20">
-                                <span className="text-2xl font-bold text-gray-300">
-                                    🥇 1st Prize
-                                </span>
-                                <span className="text-3xl font-semibold text-white mt-2">
-                                    ₹10,000
-                                </span>
+                            {/* 2nd Prize (Center) */}
+                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mb-16 order-1 sm:order-2">
+                                <span className="text-2xl font-bold text-gray-300">🥇 1st Prize</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹10,000</span>
                             </div>
 
                             {/* 3rd Prize */}
-                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-64 mt-28 shadow-md">
-                                <span className="text-2xl font-bold text-orange-400">
-                                    🥉 3rd Prize
-                                </span>
-                                <span className="text-3xl font-semibold text-white mt-2">
-                                    ₹5,000
-                                </span>
+                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-3">
+                                <span className="text-2xl font-bold text-orange-400">🥉 3rd Prize</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹5,000</span>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 {/* Rounds Section */}
                 <div className="border border-sky-800 p-2">
