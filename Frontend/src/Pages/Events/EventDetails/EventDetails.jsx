@@ -1286,14 +1286,14 @@ const EventDetails = () => {
             image: NonTech7,
             rounds: [
                 {
-                    title: "Level 1: Logo Guessing Challenge",
+                    title: "Round 1: Logo Guessing Challenge",
                     description: [
                         "Teams will be shown blurred or partial logos of food brands and must identify them.",
                         "Each correct answer earns points; the top teams progress to the next level.",
                     ]
                 },
                 {
-                    title: "Level 2: Food Dumb Charades",
+                    title: "Round 2: Food Dumb Charades",
                     description: [
                         "One team member will be given a food-related word/brand and must enact it without speaking.",
                         "The other members must guess the word within a given time.",
@@ -1301,7 +1301,7 @@ const EventDetails = () => {
                     ]
                 },
                 {
-                    title: "Level 3: Guess the Ingredient",
+                    title: "Round 3: Guess the Ingredient",
                     description: [
                         "Teams will be presented with a mystery dish or product and must identify key ingredients.",
                         "Limited time will be given for each guess.",
@@ -1332,7 +1332,7 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mrs. K. Kavitha , AP/Maths",
-                        email: "vijayakumarc@ksrct.ac.in",
+                        email: "kavithak@ksrct.ac.in",
                         phone: "9600933007",
                     },
 
@@ -2070,7 +2070,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420136", // Registration link
         },
         "workshop-11": {
-            title: "Millet Fiesta: From Farm To Fork By Technical  Director Dr. P. Sathiyamoorthy ,Moon Foods",
+            title: "",
             description:
                 "'Value Addition in Millet': Millets are highly nutritious, climate-resilient grains that offer immense potential for health benefits and economic growth. This workshop aims to explore innovative ways to enhance the value of millets through processing, product development, and marketing strategies.",
             image: Workshop11,
