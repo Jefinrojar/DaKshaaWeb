@@ -16,7 +16,7 @@ import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/EEE.jp
 import Tech3 from "../../assets/EventsImages/EventDetails/TechnicalImages/vlsi.jpg"
 import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/BIO.jpg"
 import Tech5 from "../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
-import Tech6 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.jpg"
+import Tech6 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
 import Tech7 from "../../assets/EventsImages/EventDetails/TechnicalImages/ECE.jpg"
 import Tech8 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
 import Tech9 from "../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
@@ -129,7 +129,7 @@ const Events = () => {
           image: Tech14,
           eventId: "technical-event-15",
         },
-       
+
         {
           image: Tech16,
           eventId: "technical-event-16",
@@ -358,8 +358,8 @@ const Events = () => {
       <div className="w-full flex flex-col lg:flex-row py-3 relative px-4 sm:px-6 md:px-10">
         {/* Circular Event Selector */}
 
-        <motion.div className="w-full lg:w-2/3 md:w-2/3 flex flex-col items-center lg:items-start py-6 lg:py-10 relative lg:pl-20">
-          <motion.div className="absolute inset-0 md:right-20 flex items-center justify-center">
+        <motion.div className="w-full flex flex-col items-center justify-center py-6 lg:py-10 relative">
+          <motion.div className="absolute inset-0 flex items-center justify-center">
             <motion.div
               className="text-white text-center cursor-pointer"
               whileHover={{ scale: 1.1 }}
