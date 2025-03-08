@@ -432,18 +432,19 @@ const Events = () => {
               <Slider {...sliderSettings}>
                 {selectedEventData?.descriptionImages.map((slide, index) => (
                   <div
-                    key={`slide-${slide.eventId}-${index}`}
-                    className="relative flex flex-col items-center justify-center p-4 rounded-xl shadow-lg h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] cursor-pointer"
-                    onClick={() => handleSlideClick(slide.eventId)}
-                    onMouseEnter={() => setIsHovered(true)} // Set hover state to true
-                    onMouseLeave={() => setIsHovered(false)} // Set hover state to false
+                  key={`slide-${slide.eventId}-${index}`}
+                  className="relative flex flex-col items-center justify-center p-4 rounded-xl shadow-lg h-[300px] sm:h-[300px] md:h-[400px] lg:h-[500px] cursor-pointer"
+                  onClick={() => handleSlideClick(slide.eventId)}
+                  onMouseEnter={() => setIsHovered(true)} // Set hover state to true
+                  onMouseLeave={() => setIsHovered(false)} // Set hover state to false
                   >
+                    <h1 className="text-white md:text-2xl text-center text-lg">Click the poster to Register</h1>
                     <img
                       src={slide.image}
                       alt={`Slide ${index + 1}`}
                       className="w-full h-full object-cover shadow-md"
                     />
-                    {isHovered && (
+                    {/* {isHovered && (
                       <div className="absolute inset-0 bg-black bg-opacity-75 p-4 flex items-center justify-center">
                         <motion.span
                           className="text-white text-2xl text-center sm:text-3xl md:text-4xl font-bold p-4"
@@ -454,7 +455,7 @@ const Events = () => {
                           Click me to register for the event
                         </motion.span>
                       </div>
-                    )}
+                    )} */}
                     {/* Backdrop and Text */}
                   </div>
                 ))}
