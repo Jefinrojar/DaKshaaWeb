@@ -99,7 +99,7 @@ const HeroSection = () => {
       >
         {/* Floating Animated Tech Face Image (Top on Mobile, Right on Desktop) */}
         <motion.div
-          className="flex justify-center md:justify-start -mt-12 md:mt-0 w-full md:w-1/2 order-1 md:order-2"
+          className="flex justify-center md:justify-start mt-20 md:mt-0 w-full md:w-1/2 order-1 md:order-2"
           variants={fadeInUp}
         >
           <motion.img
