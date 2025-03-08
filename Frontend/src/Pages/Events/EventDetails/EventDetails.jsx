@@ -155,14 +155,10 @@ const EventDetails = () => {
             image: Tech2,
             rounds: [
                 {
-                    title: "Round 1: Qualifier (Basic Problems)",
-                    description: "Duration: 30 Minutes ",
+                    title: "Round",
+                    description: "PowerPoint presentation ",
                 },
-                {
-                    title: "Round 2",
-                    description:
-                        "Participants will build a dynamic web application using React.",
-                },
+                
             ],
             rules: [
                 "Team must contain maximum 3",
@@ -174,17 +170,12 @@ const EventDetails = () => {
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
+                    round: "Round ",
+                    date: "March 21, 2025",
+                    time: "10:00 AM to 3:00 PM",
+                    location: "Project Lab,EEE Block",
                 },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
+                
             ],
             contact: {
                 facultyCoordinator: [
@@ -947,12 +938,12 @@ const EventDetails = () => {
                 {
                     title: "Round 1",
                     description:
-                        "Participants will present their artwork to the judges.",
+                        "Online Round.",
                 },
                 {
                     title: "Round 2",
                     description:
-                        "Finalists will create a new piece of art on the spot.",
+                        "Offline Tech-Link Challenge will be conducted.",
                 },
             ],
             rules: [
@@ -960,20 +951,20 @@ const EventDetails = () => {
                 "The competition will have two rounds:",
                 "The first round will be conducted online. ",
                 "Shortlisted students from the first round will proceed to the second round.",
-                "Charge per Person/Team: 100 INR (Per Person)",
+                "Charge per Person/Team: 150 INR (Per Person)",
             ],
             schedule: [
                 {
-                    round: "Round 1",
-                    date: "May 24, 2025",
-                    time: "10:00 AM to 12:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    round: "Round 1 ",
+                    date: "March 22, 2025",
+                    time: "11:00 AM to 12:00 PM",
+                    location: "EEE 305,EEE 306 ,EEE Block",
                 },
                 {
                     round: "Round 2",
-                    date: "May 25, 2025",
-                    time: "2:00 PM to 4:00 PM",
-                    location: "Art Gallery, Creative Center",
+                    date: "March 22, 2025",
+                    time: "1:30 PM to 3:00 PM",
+                    location: "EEE 305,EEE 306 ,EEE Block",
                 },
             ],
             contact: {
@@ -1993,14 +1984,14 @@ const EventDetails = () => {
         "workshop-7": {
             title: "Do Engineering using NI Lab VIEW By Mew Technology, Bangalore",
             description:
-                "Participants will learn to create virtual instruments, control hardware, and analyze data. The workshop focuses on practical applications in engineering and control systems. The LabVIEW workshop covers topics like graphical programming, data acquisition, and control systems design. Participants will explore creating virtual instruments, interfacing hardware, and data analysis techniques",
+                "Participants will learn to create virtual instruments, control hardware, and analyze data. The workshop focuses on practical applications in engineering and control systems.",
             image: Workshop7,
             schedule: [
                 {
-                    round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    round: "venue ",
+                    date: "March 21 & 22, 2025",
+                    time: "9:00 AM to 4:00 PM",
+                    location: "Computer Lab,EEE Block ",
                 },
 
             ],

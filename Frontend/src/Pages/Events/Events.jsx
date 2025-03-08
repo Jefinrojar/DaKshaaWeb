@@ -366,7 +366,7 @@ const Events = () => {
               whileTap={{ scale: 0.9 }}
             >
               <p className="text-[10px] sm:text-xl md:text-2xl font-bold">Spin the Wheel</p>
-              <p className="text-[7px] sm:text-base md:text-lg">Click on an event to start</p>
+              <p className="text-[7px] sm:text-base md:text-lg">Click on an event to Register</p>
             </motion.div>
           </motion.div>
 
