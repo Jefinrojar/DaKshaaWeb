@@ -353,7 +353,7 @@ function StartupSection() {
       <div className="w-full my-10 flex items-center justify-center">
         <button
           className="px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
-          onClick={() => window.open("www.google.com", "_blank")}
+          onClick={() => window.open("https://unstop.com/o/ynkQAT9?utm_medium=Share&utm_source=shortUrl", "_blank")}
         >
           REGISTER NOW!
         </button>

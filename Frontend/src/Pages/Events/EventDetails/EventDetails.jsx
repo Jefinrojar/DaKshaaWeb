@@ -1781,6 +1781,7 @@ const EventDetails = () => {
                         email: "pradeeps@ksrct.ac.in",
                         phone: "812213986",
                     },
+                    
                 ],
 
                 studentCoordinator: [
