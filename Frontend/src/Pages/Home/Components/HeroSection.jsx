@@ -5,6 +5,7 @@ import HeroImg from "../../../assets/Heroimg.png";
 import Daksha from "../../../assets/DaKshaa T25.png";
 import Countdown from "./Countdown";
 import RegisterAni from "../../../assets/registerani.gif";
+import brochure from "../../../assets/brochure.pdf";
 
 // Wave Animation for Words (Description & Event Details)
 const wordWaveAnimation = {
@@ -76,16 +77,18 @@ const HeroSection = () => {
           height: "180px", // Increased size
         }}
       >
-        <motion.span
-          className="z-10 text-sm cursor-pointer md:text-base bg-sky-700/90 px-5 py-3 clip"
-          whileHover={{
-            scale: 1.1, // Slightly enlarge the text on hover
-            backgroundColor: "rgba(3, 105, 161, 0.95)", // Change background color on hover
-            transition: { duration: 0.3, ease: "easeInOut" }, // Smooth transition
-          }}
-        >
-          REGISTER NOW
-        </motion.span>
+        <a href={brochure} target="_blank">
+          <motion.span
+            className="z-10 text-sm cursor-pointer md:text-sm bg-sky-700/90 px-5 py-3 clip"
+            whileHover={{
+              scale: 1.1, // Slightly enlarge the text on hover
+              backgroundColor: "rgba(3, 105, 161, 0.95)", // Change background color on hover
+              transition: { duration: 0.3, ease: "easeInOut" }, // Smooth transition
+            }}
+          >
+            Download Brochure
+          </motion.span>
+        </a>
       </motion.div>
 
       <motion.div
@@ -130,8 +133,10 @@ const HeroSection = () => {
                   onClick={() => {
                     if (word === "20+ WORKSHOPS") {
                       handleNavigation("/events/workshop"); // Navigate to workshops
-                    } else if (word === "15+ EVENTS") {
+                    } else if (word === "25+ EVENTS") {
                       handleNavigation("/events"); // Navigate to events
+                    } else if (word === "2 DAYS") {
+                      handleNavigation("/accomodation"); // Navigate to upcoming events
                     }
                   }}
                 >
@@ -147,8 +152,15 @@ const HeroSection = () => {
                 </motion.div>
               ))}
             </motion.div>
-            
-            <h1 className="text-2xl font-orbitron md:text-4xl mt-4 md:mt-4"><q > Prize pool of <span className="text-[#F07629]">5 Lakhs</span> </q></h1>
+
+            <h1 className="text-2xl font-orbitron md:text-4xl mt-4 md:mt-4">
+              <q>
+                {" "}
+                Prize pool of <span className="text-[#F07629]">
+                  5 Lakhs
+                </span>{" "}
+              </q>
+            </h1>
 
             {/* Register Button - Mobile (Below Image) */}
             <div className="md:hidden flex justify-center mt-6">
@@ -165,16 +177,18 @@ const HeroSection = () => {
                   height: "120px",
                 }}
               >
-                <motion.span
-                  className="z-10 clip text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
-                  whileHover={{
-                    scale: 1.1,
-                    backgroundColor: "rgba(3, 105, 161, 0.95)",
-                    transition: { duration: 0.3, ease: "easeInOut" },
-                  }}
-                >
-                  REGISTER NOW
-                </motion.span>
+                
+                  <motion.span
+                    className="z-10 text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
+                    whileHover={{
+                      scale: 1.1,
+                      backgroundColor: "rgba(3, 105, 161, 0.95)",
+                      transition: { duration: 0.3, ease: "easeInOut" },
+                    }}
+                  >
+                    <a href={brochure} target="_blank">Download Brochure</a>
+                  </motion.span>
+                
               </motion.div>
             </div>
 
