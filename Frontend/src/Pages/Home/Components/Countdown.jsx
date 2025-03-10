@@ -10,7 +10,7 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("March 21, 2025 00:00:00").getTime();
+    const targetDate = new Date("March 27, 2025 00:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -43,7 +43,7 @@ const CountdownTimer = () => {
       >
         <span className="inline-flex items-center gap-2 sm:gap-4 px-3 sm:px-4 py-1 sm:py-2 border-2 border-red-800 bg-red-500 bg-opacity-40 flicker">
           <img className="w-8 sm:w-10 md:w-8" src={warning} alt="Warning Icon" />
-          21st & 22nd March, 2025
+          27th & 28th March, 2025
         </span>
       </p>
       <div className="relative sm:my-8 flex">

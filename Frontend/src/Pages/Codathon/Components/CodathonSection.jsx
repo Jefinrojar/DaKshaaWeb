@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react"; // Assuming you're using Lucide icons
-
-const HackathonSection = () => {
+import EboxLogo from "../../../assets/Codethon/EBOX_logo.png"
+const CodathonSection = () => {
     // Example data as an array of objects
     const eventDetails = {
-        id: "hackathon-event-1",
-        title: "Hackathon 2025 By",
+        id: "Codeathon-event-1",
+        title: "Codeathon By",
         descriptions: [
-            { image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png",text: "Collaborate with top minds and innovate new solutions."  },
-            { image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", text: "Collaborate with top minds and innovate new solutions." },
-            { image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", text: "Compete for exciting prizes and career opportunities." }
+            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Join the biggest hackathon of the year and showcase your skills!" },
+            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Collaborate with top minds and innovate new solutions." },
+            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Compete for exciting prizes and career opportunities." }
         ],
         registrationLink: "https://example.com/register",
         rounds: [
@@ -105,9 +105,9 @@ const HackathonSection = () => {
             className="p-4 md:p-10 mt-24 text-white min-h-screen"
         >
             <div className="max-w-4xl mx-auto text-white p-4 md:p-6">
-                <div className="flex justify-center items-center mb-7 md:gap-5 gap-2">
+                <div className="flex justify-center items-center md:gap-5 gap-3 mb-5">
                     <h1 className="text-2xl md:text-5xl font-bold text-center text-[#9DD3FF]">{event.title}</h1>
-                    <img src="https://cdn.brandfetch.io/id3BHBKuok/w/500/h/500/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="" className="md:w-24 md:h-24 w-16 h-16"/>
+                    <img src={EboxLogo} alt="" className="md:w-60 md:h-20 w-32 h-12"/>
                 </div>
 
                 {/* Register Now Button */}
@@ -138,7 +138,7 @@ const HackathonSection = () => {
                 {/* Description Section */}
                 <div className="border border-sky-800 p-2 mb-6 ">
                     <div className="flex flex-col gap-8  border p-4  border-sky-800 bg-sky-900/30">
-                        <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Hackathon By Guvi</p>
+                        <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Codeathon By EBOX</p>
 
                         {eventDetails?.descriptions?.map((desc, index) => (
                             <div
@@ -173,19 +173,19 @@ const HackathonSection = () => {
                             {/* 1st Prize */}
                             <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-2 sm:order-1">
                                 <span className="text-2xl font-bold text-yellow-400">🥈 2nd Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹30,000</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹3000</span>
                             </div>
 
                             {/* 2nd Prize (Center) */}
                             <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mb-16 order-1 sm:order-2">
                                 <span className="text-2xl font-bold text-gray-300">🥇 1st Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹50,000</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹5000</span>
                             </div>
 
                             {/* 3rd Prize */}
                             <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-3">
                                 <span className="text-2xl font-bold text-orange-400">🥉 3rd Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹20,000</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹2500</span>
                             </div>
                         </div>
                     </div>
@@ -295,4 +295,4 @@ const HackathonSection = () => {
     );
 };
 
-export default HackathonSection;
+export default CodathonSection;
