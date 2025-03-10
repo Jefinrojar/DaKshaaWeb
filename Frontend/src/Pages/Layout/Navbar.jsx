@@ -111,6 +111,18 @@ const Navbar = () => {
                       </li>
                       <li
                         className="px-4 py-2 hover:bg-sky-700"
+                        onClick={() => handleLinkClick("Hackathon", "/events/hackathon")}
+                      >
+                        Hackathon
+                      </li>
+                      <li
+                        className="px-4 py-2 hover:bg-sky-700"
+                        onClick={() => handleLinkClick("Codeathon", "/events/codeathon")}
+                      >
+                        Codeathon
+                      </li>
+                      <li
+                        className="px-4 py-2 hover:bg-sky-700"
                         onClick={() => handleLinkClick("Conference", "/events/conference")}
                       >
                         Conference
@@ -126,12 +138,6 @@ const Navbar = () => {
                         onClick={() => handleLinkClick("Hormonics", "/events/hormonics")}
                       >
                         Hormonics
-                      </li>
-                      <li
-                        className="px-4 py-2 hover:bg-sky-700"
-                        onClick={() => handleLinkClick("Hackathon", "/events/hackathon")}
-                      >
-                        Hackathon
                       </li>
                     </ul>
                   )}
