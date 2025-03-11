@@ -8,61 +8,50 @@ const CodathonSection = () => {
         id: "Codeathon-event-1",
         title: "Codeathon By",
         descriptions: [
-            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Join the biggest hackathon of the year and showcase your skills!" },
-            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Collaborate with top minds and innovate new solutions." },
-            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Compete for exciting prizes and career opportunities." }
+            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code." },
         ],
         registrationLink: "https://example.com/register",
         rounds: [
             {
-                title: "Round 1: Ideation",
+                title: "Single Round",
                 description: [
-                    "Submit your project idea.",
-                    "Present a brief pitch.",
-                    "Teams will be shortlisted for Round 2.",
+                    "Participants will be given a set of programming problems to solve within a specified time limit.",
+                    "Time Limit: 2 hours",
                 ],
-            },
-            {
-                title: "Round 2: Prototype",
-                description: [
-                    "Develop a working prototype.",
-                    "Submit a demo video.",
-                    "Finalists will be selected for Round 3.",
-                ],
-            },
+            }
         ],
         rules: [
-            "Teams must consist of 2-4 members.",
-            "All code must be written during the hackathon.",
-            "Plagiarism will result in disqualification.",
+            "No pre-written code or external help is allowed.",
+            "Participants must adhere to the time limit.",
+            "Any form of plagiarism will lead to disqualification.",
+            "Individual or Team (2-4 members)."
         ],
         schedule: [
             {
-                round: "Round 1: Ideation",
+                round: "Event Timing",
                 date: "October 10, 2023",
                 time: "10:00 AM",
                 location: "Main Auditorium",
-            },
-            {
-                round: "Round 2: Prototype",
-                date: "October 15, 2023",
-                time: "2:00 PM",
-                location: "Lab 3",
             },
         ],
         contact: {
             facultyCoordinator: [
                 {
-                    name: "Dr. John Doe",
-                    phone: "+1234567890",
-                    email: "john.doe@example.com",
+                    name: "Ms. R.P. Harshini (AP/CSE(AIML))",
+                    phone: "9361446506",
+                    email: "harshinirp@ksrct.ac.in",
                 },
             ],
             studentCoordinator: [
                 {
-                    name: "Jane Smith",
-                    phone: "+0987654321",
-                    email: "jane.smith@example.com",
+                    name: "Praveen S (II-Year/CSE(AIML))",
+                    phone: "6369493352",
+                    email: "saravananpraveen1157@gmail.com",
+                },
+                {
+                    name: "Pavithran G (II-Year/CSE(AIML))",
+                    phone: "9363575964",
+                    email: "techpavithran18@gmail.com",
                 },
             ],
         },
@@ -143,7 +132,7 @@ const CodathonSection = () => {
                         {eventDetails?.descriptions?.map((desc, index) => (
                             <div
                                 key={index}
-                                className={`flex flex-col md:flex-row items-center gap-6 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                                className={`flex flex-col items-center gap-6 "
                                     }`}
                             >
                                 <div className="w-40 h-40 md:w-72 md:h-72">
@@ -185,7 +174,7 @@ const CodathonSection = () => {
                             {/* 3rd Prize */}
                             <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-3">
                                 <span className="text-2xl font-bold text-orange-400">🥉 3rd Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹2500</span>
+                                <span className="text-3xl font-semibold text-white mt-2">₹2000</span>
                             </div>
                         </div>
                     </div>
