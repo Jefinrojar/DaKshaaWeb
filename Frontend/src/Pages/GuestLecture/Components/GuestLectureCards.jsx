@@ -15,6 +15,11 @@ const GuestLectureCard = ({ name, title, image, time, date, location }) => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
             >
+                {/* Title Section with bg-sky-900 */}
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 bg-sky-900 py-4">
+                    {name}
+                </h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center">
                     {/* Image Section */}
                     <div className="flex justify-center">
@@ -29,34 +34,69 @@ const GuestLectureCard = ({ name, title, image, time, date, location }) => {
 
                     {/* Text Section */}
                     <div className="p-4 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-                        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold">{name}</h2>
-                        <p className="text-gray-400 mt-2 text-sm sm:text-base">{title}</p>
-                        <p className="text-justify mt-3 text-sm sm:text-base">
-                            {name === "National Conference on Innovations in Science" &&
-                                "The School of Building & Mechanical Sciences at KSRCT focuses on engineering excellence, innovation, and hands-on learning in mechanical, mechatronics, and civil engineering."
-                            }
-                            {name === "Technology" &&
-                                "The School of Life Sciences at KSRCT offers specialized programs in Textile Technology, Biotechnology, and Food Technology."
-                            }
-                            {name === "Dr. APJ Abdul Kalam (Legacy)" &&
-                                "A tribute to the visionary teachings and leadership of Dr. APJ Abdul Kalam, inspiring young minds in aerospace, technology, and national development."
-                            }
-                            {name === "Engineering" &&
-                                "The School of Electrical Sciences at KSRCT offers cutting-edge programs in Electrical & Electronics Engineering (EEE), Electronics & Communication Engineering (ECE), and Electronics Engineering (VLSI Design and Technology)."
-                            }
-                            {name === "Mathematics (NCISTEM)" &&
-                                "The School of Computer Sciences at KSRCT offers programs in Computer Science and Engineering, Information Technology, and AI-driven fields."
-                            }
-                        </p>
+                        <p className="text-gray-400 text-sm sm:text-base">{title}</p>
+                        
+                        {/* Bullet Points */}
+                        <ul className="text-justify mt-3 text-sm sm:text-base list-disc pl-5 space-y-2">
+                            {name === "National Conference on Mechanical automation & building science" && (
+                                <>
+                                    <li>Sustainable Building Materials</li>
+                                    <li>Structural Health Monitoring</li>
+                                    <li>Ground Improvement Techniques</li>
+                                    <li>Geotextiles and Geosynthetics Applications</li>
+                                    <li>Environmental Monitoring and Treatment</li>
+                                    <li>Transportation Planning and Smart Cities</li>
+                                    <li>Remote Sensing and GIS Applications</li>
+                                    <li>River Basin and Watershed Management</li>
+                                    <li>Automation and Construction Project Management</li>
+                                    <li>AI & ML Integration in Civil Engineering</li>
+                                </>
+                            )}
+                            {name === "Technology" && (
+                                <>
+                                    <li>Programs in Textile Technology, Biotechnology & Food Technology</li>
+                                    <li>Advanced research & innovation in life sciences</li>
+                                    <li>Industry collaborations for real-world applications</li>
+                                </>
+                            )}
+                          
+                            {name === "National Conference on Advancements in Semiconductor Technologies, Intelligent systems and Power Engineering (ASTIPE 2025)" && (
+                                <>
+                                    <li>Renewable Energy Systems and Sustainability</li>
+                                    <li>Advanced Power Electronics and Drives</li>
+                                    <li>Smart Grids and Energy Management</li>
+                                    <li>Electric Vehicles and Energy Storage Technologies</li>
+                                    <li>Embedded Systems and Internet of Things</li>
+                                    <li>Image, Speech, Audio and Signal Processing</li>
+                                    <li>Satellite, Space, Vehicular and Wireless Communication</li>
+                                    <li>Digital Circuit Design and Verification</li>
+                                    <li>Low Power VLSI Design</li>
+                                    <li>FPGA-Based VLSI Design</li>
+                                </>
+                            )}
+                            {name === "School Of Computer Sciences" && (
+                                <>
+                                    <li>Machine Learning</li>
+                                    <li>Natural Language Processing</li>
+                                    <li>Computer Vision</li>
+                                    <li>Expert Systems</li>
+                                    <li>Network Security</li>
+                                    <li>Cloud Security</li>
+                                    <li>Cryptography</li>
+                                    <li>Incident Response</li>
+                                    <li>AI for Cybersecurity Policy and Governance</li>
+                                    <li>Explainable AI (XAI) for Cybersecurity</li>
+                                </>
+                            )}
+                        </ul>
 
                         {/* Register Button */}
-                       <button
-                            className="mb-8 w-full md:w-auto md:mt-5 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
-                            onClick={() => window.open("www.google.com", "_blank")} // Open registration link in a new tab
+                        <button
+                            className="mt-5 w-full md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
+                            onClick={() => window.open("www.google.com", "_blank")}
                         >
                             REGISTER NOW!
                         </button>
-
                     </div>
                 </div>
             </motion.div>
