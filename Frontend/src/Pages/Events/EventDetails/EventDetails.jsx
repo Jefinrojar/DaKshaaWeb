@@ -419,7 +419,7 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs.K.Gokiladevi (AP/ECE)",
+                        name: "Mrs.K.Gogiladevi (AP/ECE)",
                         phone: "9715205353",
                         email: "gogiladevi@ksrct.ac.in"
                     }
@@ -759,6 +759,53 @@ const EventDetails = () => {
         },
         "technical-event-16": {
             title: "Eye on Pick Glass",
+            description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
+            image: Tech16,
+            rounds: [
+
+            ],
+            rules: [
+                "Only one participant",
+                "Have to detect the given fabric",
+                "Counting glass will be provided and has to be returned Safely",
+                "Duration:15 Minutes",
+                "Juries Judgement is Final."
+
+            ],
+            schedule: [
+                {
+                    round: "",
+                    date: "March 22, 2025",
+                    time: "9:30AM -10:30AM",
+                    location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
+                },
+
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Mr.M.Arunkumar ",
+                        email: "arunkumar@ksrct.ac.in",
+                        phone: "8056989930"
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        name: "A.V. Raghavendhar ",
+                        email: "a.v.raghavendhar516@gmail.com",
+                        phone: "8778239221"
+                    },
+                    {
+                        name: "K.Harini ",
+                        email: "mailto:harinikumar25102005@gmail.com",
+                        phone: "8667393828"
+                    }
+                ]
+            },
+            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
+        },
+        "technical-event-17": {
+            title: "Poster Presentation",
             description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
             image: Tech16,
             rounds: [
