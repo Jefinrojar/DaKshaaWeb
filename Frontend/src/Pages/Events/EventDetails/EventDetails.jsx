@@ -1628,21 +1628,22 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Michael Brown",
-                        phone: "7654321098",
-                        email: "michael.b@xyzmail.com",
+                        name: "Dr. M. Mohanraj",
+                        phone: "88075 15919",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Karthikeyan D",
                         phone: "9790080274",
-                        email: "karthikeyanksr40@gmail.com",
                     },
                     {
                         name: "Athisaya Raj",
                         phone: "9566315990",
-                        email: "athisayaraj869@gmail.com",
+                    },
+                    {
+                        name: "Lithisri. S",
+                        phone: "9363661955",
                     },
                 ],
             },
@@ -1665,12 +1666,14 @@ const EventDetails = () => {
                     {
                         name: "Mouriya S",
                         phone: "8903689846",
-                        email: "balamouriya07@gmail.com",
                     },
                     {
                         name: "vishwanth V ",
                         phone: "9080012267",
-                        email: "wanthvish9894@gmail.com ",
+                    },
+                    {
+                        name: "B.S. Akshaya ",
+                        phone: "7871969769",
                     },
                 ],
             },
@@ -1684,21 +1687,22 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "",
-                        phone: "",
-                        email: "",
+                        name: "Ms.V. Indumathi ",
+                        phone: "99651 37001",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Ramitha TR ",
                         phone: "9345283931",
-                        email: "ramithakavin@gmail.com",
                     },
                     {
                         name: "Gowshika M",
                         phone: "8870593850",
-                        email: "mgowshika22@gmail.com",
+                    },
+                    {
+                        name: "Vasu K",
+                        phone: "9342396464",
                     },
                 ],
             },
@@ -1721,17 +1725,20 @@ const EventDetails = () => {
                     {
                         name: "Athityaa A",
                         phone: "9345664042",
-                        email: "athikuti4@gmail.com",
+                    },
+                    {
+                        name: " Nithin R ",
+                        phone: "9025496002",
                     },
                     {
                         name: "Liji Samyukthaa S K ",
                         phone: "9342381500",
-                        email: "skliji04@gmail.com",
                     },
                 ],
             },
             registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
         },
+        
 
         // Workshop
         "workshop-1": {
