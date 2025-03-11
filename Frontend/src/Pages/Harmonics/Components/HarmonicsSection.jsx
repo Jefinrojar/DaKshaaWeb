@@ -19,7 +19,7 @@ const Card = () => {
     { id: 4, image: dance, title: "Solo Dance", text: "Solo dance is expressive, graceful, and captivating." },
   ];
 
-  const title = "Harmonics";
+  const title = "Harmonicks";
 
   return (
     <div className="p-6 sm:p-8 md:p-10">

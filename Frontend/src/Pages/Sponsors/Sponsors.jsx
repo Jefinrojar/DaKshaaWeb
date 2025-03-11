@@ -17,7 +17,7 @@ import vlsi from "./assets/vlsi.jpg";
 import cse from "./assets/cse.jpg";
 import bt from "./assets/bt.jpeg";
 import EEE from "./assets/EEE.jpg";
-
+import iste from "./assets/ISTE.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -25,7 +25,7 @@ import "aos/dist/aos.css";
 
 
 function Sponsors() {
-  const eventSponsors = [abb];
+  const eventSponsors = [abb,iste];
   const registerSponsors = [unstop]; 
   const workshopSponsors = [aiml, civil, csbs, it, cse,EEE, mech, txt, millet, infinity, garuda, uipath, vlsi, bt];
   // Add more if needed
