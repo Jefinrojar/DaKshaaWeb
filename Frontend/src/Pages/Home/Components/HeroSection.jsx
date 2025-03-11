@@ -157,7 +157,7 @@ const HeroSection = () => {
               <q>
                 {" "}
                 Prize pool of <span className="text-[#F07629]">
-                  5 Lakhs
+                  10 Lakhs
                 </span>{" "}
               </q>
             </h1>

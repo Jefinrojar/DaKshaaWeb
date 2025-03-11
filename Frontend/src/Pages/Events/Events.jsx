@@ -90,10 +90,6 @@ const Events = () => {
           eventId: "technical-event-3",
         },
         {
-          image: Tech4,
-          eventId: "technical-event-4",
-        },
-        {
           image: Tech5,
           eventId: "technical-event-5",
         },
@@ -113,18 +109,18 @@ const Events = () => {
           image: Tech9,
           eventId: "technical-event-10",
         },
-        {
-          image: Tech11,
-          eventId: "technical-event-14",
-        },
-        {
-          image: Tech12,
-          eventId: "technical-event-13",
-        },
-        {
-          image: Tech13,
-          eventId: "technical-event-12",
-        },
+        // {
+        //   image: Tech11,
+        //   eventId: "technical-event-14",
+        // },
+        // {
+        //   image: Tech12,
+        //   eventId: "technical-event-13",
+        // },
+        // {
+        //   image: Tech13,
+        //   eventId: "technical-event-12",
+        // },
         {
           image: Tech14,
           eventId: "technical-event-15",

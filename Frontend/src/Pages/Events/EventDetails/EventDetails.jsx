@@ -8,7 +8,7 @@ import { useInView } from "react-intersection-observer";
 // Rewind & Crack - cse
 // VoltEdge - eee
 // SEMISPARK(PROJECT PRESENTATION) - vlsi
-// Biotech Shark Tank – Pitch Your Idea - Bio tech
+// Biotech Shark Tank – Pitch Your Idea - Bio tech - no
 // ROBO SOCCER - MCT
 // Figma Fusion: The UI/UX Design Showdown - CSBS
 // ElectroBuzz - ECE
@@ -24,7 +24,6 @@ import { useInView } from "react-intersection-observer";
 import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.jpg"
 import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EEE.png"
 import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
-import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/BIO.jpg"
 import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
 
 import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
@@ -32,7 +31,7 @@ import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ECE
 
 import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
 import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
-import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.jpg"
+// import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.jpg"
 import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.jpg"
 import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
 import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
@@ -233,7 +232,7 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "March 21, 2025",
+                    date: "March 28, 2025",
                     time: "9:00 AM to 3:00 PM",
                     location: "Tech Hub, Innovation Center",
                 },
@@ -265,70 +264,6 @@ const EventDetails = () => {
                 ],
             },
             registrationLink: "https://unstop.com/p/semispark-project-presentation-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420427", // Registration link
-        },
-
-        "technical-event-4": {
-            title: "Biotech Shark Tank – Pitch Your Idea",
-            description:
-                "A biotech startup pitching event where participants present innovative ideas in life sciences.",
-            image: Tech4,
-            rounds: [
-                {
-                    title: "Round 1 – Abstract Submission",
-                    description: "Teams submit a one-page abstract of their Bio-/Life science-related startup idea.",
-                },
-                {
-                    title: "Final Round – Shark Tank Style Pitch:",
-                    description: "Teams deliver a 5-minute detailed pitch explaining their startup idea, revenue model, and growth strategy. Followed by a 7-minute Q&A session with the jury (Sharks).",
-
-                },
-            ],
-            rules: [
-                "2-3 members per team",
-                "Teams must submit original ideas (plagiarism will lead to disqualification).",
-                "Use of presentation slides, prototypes, and models is allowed.",
-                "No offensive, unethical, or misleading information in presentations",
-                "Time limits must be strictly followed in each round",
-                "Any violation of rules may lead to disqualification",
-                "Rewards: Participants will receive a certificate of participation. The best team will be awarded prizes along with a Certificate of Achievement.",
-                "Charge per Person/Team: Charge per person is 100 INR",
-            ],
-            schedule: [
-                {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Dr. Rengesh Balakrishnan",
-                        email: "rengeshbalakrishnan@ksrct.ac.in",
-                        phone: "9841997754",
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Sankar R",
-                        email: "sankarragu832@gmail.com",
-                        phone: "7397534931",
-                    },
-                    {
-                        name: "Mridula Dev D",
-                        email: "mriduladev2004@gmail.com",
-                        phone: "8754184017",
-                    },
-                ],
-            },
-            registrationLink: "https://unstop.com/p/biotech-shark-tank-pitch-your-ideabiohackathon-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420140", // Registration link
         },
         "technical-event-5": {
             title: "ROBO SOCCER",
@@ -618,154 +553,154 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/designathon-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420135", // Registration link
         },
 
-        "technical-event-13": {
-            title: "Rapid Coding",
-            description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
-            image: Tech12,
-            rounds: [
-                {description: "Rapid coding is about solving problems quickly and efficiently without compromising on too much quality. Start by understanding the problem clearly before coding and focus on using tools and libraries you're familiar with to speed up the process. Write simple, readable code, avoiding overcomplicated solutions. Build the core functionality first and improve it later, without getting stuck on perfection. Test your code as you go and use version control to keep track of your progress. If you're working with others, communicate well and divide tasks effectively. Reuse code snippets for common tasks, and use helpful tools like code editors with auto-completion. Finally, don’t aim for perfection upfront—focus on getting it done and improving it later as you learn and grow your skills."}
-            ],
-            rules: [
-                "The event is open to all individual participants.",
-                "Each problem must be solved within the time limits imposed.",
-                "Participants can submit their code multiple times, but only the last submission will be considered for scoring.",
-                "The time limit for each problem will be visible throughout the competition. ",
-                "All code must be original. Any attempt to copy code from other participants or external sources will lead to disqualification.",
+        // "technical-event-13": {
+        //     title: "Rapid Coding",
+        //     description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
+        //     image: Tech12,
+        //     rounds: [
+        //         {description: "Rapid coding is about solving problems quickly and efficiently without compromising on too much quality. Start by understanding the problem clearly before coding and focus on using tools and libraries you're familiar with to speed up the process. Write simple, readable code, avoiding overcomplicated solutions. Build the core functionality first and improve it later, without getting stuck on perfection. Test your code as you go and use version control to keep track of your progress. If you're working with others, communicate well and divide tasks effectively. Reuse code snippets for common tasks, and use helpful tools like code editors with auto-completion. Finally, don’t aim for perfection upfront—focus on getting it done and improving it later as you learn and grow your skills."}
+        //     ],
+        //     rules: [
+        //         "The event is open to all individual participants.",
+        //         "Each problem must be solved within the time limits imposed.",
+        //         "Participants can submit their code multiple times, but only the last submission will be considered for scoring.",
+        //         "The time limit for each problem will be visible throughout the competition. ",
+        //         "All code must be original. Any attempt to copy code from other participants or external sources will lead to disqualification.",
 
-            ],
-            schedule: [
-                {
-                    round: "Event Timing",
-                    date: "March 22, 2025",
-                    time: "10:00 AM to 11:30 PM",
-                    location: "AI Lab, Mechatronics Block",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Mrs .S.Sripriya ",
-                        phone: "9962435353",
-                        email: "sripriya@ksrct.ac.in",
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Kavin R ",
-                        email: "kavinkavicric5@gmail.com",
-                        phone: "7904148796 "
-                    },
-                    {
-                        name: "Saran G",
-                        email: "saransaran4371@gmail.com",
-                        phone: "8940108788"
-                    }
-                ]
-            },
-            registrationLink: "https://unstop.com/p/rapid-coding-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420179", // Registration link
-        },
-        "technical-event-12": {
-            title: "Cook with Prompt",
-            description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
-            image: Tech13,
-            rounds: [
-                {
+        //     ],
+        //     schedule: [
+        //         {
+        //             round: "Event Timing",
+        //             date: "March 22, 2025",
+        //             time: "10:00 AM to 11:30 PM",
+        //             location: "AI Lab, Mechatronics Block",
+        //         },
+        //     ],
+        //     contact: {
+        //         facultyCoordinator: [
+        //             {
+        //                 name: "Mrs .S.Sripriya ",
+        //                 phone: "9962435353",
+        //                 email: "sripriya@ksrct.ac.in",
+        //             },
+        //         ],
+        //         studentCoordinator: [
+        //             {
+        //                 name: "Kavin R ",
+        //                 email: "kavinkavicric5@gmail.com",
+        //                 phone: "7904148796 "
+        //             },
+        //             {
+        //                 name: "Saran G",
+        //                 email: "saransaran4371@gmail.com",
+        //                 phone: "8940108788"
+        //             }
+        //         ]
+        //     },
+        //     registrationLink: "https://unstop.com/p/rapid-coding-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420179", // Registration link
+        // },
+        // "technical-event-12": {
+        //     title: "Cook with Prompt",
+        //     description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
+        //     image: Tech13,
+        //     rounds: [
+        //         {
 
-                    description: "The event will consist of a single round where participants will engage in a prompt creation challenge based on AI image generation. Each participant will be given a set of predefined themes or concepts, and their task is to craft clear, creative, and effective prompts that generate AI images closely matching the given theme. The challenge will be conducted within a fixed time frame, and participants must complete their prompts before the deadline. Entries will be evaluated based on clarity, creativity, and relevance to the theme. The best prompts that produce accurate and visually appealing AI-generated results will determine the winners. "
-                },
-            ],
-            rules: [
-                "The event is open to all individual participants.",
-                "The event will feature prompt creation tasks based on AI image generation. Participants will receive a set of themes or concepts that they need to transform into a clear and effective prompt.",
-                "The event will have a fixed duration   in which participants will have to complete their tasks.",
+        //             description: "The event will consist of a single round where participants will engage in a prompt creation challenge based on AI image generation. Each participant will be given a set of predefined themes or concepts, and their task is to craft clear, creative, and effective prompts that generate AI images closely matching the given theme. The challenge will be conducted within a fixed time frame, and participants must complete their prompts before the deadline. Entries will be evaluated based on clarity, creativity, and relevance to the theme. The best prompts that produce accurate and visually appealing AI-generated results will determine the winners. "
+        //         },
+        //     ],
+        //     rules: [
+        //         "The event is open to all individual participants.",
+        //         "The event will feature prompt creation tasks based on AI image generation. Participants will receive a set of themes or concepts that they need to transform into a clear and effective prompt.",
+        //         "The event will have a fixed duration   in which participants will have to complete their tasks.",
 
-            ],
-            schedule: [
-                {
-                    round: "Event Timing",
-                    date: "March 22, 2025",
-                    time: "11:30 AM to 01:00 PM",
-                    location: "AI Lab, Mechatronics Block",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Mrs.S.Gayathri ",
-                        email: "gayathris@ksrct.ac.in",
-                        phone: "9486657591"
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Vasanth S",
-                        email: "vasanth04754646@gmail.com",
-                        phone: "9159069646 "
-                    },
-                    {
-                        name: "Harish M",
-                        email: "harishmohankumar03@gmail.com",
-                        phone: "6369303123"
-                    }
-                ]
-            },
-            registrationLink: "https://unstop.com/p/cook-with-prompt-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420177", // Registration link
-        },
-        "technical-event-14": {
-            title: "Codathon",
-            description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
-            image: Tech11,
-            rounds: [
+        //     ],
+        //     schedule: [
+        //         {
+        //             round: "Event Timing",
+        //             date: "March 22, 2025",
+        //             time: "11:30 AM to 01:00 PM",
+        //             location: "AI Lab, Mechatronics Block",
+        //         },
+        //     ],
+        //     contact: {
+        //         facultyCoordinator: [
+        //             {
+        //                 name: "Mrs.S.Gayathri ",
+        //                 email: "gayathris@ksrct.ac.in",
+        //                 phone: "9486657591"
+        //             },
+        //         ],
+        //         studentCoordinator: [
+        //             {
+        //                 name: "Vasanth S",
+        //                 email: "vasanth04754646@gmail.com",
+        //                 phone: "9159069646 "
+        //             },
+        //             {
+        //                 name: "Harish M",
+        //                 email: "harishmohankumar03@gmail.com",
+        //                 phone: "6369303123"
+        //             }
+        //         ]
+        //     },
+        //     registrationLink: "https://unstop.com/p/cook-with-prompt-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420177", // Registration link
+        // },
+        // "technical-event-14": {
+        //     title: "Codathon",
+        //     description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
+        //     image: Tech11,
+        //     rounds: [
 
-            ],
-            rules: [
-                "Open to all students with a passion for coding.",
-                "No restrictions on domain or specialization.",
-                "Participants can compete individually or in teams of 2-4 members.",
-                "Yes, inter-college team members are allowed.",
-                "Yes, inter-specialization team members are allowed",
-                "No pre-written code or external help is allowed.",
-                "Participants must adhere to the time limit.",
-                "Any form of plagiarism will lead to disqualification."
+        //     ],
+        //     rules: [
+        //         "Open to all students with a passion for coding.",
+        //         "No restrictions on domain or specialization.",
+        //         "Participants can compete individually or in teams of 2-4 members.",
+        //         "Yes, inter-college team members are allowed.",
+        //         "Yes, inter-specialization team members are allowed",
+        //         "No pre-written code or external help is allowed.",
+        //         "Participants must adhere to the time limit.",
+        //         "Any form of plagiarism will lead to disqualification."
 
-            ],
-            schedule: [
-                {
-                    round: "Round 1",
-                    date: "May 22, 2025",
-                    time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
-                },
-                {
-                    round: "Round 2",
-                    date: "May 23, 2025",
-                    time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
-                        email: "harshinirp@ksrct.ac.in",
-                        "phone": "9361446506"
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        "name": "Praveen S (II-Year/CSE(AIML))",
-                        "email": "saravananpraveen1157@gmail.com",
-                        "phone": "6369493352 "
-                    },
-                    {
-                        "name": "Pavithran G (II-Year/CSE(AIML))",
-                        "email": "techpavithran18@gmail.com",
-                        "phone": "9363575964"
-                    }
-                ]
-            },
-            registrationLink: "https://unstop.com/p/codathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418436", // Registration link
-        },
+        //     ],
+        //     schedule: [
+        //         {
+        //             round: "Round 1",
+        //             date: "May 22, 2025",
+        //             time: "9:00 AM to 11:00 AM",
+        //             location: "Tech Hub, Innovation Center",
+        //         },
+        //         {
+        //             round: "Round 2",
+        //             date: "May 23, 2025",
+        //             time: "1:00 PM to 3:00 PM",
+        //             location: "Tech Hub, Innovation Center",
+        //         },
+        //     ],
+        //     contact: {
+        //         facultyCoordinator: [
+        //             {
+        //                 "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
+        //                 email: "harshinirp@ksrct.ac.in",
+        //                 "phone": "9361446506"
+        //             },
+        //         ],
+        //         studentCoordinator: [
+        //             {
+        //                 "name": "Praveen S (II-Year/CSE(AIML))",
+        //                 "email": "saravananpraveen1157@gmail.com",
+        //                 "phone": "6369493352 "
+        //             },
+        //             {
+        //                 "name": "Pavithran G (II-Year/CSE(AIML))",
+        //                 "email": "techpavithran18@gmail.com",
+        //                 "phone": "9363575964"
+        //             }
+        //         ]
+        //     },
+        //     registrationLink: "https://unstop.com/p/codathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418436", // Registration link
+        // },
 
         "technical-event-15": {
             title: "Buildathon",
@@ -1028,13 +963,13 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "March 21, 2025",
+                    date: "March 29, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
                 {
                     round: "Round 2",
-                    date: "March 21, 2025",
+                    date: "March 29, 2025",
                     time: "2:00 PM to 4:00 PM",
                     location: "Art Gallery, Creative Center",
                 },
@@ -1754,8 +1689,8 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
+                    date: "March 28, 2025",
+                    time: "9:00 AM to 3:00 PM",
                     location: "Textile chemical processing laboratory,Textile Block ",
                 },
 
