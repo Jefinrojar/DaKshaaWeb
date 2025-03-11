@@ -354,7 +354,7 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round",
-                    date: "March 21, 2025",
+                    date: "March 28, 2025",
                     time: "11:00 AM to 1:30 PM",
                     location: "MC 207,Mechatronics Block",
                 },
@@ -1163,7 +1163,7 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round",
-                    date: "March 22, 2025",
+                    date: "March 29, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "HPC LAB,Mechatronics Block",
                 },
@@ -2084,7 +2084,7 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round ",
-                    date: "March 21 & 22, 2025",
+                    date: "March 28 & 29, 2025",
                     time: "9:00 AM to 4:00 PM",
                     location: "Centre of Excellence in Drone Technology,Mechatronics Block ",
                 },
