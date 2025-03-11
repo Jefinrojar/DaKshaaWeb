@@ -578,15 +578,15 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Round 1",
-                    date: "May 22, 2025",
+                    date: "March 28, 2025",
                     time: "9:00 AM to 11:00 AM",
-                    location: "Tech Hub, Innovation Center",
+                    location: "Design Center,Mechanical Block",
                 },
                 {
                     round: "Round 2",
-                    date: "May 23, 2025",
+                    date: "March 28, 2025",
                     time: "1:00 PM to 3:00 PM",
-                    location: "Tech Hub, Innovation Center",
+                    location: "Design Center,Mechanical Block",
                 },
             ],
             contact: {
@@ -609,7 +609,7 @@ const EventDetails = () => {
                         phone: "9025972365"
                     },
                     {
-                        name: "Jagannathbalaaji N",
+                        name: "Jaganathbalaaji N",
                         email: "jbbalaaji74181@gmail.com",
                         phone: "7418155343"
                     }
@@ -1354,6 +1354,12 @@ const EventDetails = () => {
                 "For Individual 50 rupees"
             ],
             schedule: [
+                {
+                    round: "Round",
+                    date: "March 29, 2025",
+                    time: "9:00 AM to 12:30 PM",
+                    location: "Mechanical Block",
+                },
 
             ],
             contact: {
@@ -2202,10 +2208,10 @@ const EventDetails = () => {
             image: Workshop12,
             schedule: [
                 {
-                    round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    round: "Round",
+                    date: "March 28, 2025",
+                    time: "9:00 AM to 3:00 PM",
+                    location: "Idea lab,Main Block",
                 },
 
             ],
@@ -2225,7 +2231,7 @@ const EventDetails = () => {
                     },
                     {
                         name: "Raghunath E",
-                        email: "lingeshwaransl04@gmail.com",
+                        email: "raghunath10091@gmail.com",
                         phone: "8248732445",
                     },
                 ],
