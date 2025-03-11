@@ -17,6 +17,7 @@ const Card = () => {
     { id: 2, image: musical, title: "Musical", text: "Solo singing is an individual vocal performance with expression." },
     { id: 3, image: group, title: "Group Dance", text: "Synchronized dance performance by group." },
     { id: 4, image: dance, title: "Solo Dance", text: "Solo dance is expressive, graceful, and captivating." },
+    { id: 5, image: dance, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways." },
   ];
 
   const title = "Harmonics";
@@ -38,17 +39,9 @@ const Card = () => {
           </motion.span>
         ))}
       </h1>
-      <button
-        className="mb-8 w-80 md:ml-[600px] md:w-auto md:mt-5 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
-        onClick={() => window.open("www.google.com", "_blank")}
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
-        REGISTER NOW!
-      </button>
 
       {/* Grid Layout - 3 Cards Per Row */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 sm:gap-x-10 gap-y-12 sm:gap-y-16 justify-center px-4 sm:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-12 sm:gap-y-16 justify-center px-4 sm:px-8">
         {cards.map((card, index) => (
           <div
             key={card.id}
