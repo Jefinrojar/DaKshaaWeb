@@ -107,7 +107,7 @@ const CodathonSection = () => {
             <div className="max-w-4xl mx-auto text-white p-4 md:p-6">
                 <div className="flex justify-center items-center md:gap-5 gap-3 mb-5">
                     <h1 className="text-2xl md:text-5xl font-bold text-center text-[#9DD3FF]">{event.title}</h1>
-                    <img src={EboxLogo} alt="" className="md:w-60 md:h-20 w-32 h-12"/>
+                    <img src={EboxLogo} alt="" className="md:w-48 md:h-16 w-32 h-12"/>
                 </div>
 
                 {/* Register Now Button */}

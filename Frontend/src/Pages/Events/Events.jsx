@@ -25,6 +25,7 @@ import Tech12 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2
 import Tech13 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
 import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
 import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
+import Tech17 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
 
 
 
@@ -90,10 +91,6 @@ const Events = () => {
           eventId: "technical-event-3",
         },
         {
-          image: Tech4,
-          eventId: "technical-event-4",
-        },
-        {
           image: Tech5,
           eventId: "technical-event-5",
         },
@@ -113,18 +110,18 @@ const Events = () => {
           image: Tech9,
           eventId: "technical-event-10",
         },
-        {
-          image: Tech11,
-          eventId: "technical-event-14",
-        },
-        {
-          image: Tech12,
-          eventId: "technical-event-13",
-        },
-        {
-          image: Tech13,
-          eventId: "technical-event-12",
-        },
+        // {
+        //   image: Tech11,
+        //   eventId: "technical-event-14",
+        // },
+        // {
+        //   image: Tech12,
+        //   eventId: "technical-event-13",
+        // },
+        // {
+        //   image: Tech13,
+        //   eventId: "technical-event-12",
+        // },
         {
           image: Tech14,
           eventId: "technical-event-15",
@@ -133,6 +130,10 @@ const Events = () => {
         {
           image: Tech16,
           eventId: "technical-event-16",
+        },
+        {
+          image: Tech17,
+          eventId: "technical-event-17",
         },
       ],
     },

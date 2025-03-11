@@ -20,7 +20,7 @@ const Card = () => {
     { id: 5, image: dance, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways." },
   ];
 
-  const title = "Harmonics";
+  const title = "Harmonicks";
 
   return (
     <div className="p-6 sm:p-8 md:p-10">
