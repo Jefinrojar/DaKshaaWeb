@@ -431,7 +431,7 @@ const EventDetails = () => {
                         email: "sanjaykumar.ramasamy22@gmail.com"
                     },
                     {
-                        name: "Kowshika K (II-Year/CSE(ECE))",
+                        name: "Kowshika K (II-Year/ECE)",
                         phone: "9342806195",
                         email: "kowshika1912@gmail.com"
                     },
