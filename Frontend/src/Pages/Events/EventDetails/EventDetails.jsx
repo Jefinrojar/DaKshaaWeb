@@ -1786,9 +1786,9 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420202", // Registration link
         },
         "workshop-2": {
-            title: "Digital Marketing",
+            title: "A Walkthrough of Modern Techniques",
             description:
-                "Join our Digital Marketing Workshop to learn from industry experts Mr. Gowdham Subramaniam (Director, Seeka Host India) and Mr. Dinesh Kumar VM (General Manager, ClickDo, UK). Gain insights into digital marketing strategies and industry trends. Don’t miss this opportunity to enhance your marketing skills! 🚀",
+                "This workshop will introduce students to prompt engineering, a critical skill for optimizing AI interactions. Participants will learn how to craft precise, efficient, and structured prompts to get the best responses from AI models like ChatGPT, Gemini, and DeepSeek. The session will cover types of prompts, best practices, real-world applications, and hands-on exercises to help students develop a deeper understanding of AI communication.",
             image: Workshop2,
             schedule: [
                 {
