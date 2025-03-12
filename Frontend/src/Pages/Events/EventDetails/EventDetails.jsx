@@ -431,7 +431,7 @@ const EventDetails = () => {
                         email: "sanjaykumar.ramasamy22@gmail.com"
                     },
                     {
-                        name: "Kowshika K (II-Year/CSE(AIML))",
+                        name: "Kowshika K (II-Year/CSE(ECE))",
                         phone: "9342806195",
                         email: "kowshika1912@gmail.com"
                     },
@@ -1489,9 +1489,9 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs M Devaki (AP/ECE))",
-                        email: "devaki@ksrct.ac.in",
-                        phone: "9095059424",
+                        name: " Dr. D. Mugilan (AP/ECE))",
+                        email: "mugilan@ksrct.ac.in",
+                        phone: "98946 07523",
                     },
 
                 ],
