@@ -10,7 +10,7 @@ import dftt from '../../../assets/WorkshopImages/dftt.jpg'
 import garuda from '../../../assets/WorkshopImages/garuda.jpg'
 import macro from '../../../assets/WorkshopImages/macro.jpg'
 import millet from '../../../assets/WorkshopImages/millet.jpg'
-import seeka from '../../../assets/WorkshopImages/seeka.jpg'
+import it from '../../../assets/WorkshopImages/it.png'
 import Cokupa from '../../../assets/WorkshopImages/Cokupa.png'
 import EnthuTechnology from '../../../assets/WorkshopImages/EnthuTechnology.png'
 import uipath from '../../../assets/WorkshopImages/uipath.png'
@@ -197,7 +197,7 @@ const workshops = [
     id: 10,
     img: Photo10,
     department: "Information Technology",
-    dept: "Digital Marketing",
+    dept: "A Walkthrough of Modern Techniques",
     title: "Information Technology",
     facultyCo: "Mr. P. Dinesh Kumar",
     facultyCoNo: "+91 96888 37873",
@@ -205,8 +205,8 @@ const workshops = [
     studentCo2: "E.Balasastha III Year/IT",
     studentCoNo1: "+91 99426 51212",
     studentCoNo2: "+91 99426 51212",
-    companyName: "Seeka Host India",
-    companyImg: seeka,
+    companyName: "Statix.pro",
+    companyImg: it,
     registrationLink: "https://unstop.com/p/digital-marketing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420209",
   },
   {
