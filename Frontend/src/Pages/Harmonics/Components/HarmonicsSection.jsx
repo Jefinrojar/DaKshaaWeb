@@ -7,18 +7,20 @@ import instruments from "../../../assets/HORMONICS/INSTRUMENT.png";
 import musical from "../../../assets/HORMONICS/MUSICAL.png";
 import shortFilm from "../../../assets/HORMONICS/short flim.png"
 import { motion } from "framer-motion";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Card = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
   const cards = [
-    { id: 1, image: instruments, title: "Mastro Mania", text: "Musicians performing with musical instruments." },
-    { id: 2, image: musical, title: "Musical Mavericks", text: "Solo singing is an individual vocal performance with expression." },
-    { id: 3, image: group, title: "Beat Battle", text: "Synchronized dance performance by group." },
-    { id: 4, image: dance, title: "Spotlight Stepper", text: "Solo dance is expressive, graceful, and captivating." },
-    { id: 5, image: shortFilm, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways." },
+    { id: 1, image: instruments, title: "Mastro Mania", text: "Musicians performing with musical instruments.", link: "/event/culturals-event-2" },
+    { id: 2, image: musical, title: "Musical Mavericks", text: "Solo singing is an individual vocal performance with expression.", link: "/event/culturals-event-1" },
+    { id: 3, image: group, title: "Beat Battle", text: "Synchronized dance performance by group.", link: "/event/culturals-event-3" },
+    { id: 4, image: dance, title: "Spotlight Stepper", text: "Solo dance is expressive, graceful, and captivating.", link: "/event/culturals-event-4" },
+    { id: 5, image: shortFilm, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways.", link: "/event/culturals-event-5" },
   ];
 
   const title = "Harmonicks";
@@ -51,6 +53,7 @@ const Card = () => {
                        bg-opacity-30 border border-sky-900 text-gray-50 p-5"
             data-aos="zoom-in"
             data-aos-delay={index * 200}
+            onClick={()=>navigate(card.link)}
           >
             <img
               src={card.image}
