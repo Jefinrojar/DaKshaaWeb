@@ -1783,7 +1783,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420202", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-2": {
             title: "A Walkthrough of Modern Techniques",
@@ -1820,7 +1820,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/digital-marketing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420209", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-3": {
             title: "Ui Path Supported Workshop” Robotic Process Automation”",
@@ -1859,7 +1859,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/robotic-process-automation-rpa-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420161", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-4": {
             title: "AI on Game Developing",
@@ -1898,7 +1898,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/ai-on-game-development-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420117", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-5": {
             title: "Unlocking Digital Potential: A Workshop on Modern Marketing",
@@ -1935,7 +1935,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/unlocking-digital-potential-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420181", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-6": {
             title: "Mobile Application Development By RemitBee India Private Limited - Chennai",
@@ -1974,7 +1974,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/mobile-app-development-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420185", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-7": {
             title: "Do Engineering using NI Lab VIEW By Mew Technology, Bangalore",
@@ -2013,7 +2013,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420207", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-8": {
             title: "Next Generation Sequencing technologies in Health Care By Genotypic Technology, Bengaluru",
@@ -2069,7 +2069,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420259", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-9": {
             title: "Soaring High: Hands-on Drone Building and Flight workshop By Garuda Aerospace",
@@ -2107,7 +2107,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://unstop.com/p/soaring-high-hands-on-drone-building-and-flight-workshop-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420148", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-10": {
             title: "Industry IoT using LoRaWAN Technology By Enthu Technology Solutions India Pvt Ltd",
@@ -2146,7 +2146,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420136", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-11": {
             title: "",
@@ -2188,7 +2188,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420158", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-12": {
             title: "Design and development of automotive Product By Mr.K.Santhosh Kumar, Support Manger, Macro Technology Pvt Ltd, Erode.",
@@ -2225,7 +2225,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420128", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-13": {
             title: "Building Information Modeling (BIM) By ICT Academy, Chennai, Tamil Nadu",
@@ -2262,7 +2262,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420174", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-14": {
             title: "Medi Tex By Mr.T.Sureshram, Proprietor Care 4 U India Pvt, Ltd.,Tirupur",
@@ -2304,7 +2304,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/medi-tex-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420143", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
     };
 
