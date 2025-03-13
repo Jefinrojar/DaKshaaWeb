@@ -35,7 +35,6 @@ import NonTech5 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT 
 import NonTech6 from "../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
 import NonTech7 from "../../assets/EventsImages/EventDetails/Nontech/ft.png"
 import NonTech8 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
-import NonTech9 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
 import NonTech10 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.jpg"
 import NonTech11 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.jpg"
 import NonTech12 from "../../assets/EventsImages/EventDetails/Nontech/Department of InformationTechnology.jpg"
@@ -160,10 +159,10 @@ const Events = () => {
           image: NonTech8,
           eventId: "non-technical-event-8",
         },
-        {
-          image: NonTech9,
-          eventId: "non-technical-event-10",
-        },
+        // {
+        //   image: NonTech9,
+        //   eventId: "non-technical-event-10",
+        // },
         {
           image: NonTech10,
           eventId: "non-technical-event-11",
