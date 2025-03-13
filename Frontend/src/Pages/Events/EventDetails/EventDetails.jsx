@@ -708,7 +708,7 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "",
-                    date: "March 22, 2025",
+                    date: "March 28, 2025",
                     time: "9:30AM -10:30AM",
                     location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
                 },
@@ -737,6 +737,50 @@ const EventDetails = () => {
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
+        },
+        "technical-event-17": {
+            title: "Project Expo (Paper presentation)",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.",
+            image: Tech15,
+            rounds: [
+
+            ],
+            rules: [
+                
+            ],
+            schedule: [
+                {
+                    round: "",
+                    date: "March 28, 2025",
+                    time: "9:30AM -10:30AM",
+                    location: "announcing soon",
+                },
+
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Mr.M.Arunkumar ",
+                        email: "arunkumar@ksrct.ac.in",
+                        phone: "8056989930"
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        name: "A.V. Raghavendhar ",
+                        email: "a.v.raghavendhar516@gmail.com",
+                        phone: "8778239221"
+                    },
+                    {
+                        name: "K.Harini ",
+                        email: "mailto:harinikumar25102005@gmail.com",
+                        phone: "8667393828"
+                    }
+                ]
+            },
+
+            registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
 
         },
 
