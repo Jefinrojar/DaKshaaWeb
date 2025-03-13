@@ -1531,7 +1531,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-2": {
             title: "Musical Mavericks",
@@ -1561,7 +1561,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-3": {
             title: "Beat Battle",
@@ -1591,7 +1591,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-4": {
             title: "Spotlight Stepper",
@@ -1621,7 +1621,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-5": {
             title: "Short Film",
@@ -1651,7 +1651,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         
 
