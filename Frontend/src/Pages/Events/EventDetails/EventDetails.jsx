@@ -1511,7 +1511,7 @@ const EventDetails = () => {
                 },
             ],
             rules: [
-                "Theme: On the Spot",
+                "Theme:On the Spot",
                 "Two Participants per Team",
                 "Duration:1 Hr",
                 "Participants have to bring their own colours, brushes etc",
