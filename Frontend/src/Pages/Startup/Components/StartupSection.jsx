@@ -4,6 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import startuptn from "../../../assets/startup/logo.png";
+import member1 from "../../../assets/startup/panelMember1.jpg";
+import member2 from "../../../assets/startup/panelMember2.jpg";
 
 function StartupSection() {
   const title1 = "Idea's";
@@ -28,27 +30,27 @@ function StartupSection() {
   const cards = [
     {
       id: 1,
-      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
-      title: "Person 1",
-      text: "Explore groundbreaking ideas that shape the future of technology.",
+      image: member1, // Placeholder image
+      title: "Dr. N. Thiruvenkadam",
+      text: "Department of Mechatronics",
     },
     {
       id: 2,
-      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
-      title: "Person 2",
-      text: "Discover key strategies to scale your startup to new heights.",
+      image: member2, // Placeholder image
+      title: "Dr. B. Mythili Gnanamangai",
+      text: "Department of Biotechnology",
     },
     {
       id: 3,
       image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 3",
-      text: "Participate in hands-on workshops led by industry experts.",
+      text: "Coming soon!",
     },
     {
       id: 4,
       image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 4",
-      text: "Connect with like-minded innovators and industry leaders.",
+      text: "Coming soon!",
     },
   ];
 
@@ -143,7 +145,7 @@ function StartupSection() {
 
       {/* Section 2 */}
       <div className="flex flex-col md:flex-row justify-center my-10 mx-10 gap-10">
-        {["Prize", "Panel", "Eligibility", "Rules", "Category", "Schedule"].map(
+        {["Prize", "Panel", "Eligibility", "Rules", "Schedule"].map(
           (item, index) => (
             <motion.div
               key={index}
@@ -226,7 +228,7 @@ function StartupSection() {
                 </div>
 
                 {/* Hover Text Effect */}
-                <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-14">
+                <div className="absolute w-full left-0 p-5 -bottom-10 duration-500 group-hover:-translate-y-14">
                   <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
                   <span className="text-lg sm:text-xl font-bold block">
                     {card.title}
@@ -253,6 +255,9 @@ function StartupSection() {
               <li className="text-lg md:text-xl text-sky-300">
                 UG Students from any college across India are eligible to pitch
                 their ideas in this contest
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+              Student Entrepreneurs only
               </li>
             </ul>
           </div>
@@ -282,29 +287,6 @@ function StartupSection() {
         </div>
       </div>
 
-      {/* Category */}
-      <div className="border border-sky-800 p-2 mb-5">
-        <div className="border border-sky-800 shadow-lg p-4 md:p-10">
-          <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
-            Category
-          </h2>
-          <div className="flex flex-col md:flex-row justify-center my-10 mx-10 gap-12">
-            {["Deep Tech", "Sustainability", "Category1", "Category2"].map(
-              (item, index) => (
-                <motion.div
-                  key={index}
-                  className="border-2 border-sky-900 cursor-default p-1"
-                >
-                  <h1 className="bg-sky-900 hover:bg-sky-950 px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">
-                    {item}
-                  </h1>
-                </motion.div>
-              )
-            )}
-          </div>
-        </div>
-      </div>
-
       {/* Schedule */}
       <div className="border border-sky-800 p-2 mt-6">
         <div className="p-4 md:p-10">
@@ -314,16 +296,16 @@ function StartupSection() {
 
           <div className="border-gray-300 pb-2 mb-2">
             <button className="flex justify-between items-center w-full text-lg md:text-xl font-medium p-3 border border-sky-800 text-sky-500 bg-sky-900">
-              Round 1
+              Venue and Timing
             </button>
             <div className="mt-2 p-3 border border-sky-900 bg-transparent text-gray-300">
-              <p className="text-base md:text-lg">Date: 15th March 2025</p>
-              <p className="text-base md:text-lg">Time: 10:00 AM - 12:00 PM</p>
-              <p className="text-base md:text-lg">Location: Auditorium</p>
+              <p className="text-base md:text-lg">Date: 28th March 2025</p>
+              <p className="text-base md:text-lg">Time: 10:00 AM - 4:00 PM</p>
+              <p className="text-base md:text-lg">Location: Yet to Announce!</p>
             </div>
           </div>
 
-          <div className="border-gray-300 pb-2 mb-2">
+          {/* <div className="border-gray-300 pb-2 mb-2">
             <button className="flex justify-between items-center w-full text-lg md:text-xl font-medium p-3 border border-sky-800 text-sky-500 bg-sky-900">
               Round 2
             </button>
@@ -343,7 +325,7 @@ function StartupSection() {
               <p className="text-base md:text-lg">Time: 5:00 PM - 7:00 PM</p>
               <p className="text-base md:text-lg">Location: Main Stage</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
