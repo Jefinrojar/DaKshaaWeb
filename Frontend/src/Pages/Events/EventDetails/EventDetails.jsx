@@ -1239,12 +1239,12 @@ const EventDetails = () => {
                     {
                         name: "Pavithra R, II Year/FT",
                         phone: "9345894830",
-                        email:"rppavithra2006@gmail.com",
+                        email: "rppavithra2006@gmail.com",
                     },
                     {
                         name: "Hariprasath K, II Year/FT",
                         phone: "9080753031",
-                        email:"prasath202hari@gmail.com",
+                        email: "prasath202hari@gmail.com",
                     },
 
                 ],
@@ -1349,6 +1349,50 @@ const EventDetails = () => {
                 ],
             },
 
+            registrationLink: "https://unstop.com/p/404meme-overload-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420198", // Registration link
+        },
+        "non-technical-event-10": {
+            title: "Short Film Contest",
+            description:
+                "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format.",
+            image: NonTech9,
+            rounds: [
+                { description: "Theme: Beyond the bell - What happens beyond the classrooms" }
+            ],
+            rules: [
+                "The event is open to all individual participants and teams. Teams may consist of 2 to 5 members.",
+                "The short film should be original ",
+                "Duration should be between 3 to 10 minutes.",
+                "No Adult Contents and Bad Words",
+                "All films must be submitted in video file format (MP4, MOV, or AVI).",
+                "Winners will be judged based on creativity, storytelling, and overall impact."
+            ],
+            schedule: [
+                {
+                    round: "Event Timing",
+                    date: "March 29, 2025",
+                    time: "09:00 AM to 02:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Mr.S.Raja ",
+                        email: "rajas@ksrct.ac.in",
+                        phone: "75028281440",
+                    },
+
+                ],
+                studentCoordinator: [
+                    {
+                        name: "Karthikeyan S A",
+                        email: "karthikeyansa8@gmail.com",
+                        phone: "7358996885",
+                       }
+
+                ],
+            },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
 
@@ -1510,24 +1554,116 @@ const EventDetails = () => {
         },
         // Culturals
         "culturals-event-1": {
-            title: "Mastro Mania",
+            title: "Musical Maverics",
             description:
                 "Musicians performing with musical instruments.",
             image: Culturals1,
+            rules: [
+                "Time limit: 3–5 minutes per performance",
+                "Languages & Genres: Participants can sing in any language and genre",
+                "Music: Karaoke track or self-accompanied instrument is allowed (no pre-recorded vocals)",
+                "Prohibited: No auto-tune or vocal effects allowed",
+                "Judging Criteria: Voice Quality, Pitch, Rhythm, Expression, Song Selection",
+            ],
+            rounds: [
+                {
+                    title: "Single Round",
+                    description: [
+                        "Each participant/team will get 5-7 minutes to present their project",
+                        "Craft and Art – Creative decorative items from waste.",
+                        "Utility and Innovation – Functional products from waste.",
+                        "Technology & Science Models – Prototypes for environmental sustainability",
+                    ]
+                },
+            ],
+            schedule: [
+                {
+                    round: "Event Timing",
+                    date: "March 29, 2025",
+                    time: "9:00 PM to 2:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
+
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "Dr.M.Malarvizhi",
+                        phone: "9095792265",
+                        email: "malarvizhi@ksrct.ac.in",
+                    },
+
+                ],
+                studentCoordinator: [
+                    {
+                        name: "Mouriya S",
+                        email: "balamouriya07@gmail.com",
+                        phone: "8903689846",
+                    },
+                    {
+                        name: "vishwanth V ",
+                        email: "wanthvish9894@gmail.com",
+                        phone: "9080012267",
+                    },
+                    {
+                        name: "B.S. Akshaya ",
+                        email: "Akshayasrini007@gmail.com",
+                        phone: "7871969769",
+                    },
+                ],
+            },
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
+        },
+        "culturals-event-2": {
+            title: "Mastro Mania",
+            description:
+                "Musicians performing with musical instruments.",
+            image: Culturals2,
+            rounds: [
+                {
+                    title: "Single Round",
+                    description: [
+                        "Each participant/team will get 5-7 minutes to present their project",
+                        "Craft and Art – Creative decorative items from waste.",
+                        "Utility and Innovation – Functional products from waste.",
+                        "Technology & Science Models – Prototypes for environmental sustainability",
+                    ]
+                },
+            ],
+            schedule: [
+                {
+                    round: "Event Timing",
+                    date: "March 29, 2025",
+                    time: "9:00 PM to 2:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
+            ],
+            rules: [
+                "Participants must bring their own instruments (guitar, keyboard, drums, violin, flute, or any other instrument).",
+                "Time limit: 3–5 minutes per performance.",
+                "Only instrumental music is allowed (no vocals).",
+                "Pre-recorded background tracks are not permitted.",
+                "Instruments requiring amplifiers (e.g., electric guitar, keyboard) should be self-arranged.",
+                "Genre: Classical, Rock, Jazz, or any musical style.",
+                "Judges will evaluate Technique, Creativity, Clarity, Stage Presence, and Overall Performance.",
+            ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Dr. M. Mohanraj",
-                        phone: "88075 15919",
+                        email: "mohanrajm@ksrct.ac.in",
+                        phone: "8807515919",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Karthikeyan D",
+                        email: "karthikeyanksr40@gmail.com",
                         phone: "9790080274",
                     },
                     {
                         name: "Athisaya Raj",
+                        email: "athisayaraj869@gmail.com",
                         phone: "9566315990",
                     },
                     {
@@ -1538,41 +1674,38 @@ const EventDetails = () => {
             },
             registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
-        "culturals-event-2": {
-            title: "Musical Mavericks",
-            description:
-                "Musicians performing with musical instruments.",
-            image: Culturals2,
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Dr.M.Malarvizhi",
-                        phone: "9095792265",
-                        email: "malarvizhi@ksrct.ac.in",
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Mouriya S",
-                        phone: "8903689846",
-                    },
-                    {
-                        name: "vishwanth V ",
-                        phone: "9080012267",
-                    },
-                    {
-                        name: "B.S. Akshaya ",
-                        phone: "7871969769",
-                    },
-                ],
-            },
-            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
-        },
         "culturals-event-3": {
             title: "Beat Battle",
             description:
                 "Synchronized dance performance by group.",
             image: Culturals3,
+            rounds: [
+                {
+                    title: "Single Round",
+                    description: [
+                        "Each participant/team will get 5-7 minutes to present their project",
+                        "Craft and Art – Creative decorative items from waste.",
+                        "Utility and Innovation – Functional products from waste.",
+                        "Technology & Science Models – Prototypes for environmental sustainability",
+                    ]
+                },
+            ],
+            schedule: [
+                {
+                    round: "Event Timing",
+                    date: "March 29, 2025",
+                    time: "9:00 PM to 2:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
+            ],
+            rules: [
+                "Time limit: 4 - 5 minutes per team",
+                "Dance Forms Allowed: Any (Western, Classical, Folk, Fusion, etc.)",
+                "Music: Participants must bring their own music track",
+                "Prohibited Content: Explicit lyrics or inappropriate content in the song/dance moves",
+                "Props: Allowed but should be pre-approved",
+                "Judging Criteria: Coordination, Choreography, Costumes, Stage Presence, Overall Impact",
+            ],
             contact: {
                 facultyCoordinator: [
                     {
@@ -1584,10 +1717,12 @@ const EventDetails = () => {
                 studentCoordinator: [
                     {
                         name: "Ramitha TR ",
+                        email: "ramithakavin@gmail.com",
                         phone: "9345283931",
                     },
                     {
                         name: "Gowshika M",
+                        email: "mgowshika22@gmail.com",
                         phone: "8870593850",
                     },
                     {
@@ -1603,25 +1738,54 @@ const EventDetails = () => {
             description:
                 "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
             image: Culturals4,
+            rounds: [
+                {
+                    title: "Single Round",
+                    description: [
+                        "Each participant/team will get 5-7 minutes to present their project",
+                        "Craft and Art – Creative decorative items from waste.",
+                        "Utility and Innovation – Functional products from waste.",
+                        "Technology & Science Models – Prototypes for environmental sustainability",
+                    ]
+                },
+            ],
+            schedule: [
+                {
+                    round: "Event Timing",
+                    date: "March 29, 2025",
+                    time: "9:00 PM to 2:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
+            ],
+            rules: [
+                "Time limit: 3 - 4 minutes per participant",
+                "Any dance form (Classical, Folk, Western, Hip-Hop, etc.) is allowed",
+                "Participants must bring their own music track",
+                "Prop usage is allowed but should be pre-approved",
+                "Judging criteria: Expression, Costume, Choreography, Synchronization, Stage Presence",
+            ],
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "",
-                        phone: "",
+                        name: "Ms.S.Srinithi",
+                        phone: "9600404607",
                         email: "",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "Athityaa A",
+                        email: "athikuti4@gmail.com",
                         phone: "9345664042",
                     },
                     {
-                        name: " Nithin R ",
+                        name: "Nithin R",
+                        email: "nithuraj0000@gmail.com",
                         phone: "9025496002",
                     },
                     {
                         name: "Liji Samyukthaa S K ",
+                        email: "skliji04@gmail.com",
                         phone: "9342381500",
                     },
                 ],
@@ -1658,7 +1822,47 @@ const EventDetails = () => {
             },
             registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
-        
+        // "culturals-event-4": {
+        //     title: "Solo Dancing",
+        //     description:
+        //         "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
+        //     image: Culturals4,
+        //     rules: [
+        //         "Theme: On the Spot",
+        //         "Two Participants per Team",
+        //         "Duration:1 Hr",
+        //         "Participants have to bring their own colours, brushes etc",
+        //         "Juries Judgement is Final",
+        //     ],
+        //     contact: {
+        //         facultyCoordinator: [
+        //             {
+        //                 name: "Ms.S.Srinithi",
+        //                 phone: "9600404607",
+        //                 email: "",
+        //             },
+        //         ],
+        //         studentCoordinator: [
+        //             {
+        //                 name: "Athityaa A",
+        //                 email: "athikuti4@gmail.com",
+        //                 phone: "9345664042",
+        //             },
+        //             {
+        //                 name: "Nithin R",
+        //                 email: "nithuraj0000@gmail.com",
+        //                 phone: "9025496002",
+        //             },
+        //             {
+        //                 name: "Liji Samyukthaa S K ",
+        //                 email: "skliji04@gmail.com",
+        //                 phone: "9342381500",
+        //             },
+        //         ],
+        //     },
+        //     registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
+        // },
+
 
         // Workshop
         "workshop-1": {
@@ -1687,7 +1891,7 @@ const EventDetails = () => {
                         email: "pradeeps@ksrct.ac.in",
                         phone: "812213986",
                     },
-                    
+
                 ],
 
                 studentCoordinator: [
@@ -2086,7 +2290,7 @@ const EventDetails = () => {
                 facultyCoordinator: [
                     {
                         name: "Mr. S. Nithishkumar, AP/FT",
-                        email:"nithishkumar@ksrct.ac.in",
+                        email: "nithishkumar@ksrct.ac.in",
                         phone: "8973333396",
                     }
                 ],
@@ -2285,6 +2489,8 @@ const EventDetails = () => {
     };
 
     const isTechnicalOrNonTechnical = eventId.startsWith("technical-event") || eventId.startsWith("non-technical-event");
+    const isCultural = eventId.startsWith("culturals-event");
+
 
     return (
         <div className="p-4 md:p-10 mt-24 text-white min-h-screen">
@@ -2358,25 +2564,73 @@ const EventDetails = () => {
                         </ScrollAnimation>
 
                         {/* Rules Section */}
+                        {/* Rules Section */}
                         <ScrollAnimation>
                             <div className="border border-sky-800 p-2 mt-6">
                                 <div className="bg-sky-900/30 shadow-lg p-4 md:p-10">
-                                    <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 bg-inherit border border-sky-800 px-3 py-3">Rules</h2>
-                                    <ul className="list-disc pl-6 text-lg md:text-xl text-sky-300">
-                                        {event.rules.map((rule, index) => (
-                                            <motion.li key={index} variants={itemVariants}>
-                                                {rule}
-                                            </motion.li>
-                                        ))}
-                                    </ul>
+                                    <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 px-3 py-3">
+                                        Rules
+                                    </h2>
+                                    {event.rules && event.rules.length > 0 ? (
+                                        <ul className="list-disc pl-6 text-lg md:text-xl text-sky-300">
+                                            {event.rules.map((rule, index) => (
+                                                <motion.li key={index} variants={itemVariants}>
+                                                    {rule}
+                                                </motion.li>
+                                            ))}
+                                        </ul>
+                                    ) : (
+                                        <p className="text-gray-300 text-center">No rules available.</p>
+                                    )}
                                 </div>
                             </div>
                         </ScrollAnimation>
 
 
+
                     </>
                 )}
 
+                {isCultural && (
+                    <>
+                        <ScrollAnimation>
+                            <div className="flex flex-col md:flex-row justify-between my-10 gap-4">
+                                {['Description', 'Rules','Schedule', 'Contact'].map((item, index) => (
+                                    <motion.div
+                                        key={index}
+                                        className="border-2 border-sky-900 p-1"
+                                        whileHover={{ scale: 1.05 }}
+                                    >
+                                        <h1 className="bg-sky-900 px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">{item}</h1>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </ScrollAnimation>
+
+                        {/* Rules Section */}
+                        <ScrollAnimation>
+                            <div className="border border-sky-800 p-2 mt-6">
+                                <div className="bg-sky-900/30 shadow-lg p-4 md:p-10">
+                                    <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 px-3 py-3">
+                                        Rules
+                                    </h2>
+                                    {event.rules && event.rules.length > 0 ? (
+                                        <ul className="list-disc pl-6 text-lg md:text-xl text-sky-300">
+                                            {event.rules.map((rule, index) => (
+                                                <motion.li key={index} variants={itemVariants}>
+                                                    {rule}
+                                                </motion.li>
+                                            ))}
+                                        </ul>
+                                    ) : (
+                                        <p className="text-gray-300 text-center">No rules available.</p>
+                                    )}
+                                </div>
+                            </div>
+                        </ScrollAnimation>
+                    </>
+
+                )}
 
                 {/* Schedule Section */}
                 <div className="border border-sky-800 p-2 mt-6">
@@ -2451,7 +2705,7 @@ const EventDetails = () => {
                     </div>
                 </ScrollAnimation>
             </div>
-        </div>
+        </div >
     );
 };
 

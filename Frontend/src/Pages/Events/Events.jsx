@@ -192,12 +192,12 @@ const Events = () => {
       name: "Culturals",
       descriptionImages: [
         {
-          image: Culturals1,
-          eventId: "culturals-event-1",
-        },
-        {
           image: Culturals2,
           eventId: "culturals-event-2",
+        },
+        {
+          image: Culturals1,
+          eventId: "culturals-event-1",
         },
         {
           image: Culturals3,
