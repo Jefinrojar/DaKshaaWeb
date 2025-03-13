@@ -21,23 +21,20 @@ import { useInView } from "react-intersection-observer";
 // Cook with Prompt -AIDS
 // Buildathon - civil
 
-import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.jpg"
-import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EEE.png"
+import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.png"
+import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
 import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
-import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
-
+// import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ece2.png"
+import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.png"
 import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
 import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
+import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.png"
+import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.png"
+import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png"
+import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png"
+import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
 
-import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
-import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
-// import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.jpg"
-import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.jpg"
-import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
-import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
-import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
-
-// import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EXPO.png"
+import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png"
 
 
 import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.jpg"
@@ -145,61 +142,74 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/rewind-and-crack-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420114", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
-
         "technical-event-2": {
-            title: "VoltEdge",
+            title: "Neura Hack (Hackathon)",
             description:
-                "This event offers a unique opportunity for participants to showcase their innovative solutions and problem-solving skills.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum?",
             image: Tech2,
             rounds: [
                 {
-                    title: "Round",
-                    description: "PowerPoint presentation ",
+                    title: "Round 1",
+                    description: [
+                        "Duration: 30 Minutes",
+                        "Participants will solve basic machine learning problems and submit their solutions.",
+                    ],
                 },
-                
+                {
+                    title: "Round-2: Intermediate Challenges",
+                    description: [
+                        "Duration: 45 Minutes",
+                        "Medium difficulty questions involving loops, conditions, and sorting logic. Some problems may include hidden test cases.",
+                    ],
+                },
+                {
+                    title: "Round-3: Advanced Reverse Coding",
+                    description: [
+                        "Duration: 60 Minutes",
+                        "Complex problems requiring data structure manipulations, encryption, or algorithm reconstruction.",
+                    ],
+                },
             ],
             rules: [
-                "Team must contain maximum 3",
-                "Electrical / electronic prototype is not mandatory; however, if available, it can be presented.",
-                "A poster on A3 and above size is mandatory.",
-                "The presentation duration is 4 minutes. If a demo video is available, it should be included in the presentation. An additional 1 minute will be allocated for queries.",
-                "Each team must contain maximum 3.",
-                "Charge per Person/Team: 300 INR (Per Team)",
+                "The jury's decision is final.",
+                "Any form of malpractice will lead to disqualification.",
+                "Team: 2-3 Members",
             ],
             schedule: [
                 {
-                    round: "Round ",
+                    round: "Round 1",
                     date: "March 21, 2025",
-                    time: "10:00 AM to 3:00 PM",
-                    location: "Project Lab,EEE Block",
+                    time: "10:00 AM to 12:00 PM",
+                    location: "CSE lab 1,IT Park",
                 },
-                
+
             ],
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Rajasekaran N. AP / EEE",
-                        phone: "8056975723",
-                        email: "rajasekaran.n@ksrct.ac.in",
+                        name: "Mrs M.Varshana Devi",
+                        phone: "9597604228",
+                        email: "varshanadevi@ksrct.ac.in",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        name: "Bhuwanesh R",
-                        phone: "9342566322",
-                        email: "bhuwanesh2004@gmail.com",
+                        name: "Alyushra A",
+                        phone: "6369548280",
+                        email: "alyushra96@gmail.com",
                     },
                     {
-                        name: "Karmuhilan V",
-                        phone: "9025244374",
-                        email: "karmuhilan90252@gmail.com",
+                        name: "Peranandha KL",
+                        phone: "8148537603",
+                        email: "peranandha17@gmail.com",
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/voltedge-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420126", // Registration link
+            registrationLink: "", // Registration link
         },
+        
         "technical-event-3": {
             title: "SEMISPARK(PROJECT PRESENTATION) ",
             description:
@@ -264,7 +274,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/semispark-project-presentation-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420427", // Registration link
+            registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
         },
         "technical-event-5": {
             title: "ROBO SOCCER",
@@ -318,7 +328,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/robo-soccer-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420156", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
@@ -372,7 +382,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420145", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
         "technical-event-7": {
             title: "ElectroBuzz",
@@ -438,7 +448,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/electro-buzz-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420132", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
         "technical-event-8": {
             title: "Urban Nourish: Street Food Remix",
@@ -495,7 +505,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/urban-nourish-street-food-remix-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420164", // Registration link
+            registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
         },
         "technical-event-10": {
             title: "Designathon",
@@ -551,160 +561,65 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/designathon-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420135", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
+        "technical-event-14": {
+            title: "Codathon",
+            description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
+            image: Tech11,
+            rounds: [
 
-        // "technical-event-13": {
-        //     title: "Rapid Coding",
-        //     description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
-        //     image: Tech12,
-        //     rounds: [
-        //         {description: "Rapid coding is about solving problems quickly and efficiently without compromising on too much quality. Start by understanding the problem clearly before coding and focus on using tools and libraries you're familiar with to speed up the process. Write simple, readable code, avoiding overcomplicated solutions. Build the core functionality first and improve it later, without getting stuck on perfection. Test your code as you go and use version control to keep track of your progress. If you're working with others, communicate well and divide tasks effectively. Reuse code snippets for common tasks, and use helpful tools like code editors with auto-completion. Finally, don’t aim for perfection upfront—focus on getting it done and improving it later as you learn and grow your skills."}
-        //     ],
-        //     rules: [
-        //         "The event is open to all individual participants.",
-        //         "Each problem must be solved within the time limits imposed.",
-        //         "Participants can submit their code multiple times, but only the last submission will be considered for scoring.",
-        //         "The time limit for each problem will be visible throughout the competition. ",
-        //         "All code must be original. Any attempt to copy code from other participants or external sources will lead to disqualification.",
+            ],
+            rules: [
+                "Open to all students with a passion for coding.",
+                "No restrictions on domain or specialization.",
+                "Participants can compete individually or in teams of 2-4 members.",
+                "Yes, inter-college team members are allowed.",
+                "Yes, inter-specialization team members are allowed",
+                "No pre-written code or external help is allowed.",
+                "Participants must adhere to the time limit.",
+                "Any form of plagiarism will lead to disqualification."
 
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Event Timing",
-        //             date: "March 22, 2025",
-        //             time: "10:00 AM to 11:30 PM",
-        //             location: "AI Lab, Mechatronics Block",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 name: "Mrs .S.Sripriya ",
-        //                 phone: "9962435353",
-        //                 email: "sripriya@ksrct.ac.in",
-        //             },
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 name: "Kavin R ",
-        //                 email: "kavinkavicric5@gmail.com",
-        //                 phone: "7904148796 "
-        //             },
-        //             {
-        //                 name: "Saran G",
-        //                 email: "saransaran4371@gmail.com",
-        //                 phone: "8940108788"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://unstop.com/p/rapid-coding-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420179", // Registration link
-        // },
-        // "technical-event-12": {
-        //     title: "Cook with Prompt",
-        //     description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
-        //     image: Tech13,
-        //     rounds: [
-        //         {
-
-        //             description: "The event will consist of a single round where participants will engage in a prompt creation challenge based on AI image generation. Each participant will be given a set of predefined themes or concepts, and their task is to craft clear, creative, and effective prompts that generate AI images closely matching the given theme. The challenge will be conducted within a fixed time frame, and participants must complete their prompts before the deadline. Entries will be evaluated based on clarity, creativity, and relevance to the theme. The best prompts that produce accurate and visually appealing AI-generated results will determine the winners. "
-        //         },
-        //     ],
-        //     rules: [
-        //         "The event is open to all individual participants.",
-        //         "The event will feature prompt creation tasks based on AI image generation. Participants will receive a set of themes or concepts that they need to transform into a clear and effective prompt.",
-        //         "The event will have a fixed duration   in which participants will have to complete their tasks.",
-
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Event Timing",
-        //             date: "March 22, 2025",
-        //             time: "11:30 AM to 01:00 PM",
-        //             location: "AI Lab, Mechatronics Block",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 name: "Mrs.S.Gayathri ",
-        //                 email: "gayathris@ksrct.ac.in",
-        //                 phone: "9486657591"
-        //             },
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 name: "Vasanth S",
-        //                 email: "vasanth04754646@gmail.com",
-        //                 phone: "9159069646 "
-        //             },
-        //             {
-        //                 name: "Harish M",
-        //                 email: "harishmohankumar03@gmail.com",
-        //                 phone: "6369303123"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://unstop.com/p/cook-with-prompt-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420177", // Registration link
-        // },
-        // "technical-event-14": {
-        //     title: "Codathon",
-        //     description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
-        //     image: Tech11,
-        //     rounds: [
-
-        //     ],
-        //     rules: [
-        //         "Open to all students with a passion for coding.",
-        //         "No restrictions on domain or specialization.",
-        //         "Participants can compete individually or in teams of 2-4 members.",
-        //         "Yes, inter-college team members are allowed.",
-        //         "Yes, inter-specialization team members are allowed",
-        //         "No pre-written code or external help is allowed.",
-        //         "Participants must adhere to the time limit.",
-        //         "Any form of plagiarism will lead to disqualification."
-
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Round 1",
-        //             date: "May 22, 2025",
-        //             time: "9:00 AM to 11:00 AM",
-        //             location: "Tech Hub, Innovation Center",
-        //         },
-        //         {
-        //             round: "Round 2",
-        //             date: "May 23, 2025",
-        //             time: "1:00 PM to 3:00 PM",
-        //             location: "Tech Hub, Innovation Center",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
-        //                 email: "harshinirp@ksrct.ac.in",
-        //                 "phone": "9361446506"
-        //             },
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 "name": "Praveen S (II-Year/CSE(AIML))",
-        //                 "email": "saravananpraveen1157@gmail.com",
-        //                 "phone": "6369493352 "
-        //             },
-        //             {
-        //                 "name": "Pavithran G (II-Year/CSE(AIML))",
-        //                 "email": "techpavithran18@gmail.com",
-        //                 "phone": "9363575964"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://unstop.com/p/codathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418436", // Registration link
-        // },
-
+            ],
+            schedule: [
+                {
+                    round: "Round 1",
+                    date: "May 22, 2025",
+                    time: "9:00 AM to 11:00 AM",
+                    location: "Tech Hub, Innovation Center",
+                },
+                {
+                    round: "Round 2",
+                    date: "May 23, 2025",
+                    time: "1:00 PM to 3:00 PM",
+                    location: "Tech Hub, Innovation Center",
+                },
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
+                        email: "harshinirp@ksrct.ac.in",
+                        "phone": "9361446506"
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        "name": "Praveen S (II-Year/CSE(AIML))",
+                        "email": "saravananpraveen1157@gmail.com",
+                        "phone": "6369493352 "
+                    },
+                    {
+                        "name": "Pavithran G (II-Year/CSE(AIML))",
+                        "email": "techpavithran18@gmail.com",
+                        "phone": "9363575964"
+                    }
+                ]
+            },
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+        },
         "technical-event-15": {
-            title: "Buildathon",
+            title: "Buildathon (Ultratech)",
             description: "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
             image: Tech14,
             rounds: [
@@ -756,7 +671,7 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/buildthonultratech-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420170", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
         "technical-event-16": {
             title: "Eye on Pick Glass",
@@ -803,54 +718,7 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
-        },
-        "technical-event-17": {
-            title: "Poster Presentation",
-            description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
-            image: Tech16,
-            rounds: [
-
-            ],
-            rules: [
-                "Only one participant",
-                "Have to detect the given fabric",
-                "Counting glass will be provided and has to be returned Safely",
-                "Duration:15 Minutes",
-                "Juries Judgement is Final."
-
-            ],
-            schedule: [
-                {
-                    round: "",
-                    date: "March 22, 2025",
-                    time: "9:30AM -10:30AM",
-                    location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
-                },
-
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Mr.M.Arunkumar ",
-                        email: "arunkumar@ksrct.ac.in",
-                        phone: "8056989930"
-                    },
-                ],
-                studentCoordinator: [
-                    {
-                        name: "A.V. Raghavendhar ",
-                        email: "a.v.raghavendhar516@gmail.com",
-                        phone: "8778239221"
-                    },
-                    {
-                        name: "K.Harini ",
-                        email: "mailto:harinikumar25102005@gmail.com",
-                        phone: "8667393828"
-                    }
-                ]
-            },
-            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
 
 
