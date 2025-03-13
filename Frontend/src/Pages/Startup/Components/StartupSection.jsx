@@ -28,25 +28,25 @@ function StartupSection() {
   const cards = [
     {
       id: 1,
-      image: "https://picsum.photos/200", // Placeholder image
+      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 1",
       text: "Explore groundbreaking ideas that shape the future of technology.",
     },
     {
       id: 2,
-      image: "https://picsum.photos/200", // Placeholder image
+      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 2",
       text: "Discover key strategies to scale your startup to new heights.",
     },
     {
       id: 3,
-      image: "https://picsum.photos/200", // Placeholder image
+      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 3",
       text: "Participate in hands-on workshops led by industry experts.",
     },
     {
       id: 4,
-      image: "https://picsum.photos/200", // Placeholder image
+      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 4",
       text: "Connect with like-minded innovators and industry leaders.",
     },
