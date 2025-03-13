@@ -1,21 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
 import abb from "./assets/abb.png";
-import unstop from "./assets/unstop.png";
-
 import aiml from "./assets/aiml.jpg";
-import civil from "./assets/civil.jpg";
 import csbs from "./assets/CSBS1.jpg";
 import garuda from "./assets/garuda.jpg";
 import infinity from "./assets/infinity.jpg";
 import it from "./assets/it.png";
 import mech from "./assets/mech.jpg";
 import millet from "./assets/millet.jpg";
-import txt from "./assets/TXT.png";
+import txt from "./assets/txt.jpg";
 import uipath from "./assets/uipath.jpg";
+import bt from "./assets/bt.jpeg";
 import vlsi from "./assets/vlsi.jpg";
 import cse from "./assets/cse.jpg";
-import bt from "./assets/bt.jpeg";
+import ict from "./assets/ict.jpg";
 import EEE from "./assets/EEE.jpg";
 import iste from "./assets/ISTE.jpg"
 import AOS from "aos";
@@ -26,8 +24,7 @@ import "aos/dist/aos.css";
 
 function Sponsors() {
   const eventSponsors = [abb,iste];
-  const registerSponsors = [unstop]; 
-  const workshopSponsors = [aiml, civil, csbs, it, cse,EEE, mech, txt, millet, infinity, garuda, uipath, vlsi, bt];
+  const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, millet, infinity, garuda, uipath, vlsi, txt];
   // Add more if needed
   const letter = "Sponsors";
   const letters = letter.split("");
@@ -83,24 +80,6 @@ function Sponsors() {
               className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
             >
               <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Partner ${index + 1}`} />
-            </motion.div>
-          ))}
-        </div>
-      </div>
-
-      {/* Register Partner Section */}
-      <div className="text-center w-full">
-        <h2 className="text-3xl font-bold m-10">Registration Partner</h2>
-        <div className="flex justify-center items-center gap-24">
-          {registerSponsors.map((image, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
-              animate={cardEntryAnimation(index)}
-              whileHover={{ scale: 1.15, rotateY: 5 }}
-              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
-            >
-              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Register Partner ${index + 1}`} />
             </motion.div>
           ))}
         </div>

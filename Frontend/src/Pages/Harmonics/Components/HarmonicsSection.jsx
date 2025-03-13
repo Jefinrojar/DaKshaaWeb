@@ -5,6 +5,7 @@ import dance from "../../../assets/HORMONICS/SOLO DANCE.png";
 import group from "../../../assets/HORMONICS/GROUP.png";
 import instruments from "../../../assets/HORMONICS/INSTRUMENT.png";
 import musical from "../../../assets/HORMONICS/MUSICAL.png";
+import shortFilm from "../../../assets/HORMONICS/short flim.png"
 import { motion } from "framer-motion";
 
 const Card = () => {
@@ -13,11 +14,11 @@ const Card = () => {
   }, []);
 
   const cards = [
-    { id: 1, image: instruments, title: "INSTRUMENT", text: "Musicians performing with musical instruments." },
-    { id: 2, image: musical, title: "Musical", text: "Solo singing is an individual vocal performance with expression." },
-    { id: 3, image: group, title: "Group Dance", text: "Synchronized dance performance by group." },
-    { id: 4, image: dance, title: "Solo Dance", text: "Solo dance is expressive, graceful, and captivating." },
-    { id: 5, image: dance, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways." },
+    { id: 1, image: instruments, title: "Mastro Mania", text: "Musicians performing with musical instruments." },
+    { id: 2, image: musical, title: "Musical Mavericks", text: "Solo singing is an individual vocal performance with expression." },
+    { id: 3, image: group, title: "Beat Battle", text: "Synchronized dance performance by group." },
+    { id: 4, image: dance, title: "Spotlight Stepper", text: "Solo dance is expressive, graceful, and captivating." },
+    { id: 5, image: shortFilm, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways." },
   ];
 
   const title = "Harmonicks";

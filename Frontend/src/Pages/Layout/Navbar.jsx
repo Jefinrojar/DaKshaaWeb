@@ -137,7 +137,7 @@ const Navbar = () => {
                         className="px-4 py-2 hover:bg-sky-700"
                         onClick={() => handleLinkClick("Hormonics", "/events/hormonics")}
                       >
-                        Hormonics
+                        Harmonicks
                       </li>
                     </ul>
                   )}

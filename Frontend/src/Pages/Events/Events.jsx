@@ -64,6 +64,7 @@ import Culturals1 from "../../assets/HORMONICS/MUSICAL.png"
 import Culturals2 from "../../assets/HORMONICS/INSTRUMENT.png"
 import Culturals3 from "../../assets/HORMONICS/GROUP.png"
 import Culturals4 from "../../assets/HORMONICS/SOLO DANCE.png"
+import Culturals5 from "../../assets/HORMONICS/short flim.png"
 
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(1);
@@ -216,6 +217,10 @@ const Events = () => {
         {
           image: Culturals4,
           eventId: "culturals-event-4",
+        },
+        {
+          image: Culturals5,
+          eventId: "culturals-event-5",
         },
       ],
     },

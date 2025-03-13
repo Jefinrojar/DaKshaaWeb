@@ -75,6 +75,7 @@ import Culturals1 from "../../../assets/HORMONICS/MUSICAL.png"
 import Culturals2 from "../../../assets/HORMONICS/INSTRUMENT.png"
 import Culturals3 from "../../../assets/HORMONICS/GROUP.png"
 import Culturals4 from "../../../assets/HORMONICS/SOLO DANCE.png"
+import Culturals5 from "../../../assets/HORMONICS/short flim.png"
 
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL
@@ -1709,7 +1710,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/beat-battle-group-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420228", // Registration link
         },
         "culturals-event-4": {
-            title: "Solo Dancing",
+            title: "Spotlight Stepper",
             description:
                 "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
             image: Culturals4,
@@ -1733,6 +1734,36 @@ const EventDetails = () => {
                     {
                         name: "Liji Samyukthaa S K ",
                         phone: "9342381500",
+                    },
+                ],
+            },
+            registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
+        },
+        "culturals-event-5": {
+            title: "Short Film",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, adipisci!",
+            image: Culturals5,
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "",
+                        phone: "",
+                        email: "",
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        name: "",
+                        phone: "",
+                    },
+                    {
+                        name: "",
+                        phone: "",
+                    },
+                    {
+                        name: "",
+                        phone: "",
                     },
                 ],
             },
