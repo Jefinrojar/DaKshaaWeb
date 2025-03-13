@@ -46,9 +46,9 @@ import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTME
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.jpg"
 import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.jpg"
 import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
-import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.png"
+import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.jpg"
 import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
-import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
+// import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
 import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.jpg"
 import NonTech11 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.jpg"
 import NonTech12 from "../../../assets/EventsImages/EventDetails/Nontech/Department of InformationTechnology.jpg"
@@ -910,7 +910,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-2": {
             title: "Tech-Link Challenge",
@@ -971,7 +971,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-3": {
             title: "CONNEXION",
@@ -1054,7 +1054,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-4": {
             title: "Dumb Charades - Act It Out!",
@@ -1120,7 +1120,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-5": {
             title: "Its Talk Time",
@@ -1181,7 +1181,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-6": {
             title: "Auction Arena",
@@ -1233,7 +1233,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-7": {
             title: "A Guess Challenge ",
@@ -1318,7 +1318,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-8": {
             title: "one Click",
@@ -1368,7 +1368,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-9": {
             title: "404:Meme Overload (Meme creation based on IT scenarios)",
@@ -1412,58 +1412,58 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
-        "non-technical-event-10": {
-            title: "Short Film Contest",
-            description:
-                "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format.",
-            image: NonTech9,
-            rounds: [
-                { description: "The event is open to both individual participants and teams, with each team consisting of 2 to 5 members. Participants will create a short film based on themes such as environmental awareness, food adulteration, science fiction, or sustainable development goals. The short film must be original and have a duration of 3 to 10 minutes. All submissions must be in a standard video file format (MP4, MOV, or AVI). Entries will be evaluated based on creativity, storytelling, and overall impact. The best films that effectively convey their message while showcasing originality and strong narrative skills will determine the winners." }
-            ],
-            rules: [
-                "The event is open to all individual participants and teams. Teams may consist of 2 to 5 members.",
-                "The Short films can be based on environmental awareness, food adulteration, science fiction,sustainable development goals.",
-                "The short film should be original ",
-                "Duration should be between 3 to 10 minutes.",
-                "All films must be submitted in video file format (MP4, MOV, or AVI).",
-                "•	Winners will be judged based on creativity, storytelling, and overall impact."
-            ],
-            schedule: [
-                {
-                    round: "Event Timing",
-                    date: "March 22, 2025",
-                    time: "01:30 PM to 02:30 PM",
-                    location: "AI Lab, Mechatronics Block",
-                },
-            ],
-            contact: {
-                facultyCoordinator: [
-                    {
-                        name: "Mr.S.Raja ",
-                        email: "rajas@ksrct.ac.in",
-                        phone: "75028281440",
-                    },
+        // "non-technical-event-10": {
+        //     title: "Short Film Contest",
+        //     description:
+        //         "'Short Film Contest' is a non-technical event where individuals or teams (2-5 members) create original short films on themes like environmental awareness, food adulteration, sci-fi, and sustainability. Films must be 3-10 minutes long and submitted in MP4, MOV, or AVI format.",
+        //     image: NonTech9,
+        //     rounds: [
+        //         { description: "The event is open to both individual participants and teams, with each team consisting of 2 to 5 members. Participants will create a short film based on themes such as environmental awareness, food adulteration, science fiction, or sustainable development goals. The short film must be original and have a duration of 3 to 10 minutes. All submissions must be in a standard video file format (MP4, MOV, or AVI). Entries will be evaluated based on creativity, storytelling, and overall impact. The best films that effectively convey their message while showcasing originality and strong narrative skills will determine the winners." }
+        //     ],
+        //     rules: [
+        //         "The event is open to all individual participants and teams. Teams may consist of 2 to 5 members.",
+        //         "The Short films can be based on environmental awareness, food adulteration, science fiction,sustainable development goals.",
+        //         "The short film should be original ",
+        //         "Duration should be between 3 to 10 minutes.",
+        //         "All films must be submitted in video file format (MP4, MOV, or AVI).",
+        //         "•	Winners will be judged based on creativity, storytelling, and overall impact."
+        //     ],
+        //     schedule: [
+        //         {
+        //             round: "Event Timing",
+        //             date: "March 22, 2025",
+        //             time: "01:30 PM to 02:30 PM",
+        //             location: "AI Lab, Mechatronics Block",
+        //         },
+        //     ],
+        //     contact: {
+        //         facultyCoordinator: [
+        //             {
+        //                 name: "Mr.S.Raja ",
+        //                 email: "rajas@ksrct.ac.in",
+        //                 phone: "75028281440",
+        //             },
 
-                ],
-                studentCoordinator: [
-                    {
-                        name: "Karthikeyan S A",
-                        email: "karthikeyansa8@gmail.com",
-                        phone: "7358996885",
+        //         ],
+        //         studentCoordinator: [
+        //             {
+        //                 name: "Karthikeyan S A",
+        //                 email: "karthikeyansa8@gmail.com",
+        //                 phone: "7358996885",
 
-                    },
-                    {
-                        name: "Tamilselvan C",
-                        email: "tamilambani056@gmail.com",
-                        phone: "6374148544",
+        //             },
+        //             {
+        //                 name: "Tamilselvan C",
+        //                 email: "tamilambani056@gmail.com",
+        //                 phone: "6374148544",
 
-                    },
-                ],
-            },
-            registrationLink: "", // Registration link
-        },
+        //             },
+        //         ],
+        //     },
+        //     registrationLink: "", // Registration link
+        // },
 
         "non-technical-event-11": {
             title: "Mind Maze",
@@ -1511,7 +1511,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-12": {
             title: "Waste to Wealth 2025",
@@ -1563,7 +1563,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-13": {
             title: "Glorify the Face with Colours",
@@ -1618,7 +1618,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         // Culturals
         "culturals-event-1": {
