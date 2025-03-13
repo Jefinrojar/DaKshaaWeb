@@ -43,7 +43,7 @@ import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTME
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.jpg"
 import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.jpg"
 import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
-import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.png"
+import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.jpg"
 import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
 // import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
 import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.jpg"
@@ -797,7 +797,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-2": {
             title: "Tech-Link Challenge",
@@ -858,7 +858,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-3": {
             title: "CONNEXION",
@@ -941,7 +941,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-4": {
             title: "Dumb Charades - Act It Out!",
@@ -1007,7 +1007,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-5": {
             title: "Its Talk Time",
@@ -1068,7 +1068,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-6": {
             title: "Auction Arena",
@@ -1120,7 +1120,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-7": {
             title: "A Guess Challenge ",
@@ -1205,7 +1205,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-8": {
             title: "one Click",
@@ -1255,7 +1255,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-9": {
             title: "404:Meme Overload (Meme creation based on IT scenarios)",
@@ -1299,9 +1299,9 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "", // Registration link
-        },
 
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+        },
 
 
         "non-technical-event-11": {
@@ -1350,7 +1350,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-12": {
             title: "Waste to Wealth 2025",
@@ -1402,7 +1402,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-13": {
             title: "Glorify the Face with Colours",
@@ -1457,7 +1457,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         // Culturals
         "culturals-event-1": {

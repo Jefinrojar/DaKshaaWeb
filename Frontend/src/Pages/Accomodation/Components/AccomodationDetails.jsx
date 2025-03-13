@@ -65,6 +65,7 @@ const AccommodationDetails = () => {
 
               <div className="p-2 border border-sky-800 w-full mt-4">
                 <p className="bg-sky-900/30 p-6 clip-bottom-right">
+
                   Accommodation is only provided for 28th Evening stay with
                   Evening Dinner and 29th Morning breakfast.
                 </p>

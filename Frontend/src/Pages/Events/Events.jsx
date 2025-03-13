@@ -33,7 +33,7 @@ import NonTech3 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT 
 import NonTech4 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.jpg"
 import NonTech5 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.jpg"
 import NonTech6 from "../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
-import NonTech7 from "../../assets/EventsImages/EventDetails/Nontech/ft.png"
+import NonTech7 from "../../assets/EventsImages/EventDetails/Nontech/ft.jpg"
 import NonTech8 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
 import NonTech10 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.jpg"
 import NonTech11 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.jpg"
