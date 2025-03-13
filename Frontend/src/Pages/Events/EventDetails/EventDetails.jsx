@@ -142,7 +142,9 @@ const EventDetails = () => {
                     },
                 ],
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-2": {
             title: "Neura Hack (Hackathon)",
@@ -274,7 +276,9 @@ const EventDetails = () => {
                     },
                 ],
             },
+
             registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+
         },
         "technical-event-5": {
             title: "ROBO SOCCER",
@@ -328,7 +332,10 @@ const EventDetails = () => {
                     },
                 ],
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
+
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
@@ -382,7 +389,8 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+          registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-7": {
             title: "ElectroBuzz",
@@ -448,7 +456,9 @@ const EventDetails = () => {
                     },
                 ],
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-8": {
             title: "Urban Nourish: Street Food Remix",
@@ -505,7 +515,9 @@ const EventDetails = () => {
 
                 ],
             },
+
             registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+
         },
         "technical-event-10": {
             title: "Designathon",
@@ -561,6 +573,7 @@ const EventDetails = () => {
                     }
                 ]
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
         "technical-event-14": {
@@ -616,7 +629,9 @@ const EventDetails = () => {
                     }
                 ]
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-15": {
             title: "Buildathon (Ultratech)",
@@ -671,7 +686,9 @@ const EventDetails = () => {
                     }
                 ]
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-16": {
             title: "Eye on Pick Glass",
@@ -718,7 +735,9 @@ const EventDetails = () => {
                     }
                 ]
             },
+
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
 
 
@@ -778,7 +797,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/trailblazer-the-clue-hunt-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420196", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-2": {
             title: "Tech-Link Challenge",
@@ -839,7 +858,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/tech-link-challenge-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420238", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-3": {
             title: "CONNEXION",
@@ -922,7 +941,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/connexion-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420183", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-4": {
             title: "Dumb Charades - Act It Out!",
@@ -988,7 +1007,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/dumcharads-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420215", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-5": {
             title: "Its Talk Time",
@@ -1049,7 +1068,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/its-talk-time-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420231", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-6": {
             title: "Auction Arena",
@@ -1101,7 +1120,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/syncx-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420225", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-7": {
             title: "A Guess Challenge ",
@@ -1186,7 +1205,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/corporate-crests-a-guess-change-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420203", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-8": {
             title: "one Click",
@@ -1236,7 +1255,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/one-click-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420216", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-9": {
             title: "404:Meme Overload (Meme creation based on IT scenarios)",
@@ -1280,7 +1299,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/404meme-overload-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420198", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-10": {
             title: "Short Film Contest",
@@ -1330,7 +1349,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/short-film-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420239", // Registration link
+            registrationLink: "", // Registration link
         },
 
         "non-technical-event-11": {
@@ -1379,7 +1398,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/mind-maze-decode-the-clue-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420258", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-12": {
             title: "Waste to Wealth 2025",
@@ -1431,7 +1450,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://unstop.com/p/waste-to-wealth-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420191", // Registration link
+            registrationLink: "", // Registration link
         },
         "non-technical-event-13": {
             title: "Glorify the Face with Colours",
@@ -1486,7 +1505,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://unstop.com/p/glorify-the-face-with-colours-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420234", // Registration link
+            registrationLink: "", // Registration link
         },
         // Culturals
         "culturals-event-1": {
@@ -1516,7 +1535,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/mastro-mania-instrument-players-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420214", // Registration link
+            registrationLink: "", // Registration link
         },
         "culturals-event-2": {
             title: "Musical Mavericks",
@@ -1546,7 +1565,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/musical-mavericks-solo-singing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420221", // Registration link
+            registrationLink: "", // Registration link
         },
         "culturals-event-3": {
             title: "Beat Battle",
@@ -1575,7 +1594,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/beat-battle-group-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420228", // Registration link
+            registrationLink: "", // Registration link
         },
         "culturals-event-4": {
             title: "Spotlight Stepper",
@@ -1605,7 +1624,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
+            registrationLink: "", // Registration link
         },
         "culturals-event-5": {
             title: "Short Film",
