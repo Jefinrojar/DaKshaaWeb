@@ -22,7 +22,7 @@ import Tech8 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.p
 import Tech9 from "../../assets/EventsImages/EventDetails/TechnicalImages/MECH.png"
 import Tech11 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png"
 import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png"
-import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png"
+import Tech15 from "../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png"
 import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
 
 
