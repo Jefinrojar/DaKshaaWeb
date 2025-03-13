@@ -1316,7 +1316,12 @@ const EventDetails = () => {
                 "Submission Time – Memes must be submitted within the given time limit.",
             ],
             schedule: [
-
+                {
+                    round: "venue",
+                    date: "March 29, 2025",
+                    time: "9:30 PM to 12:00 PM",
+                    location: "IT lab 2,IT Park ",
+                },
             ],
             contact: {
                 facultyCoordinator: [
@@ -1707,10 +1712,10 @@ const EventDetails = () => {
             image: Workshop2,
             schedule: [
                 {
-                    round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    round: "Venue ",
+                    date: "March 28, 2025",
+                    time: "9:00 PM to 3:00 PM",
+                    location: "IT lab 1,IT Park ",
                 },
 
             ],
