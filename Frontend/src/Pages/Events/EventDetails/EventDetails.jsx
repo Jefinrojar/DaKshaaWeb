@@ -1710,7 +1710,7 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/beat-battle-group-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420228", // Registration link
         },
         "culturals-event-4": {
-            title: "Solo Dancing",
+            title: "Spotlight Stepper",
             description:
                 "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
             image: Culturals4,
