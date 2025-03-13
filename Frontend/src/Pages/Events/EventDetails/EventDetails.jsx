@@ -1130,13 +1130,13 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Slot1",
-                    date: "March 22, 2025",
+                    date: "March 29, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "AB(211),AB Block",
                 },
                 {
                     round: "Slot2",
-                    date: "March 22, 2025",
+                    date: "March 29, 2025",
                     time: "1:00 PM to 4:00 PM",
                     location: "AB(211),AB Block",
                 },
@@ -1816,14 +1816,14 @@ const EventDetails = () => {
             registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-5": {
-            title: "Unlocking Digital Potential: A Workshop on Modern Marketing",
+            title: "Blockchain 101",
             description:
-                "Join Unlocking Digital Potential: A Workshop on Modern Marketing led by Mr. M. Ranjith Prasanth, Digital Marketer at Virtuspark Technologies Pvt. Ltd., Erode. Gain insights into the latest digital marketing trends and strategies. Don't miss this opportunity to enhance your marketing skills! 🚀",
+                "Blockchain 101  is an introductory workshop designed to help developers understand blockchain technology and its practical applications. It covers key concepts such as decentralization, cryptographic security, consensus mechanisms, and smart contracts. Participants will gain hands-on experience in writing and deploying smart contracts using Solidity and working with blockchain development tools like Remix, Truffle, and MetaMask. By the end of the session, attendees will have a solid foundation in blockchain and the skills to start building decentralized applications (DApps).",
             image: Workshop5,
             schedule: [
                 {
                     round: "Event Timing",
-                    date: "March 21, 2025 and March 22, 2025",
+                    date: "March 28, 2025",
                     time: "9:00 AM to 4:00 PM",
                     location: "AB 209, Academic Block",
                 },
