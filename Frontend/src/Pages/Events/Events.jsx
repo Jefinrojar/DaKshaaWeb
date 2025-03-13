@@ -11,21 +11,18 @@ import Cultural from "../../assets/EventsImages/culturals.jpg";
 import Workshop from "../../assets/EventsImages/workshop.jpg";
 
 
-import Tech1 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSE.jpg"
-import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/EEE.png"
+import Tech1 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSE.png"
+import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
 import Tech3 from "../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
-import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/BIO.jpg"
-import Tech5 from "../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
+// import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/ece2.png"
+import Tech5 from "../../assets/EventsImages/EventDetails/TechnicalImages/MCT.png"
 import Tech6 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
 import Tech7 from "../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
-import Tech8 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
-import Tech9 from "../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
-import Tech11 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIML.jpg"
-import Tech12 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.jpg"
-import Tech13 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
-import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
-import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
-import Tech17 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
+import Tech8 from "../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.png"
+import Tech9 from "../../assets/EventsImages/EventDetails/TechnicalImages/MECH.png"
+import Tech11 from "../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png"
+import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png"
+import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
 
 
 
@@ -111,18 +108,10 @@ const Events = () => {
           image: Tech9,
           eventId: "technical-event-10",
         },
-        // {
-        //   image: Tech11,
-        //   eventId: "technical-event-14",
-        // },
-        // {
-        //   image: Tech12,
-        //   eventId: "technical-event-13",
-        // },
-        // {
-        //   image: Tech13,
-        //   eventId: "technical-event-12",
-        // },
+        {
+          image: Tech11,
+          eventId: "technical-event-14",
+        },
         {
           image: Tech14,
           eventId: "technical-event-15",
@@ -131,10 +120,6 @@ const Events = () => {
         {
           image: Tech16,
           eventId: "technical-event-16",
-        },
-        {
-          image: Tech17,
-          eventId: "technical-event-17",
         },
       ],
     },
