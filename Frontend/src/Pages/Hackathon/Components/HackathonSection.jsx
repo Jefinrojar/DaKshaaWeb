@@ -39,23 +39,28 @@ const HackathonSection = () => {
         schedule: [
             {
                 round: "Round 1: Ideation",
-                date: "October 10, 2023",
-                time: "10:00 AM",
-                location: "Main Auditorium",
+                date: "March 27, 2025",
+                time: "5:00 PM",
+                location: "Lab 1",
             },
             {
                 round: "Round 2: Prototype",
-                date: "October 15, 2023",
+                date: "March 28, 2023",
                 time: "2:00 PM",
-                location: "Lab 3",
+                location: "Lab 1",
             },
         ],
         contact: {
             facultyCoordinator: [
                 {
-                    name: "Dr. John Doe",
-                    phone: "+1234567890",
-                    email: "john.doe@example.com",
+                    name: "Mr. K.Senthil Kumar",
+                    phone: "+91 95666 66124",
+                    email: "senthilkumark@ksrct.ac.in",
+                },
+                {
+                    name: "Mrs. K.Mahalakshmi",
+                    phone: "+91 99442 86457",
+                    email: "mahalakshmik@ksrct.ac.in",
                 },
             ],
             studentCoordinator: [

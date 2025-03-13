@@ -65,15 +65,16 @@ const AccommodationDetails = () => {
 
               <div className="p-2 border border-sky-800 w-full mt-4">
                 <p className="bg-sky-900/30 p-6 clip-bottom-right">
-                  Accommodation is only provided for 21st Evening stay with 21st
-                  Evening Dinner and 22nd Morning breakfast.
+
+                  Accommodation is only provided for 28th Evening stay with
+                  Evening Dinner and 29th Morning breakfast.
                 </p>
               </div>
 
               {/* Registration Button */}
               <button
                 className="mb-8 w-full md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
-                onClick={() => window.open("https://unstop.com/p/accomondation-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420351", "_blank")}
+                onClick={() => window.open("https://forms.gle/1wrkaEEoeuNvubeH9", "_blank")}
                 data-aos="zoom-in"
               >
                 BOOK NOW!
@@ -96,13 +97,13 @@ const AccommodationDetails = () => {
 
               <div className="p-2 border border-sky-800 w-full mt-4">
                 <p className="bg-sky-900/30 p-6 clip-bottom-right">
-                  Only Lunch will be provided for 21st and 22nd. Register here.
+                  Only Lunch will be provided for 28th and 29th. Register here.
                 </p>
               </div>
 
               {/* Date Selection */}
               <div className="flex md:flex-row md:space-y-0 md:space-x-16 mt-4 space-x-2">
-                {["March 21", "March 22"].map((date, index) => (
+                {["March 28", "March 29"].map((date, index) => (
                   <React.Fragment key={date}>
                     <button
                       className="px-10 py-2 border border-sky-800 bg-sky-900/30 text-white w-full md:w-auto"
@@ -131,14 +132,14 @@ const AccommodationDetails = () => {
               <div className="flex md:flex-row space-x-4 md:space-x-32 mt-4">
                 <button
                   className="mb-8 w-32 md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-sm md:text-xl shadow-xl"
-                  onClick={() => window.open("https://unstop.com/p/day-1-food-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1421059", "_blank")}
+                  onClick={() => window.open("", "_blank")}
                   
                 >
                   BOOK NOW!
                 </button>
                 <button
                   className="mb-8 w-32 md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-sm md:text-xl shadow-xl"
-                  onClick={() => window.open("https://unstop.com/p/day-2-food-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1421062", "_blank")}
+                  onClick={() => window.open("", "_blank")}
                   
                 >
                   BOOK NOW!

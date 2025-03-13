@@ -21,23 +21,20 @@ import { useInView } from "react-intersection-observer";
 // Cook with Prompt -AIDS
 // Buildathon - civil
 
-import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.jpg"
-import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EEE.png"
+import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.png"
+import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
 import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
-import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.jpg"
-
+// import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ece2.png"
+import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.png"
 import Tech6 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CSBS.png"
 import Tech7 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ECE.png"
+import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.png"
+import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.png"
+import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png"
+import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png"
+import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
 
-import Tech8 from "../../../assets/EventsImages/EventDetails/TechnicalImages/FOOD.jpg"
-import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MECH.jpg"
-// import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.jpg"
-import Tech12 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS2.jpg"
-import Tech13 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIDS1.jpg"
-import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.jpg"
-import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.jpg"
-
-// import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/EXPO.png"
+import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png"
 
 
 import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.jpg"
@@ -46,9 +43,9 @@ import NonTech3 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTME
 import NonTech4 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF BIO TECH.jpg"
 import NonTech5 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECHATRONICS.jpg"
 import NonTech6 from "../../../assets/EventsImages/EventDetails/Nontech/CSBS.jpg"
-import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.png"
+import NonTech7 from "../../../assets/EventsImages/EventDetails/Nontech/ft.jpg"
 import NonTech8 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF MECH.jpg"
-import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
+// import NonTech9 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF AIDS.jpg"
 import NonTech10 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF ECE.jpg"
 import NonTech11 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.jpg"
 import NonTech12 from "../../../assets/EventsImages/EventDetails/Nontech/Department of InformationTechnology.jpg"
@@ -75,6 +72,7 @@ import Culturals1 from "../../../assets/HORMONICS/MUSICAL.png"
 import Culturals2 from "../../../assets/HORMONICS/INSTRUMENT.png"
 import Culturals3 from "../../../assets/HORMONICS/GROUP.png"
 import Culturals4 from "../../../assets/HORMONICS/SOLO DANCE.png"
+import Culturals5 from "../../../assets/HORMONICS/short flim.png"
 
 const EventDetails = () => {
     const { eventId } = useParams(); // Get the dynamic parameter from the URL
@@ -144,61 +142,76 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/rewind-and-crack-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420114", // Registration link
-        },
 
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
+        },
         "technical-event-2": {
-            title: "VoltEdge",
+            title: "Neura Hack (Hackathon)",
             description:
-                "This event offers a unique opportunity for participants to showcase their innovative solutions and problem-solving skills.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum?",
             image: Tech2,
             rounds: [
                 {
-                    title: "Round",
-                    description: "PowerPoint presentation ",
+                    title: "Round 1",
+                    description: [
+                        "Duration: 30 Minutes",
+                        "Participants will solve basic machine learning problems and submit their solutions.",
+                    ],
                 },
-
+                {
+                    title: "Round-2: Intermediate Challenges",
+                    description: [
+                        "Duration: 45 Minutes",
+                        "Medium difficulty questions involving loops, conditions, and sorting logic. Some problems may include hidden test cases.",
+                    ],
+                },
+                {
+                    title: "Round-3: Advanced Reverse Coding",
+                    description: [
+                        "Duration: 60 Minutes",
+                        "Complex problems requiring data structure manipulations, encryption, or algorithm reconstruction.",
+                    ],
+                },
             ],
             rules: [
-                "Team must contain maximum 3",
-                "Electrical / electronic prototype is not mandatory; however, if available, it can be presented.",
-                "A poster on A3 and above size is mandatory.",
-                "The presentation duration is 4 minutes. If a demo video is available, it should be included in the presentation. An additional 1 minute will be allocated for queries.",
-                "Each team must contain maximum 3.",
-                "Charge per Person/Team: 300 INR (Per Team)",
+                "The jury's decision is final.",
+                "Any form of malpractice will lead to disqualification.",
+                "Team: 2-3 Members",
             ],
             schedule: [
                 {
-                    round: "Round ",
+                    round: "Round 1",
                     date: "March 21, 2025",
-                    time: "10:00 AM to 3:00 PM",
-                    location: "Project Lab,EEE Block",
+                    time: "10:00 AM to 12:00 PM",
+                    location: "CSE lab 1,IT Park",
                 },
 
             ],
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Rajasekaran N. AP / EEE",
-                        phone: "8056975723",
-                        email: "rajasekaran.n@ksrct.ac.in",
+                        name: "Mrs M.Varshana Devi",
+                        phone: "9597604228",
+                        email: "varshanadevi@ksrct.ac.in",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        name: "Bhuwanesh R",
-                        phone: "9342566322",
-                        email: "bhuwanesh2004@gmail.com",
+                        name: "Alyushra A",
+                        phone: "6369548280",
+                        email: "alyushra96@gmail.com",
                     },
                     {
-                        name: "Karmuhilan V",
-                        phone: "9025244374",
-                        email: "karmuhilan90252@gmail.com",
+                        name: "Peranandha KL",
+                        phone: "8148537603",
+                        email: "peranandha17@gmail.com",
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/voltedge-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420126", // Registration link
+            registrationLink: "", // Registration link
         },
+        
         "technical-event-3": {
             title: "SEMISPARK(PROJECT PRESENTATION) ",
             description:
@@ -263,7 +276,9 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/semispark-project-presentation-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420427", // Registration link
+
+            registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+
         },
         "technical-event-5": {
             title: "ROBO SOCCER",
@@ -317,7 +332,10 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/robo-soccer-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420156", // Registration link
+
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
+
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
@@ -371,7 +389,8 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/figma-fusionuiux-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420145", // Registration link
+          registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-7": {
             title: "ElectroBuzz",
@@ -431,13 +450,15 @@ const EventDetails = () => {
                         email: "sanjaykumar.ramasamy22@gmail.com"
                     },
                     {
-                        name: "Kowshika K (II-Year/CSE(AIML))",
+                        name: "Kowshika K (II-Year/ECE)",
                         phone: "9342806195",
                         email: "kowshika1912@gmail.com"
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/electro-buzz-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420132", // Registration link
+
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-8": {
             title: "Urban Nourish: Street Food Remix",
@@ -494,7 +515,9 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/urban-nourish-street-food-remix-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420164", // Registration link
+
+            registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+
         },
         "technical-event-10": {
             title: "Designathon",
@@ -550,160 +573,68 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/designathon-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420135", // Registration link
+
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
+        "technical-event-14": {
+            title: "Codathon",
+            description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
+            image: Tech11,
+            rounds: [
 
-        // "technical-event-13": {
-        //     title: "Rapid Coding",
-        //     description: "'Rapid Coding' is a technical event where participants compete individually to solve coding challenges within a time limit. Multiple submissions are allowed, but only the last one counts for scoring. Ensure originality, as plagiarism leads to disqualification! 🚀💻",
-        //     image: Tech12,
-        //     rounds: [
-        //         {description: "Rapid coding is about solving problems quickly and efficiently without compromising on too much quality. Start by understanding the problem clearly before coding and focus on using tools and libraries you're familiar with to speed up the process. Write simple, readable code, avoiding overcomplicated solutions. Build the core functionality first and improve it later, without getting stuck on perfection. Test your code as you go and use version control to keep track of your progress. If you're working with others, communicate well and divide tasks effectively. Reuse code snippets for common tasks, and use helpful tools like code editors with auto-completion. Finally, don’t aim for perfection upfront—focus on getting it done and improving it later as you learn and grow your skills."}
-        //     ],
-        //     rules: [
-        //         "The event is open to all individual participants.",
-        //         "Each problem must be solved within the time limits imposed.",
-        //         "Participants can submit their code multiple times, but only the last submission will be considered for scoring.",
-        //         "The time limit for each problem will be visible throughout the competition. ",
-        //         "All code must be original. Any attempt to copy code from other participants or external sources will lead to disqualification.",
+            ],
+            rules: [
+                "Open to all students with a passion for coding.",
+                "No restrictions on domain or specialization.",
+                "Participants can compete individually or in teams of 2-4 members.",
+                "Yes, inter-college team members are allowed.",
+                "Yes, inter-specialization team members are allowed",
+                "No pre-written code or external help is allowed.",
+                "Participants must adhere to the time limit.",
+                "Any form of plagiarism will lead to disqualification."
 
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Event Timing",
-        //             date: "March 22, 2025",
-        //             time: "10:00 AM to 11:30 PM",
-        //             location: "AI Lab, Mechatronics Block",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 name: "Mrs .S.Sripriya ",
-        //                 phone: "9962435353",
-        //                 email: "sripriya@ksrct.ac.in",
-        //             },
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 name: "Kavin R ",
-        //                 email: "kavinkavicric5@gmail.com",
-        //                 phone: "7904148796 "
-        //             },
-        //             {
-        //                 name: "Saran G",
-        //                 email: "saransaran4371@gmail.com",
-        //                 phone: "8940108788"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://unstop.com/p/rapid-coding-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420179", // Registration link
-        // },
-        // "technical-event-12": {
-        //     title: "Cook with Prompt",
-        //     description: "' Cook with Prompt' is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge! 🚀🎨",
-        //     image: Tech13,
-        //     rounds: [
-        //         {
+            ],
+            schedule: [
+                {
+                    round: "Round 1",
+                    date: "May 22, 2025",
+                    time: "9:00 AM to 11:00 AM",
+                    location: "Tech Hub, Innovation Center",
+                },
+                {
+                    round: "Round 2",
+                    date: "May 23, 2025",
+                    time: "1:00 PM to 3:00 PM",
+                    location: "Tech Hub, Innovation Center",
+                },
+            ],
+            contact: {
+                facultyCoordinator: [
+                    {
+                        "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
+                        email: "harshinirp@ksrct.ac.in",
+                        "phone": "9361446506"
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        "name": "Praveen S (II-Year/CSE(AIML))",
+                        "email": "saravananpraveen1157@gmail.com",
+                        "phone": "6369493352 "
+                    },
+                    {
+                        "name": "Pavithran G (II-Year/CSE(AIML))",
+                        "email": "techpavithran18@gmail.com",
+                        "phone": "9363575964"
+                    }
+                ]
+            },
 
-        //             description: "The event will consist of a single round where participants will engage in a prompt creation challenge based on AI image generation. Each participant will be given a set of predefined themes or concepts, and their task is to craft clear, creative, and effective prompts that generate AI images closely matching the given theme. The challenge will be conducted within a fixed time frame, and participants must complete their prompts before the deadline. Entries will be evaluated based on clarity, creativity, and relevance to the theme. The best prompts that produce accurate and visually appealing AI-generated results will determine the winners. "
-        //         },
-        //     ],
-        //     rules: [
-        //         "The event is open to all individual participants.",
-        //         "The event will feature prompt creation tasks based on AI image generation. Participants will receive a set of themes or concepts that they need to transform into a clear and effective prompt.",
-        //         "The event will have a fixed duration   in which participants will have to complete their tasks.",
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
 
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Event Timing",
-        //             date: "March 22, 2025",
-        //             time: "11:30 AM to 01:00 PM",
-        //             location: "AI Lab, Mechatronics Block",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 name: "Mrs.S.Gayathri ",
-        //                 email: "gayathris@ksrct.ac.in",
-        //                 phone: "9486657591"
-        //             },
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 name: "Vasanth S",
-        //                 email: "vasanth04754646@gmail.com",
-        //                 phone: "9159069646 "
-        //             },
-        //             {
-        //                 name: "Harish M",
-        //                 email: "harishmohankumar03@gmail.com",
-        //                 phone: "6369303123"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://unstop.com/p/cook-with-prompt-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420177", // Registration link
-        // },
-        // "technical-event-14": {
-        //     title: "Codathon",
-        //     description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
-        //     image: Tech11,
-        //     rounds: [
-
-        //     ],
-        //     rules: [
-        //         "Open to all students with a passion for coding.",
-        //         "No restrictions on domain or specialization.",
-        //         "Participants can compete individually or in teams of 2-4 members.",
-        //         "Yes, inter-college team members are allowed.",
-        //         "Yes, inter-specialization team members are allowed",
-        //         "No pre-written code or external help is allowed.",
-        //         "Participants must adhere to the time limit.",
-        //         "Any form of plagiarism will lead to disqualification."
-
-        //     ],
-        //     schedule: [
-        //         {
-        //             round: "Round 1",
-        //             date: "May 22, 2025",
-        //             time: "9:00 AM to 11:00 AM",
-        //             location: "Tech Hub, Innovation Center",
-        //         },
-        //         {
-        //             round: "Round 2",
-        //             date: "May 23, 2025",
-        //             time: "1:00 PM to 3:00 PM",
-        //             location: "Tech Hub, Innovation Center",
-        //         },
-        //     ],
-        //     contact: {
-        //         facultyCoordinator: [
-        //             {
-        //                 "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
-        //                 email: "harshinirp@ksrct.ac.in",
-        //                 "phone": "9361446506"
-        //             },
-        //         ],
-        //         studentCoordinator: [
-        //             {
-        //                 "name": "Praveen S (II-Year/CSE(AIML))",
-        //                 "email": "saravananpraveen1157@gmail.com",
-        //                 "phone": "6369493352 "
-        //             },
-        //             {
-        //                 "name": "Pavithran G (II-Year/CSE(AIML))",
-        //                 "email": "techpavithran18@gmail.com",
-        //                 "phone": "9363575964"
-        //             }
-        //         ]
-        //     },
-        //     registrationLink: "https://unstop.com/p/codathon-dakshaa-t25-ks-rangasamy-college-of-technology-ksrct-namakkal-1418436", // Registration link
-        // },
-
+        },
         "technical-event-15": {
-            title: "Buildathon",
+            title: "Buildathon (Ultratech)",
             description: "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
             image: Tech14,
             rounds: [
@@ -755,7 +686,9 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/buildthonultratech-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420170", // Registration link
+
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-16": {
             title: "Eye on Pick Glass",
@@ -775,7 +708,7 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "",
-                    date: "March 22, 2025",
+                    date: "March 28, 2025",
                     time: "9:30AM -10:30AM",
                     location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
                 },
@@ -802,29 +735,26 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
+
+            registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+
         },
         "technical-event-17": {
-            title: "Poster Presentation",
-            description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
-            image: Tech16,
+            title: "Project Expo (Paper presentation)",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.",
+            image: Tech15,
             rounds: [
 
             ],
             rules: [
-                "Only one participant",
-                "Have to detect the given fabric",
-                "Counting glass will be provided and has to be returned Safely",
-                "Duration:15 Minutes",
-                "Juries Judgement is Final."
-
+                
             ],
             schedule: [
                 {
                     round: "",
-                    date: "March 22, 2025",
+                    date: "March 28, 2025",
                     time: "9:30AM -10:30AM",
-                    location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
+                    location: "announcing soon",
                 },
 
             ],
@@ -849,7 +779,9 @@ const EventDetails = () => {
                     }
                 ]
             },
-            registrationLink: "https://unstop.com/p/eye-on-pick-glass-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420149", // Registration link
+
+            registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+
         },
 
 
@@ -909,7 +841,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/trailblazer-the-clue-hunt-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420196", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-2": {
             title: "Tech-Link Challenge",
@@ -970,7 +902,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/tech-link-challenge-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420238", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-3": {
             title: "CONNEXION",
@@ -1053,7 +985,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/connexion-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420183", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-4": {
             title: "Dumb Charades - Act It Out!",
@@ -1119,7 +1051,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/dumcharads-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420215", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-5": {
             title: "Its Talk Time",
@@ -1180,7 +1112,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/its-talk-time-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420231", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-6": {
             title: "Auction Arena",
@@ -1198,13 +1130,13 @@ const EventDetails = () => {
             schedule: [
                 {
                     round: "Slot1",
-                    date: "March 22, 2025",
+                    date: "March 29, 2025",
                     time: "10:00 AM to 12:00 PM",
                     location: "AB(211),AB Block",
                 },
                 {
                     round: "Slot2",
-                    date: "March 22, 2025",
+                    date: "March 29, 2025",
                     time: "1:00 PM to 4:00 PM",
                     location: "AB(211),AB Block",
                 },
@@ -1232,7 +1164,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/syncx-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420225", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-7": {
             title: "A Guess Challenge ",
@@ -1317,7 +1249,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/corporate-crests-a-guess-change-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420203", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-8": {
             title: "one Click",
@@ -1367,7 +1299,7 @@ const EventDetails = () => {
 
                 ],
             },
-            registrationLink: "https://unstop.com/p/one-click-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420216", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-9": {
             title: "404:Meme Overload (Meme creation based on IT scenarios)",
@@ -1384,7 +1316,12 @@ const EventDetails = () => {
                 "Submission Time – Memes must be submitted within the given time limit.",
             ],
             schedule: [
-
+                {
+                    round: "venue",
+                    date: "March 29, 2025",
+                    time: "9:30 PM to 12:00 PM",
+                    location: "IT lab 2,IT Park ",
+                },
             ],
             contact: {
                 facultyCoordinator: [
@@ -1411,6 +1348,7 @@ const EventDetails = () => {
 
                 ],
             },
+
             registrationLink: "https://unstop.com/p/404meme-overload-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420198", // Registration link
         },
         "non-technical-event-10": {
@@ -1451,18 +1389,13 @@ const EventDetails = () => {
                         name: "Karthikeyan S A",
                         email: "karthikeyansa8@gmail.com",
                         phone: "7358996885",
+                       }
 
-                    },
-                    {
-                        name: "Tamilselvan C",
-                        email: "tamilambani056@gmail.com",
-                        phone: "6374148544",
-
-                    },
                 ],
             },
-            registrationLink: "https://unstop.com/p/short-film-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420239", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
+
 
         "non-technical-event-11": {
             title: "Mind Maze",
@@ -1489,9 +1422,9 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Mrs M Devaki (AP/ECE))",
-                        email: "devaki@ksrct.ac.in",
-                        phone: "9095059424",
+                        name: " Dr. D. Mugilan (AP/ECE))",
+                        email: "mugilan@ksrct.ac.in",
+                        phone: "98946 07523",
                     },
 
                 ],
@@ -1510,7 +1443,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/mind-maze-decode-the-clue-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420258", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-12": {
             title: "Waste to Wealth 2025",
@@ -1562,7 +1495,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://unstop.com/p/waste-to-wealth-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420191", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         "non-technical-event-13": {
             title: "Glorify the Face with Colours",
@@ -1617,7 +1550,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://unstop.com/p/glorify-the-face-with-colours-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420234", // Registration link
+            registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
         // Culturals
         "culturals-event-1": {
@@ -1679,7 +1612,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/mastro-mania-instrument-players-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420214", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-2": {
             title: "Mastro Mania",
@@ -1739,7 +1672,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/musical-mavericks-solo-singing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420221", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-3": {
             title: "Beat Battle",
@@ -1776,8 +1709,9 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "Ms.V.Indumathi ",
-                        phone: "9965137001",
+                        name: "Ms.V. Indumathi ",
+                        phone: "99651 37001",
+                        email: "indumathi@ksrct.ac.in"
                     },
                 ],
                 studentCoordinator: [
@@ -1797,10 +1731,10 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/beat-battle-group-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420228", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         "culturals-event-4": {
-            title: "Solo Dancing",
+            title: "Spotlight Stepper",
             description:
                 "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
             image: Culturals4,
@@ -1856,7 +1790,37 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
+        },
+        "culturals-event-5": {
+            title: "Short Film",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, adipisci!",
+            image: Culturals5,
+            contact: {
+                facultyCoordinator: [
+                    {
+                        name: "",
+                        phone: "",
+                        email: "",
+                    },
+                ],
+                studentCoordinator: [
+                    {
+                        name: "",
+                        phone: "",
+                    },
+                    {
+                        name: "",
+                        phone: "",
+                    },
+                    {
+                        name: "",
+                        phone: "",
+                    },
+                ],
+            },
+            registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
         },
         // "culturals-event-4": {
         //     title: "Solo Dancing",
@@ -1943,19 +1907,19 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/dft-demystified-the-basic-you-need-to-know-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420202", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-2": {
-            title: "Digital Marketing",
+            title: "A Walkthrough of Modern Techniques",
             description:
-                "Join our Digital Marketing Workshop to learn from industry experts Mr. Gowdham Subramaniam (Director, Seeka Host India) and Mr. Dinesh Kumar VM (General Manager, ClickDo, UK). Gain insights into digital marketing strategies and industry trends. Don’t miss this opportunity to enhance your marketing skills! 🚀",
+                "This workshop will introduce students to prompt engineering, a critical skill for optimizing AI interactions. Participants will learn how to craft precise, efficient, and structured prompts to get the best responses from AI models like ChatGPT, Gemini, and DeepSeek. The session will cover types of prompts, best practices, real-world applications, and hands-on exercises to help students develop a deeper understanding of AI communication.",
             image: Workshop2,
             schedule: [
                 {
-                    round: "Round ",
-                    date: "March 22, 2025",
-                    time: "2:00 PM to 3:00 PM",
-                    location: "Textile chemical processing laboratory,Textile Block ",
+                    round: "Venue ",
+                    date: "March 28, 2025",
+                    time: "9:00 PM to 3:00 PM",
+                    location: "IT lab 1,IT Park ",
                 },
 
             ],
@@ -1980,7 +1944,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/digital-marketing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420209", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-3": {
             title: "Ui Path Supported Workshop” Robotic Process Automation”",
@@ -2019,7 +1983,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/robotic-process-automation-rpa-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420161", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-4": {
             title: "AI on Game Developing",
@@ -2058,17 +2022,17 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/ai-on-game-development-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420117", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-5": {
-            title: "Unlocking Digital Potential: A Workshop on Modern Marketing",
+            title: "Blockchain 101",
             description:
-                "Join Unlocking Digital Potential: A Workshop on Modern Marketing led by Mr. M. Ranjith Prasanth, Digital Marketer at Virtuspark Technologies Pvt. Ltd., Erode. Gain insights into the latest digital marketing trends and strategies. Don't miss this opportunity to enhance your marketing skills! 🚀",
+                "Blockchain 101  is an introductory workshop designed to help developers understand blockchain technology and its practical applications. It covers key concepts such as decentralization, cryptographic security, consensus mechanisms, and smart contracts. Participants will gain hands-on experience in writing and deploying smart contracts using Solidity and working with blockchain development tools like Remix, Truffle, and MetaMask. By the end of the session, attendees will have a solid foundation in blockchain and the skills to start building decentralized applications (DApps).",
             image: Workshop5,
             schedule: [
                 {
                     round: "Event Timing",
-                    date: "March 21, 2025 and March 22, 2025",
+                    date: "March 28, 2025",
                     time: "9:00 AM to 4:00 PM",
                     location: "AB 209, Academic Block",
                 },
@@ -2095,7 +2059,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/unlocking-digital-potential-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420181", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-6": {
             title: "Mobile Application Development By RemitBee India Private Limited - Chennai",
@@ -2134,7 +2098,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/mobile-app-development-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420185", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-7": {
             title: "Do Engineering using NI Lab VIEW By Mew Technology, Bangalore",
@@ -2173,7 +2137,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420207", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-8": {
             title: "Next Generation Sequencing technologies in Health Care By Genotypic Technology, Bengaluru",
@@ -2229,7 +2193,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/next-generation-sequencies-in-health-care-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420259", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-9": {
             title: "Soaring High: Hands-on Drone Building and Flight workshop By Garuda Aerospace",
@@ -2267,7 +2231,7 @@ const EventDetails = () => {
                     }
                 ],
             },
-            registrationLink: "https://unstop.com/p/soaring-high-hands-on-drone-building-and-flight-workshop-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420148", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-10": {
             title: "Industry IoT using LoRaWAN Technology By Enthu Technology Solutions India Pvt Ltd",
@@ -2306,7 +2270,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/industry-iot-using-lorawan-technology-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420136", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-11": {
             title: "",
@@ -2348,7 +2312,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/millet-fiesta-from-farm-to-fork-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420158", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-12": {
             title: "Design and development of automotive Product By Mr.K.Santhosh Kumar, Support Manger, Macro Technology Pvt Ltd, Erode.",
@@ -2385,7 +2349,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/design-and-development-of-automotive-product-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420128", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-13": {
             title: "Building Information Modeling (BIM) By ICT Academy, Chennai, Tamil Nadu",
@@ -2422,7 +2386,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/building-information-modellingbim-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420174", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
         "workshop-14": {
             title: "Medi Tex By Mr.T.Sureshram, Proprietor Care 4 U India Pvt, Ltd.,Tirupur",
@@ -2464,7 +2428,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://unstop.com/p/medi-tex-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420143", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
         },
     };
 
