@@ -74,7 +74,7 @@ const GuestLectureCard = ({ name, title, image, time, date, location }) => {
                                     <li>FPGA-Based VLSI Design</li>
                                 </>
                             )}
-                            {name === "School Of Computer Sciences" && (
+                            {name === "Applications of Artificial intelligence and  Cybersecurity" && (
                                 <>
                                     <li>Machine Learning</li>
                                     <li>Natural Language Processing</li>

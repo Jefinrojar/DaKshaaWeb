@@ -39,7 +39,7 @@ const GuestLecture = () => {
     {
       lectures: [
         {
-          name: "School Of Computer Sciences",
+          name: "Applications of Artificial intelligence and  Cybersecurity",
           image: cs,
         },
       ],
@@ -67,9 +67,9 @@ const GuestLecture = () => {
 
       {/* NCISTEM Title & Subtitle Below Conference Title */}
       <div className="text-center  bg-opacity-70 text-white py-6 px-6 shadow-md">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">NCISTEM</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">NCISTEMM</h2>
         <p className="text-gray-300 mt-2 text-sm sm:text-lg font-semibold">
-          NATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, TECHNOLOGY, ENGINEERING, AND MATHEMATICS
+          NATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, TECHNOLOGY, ENGINEERING, MATHEMATICS, AND MEDICINE
         </p>
       </div>
 
