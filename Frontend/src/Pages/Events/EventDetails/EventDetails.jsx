@@ -2065,30 +2065,21 @@ const EventDetails = () => {
                     },
                 ],
                 studentCoordinator: [
-                    {
-                        name: "Javeed Akthar G",
-                        email: "javeedakthar13@gmail.com",
-                        phone: "9345647270",
-
-                    },
-                    {
-                        name: "Sanjay Kumar K",
-                        email: "sanjaysanjay212004@gmail.com",
-                        phone: "8807076569",
-
-                    },
-                    {
-                        name: "Mohammed Arkam K",
-                        email: "mohammedarkamsheriff@gmail.com",
-                        phone: "7904655755",
-
-                    },
-                    {
-                        name: "Meriam Janitta J",
-                        email: "janitta967@gmail.com",
-                        phone: "7010347812",
-
-                    },
+                  {
+                    name: "Sanjay Kumar K",
+                    email: "sanjaysanjay212004@gmail.com",
+                    phone: "8807076569",
+                  },
+                  {
+                    name: "Mohammed Arkam K",
+                    email: "mohammedarkamsheriff@gmail.com",
+                    phone: "7904655755",
+                  },
+                  {
+                    name: "Raamprasaanth S",
+                    email: "raamprasaanths7607@gmail.com",
+                    phone: "8838616292",
+                  },
                 ],
             },
             registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
