@@ -6,6 +6,7 @@ import Events from "./Pages/Events/Events"
 import Home from "./Pages/Home/Home"
 import "./App.css";
 import ParticlesComponent from "./Pages/Layout/ParticlesComponent";
+import MarqueeForWomens from "./Pages/Layout/MarqueeForWomens";
 import Navbar from "./Pages/Layout/Navbar";
 import Tags from "./Pages/Layout/Tags";
 import GuestLecture from "./Pages/GuestLecture/GuestLecture";
@@ -50,6 +51,8 @@ function App() {
         <Route path="/events/hackathon" element={<Hackathon />} />
         <Route path="/events/codeathon" element={<Codathon />} />
       </Routes>
+
+      <MarqueeForWomens/>
       <Footer/>
     </Router>
   );       

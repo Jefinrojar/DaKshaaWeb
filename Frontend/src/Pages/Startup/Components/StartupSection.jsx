@@ -185,7 +185,7 @@ function StartupSection() {
                 🥈 2nd Prize
               </span>
               <span className="text-3xl font-semibold text-white mt-2">
-                ₹7,000
+                ₹5,000
               </span>
             </div>
 
@@ -195,7 +195,7 @@ function StartupSection() {
                 🥉 3rd Prize
               </span>
               <span className="text-3xl font-semibold text-white mt-2">
-                ₹5,000
+                ₹2,000
               </span>
             </div>
           </div>
@@ -257,7 +257,7 @@ function StartupSection() {
                 their ideas in this contest
               </li>
               <li className="text-lg md:text-xl text-sky-300">
-              Student Entrepreneurs only
+                Student Entrepreneurs only
               </li>
             </ul>
           </div>
@@ -326,12 +326,17 @@ function StartupSection() {
               <p className="text-base md:text-lg">Location: Main Stage</p>
             </div>
           </div> */}
+          <div>
+            <p className="text-red-500 font-bold text-lg">Condition Applied*</p>
+          </div>
+          <div>
+            <p className="font-bold text-lg">Special discount for team of queens*</p>
+          </div>
         </div>
       </div>
 
-      
 
-      
+
       <div className="w-full my-10 flex items-center justify-center">
         <button
           className="px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
