@@ -153,6 +153,7 @@ const HackathonSection = () => {
       variants={loadAnimation}
       className="p-4 md:p-10 mt-24 text-white min-h-screen"
     >
+    <div>  
       <div className="max-w-4xl mx-auto text-white p-4 md:p-6">
         <div className="flex justify-center items-center mb-7 md:gap-5 gap-2">
           <h1 className="text-2xl md:text-5xl font-bold text-center text-[#9DD3FF]">
