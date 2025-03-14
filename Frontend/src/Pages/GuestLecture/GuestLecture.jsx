@@ -118,7 +118,7 @@ const GuestLecture = () => {
                     {/* Register Button */}
                     <button
                       className="mt-5 w-full md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
-                      onClick={() => window.open("www.google.com", "_blank")}
+                      onClick={() => window.open("https://forms.gle/rfUU9yyQm6VeyX9x8", "_blank")}
                     >
                       REGISTER NOW!
                     </button>
