@@ -11,7 +11,7 @@ const CodathonSection = () => {
         descriptions: [
             { image: Tech11, text: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code." },
         ],
-        registrationLink: "https://example.com/register",
+        registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA",
         rounds: [
             {
                 title: "Single Round",
@@ -30,9 +30,9 @@ const CodathonSection = () => {
         schedule: [
             {
                 round: "Event Timing",
-                date: "October 10, 2023",
-                time: "10:00 AM",
-                location: "Main Auditorium",
+                date: "March 28, 2025",
+                time: "9:30 AM",
+                location: "To be announced",
             },
         ],
         contact: {
