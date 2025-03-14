@@ -4,8 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import startuptn from "../../../assets/startup/logo.png";
-import member1 from "../../../assets/startup/panelMember1.jpg";
-import member2 from "../../../assets/startup/panelMember2.jpg";
+import member2 from "../../../assets/startup/panelMember1.jpg";
+import member3 from "../../../assets/startup/panelMember2.jpg";
+import member1 from "../../../assets/startup/gurushankar.jpeg";
 
 function StartupSection() {
   const title1 = "Idea's";
@@ -31,24 +32,25 @@ function StartupSection() {
     {
       id: 1,
       image: member1, // Placeholder image
-      title: "Dr. N. Thiruvenkadam",
-      text: "Department of Mechatronics",
+      title: "Gurushankar Selvam",
+      text: "Prject Lead at StartupTN",
     },
     {
       id: 2,
       image: member2, // Placeholder image
+      title: "Dr. N. Thiruvenkadam",
+      text: "Department of Mechatronics",
+    },
+    {
+      id: 3,
+      image: member3, // Placeholder image
       title: "Dr. B. Mythili Gnanamangai",
       text: "Department of Biotechnology",
     },
     {
-      id: 3,
-      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
-      title: "Person 3",
-      text: "Coming soon!",
-    },
-    {
       id: 4,
-      image: "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
+      image:
+        "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
       title: "Person 4",
       text: "Coming soon!",
     },
@@ -206,7 +208,7 @@ function StartupSection() {
       <div className="border border-sky-800 p-2 mb-5">
         <div className="border border-sky-800 shadow-lg p-4 md:p-10">
           <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
-            Panel
+            Panel Members
           </h2>
 
           {/* Grid Layout - Always 2 cards per row */}
@@ -253,11 +255,12 @@ function StartupSection() {
             {/* <h1 className="font-semibold text-xl md:text-2xl text-sky-600"></h1> */}
             <ul className="list-disc">
               <li className="text-lg md:text-xl text-sky-300">
-                UG Students from any college across India are eligible to pitch
-                their ideas in this contest
+                Open exclusively to college students. Teams can have a maximum
+                of 3 members, and entrepreneurs or business owners are not
+                eligible.
               </li>
               <li className="text-lg md:text-xl text-sky-300">
-              Student Entrepreneurs only
+                Student Entrepreneurs only
               </li>
             </ul>
           </div>
@@ -273,14 +276,35 @@ function StartupSection() {
           <div className="flex flex-col items-start mx-10 gap-7">
             <ul className="list-disc">
               <li className="text-lg md:text-xl text-sky-300">
-                Individuals or teams (consisting of one to five members) will
-                have five minutes to present their innovative business idea to a
-                panel of judges. The evaluation will be based on the strength
-                and feasibility of the idea.
+                All participants must carry their college ID on the event day.
+                Punctuality is required.
               </li>
               <li className="text-lg md:text-xl text-sky-300">
-                Participants are encouraged to use slides, visual aids, or
-                prototypes to enhance their pitch.
+                Pitches should be concise and delivered within the allocated
+                time.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Contest and Benefits */}
+      <div className="border border-sky-800 p-2 mb-5">
+        <div className="border border-sky-800 shadow-lg p-4 md:p-10">
+          <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
+            Contest and Benefits
+          </h2>
+          <div className="flex flex-col items-start mx-10 gap-7">
+            <ul className="list-disc">
+              <li className="text-lg md:text-xl text-sky-300">
+                Opportunity to develop and refine your pitching skills.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                Certificate of participation will be provided to all teams.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                Networking opportunities with industry experts and fellow
+                innovators.
               </li>
             </ul>
           </div>
@@ -301,7 +325,7 @@ function StartupSection() {
             <div className="mt-2 p-3 border border-sky-900 bg-transparent text-gray-300">
               <p className="text-base md:text-lg">Date: 28th March 2025</p>
               <p className="text-base md:text-lg">Time: 10:00 AM - 4:00 PM</p>
-              <p className="text-base md:text-lg">Location: Yet to Announce!</p>
+              <p className="text-base md:text-lg">Location: Venue details will be shared in the confirmation email.</p>
             </div>
           </div>
 
@@ -329,13 +353,12 @@ function StartupSection() {
         </div>
       </div>
 
-      
-
-      
       <div className="w-full my-10 flex items-center justify-center">
         <button
           className="px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-xl shadow-xl"
-          onClick={() => window.open("https://unstop.com/o/ynkQAT9?utm_medium=Share&utm_source=shortUrl", "_blank")}
+          onClick={() =>
+            window.open("https://forms.gle/1wrkaEEoeuNvubeH9", "_blank")
+          }
         >
           REGISTER NOW!
         </button>
