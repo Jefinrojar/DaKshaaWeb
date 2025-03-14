@@ -16,6 +16,7 @@ import cse from "./assets/cse.jpg";
 import ict from "./assets/ict.jpg";
 import EEE from "./assets/EEE.jpg";
 import iste from "./assets/ISTE.jpg"
+import unstop from "./assets/unstop.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -23,8 +24,8 @@ import "aos/dist/aos.css";
 
 
 function Sponsors() {
-  const eventSponsors = [abb,iste];
-  const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, millet, infinity, garuda, uipath, vlsi, txt];
+  const eventSponsors = ["https://cdn.brandfetch.io/id3BHBKuok/w/500/h/500/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B", abb,iste];
+  const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, unstop, millet, infinity, garuda, uipath, vlsi, txt];
   // Add more if needed
   const letter = "Sponsors";
   const letters = letter.split("");
