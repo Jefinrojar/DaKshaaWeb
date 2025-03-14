@@ -49,7 +49,7 @@ const AccommodationDetails = () => {
         className="border border-sky-800 p-3 max-w-6xl mx-auto mt-8 mb-10 lg:ml-48"
         data-aos="fade-up"
       >
-        <div className="border border-sky-800 bg-sky-900/30 p-6 shadow-lg w-full mx-auto clip-bottom-right">
+        <div className=" bg-sky-900/30 p-6 shadow-lg w-full mx-auto clip-bottom-right">
           <div className="flex flex-col md:flex-row text-white">
             {/* Left Section */}
             <div className="w-full md:w-1/2 p-4" data-aos="fade-right">
