@@ -1226,7 +1226,7 @@ const EventDetails = () => {
                     {
                         name: "Mrs. K. Kavitha , AP/Maths",
                         phone: "9600933007",
-                        email: "kavithak@ksrct.ac.in",
+                        email:"kavithak@ksrct.ac.in",
                     },
 
                 ],
@@ -1553,8 +1553,9 @@ const EventDetails = () => {
                 ],
                 studentCoordinator: [
                     {
-                        name: "Mouriya S",
-                        phone: "8903689846",
+                        name: "Karthikeyan D",
+                        email: "karthikeyan40@gmail.com",
+                        phone: "9790080274",
                     },
                     {
                         name: "vishwanth V ",
@@ -1662,13 +1663,13 @@ const EventDetails = () => {
 
         // Workshop
         "workshop-1": {
-            title: "Design for Testability (DFT) Demystified: The Basics you need to Know",
+            title: "Design for Testability (DFT) Demystified:The Basics you need to Know",
             description:
                 "Join our workshop to gain a basic understanding of DFT and its importance in the semiconductor industry. Open to UG & PG students from all branches, with mandatory attendance for certification. Participation certificates will be provided to all attendees!",
             image: Workshop1,
             schedule: [
                 {
-                    round: "Round ",
+                    round: "Round  ",
                     date: "March 28, 2025",
                     time: "9:00 AM to 3:00 PM",
                     location: "Textile chemical processing laboratory,Textile Block ",
