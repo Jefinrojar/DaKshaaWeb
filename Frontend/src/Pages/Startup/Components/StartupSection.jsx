@@ -353,9 +353,6 @@ function StartupSection() {
           <div>
             <p className="text-red-500 font-bold text-lg">Condition Applied*</p>
           </div>
-          <div>
-            <p className="font-bold text-lg">Special discount for team of queens*</p>
-          </div>
         </div>
       </div>
 

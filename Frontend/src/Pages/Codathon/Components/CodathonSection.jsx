@@ -6,9 +6,9 @@ const CodathonSection = () => {
     // Example data as an array of objects
     const eventDetails = {
         id: "Codeathon-event-1",
-        title: "Codeathon By",
+        title: "Neura-Code By",
         descriptions: [
-            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code." },
+            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the eBOX platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code." },
         ],
         registrationLink: "https://example.com/register",
         rounds: [
@@ -24,14 +24,13 @@ const CodathonSection = () => {
             "No pre-written code or external help is allowed.",
             "Participants must adhere to the time limit.",
             "Any form of plagiarism will lead to disqualification.",
-            "Individual or Team (2-4 members)."
         ],
         schedule: [
             {
                 round: "Event Timing",
-                date: "October 10, 2023",
-                time: "10:00 AM",
-                location: "Main Auditorium",
+                date: "March 28, 2025",
+                time: "09:00 AM to 04:00PM",
+                location: "Academic Block Lab 3",
             },
         ],
         contact: {
@@ -127,7 +126,7 @@ const CodathonSection = () => {
                 {/* Description Section */}
                 <div className="border border-sky-800 p-2 mb-6 ">
                     <div className="flex flex-col gap-8  border p-4  border-sky-800 bg-sky-900/30">
-                        <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Codeathon By EBOX</p>
+                        <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">Neura-Code By EBOX</p>
 
                         {eventDetails?.descriptions?.map((desc, index) => (
                             <div

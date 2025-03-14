@@ -2627,6 +2627,7 @@ const EventDetails = () => {
                         </div>
                     </div>
                 </ScrollAnimation>
+                
             </div>
         </div>
     );
