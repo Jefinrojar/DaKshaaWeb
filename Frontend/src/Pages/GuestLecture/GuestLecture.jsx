@@ -20,14 +20,14 @@ const GuestLecture = () => {
         },
       ],
     },
-    {
-      lectures: [
-        {
-          name: "Technology",
-          image: is,
-        },
-      ],
-    },
+    // {
+    //   lectures: [
+    //     {
+    //       name: "Technology",
+    //       image: is,
+    //     },
+    //   ],
+    // },
     {
       lectures: [
         {
@@ -69,8 +69,135 @@ const GuestLecture = () => {
       <div className="text-center  bg-opacity-70 text-white py-6 px-6 shadow-md">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">NCISTEMM</h2>
         <p className="text-gray-300 mt-2 text-sm sm:text-lg font-semibold">
-          NATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, TECHNOLOGY, ENGINEERING, MATHEMATICS, AND MEDICINE
+          NATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, TECHNOLOGY,
+          ENGINEERING, MATHEMATICS, AND MEDICINE
         </p>
+      </div>
+
+      {/* First card */}
+      <div className="mb-16">
+        <div className="flex flex-wrap justify-center gap-6">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <motion.div
+              className="p-3 border border-sky-800 mx-auto max-w-full"
+              whileHover={{ scale: 1.05 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            >
+              <motion.div
+                className="bg-sky-900 bg-opacity-40 p-4 sm:p-6 shadow-lg text-white text-center w-full md:w-[1000px] md:h-auto"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+              >
+                {/* Title Section with bg-sky-900 */}
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 bg-sky-900 py-4">
+                  Technological Innovations in Life Science towards
+                  Sustainability"
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-start">
+                  {/* Image Section */}
+                  <div className="flex justify-center col-span-2">
+                    <div className="border border-sky-800 ">
+                      <img
+                        src={is}
+                        alt="Technology Image"
+                        className="w-full h-96 rounded-lg"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Text Section */}
+                  <div className="p-4 flex flex-col justify-center items-center md:items-center text-center md:text-left col-span-2">
+                    {/* Register Button */}
+                    <button
+                      className="mt-5 w-full md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
+                      onClick={() => window.open("www.google.com", "_blank")}
+                    >
+                      REGISTER NOW!
+                    </button>
+                  </div>
+
+                  <div className="border border-sky-900 p-1">
+                    <div className="border border-sky-900 p-5">
+                      <h1 className="text-2xl text-sky-300 font-semibold">
+                        Biotechnology
+                      </h1>
+                      <ul className="text-justify mt-3 text-sm sm:text-base list-disc pl-5 space-y-2">
+                        <li>Biofuels</li> <li>Microbial Diagnostics</li>{" "}
+                        <li>Industrial Biotechnology</li>{" "}
+                        <li>Biomolecular Engineering</li>{" "}
+                        <li>Computational Genomics</li>{" "}
+                        <li>
+                          Biotechnology for Livestock, Pests and Aquaculture
+                        </li>{" "}
+                        <li>Bioprocess and Biosystems</li>{" "}
+                        <li>Microbial Energy Production</li>{" "}
+                        <li>Environmental Biotechnology</li> <li>Biosensors</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="border border-sky-900 p-1">
+                    <div className="border border-sky-900 p-5">
+                      <h1 className="text-2xl text-sky-300 font-semibold">
+                        Food Technology
+                      </h1>
+                      <ul className="text-justify mt-3 text-sm sm:text-base list-disc pl-5 space-y-2">
+                        <li>Instant Foods</li> <li>Food Analysis</li>{" "}
+                        <li>Nutraceuticals</li> <li>Pre/Probiotics</li>{" "}
+                        <li>Edible Coatings</li> <li>Food Adulteration</li>{" "}
+                        <li>Biopharmaceuticals</li>{" "}
+                        <li>Food Product Development</li>{" "}
+                        <li>Controlled Atmosphere Packaging</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="border border-sky-900 p-1">
+                    <div className="border border-sky-900 p-5">
+                      <h1 className="text-2xl text-sky-300 font-semibold">
+                        Textile Technology
+                      </h1>
+                      <ul className="text-justify mt-3 text-sm sm:text-base list-disc pl-5 space-y-2">
+                        <li>Green Textiles</li> <li>Protective Fabrics</li>{" "}
+                        <li>Textile Composites</li> <li>Automobile Textiles</li>{" "}
+                        <li>Aesthetics of Textiles</li>{" "}
+                        <li>Smart Textile Applications</li>{" "}
+                        <li>Textile Material Recycling</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="border border-sky-900 p-1">
+                    <div className="border border-sky-900 p-5">
+                      <h1 className="text-2xl text-sky-300 font-semibold">
+                      Nanotechnology
+                      </h1>
+                      <ul className="text-justify mt-3 text-sm sm:text-base list-disc pl-5 space-y-2">
+                        <li>Nanoelectronics</li> <li>Nanobiotechnology</li>{" "}
+                        <li>Thin Film Technology</li>{" "}
+                        <li>Nano - Communications</li>{" "}
+                        <li>Nanodevice Fabrications</li>{" "}
+                        <li>Advanced Nanomaterials</li>{" "}
+                        <li>Electrochemical Corrosion</li>{" "}
+                        <li>Multifunctional Materials</li>{" "}
+                        <li>Sustainable Chemical Processing</li>{" "}
+                        <li>Nanotechnology in Energy & Environment</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+          </motion.div>
+        </div>
       </div>
 
       {/* Frames with Lecture Cards */}
