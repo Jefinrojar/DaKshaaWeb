@@ -1506,7 +1506,7 @@ const EventDetails = () => {
         ],
       },
       registrationLink:
-        "https://unstop.com/p/mastro-mania-instrument-players-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420214", // Registration link
+        "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
     },
     "culturals-event-2": {
       title: "Mastro Mania",
@@ -1566,7 +1566,7 @@ const EventDetails = () => {
         ],
       },
       registrationLink:
-        "https://unstop.com/p/musical-mavericks-solo-singing-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420221", // Registration link
+        "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
     },
     "culturals-event-3": {
       title: "Beat Battle",
@@ -1624,7 +1624,7 @@ const EventDetails = () => {
         ],
       },
       registrationLink:
-        "https://unstop.com/p/beat-battle-group-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420228", // Registration link
+        "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
     },
     "culturals-event-4": {
       title: "Spotlight Stepper",
@@ -1684,7 +1684,7 @@ const EventDetails = () => {
         ],
       },
       registrationLink:
-        "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
+        "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
     },
     "culturals-event-5": {
       title: "flick fest",
