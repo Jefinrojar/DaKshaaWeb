@@ -1512,7 +1512,7 @@ const EventDetails = () => {
         "culturals-event-1": {
             title: "Musical Maverics",
             description:
-                "Musicians performing with musical instruments.",
+                "A talented vocalist who mesmerizes the audience with a soulful performance, adding emotion and energy to the event.",
             image: Culturals1,
             rules: [
                 "Time limit: 3–5 minutes per performance",
@@ -1536,8 +1536,8 @@ const EventDetails = () => {
                 {
                     round: "Event Timing",
                     date: "March 29, 2025",
-                    time: "9:00 PM to 2:30 PM",
-                    location: "AI Lab, Mechatronics Block",
+                    time: "10:00 AM to 3:00 PM",
+                    location: "KSRCT",
                 },
 
             ],
@@ -1573,7 +1573,7 @@ const EventDetails = () => {
         "culturals-event-2": {
             title: "Mastro Mania",
             description:
-                "Musicians performing with musical instruments.",
+                "A skilled musician who enhances the event with a captivating performance, creating a memorable musical experience.",
             image: Culturals2,
             rounds: [
                 {
@@ -1590,12 +1590,13 @@ const EventDetails = () => {
                 {
                     round: "Event Timing",
                     date: "March 29, 2025",
-                    time: "9:00 PM to 2:30 PM",
-                    location: "AI Lab, Mechatronics Block",
+                    time: "10:00 AM to 3:00 PM",
+                    location: "KSRCT",
                 },
             ],
             rules: [
                 "Participants must bring their own instruments (guitar, keyboard, drums, violin, flute, or any other instrument).",
+                "However, a keyboard will be provided by the organizers for those who need it.",
                 "Time limit: 3–5 minutes per performance.",
                 "Only instrumental music is allowed (no vocals).",
                 "Pre-recorded background tracks are not permitted.",
@@ -1625,6 +1626,7 @@ const EventDetails = () => {
                     {
                         name: "Lithisri. S",
                         phone: "9363661955",
+                        email: "misslithi4326@gmail.com"
                     },
                 ],
             },
@@ -1633,7 +1635,7 @@ const EventDetails = () => {
         "culturals-event-3": {
             title: "Beat Battle",
             description:
-                "Synchronized dance performance by group.",
+                "A thrilling showcase of teamwork, rhythm, and creativity as groups compete with electrifying dance performances!",
             image: Culturals3,
             rounds: [
                 {
@@ -1650,17 +1652,17 @@ const EventDetails = () => {
                 {
                     round: "Event Timing",
                     date: "March 29, 2025",
-                    time: "9:00 PM to 2:30 PM",
-                    location: "AI Lab, Mechatronics Block",
+                    time: "10:00 AM to 03:00 PM",
+                    // location: "AI Lab, Mechatronics Block",
                 },
             ],
             rules: [
-                "Time limit: 4 - 5 minutes per team",
-                "Dance Forms Allowed: Any (Western, Classical, Folk, Fusion, etc.)",
-                "Music: Participants must bring their own music track",
-                "Prohibited Content: Explicit lyrics or inappropriate content in the song/dance moves",
+                "Song Duration should be between 4 to 5 min",
+                "Team size should be between 3 to 8 members",
+                "Song should be in mp3 format and must be brought by the participants",
+                "Register before the final date",
                 "Props: Allowed but should be pre-approved",
-                "Judging Criteria: Coordination, Choreography, Costumes, Stage Presence, Overall Impact",
+                "Winners will be judged by jury based on Coordination,Choreography, Costumes, Stage Presence, Overall Impact"
             ],
             contact: {
                 facultyCoordinator: [
@@ -1683,6 +1685,7 @@ const EventDetails = () => {
                     {
                         name: "Vasu K",
                         phone: "9342396464",
+                        email: "vkvasukumar2002@gmail.com"
                     },
                 ],
             },
@@ -1693,23 +1696,30 @@ const EventDetails = () => {
             description:
                 "Solo dance is a personal expression of rhythm, emotion, and creativity through graceful movements. It captivates audiences with unique styles and storytelling.",
             image: Culturals4,
-            rounds: [
-                {
-                    title: "Single Round",
-                    description: [
-                        "Each participant/team will get 5-7 minutes to present their project",
-                        "Craft and Art – Creative decorative items from waste.",
-                        "Utility and Innovation – Functional products from waste.",
-                        "Technology & Science Models – Prototypes for environmental sustainability",
-                    ]
-                },
+            rules: [
+                "Song Duration should be between 3 to 4 min",
+                "Song should be in mp3 format and must be brought by the participants",
+                "Register before the final date",
+                "Props: Allowed but should be pre-approved",
+                "Winners will be judged by jury based on Choreography, Costumes, Stage Presence, Overall Impact"
             ],
+            // rounds: [
+            //     {
+            //         title: "Single Round",
+            //         description: [
+
+            //             "Register before the final date",
+            //             "Onspot Registration must be completed before 9.30AM",
+            //             "",
+            //         ]
+            //     },
+            // ],
             schedule: [
                 {
                     round: "Event Timing",
                     date: "March 29, 2025",
-                    time: "9:00 PM to 2:30 PM",
-                    location: "AI Lab, Mechatronics Block",
+                    time: "10:00 AM to 03:00 PM",
+                    // location: "AI Lab, Mechatronics Block",
                 },
             ],
             rules: [
@@ -1724,7 +1734,7 @@ const EventDetails = () => {
                     {
                         name: "Ms.S.Srinithi",
                         phone: "9600404607",
-                        email: "",
+                        email: "srinithi@ksrct.ac.in",
                     },
                 ],
                 studentCoordinator: [
@@ -1756,7 +1766,7 @@ const EventDetails = () => {
                 {
                     round: "Event Timing",
                     date: "March 29, 2025",
-                    time: "9:00 PM to 2:30 PM",
+                    time: "10:00 AM to 03:00 PM",
                     location: "AI Lab, Mechatronics Block",
                 },
             ],
@@ -1764,7 +1774,7 @@ const EventDetails = () => {
                 "The event is open to all individual participants and teams. Teams may consist of 1 to 3 members.",
                 "The Short films can be based on the Theme : Beyond the Bell –  The college life other than studies",
                 "The short film should be original",
-                "Duration upto 10 minutes.",
+                "Duration upto 15 minutes.",
                 "All films must be submitted in video file format (MP4, MOV, or AVI).",
                 "Winners will be judged based on creativity, storytelling, and overall impact",
                 "No 18 + ,badwords and adult content"
@@ -1772,23 +1782,21 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        name: "",
-                        phone: "",
-                        email: "",
+                        name: "Raja S",
+                        phone: "7502871440",
+                        email: "rajas@ksrct.ac.in",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        name: "",
-                        phone: "",
+                        name: "Karthikeyan S A",
+                        email: "karthikeyansa8@gmail.com",
+                        phone: "7358996885",
                     },
                     {
-                        name: "",
-                        phone: "",
-                    },
-                    {
-                        name: "",
-                        phone: "",
+                        name: "Tamilselvan C",
+                        email: "tamilambani056@gmail.com",
+                        phone: "6374148544",
                     },
                 ],
             },
@@ -2627,7 +2635,7 @@ const EventDetails = () => {
                         </div>
                     </div>
                 </ScrollAnimation>
-                
+
             </div>
         </div>
     );
