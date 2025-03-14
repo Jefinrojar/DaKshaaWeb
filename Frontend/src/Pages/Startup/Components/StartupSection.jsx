@@ -319,11 +319,35 @@ function StartupSection() {
             {/* <h1 className="font-semibold text-xl md:text-2xl text-sky-600"></h1> */}
             <ul className="list-disc">
               <li className="text-lg md:text-xl text-sky-300">
-                Open exclusively to college students. Teams can have a maximum
-                of 3 members, and entrepreneurs or business owners are not
-                eligible.
+                Open to College Students: Participants must be currently
+                enrolled in a college or university.
               </li>
-              <li className="text-lg md:text-xl text-sky-300"></li>
+              <li className="text-lg md:text-xl text-sky-300">
+                Team Composition: A team can have a minimum of 1 and a maximum
+                of 3 members.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                No Entrepreneurs or Business Owners: Individuals who own a
+                registered startup or business are not eligible to participate.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                Originality of Ideas: The idea presented must be original and
+                should not infringe on any existing patents or intellectual
+                property.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                College ID Mandatory: All participants must carry their college
+                ID card on the event day for verification.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                One Entry Per Team: A participant can be part of only one team;
+                multiple entries from the same individual will not be allowed.
+              </li>
+              <li className="text-lg md:text-xl text-sky-300">
+                Presentation Requirement: Teams must be prepared to pitch their
+                idea using a concise and structured approach within
+                the allotted time.
+              </li>
             </ul>
           </div>
         </div>
@@ -416,19 +440,16 @@ function StartupSection() {
             <h3 className="text-xl md:text-2xl font-semibold text-sky-500 mb-4">
               Student Coordinator
             </h3>
-            
-              <div className="mb-4">
-                <p className="text-lg md:text-xl text-sky-300">
-                  Name: Rithika S
-                </p>
-                <p className="text-lg md:text-xl text-sky-300">
-                  Email: rithikasamraj04@gmail.com
-                </p>
-                <p className="text-lg md:text-xl text-sky-300">
-                  Contact No: +91 6383303147
-                </p>
-              </div>
-          
+
+            <div className="mb-4">
+              <p className="text-lg md:text-xl text-sky-300">Name: Rithika S</p>
+              <p className="text-lg md:text-xl text-sky-300">
+                Email: rithikasamraj04@gmail.com
+              </p>
+              <p className="text-lg md:text-xl text-sky-300">
+                Contact No: +91 6383303147
+              </p>
+            </div>
           </div>
         </div>
       </div>
