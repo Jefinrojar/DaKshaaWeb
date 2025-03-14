@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
 
                 <div className="contact">
-                    <h3 className="text-2xl md:text-3xl font-semibold">Contact</h3>
+                    <h3 className="text-2xl md:text-3xl font-semibold">Student Coordinators</h3>
                     <div className="flex flex-col items-center md:items-start gap-2 mt-3 md:mt-4">
                         <div className="flex items-center gap-2 md:gap-3 leading-8">
                             <FaPhone className="text-white text-lg md:text-xl" />

@@ -187,7 +187,7 @@ function StartupSection() {
                 🥈 2nd Prize
               </span>
               <span className="text-3xl font-semibold text-white mt-2">
-                ₹7,000
+                ₹5,000
               </span>
             </div>
 
@@ -197,7 +197,7 @@ function StartupSection() {
                 🥉 3rd Prize
               </span>
               <span className="text-3xl font-semibold text-white mt-2">
-                ₹5,000
+                ₹2,000
               </span>
             </div>
           </div>
@@ -350,6 +350,12 @@ function StartupSection() {
               <p className="text-base md:text-lg">Location: Main Stage</p>
             </div>
           </div> */}
+          <div>
+            <p className="text-red-500 font-bold text-lg">Condition Applied*</p>
+          </div>
+          <div>
+            <p className="font-bold text-lg">Special discount for team of queens*</p>
+          </div>
         </div>
       </div>
 
