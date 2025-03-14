@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react"; // Assuming you're using Lucide icons
 
+import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png";
+
 const HackathonSection = () => {
   // Example data as an array of objects
   const eventDetails = {
@@ -104,7 +106,7 @@ const HackathonSection = () => {
         {
           name: "Srimun S S",
           phone: "+91 86677 09294",
-          email: "sivarajboss22@gmail.com",
+          email: "itsmesrimun@gmail.com",
         },
         {
           name: "Sivaraj A",
@@ -163,18 +165,35 @@ const HackathonSection = () => {
             className="md:w-24 md:h-24 w-16 h-16"
           />
         </div>
-
-        {/* Register Now Button */}
-        <motion.button
-          className="mb-8 w-60 ml-12 md:w-auto md:ml-72 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
-          whileHover={{ scale: 1.1, rotate: 2 }}
-          whileTap={{ scale: 0.9 }}
-          variants={pulseAnimation} // Infinite pulsing animation
-          animate="animate" // Ensure the animation is always running
-          onClick={() => window.open(event.registrationLink, "_blank")} // Open registration link in a new tab
-        >
-          REGISTER NOW!
-        </motion.button>
+        <div className="border border-sky-800 p-2">
+          <div className="text-center clip-bottom-right flex flex-col gap-4 p-4 md:p-10 items-center bg-sky-900/20">
+            <img
+              src={Tech2}
+              alt={event.title}
+              className="w-40 h-40 md:w-96 md:h-96 object-cover mb-4 shadow-md"
+            />
+            <p className="text-lg md:text-xl mb-4 text-sky-600 text-justify">
+              Neura Hack 2025 is a 36-hour innovation marathon where brilliant
+              minds unite to tackle pressing global challenges aligned with the
+              UN Sustainable Development Goals (SDGs). Participants will
+              collaborate, ideate, and build cutting-edge solutions leveraging
+              technology to address issues like climate action, equality,
+              health, and more. Join us to code, create, and catalyze change for
+              a sustainable future!
+            </p>
+            {/* Register Now Button */}
+            <motion.button
+              className="mb-4 w-60 md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+              whileHover={{ scale: 1.1, rotate: 2 }}
+              whileTap={{ scale: 0.9 }}
+              variants={pulseAnimation} // Infinite pulsing animation
+              animate="animate" // Ensure the animation is always running
+              onClick={() => window.open(event.registrationLink, "_blank")} // Open registration link in a new tab
+            >
+              REGISTER NOW!
+            </motion.button>
+          </div>
+        </div>
 
         {/* Rest of the content */}
         <div className="flex flex-col md:flex-row justify-center my-10 gap-4">
@@ -193,7 +212,7 @@ const HackathonSection = () => {
           )}
         </div>
 
-        {/* Description Section */}
+        {/* Problem Statements */}
         <div className="border border-sky-800 p-2 mb-6 ">
           <div className="flex flex-col gap-8  border p-4  border-sky-800 bg-sky-900/30">
             <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
@@ -207,9 +226,13 @@ const HackathonSection = () => {
                   index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
               >
-                <p className="text-sky-300 text-xl font-semibold">{desc.heading}</p>
+                <p className="text-sky-300 text-xl font-semibold">
+                  {desc.heading}
+                </p>
                 <p className="font-semibold">Problem Statement:</p>
-                <p className="text-sky-300 border border-sky-800 p-4">{desc.desc}</p>
+                <p className="text-sky-300 border border-sky-800 p-4">
+                  {desc.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -230,38 +253,34 @@ const HackathonSection = () => {
                   🥈 2nd Prize
                 </span>
                 <span className="text-3xl font-semibold text-white mt-2">
+                  ₹20,000
+                </span>
+              </div>
+
+              {/* 2nd Prize (Center) */}
+              <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mb-16 order-1 sm:order-2">
+                <span className="text-2xl font-bold text-gray-300">
+                  🥇 1st Prize
+                </span>
+                <span className="text-3xl font-semibold text-white mt-2">
                   ₹30,000
                 </span>
               </div>
 
-                        {/* Prize List */}
-                        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12">
-                            {/* 1st Prize */}
-                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-2 sm:order-1">
-                                <span className="text-2xl font-bold text-yellow-400">🥈 2nd Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹20,000</span>
-                            </div>
-
-                            {/* 2nd Prize (Center) */}
-                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mb-16 order-1 sm:order-2">
-                                <span className="text-2xl font-bold text-gray-300">🥇 1st Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹30,000</span>
-                            </div>
-
-                            {/* 3rd Prize */}
-                            <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-3">
-                                <span className="text-2xl font-bold text-orange-400">🥉 3rd Prize</span>
-                                <span className="text-3xl font-semibold text-white mt-2">₹10,000</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            <p className="text-sky-300 font-bold text-2xl mt-8 text-center">
-              TOP PERFORMERS WILL GET INTERNSHIP IN GUVI
-            </p>
+              {/* 3rd Prize */}
+              <div className="flex flex-col items-center bg-sky-900/30 border border-sky-800 p-6 rounded-lg w-full max-w-xs shadow-md sm:mt-16 order-3">
+                <span className="text-2xl font-bold text-orange-400">
+                  🥉 3rd Prize
+                </span>
+                <span className="text-3xl font-semibold text-white mt-2">
+                  ₹10,000
+                </span>
+              </div>
+            </div>
           </div>
+          <p className="text-sky-300 font-bold text-2xl mt-8 text-center">
+            TOP PERFORMERS WILL GET INTERNSHIP IN GUVI
+          </p>
         </div>
 
         {/* Rounds Section */}
