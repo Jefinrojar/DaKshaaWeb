@@ -1748,10 +1748,27 @@ const EventDetails = () => {
             registrationLink: "https://unstop.com/p/solo-dance-dakshaat25-ks-rangasamy-college-of-technology-ksrct-namakkal-1420233", // Registration link
         },
         "culturals-event-5": {
-            title: "Short Film",
+            title: "flick fest",
             description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, adipisci!",
+                "theme : beyond the bell - the college life other than studies",
             image: Culturals5,
+            schedule: [
+                {
+                    round: "Event Timing",
+                    date: "March 29, 2025",
+                    time: "9:00 PM to 2:30 PM",
+                    location: "AI Lab, Mechatronics Block",
+                },
+            ],
+            rules: [
+                "The event is open to all individual participants and teams. Teams may consist of 1 to 3 members.",
+                "The Short films can be based on the Theme : Beyond the Bell –  The college life other than studies",
+                "The short film should be original",
+                "Duration upto 10 minutes.",
+                "All films must be submitted in video file format (MP4, MOV, or AVI).",
+                "Winners will be judged based on creativity, storytelling, and overall impact",
+                "No 18 + ,badwords and adult content"
+            ],
             contact: {
                 facultyCoordinator: [
                     {
