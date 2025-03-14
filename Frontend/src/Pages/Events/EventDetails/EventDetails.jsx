@@ -119,7 +119,6 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "CSE lab 1,IT Park",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -144,12 +143,11 @@ const EventDetails = () => {
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
         },
         "technical-event-2": {
             title: "Neura Hack (Hackathon)",
             description:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, eum?",
+                "Neura Hack 2025 is a 36-hour innovation marathon where brilliant minds unite to tackle pressing global challenges aligned with the UN Sustainable Development Goals (SDGs). Participants will collaborate, ideate, and build cutting-edge solutions leveraging technology to address issues like climate action, equality, health, and more. Join us to code, create, and catalyze change for a sustainable future!",
             image: Tech2,
             rounds: [
                 {
@@ -186,7 +184,6 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "CSE lab 1,IT Park",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -220,7 +217,8 @@ const EventDetails = () => {
             rounds: [
                 {
                     title: "",
-                    description: "A technical project presentation competition where teams (1-3 members) showcase innovative projects in engineering, technology, or innovation. Each team gets 10 minutes to present and 5 minutes for Q&A, with originality being crucial. The winning team gets Rs. 1000, and attendance is mandatory for certification.",
+                    description:
+                        "A technical project presentation competition where teams (1-3 members) showcase innovative projects in engineering, technology, or innovation. Each team gets 10 minutes to present and 5 minutes for Q&A, with originality being crucial. The winning team gets Rs. 1000, and attendance is mandatory for certification.",
                 },
             ],
             rules: [
@@ -240,7 +238,7 @@ const EventDetails = () => {
                 "6.	Q&A Slide: Be prepared for audience questions.",
                 "Submission Requirements:",
                 "The hardware be demonstrated as part of the submission. (if applicable)",
-                "Two copies of the Powerpoint presentation be submitted to the Student Coordinators."
+                "Two copies of the Powerpoint presentation be submitted to the Student Coordinators.",
             ],
             schedule: [
                 {
@@ -278,7 +276,6 @@ const EventDetails = () => {
             },
 
             registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
-
         },
         "technical-event-5": {
             title: "ROBO SOCCER",
@@ -308,7 +305,6 @@ const EventDetails = () => {
                     time: "11:00 AM to 1:30 PM",
                     location: "MC 207,Mechatronics Block",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -317,7 +313,6 @@ const EventDetails = () => {
                         email: "indumathi@ksrct.ac.in",
                         phone: "9965137001",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -334,8 +329,6 @@ const EventDetails = () => {
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
-
         },
         "technical-event-6": {
             title: "Figma Fusion: The UI/UX Design Showdown",
@@ -345,17 +338,19 @@ const EventDetails = () => {
             rounds: [
                 {
                     title: "Round 1: Research & Ideation",
-                    description: "Participants must thoroughly research the given use case, define user personas, and outline the design requirements.",
+                    description:
+                        "Participants must thoroughly research the given use case, define user personas, and outline the design requirements.",
                 },
                 {
                     title: "Round 2: UI/UX Design Creation",
-                    description: "High-fidelity UI designs must be created, incorporating user-friendly navigation, accessibility, and consistency. •	Prototypes are required for Round 2; ensure you link your screens to showcase how users interact with your design.",
+                    description:
+                        "High-fidelity UI designs must be created, incorporating user-friendly navigation, accessibility, and consistency. •	Prototypes are required for Round 2; ensure you link your screens to showcase how users interact with your design.",
                 },
             ],
             rules: [
                 "Participants must submit a Figma file with their design at the end of each round.",
                 "Ensure that all files are well-organized and clearly named.",
-                "Kindly bring your own laptop and use your personal internet connection for the session",
+                "Kindly bring your own laptop and use your personal internet connection for the session",
                 "All designs must be original. Any form of plagiarism or copying of existing designs will lead to disqualification.",
                 "Participants may use assets (icons, images, fonts) from free online resources, but they must be properly attributed if necessary.",
             ],
@@ -374,7 +369,6 @@ const EventDetails = () => {
                         email: "karthikr@ksrct.ac.in",
                         phone: "9965010204",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -390,7 +384,6 @@ const EventDetails = () => {
                 ],
             },
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
         },
         "technical-event-7": {
             title: "ElectroBuzz",
@@ -410,7 +403,7 @@ const EventDetails = () => {
                     description: [
                         "Participants will be given a electronic circuit , they want to identify and fix faults in the given circuit within the given time.",
                         "Duration: 1.5 hours",
-                    ]
+                    ],
                 },
             ],
             rules: [
@@ -419,7 +412,7 @@ const EventDetails = () => {
                 "Yes, inter-specialization team members are allowed.",
                 "No external tools allowed.",
                 "Complete tasks within the given time limit.",
-                "Damaging equipment will lead to disqualification."
+                "Damaging equipment will lead to disqualification.",
             ],
             schedule: [
                 {
@@ -440,25 +433,24 @@ const EventDetails = () => {
                     {
                         name: "Mrs.K.Gogiladevi (AP/ECE)",
                         phone: "9715205353",
-                        email: "gogiladevi@ksrct.ac.in"
-                    }
+                        email: "gogiladevi@ksrct.ac.in",
+                    },
                 ],
                 studentCoordinator: [
                     {
                         name: "Sanjay Kumar R (III-Year/ECE)",
                         phone: "7397031629",
-                        email: "sanjaykumar.ramasamy22@gmail.com"
+                        email: "sanjaykumar.ramasamy22@gmail.com",
                     },
                     {
                         name: "Kowshika K (II-Year/ECE)",
                         phone: "9342806195",
-                        email: "kowshika1912@gmail.com"
+                        email: "kowshika1912@gmail.com",
                     },
                 ],
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
         },
         "technical-event-8": {
             title: "Urban Nourish: Street Food Remix",
@@ -467,10 +459,11 @@ const EventDetails = () => {
             image: Tech8,
             rounds: [
                 {
-                    description: "Description:"
+                    description: "Description:",
                 },
                 {
-                    description: "The Food Technology Department hosting a poster presentation on nutrient-infused street foods, focusing on functional foods, fortification, and balanced recipes. Participants have to showcase the innovative ways to enhance traditional street foods with added nutrients. Judges will evaluate posters on scientific accuracy, creativity, and practicality. The event encouraged discussions on nutrition, affordability, and consumer acceptance, promoting healthier eating choices.    ",
+                    description:
+                        "The Food Technology Department hosting a poster presentation on nutrient-infused street foods, focusing on functional foods, fortification, and balanced recipes. Participants have to showcase the innovative ways to enhance traditional street foods with added nutrients. Judges will evaluate posters on scientific accuracy, creativity, and practicality. The event encouraged discussions on nutrition, affordability, and consumer acceptance, promoting healthier eating choices.    ",
                 },
             ],
             rules: [
@@ -487,7 +480,6 @@ const EventDetails = () => {
                     time: "9:00 AM to 11:00 AM",
                     location: "Tech Hub, Innovation Center",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -495,7 +487,7 @@ const EventDetails = () => {
                         name: "Mr G Bharath, AP/FT",
                         email: "bharathg@ksrct.ac.in",
                         phone: "9047976171",
-                    }
+                    },
                 ],
                 studentCoordinator: [
                     {
@@ -512,26 +504,36 @@ const EventDetails = () => {
                         name: "Vijaya Yugeshwar R, II Year/FT ",
                         phone: "9585768184",
                     },
-
                 ],
             },
 
             registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
-
         },
         "technical-event-10": {
             title: "Designathon",
-            description: "A creative design competition where participants transform sketches into 3D models, culminating in real-life product modeling.",
+            description:
+                "A creative design competition where participants transform sketches into 3D models, culminating in real-life product modeling.",
             image: Tech9,
             rounds: [
-                { "title": "Round 1", "description": "Participants will work on 2D sketching." },
-                { "title": "Round 2", "description": "Participants will be given a 2D sketch to convert into a 3D model." },
-                { "title": "Round 3", "description": "Participants will receive a real-life product and model it on their own." }
+                {
+                    title: "Round 1",
+                    description: "Participants will work on 2D sketching.",
+                },
+                {
+                    title: "Round 2",
+                    description:
+                        "Participants will be given a 2D sketch to convert into a 3D model.",
+                },
+                {
+                    title: "Round 3",
+                    description:
+                        "Participants will receive a real-life product and model it on their own.",
+                },
             ],
             rules: [
                 "Students can bring their own laptops; computers are also available.",
                 "Participants should use only SolidWorks, Fusion 360, or NX CAD software.",
-                "Participants must follow the college’s instructions."
+                "Participants must follow the college’s instructions.",
             ],
             schedule: [
                 {
@@ -552,37 +554,36 @@ const EventDetails = () => {
                     {
                         name: "Mr. C. Ramesh",
                         email: "rameshc@ksrct.ac.in",
-                        phone: "9629767778"
+                        phone: "9629767778",
                     },
                     {
                         name: "Mr. M. Prasath",
                         email: "prasathm@ksrct.ac.in",
-                        phone: "9788206877"
-                    }
+                        phone: "9788206877",
+                    },
                 ],
                 studentCoordinator: [
                     {
                         name: "K P Arunachalam",
                         email: "arunachalam122004@gmail.com",
-                        phone: "9025972365"
+                        phone: "9025972365",
                     },
                     {
                         name: "Jaganathbalaaji N",
                         email: "jbbalaaji74181@gmail.com",
-                        phone: "7418155343"
-                    }
-                ]
+                        phone: "7418155343",
+                    },
+                ],
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
         },
         "technical-event-14": {
             title: "Codathon",
-            description: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
+            description:
+                "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
             image: Tech11,
-            rounds: [
-
-            ],
+            rounds: [],
             rules: [
                 "Open to all students with a passion for coding.",
                 "No restrictions on domain or specialization.",
@@ -591,8 +592,7 @@ const EventDetails = () => {
                 "Yes, inter-specialization team members are allowed",
                 "No pre-written code or external help is allowed.",
                 "Participants must adhere to the time limit.",
-                "Any form of plagiarism will lead to disqualification."
-
+                "Any form of plagiarism will lead to disqualification.",
             ],
             schedule: [
                 {
@@ -611,35 +611,33 @@ const EventDetails = () => {
             contact: {
                 facultyCoordinator: [
                     {
-                        "name": "Ms. R.P. Harshini (AP/CSE(AIML))",
+                        name: "Ms. R.P. Harshini (AP/CSE(AIML))",
                         email: "harshinirp@ksrct.ac.in",
-                        "phone": "9361446506"
+                        phone: "9361446506",
                     },
                 ],
                 studentCoordinator: [
                     {
-                        "name": "Praveen S (II-Year/CSE(AIML))",
-                        "email": "saravananpraveen1157@gmail.com",
-                        "phone": "6369493352 "
+                        name: "Praveen S (II-Year/CSE(AIML))",
+                        email: "saravananpraveen1157@gmail.com",
+                        phone: "6369493352 ",
                     },
                     {
-                        "name": "Pavithran G (II-Year/CSE(AIML))",
-                        "email": "techpavithran18@gmail.com",
-                        "phone": "9363575964"
-                    }
-                ]
+                        name: "Pavithran G (II-Year/CSE(AIML))",
+                        email: "techpavithran18@gmail.com",
+                        phone: "9363575964",
+                    },
+                ],
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
         },
         "technical-event-15": {
             title: "Buildathon (Ultratech)",
-            description: "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
+            description:
+                "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
             image: Tech14,
-            rounds: [
-
-            ],
+            rounds: [],
             rules: [
                 "Are inter-college team members allowed? Yes",
                 "Are inter-specialization team members allowed? Yes",
@@ -648,8 +646,7 @@ const EventDetails = () => {
                 "The judging will be based on the following criteria: Creativity, Time Management, Technical Execution, and Adherence to the Design brief. The jury's decision will be final and binding.",
                 "Participation Type: Individual",
                 "Charge per Person/Team: Rs.350",
-                "Any form of plagiarism will lead to disqualification."
-
+                "Any form of plagiarism will lead to disqualification.",
             ],
             schedule: [
                 {
@@ -670,40 +667,37 @@ const EventDetails = () => {
                     {
                         name: "Dr.K.Vijaya Sundravel",
                         email: "vijayasundravel@ksrct.ac.in",
-                        phone: "9688676665"
+                        phone: "9688676665",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "T.Rithiga",
                         email: "trithika36@gmail.com ",
-                        phone: "9344868518 "
+                        phone: "9344868518 ",
                     },
                     {
                         name: "S.Sandhiya",
                         email: "sandiyas704@gmail.comm",
-                        phone: "9659953151"
-                    }
-                ]
+                        phone: "9659953151",
+                    },
+                ],
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
         },
         "technical-event-16": {
             title: "Eye on Pick Glass",
-            description: "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
+            description:
+                "The Eye on Pick Glass session is an insightful opportunity for textile students and professionals to enhance their expertise in fabric analysis. This workshop focuses on understanding the pick glass (thread counter)—a crucial tool for inspecting fabric construction, weave structure, and yarn density. Participants will learn practical techniques to analyze fabric quality, identify defects, and differentiate between various weaves with precision. Experts will demonstrate real-time fabric evaluation, providing hands-on experience in textile inspection. This session is ideal for those keen on mastering textile microscopy, ensuring quality control, and deepening their understanding of fabric construction.",
             image: Tech16,
-            rounds: [
-
-            ],
+            rounds: [],
             rules: [
                 "Only one participant",
                 "Have to detect the given fabric",
                 "Counting glass will be provided and has to be returned Safely",
                 "Duration:15 Minutes",
-                "Juries Judgement is Final."
-
+                "Juries Judgement is Final.",
             ],
             schedule: [
                 {
@@ -712,43 +706,38 @@ const EventDetails = () => {
                     time: "9:30AM -10:30AM",
                     location: "Fabric manufacturing laboratory,TEXTILE BLOCK",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr.M.Arunkumar ",
                         email: "arunkumar@ksrct.ac.in",
-                        phone: "8056989930"
+                        phone: "8056989930",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "A.V. Raghavendhar ",
                         email: "a.v.raghavendhar516@gmail.com",
-                        phone: "8778239221"
+                        phone: "8778239221",
                     },
                     {
                         name: "K.Harini ",
                         email: "mailto:harinikumar25102005@gmail.com",
-                        phone: "8667393828"
-                    }
-                ]
+                        phone: "8667393828",
+                    },
+                ],
             },
 
             registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
-
         },
         "technical-event-17": {
             title: "Project Expo (Paper presentation)",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.",
             image: Tech15,
-            rounds: [
-
-            ],
-            rules: [
-
-            ],
+            rounds: [],
+            rules: [],
             schedule: [
                 {
                     round: "",
@@ -756,34 +745,31 @@ const EventDetails = () => {
                     time: "9:30AM -10:30AM",
                     location: "announcing soon",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
                     {
                         name: "Mr.M.Arunkumar ",
                         email: "arunkumar@ksrct.ac.in",
-                        phone: "8056989930"
+                        phone: "8056989930",
                     },
                 ],
                 studentCoordinator: [
                     {
                         name: "A.V. Raghavendhar ",
                         email: "a.v.raghavendhar516@gmail.com",
-                        phone: "8778239221"
+                        phone: "8778239221",
                     },
                     {
                         name: "K.Harini ",
                         email: "mailto:harinikumar25102005@gmail.com",
-                        phone: "8667393828"
-                    }
-                ]
+                        phone: "8667393828",
+                    },
+                ],
             },
 
             registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
-
         },
-
 
         // Non-Technical Events
         "non-technical-event-1": {
@@ -794,13 +780,11 @@ const EventDetails = () => {
             rounds: [
                 {
                     title: "",
-                    description:
-                        "",
+                    description: "",
                 },
                 {
                     title: "",
-                    description:
-                        "",
+                    description: "",
                 },
             ],
             rules: [
@@ -818,7 +802,6 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "IT Park",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -851,13 +834,11 @@ const EventDetails = () => {
             rounds: [
                 {
                     title: "Round 1",
-                    description:
-                        "Online Round.",
+                    description: "Online Round.",
                 },
                 {
                     title: "Round 2",
-                    description:
-                        "Offline Tech-Link Challenge will be conducted.",
+                    description: "Offline Tech-Link Challenge will be conducted.",
                 },
             ],
             rules: [
@@ -927,8 +908,7 @@ const EventDetails = () => {
                 },
                 {
                     title: "All the Movie names, Songs and Words are tamil.",
-                    description:
-                        "",
+                    description: "",
                 },
             ],
             rules: [
@@ -1036,7 +1016,6 @@ const EventDetails = () => {
                         email: "arulvelr@ksrct.ac.in",
                         phone: "8870921600",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -1061,8 +1040,7 @@ const EventDetails = () => {
             rounds: [
                 {
                     title: "",
-                    description:
-                        "",
+                    description: "",
                 },
             ],
             rules: [
@@ -1072,7 +1050,7 @@ const EventDetails = () => {
                 "Match Duration: If the round reaches 10 minutes, the team with more lives moves forward. If both teams have the same lives, the round restarts, but each team gets only 1 life.",
                 "Language: Sentences must be in English or Tamil only.",
                 "Originality: No repeating sentences, every response must be unique and meaningful.",
-                "Final Round: Rules for the final round will be revealed on the spot"
+                "Final Round: Rules for the final round will be revealed on the spot",
             ],
             schedule: [
                 {
@@ -1081,7 +1059,6 @@ const EventDetails = () => {
                     time: "10:00 AM to 12:00 PM",
                     location: "HPC LAB,Mechatronics Block",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -1095,7 +1072,6 @@ const EventDetails = () => {
                         email: "senthilmurugan@ksrct.ac.in",
                         phone: "9843488996",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -1108,8 +1084,6 @@ const EventDetails = () => {
                         email: "sivadeva2203@gmail.com",
                         phone: "9976438984",
                     },
-
-
                 ],
             },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
@@ -1119,13 +1093,11 @@ const EventDetails = () => {
             description:
                 "Auction Arena is a thrilling and interactive event designed to bring out the strategist in you! This fun-filled IPL-themed auction challenges participants to think analytically, bid smartly, and build the ultimate cricket squad. Participants must bid wisely, manage their budgets effectively, and build a well-balanced squad to outshine their competitors.",
             image: NonTech6,
-            rounds: [
-
-            ],
+            rounds: [],
             rules: [
-                "Minimum Requirements: 2 Batters, 2 Bowlers, 1 Wicketkeeper, 5 Players who can bowl (e.g., 2 Bowlers + 3 All-rounders or 3 Bowlers + 2 All-rounders)",
-                "Maximum 4 Foreign Players Allowed in the playing XI:",
-                "Final Squad Composition: 11 Main Players, 1 Impact Player",
+                "Minimum Requirements: 2 Batters, 2 Bowlers, 1 Wicketkeeper, 5 Players who can bowl (e.g., 2 Bowlers + 3 All-rounders or 3 Bowlers + 2 All-rounders)",
+                "Maximum 4 Foreign Players Allowed in the playing XI:",
+                "Final Squad Composition: 11 Main Players, 1 Impact Player",
             ],
             schedule: [
                 {
@@ -1148,7 +1120,6 @@ const EventDetails = () => {
                         email: "udhaya@ksrct.ac.in",
                         phone: "8675587180",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -1161,7 +1132,6 @@ const EventDetails = () => {
                         email: "goguljeyaraj04@gmail.com",
                         phone: "8807614376",
                     },
-
                 ],
             },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
@@ -1177,7 +1147,7 @@ const EventDetails = () => {
                     description: [
                         "Teams will be shown blurred or partial logos of food brands and must identify them.",
                         "Each correct answer earns points; the top teams progress to the next level.",
-                    ]
+                    ],
                 },
                 {
                     title: "Round 2: Food Dumb Charades",
@@ -1185,7 +1155,7 @@ const EventDetails = () => {
                         "One team member will be given a food-related word/brand and must enact it without speaking.",
                         "The other members must guess the word within a given time.",
                         "Teams with the highest scores move to the final level",
-                    ]
+                    ],
                 },
                 {
                     title: "Round 3: Guess the Ingredient",
@@ -1193,13 +1163,13 @@ const EventDetails = () => {
                         "Teams will be presented with a mystery dish or product and must identify key ingredients.",
                         "Limited time will be given for each guess.",
                         "The team with the most correct ingredient identifications wins.",
-                    ]
-                }
+                    ],
+                },
             ],
             rules: [
                 "Use of mobile phones or external help is strictly prohibited.",
                 "Teams must answer within the time limit for each round.",
-                "Judges' decisions are final and binding"
+                "Judges' decisions are final and binding",
             ],
             schedule: [
                 {
@@ -1228,7 +1198,6 @@ const EventDetails = () => {
                         phone: "9600933007",
                         email: "kavithak@ksrct.ac.in",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -1246,7 +1215,6 @@ const EventDetails = () => {
                         phone: "9080753031",
                         email: "prasath202hari@gmail.com",
                     },
-
                 ],
             },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
@@ -1256,8 +1224,7 @@ const EventDetails = () => {
             description:
                 "Capture the beauty of our campus and showcase your photography skills in this exciting contest! Post your photo on social media with #ksrct1994 to gain bonus points based on likes. Participants receive certificates, and winners get a cash prize! 📸✨",
             image: NonTech8,
-            rounds: [
-            ],
+            rounds: [],
             rules: [
                 "The photographs should be taken only within the campus.",
                 "The photographs can be taken with any camera, i.e. DSLR, Mobile camera.",
@@ -1265,7 +1232,7 @@ const EventDetails = () => {
                 "Photographs should be minimum 1MB in size.",
                 "The originality of the photos will be checked.",
                 "The participants have to post the photo in their social media handle using the hashtag #ksrct1994. Additional of five points will be awarded for the likes they got for the photo.",
-                "For Individual 50 rupees"
+                "For Individual 50 rupees",
             ],
             schedule: [
                 {
@@ -1274,7 +1241,6 @@ const EventDetails = () => {
                     time: "9:00 AM to 12:30 PM",
                     location: "Mechanical Block",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -1283,7 +1249,6 @@ const EventDetails = () => {
                         email: "skarthik@ksrct.ac.in",
                         phone: "9790667321",
                     },
-
                 ],
                 studentCoordinator: [
                     {
@@ -1295,8 +1260,7 @@ const EventDetails = () => {
                         name: "Rajesh Kumar S ",
                         email: "rajesh2342005@gmail.com",
                         phone: "9361688130",
-                    }
-
+                    },
                 ],
             },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
@@ -1306,8 +1270,7 @@ const EventDetails = () => {
             description:
                 "IT Meme Battle is a fun and creative competition where teams of one or two members create original IT-related memes. Participants can use image + text, GIFs, or even hand-drawn memes for extra creativity. Plagiarized content will lead to disqualification, and all memes must be appropriate and respectful. Submissions must be made within the given time limit. Let your humor and tech knowledge shine in this battle of wit and creativity.",
             image: NonTech12,
-            rounds: [
-            ],
+            rounds: [],
             rules: [
                 "Team Size: Each team can have 1 or 2 members.",
                 "Originality Matters – Memes should be original and creative. Plagiarized content will lead to disqualification.",
@@ -1330,28 +1293,23 @@ const EventDetails = () => {
                         email: "p.dineshkumar@ksrct.ac.in",
                         phone: "9688837873",
                     },
-
                 ],
                 studentCoordinator: [
                     {
                         name: "Lakma Varshini R ",
                         email: "lakmavarshini4@gmail.com",
                         phone: "6381118259",
-
                     },
                     {
                         name: "Vignesh K ",
                         email: "vigneshblue3162@gmail.com",
                         phone: "6381083683",
-
-                    }
-
+                    },
                 ],
             },
 
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
         },
-
 
         "non-technical-event-11": {
             title: "Mind Maze",
@@ -1364,17 +1322,15 @@ const EventDetails = () => {
                     description: [
                         "Participants will decode a hidden clue within an image.",
                         "Speed, accuracy, and logical reasoning used to decipher the clue.",
-                    ]
+                    ],
                 },
             ],
             rules: [
                 "Participants must complete the task within the 15-minute time limit",
                 "Only the first participant to solve the clue will be declared the winner.",
-                "No external help or resources can be used during the event."
+                "No external help or resources can be used during the event.",
             ],
-            schedule: [
-
-            ],
+            schedule: [],
             contact: {
                 facultyCoordinator: [
                     {
@@ -1382,20 +1338,17 @@ const EventDetails = () => {
                         email: "mugilan@ksrct.ac.in",
                         phone: "98946 07523",
                     },
-
                 ],
                 studentCoordinator: [
                     {
                         name: "Prathipa T (II-Year/ECE)",
                         email: "thangavelprathiba@gmail.com",
                         phone: "9342626157",
-
                     },
                     {
                         name: "Harish V(III-Year/ECE)",
                         email: "harishpvr23@gmail.com ",
                         phone: "8825508742",
-
                     },
                 ],
             },
@@ -1414,7 +1367,7 @@ const EventDetails = () => {
                         "Craft and Art – Creative decorative items from waste.",
                         "Utility and Innovation – Functional products from waste.",
                         "Technology & Science Models – Prototypes for environmental sustainability",
-                    ]
+                    ],
                 },
             ],
             rules: [
@@ -1424,9 +1377,7 @@ const EventDetails = () => {
                 "The decision of the judges will be final and binding.",
                 "Participants should ensure cleanliness and dispose of leftover waste properly.",
             ],
-            schedule: [
-
-            ],
+            schedule: [],
             contact: {
                 facultyCoordinator: [
                     {
@@ -1434,21 +1385,18 @@ const EventDetails = () => {
                         email: "velumani@ksrct.ac.in",
                         phone: "9787978886",
                     },
-
                 ],
                 studentCoordinator: [
                     {
                         name: "R.K.Aswin",
                         email: "rkaswin07@gmail.com",
                         phone: "8148934756",
-
                     },
                     {
                         name: "Nithiya Suriyan K",
                         email: "viratsuryaviratsurya4@gmail.com",
                         phone: "8056603518",
-
-                    }
+                    },
                 ],
             },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
@@ -1463,7 +1411,7 @@ const EventDetails = () => {
                     title: "Single Round",
                     description: [
                         "The Glorify the Face with Colours workshop is an exciting opportunity for students and enthusiasts to explore the art and science of facial aesthetics through color application. ",
-                    ]
+                    ],
                 },
             ],
             rules: [
@@ -1480,7 +1428,6 @@ const EventDetails = () => {
                     time: "2:00 PM to 3:00 PM",
                     location: "Textile chemical processing laboratory,Textile Block ",
                 },
-
             ],
             contact: {
                 facultyCoordinator: [
@@ -1489,21 +1436,18 @@ const EventDetails = () => {
                         email: "pmaheswaran@ksrct.ac.in",
                         phone: "9600589068",
                     },
-
                 ],
                 studentCoordinator: [
                     {
                         name: "V.Sandhiya 2nd year / Textile ",
                         email: "sandhiya07082006@gmail.com",
                         phone: "6369670394",
-
                     },
                     {
                         name: "S.A.Hariharan 2nd year / Textile",
                         email: "harihraran18@gmail.com",
                         phone: "7092102427",
-
-                    }
+                    },
                 ],
             },
             registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
@@ -1521,17 +1465,7 @@ const EventDetails = () => {
                 "Prohibited: No auto-tune or vocal effects allowed",
                 "Judging Criteria: Voice Quality, Pitch, Rhythm, Expression, Song Selection",
             ],
-            rounds: [
-                {
-                    title: "Single Round",
-                    description: [
-                        "Each participant/team will get 5-7 minutes to present their project",
-                        "Craft and Art – Creative decorative items from waste.",
-                        "Utility and Innovation – Functional products from waste.",
-                        "Technology & Science Models – Prototypes for environmental sustainability",
-                    ]
-                },
-            ],
+            
             schedule: [
                 {
                     round: "Event Timing",
@@ -1575,17 +1509,7 @@ const EventDetails = () => {
             description:
                 "A skilled musician who enhances the event with a captivating performance, creating a memorable musical experience.",
             image: Culturals2,
-            rounds: [
-                {
-                    title: "Single Round",
-                    description: [
-                        "Each participant/team will get 5-7 minutes to present their project",
-                        "Craft and Art – Creative decorative items from waste.",
-                        "Utility and Innovation – Functional products from waste.",
-                        "Technology & Science Models – Prototypes for environmental sustainability",
-                    ]
-                },
-            ],
+           
             schedule: [
                 {
                     round: "Event Timing",
@@ -1637,17 +1561,7 @@ const EventDetails = () => {
             description:
                 "A thrilling showcase of teamwork, rhythm, and creativity as groups compete with electrifying dance performances!",
             image: Culturals3,
-            rounds: [
-                {
-                    title: "Single Round",
-                    description: [
-                        "Each participant/team will get 5-7 minutes to present their project",
-                        "Craft and Art – Creative decorative items from waste.",
-                        "Utility and Innovation – Functional products from waste.",
-                        "Technology & Science Models – Prototypes for environmental sustainability",
-                    ]
-                },
-            ],
+            
             schedule: [
                 {
                     round: "Event Timing",
@@ -1719,15 +1633,8 @@ const EventDetails = () => {
                     round: "Event Timing",
                     date: "March 29, 2025",
                     time: "10:00 AM to 03:00 PM",
-                    // location: "AI Lab, Mechatronics Block",
+                    location: "KSRCT",
                 },
-            ],
-            rules: [
-                "Time limit: 3 - 4 minutes per participant",
-                "Any dance form (Classical, Folk, Western, Hip-Hop, etc.) is allowed",
-                "Participants must bring their own music track",
-                "Prop usage is allowed but should be pre-approved",
-                "Judging criteria: Expression, Costume, Choreography, Synchronization, Stage Presence",
             ],
             contact: {
                 facultyCoordinator: [
@@ -1767,7 +1674,7 @@ const EventDetails = () => {
                     round: "Event Timing",
                     date: "March 29, 2025",
                     time: "10:00 AM to 03:00 PM",
-                    location: "AI Lab, Mechatronics Block",
+                    location: "KSRCT",
                 },
             ],
             rules: [
