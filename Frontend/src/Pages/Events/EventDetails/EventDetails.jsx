@@ -1779,7 +1779,7 @@ const EventDetails = () => {
                     },
                 ],
             },
-            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
+            registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9" , // Registration link
         },
         "workshop-4": {
             title: "AI on Game Developing",
