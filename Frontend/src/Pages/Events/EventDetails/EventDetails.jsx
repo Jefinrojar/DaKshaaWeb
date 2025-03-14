@@ -32,6 +32,8 @@ import Tech9 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MEC
 import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png";
 import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL.png";
 import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png";
+import Tech18 from "../../../assets/EventsImages/EventDetails/TechnicalImages/bt.jpg";
+
 
 import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png";
 
@@ -353,9 +355,9 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Event Timing",
-          date: "May 21, 2025",
+          date: "March 28, 2025",
           time: "9:00 AM to 12:00 PM",
-          location: "Language Enrichment Centre Lab, Academic Block",
+          location: "AB lab 2 , Academic Block",
         },
       ],
       contact: {
@@ -765,7 +767,60 @@ const EventDetails = () => {
       },
 
       registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+    },    
+    "technical-event-18": {
+      title: "Bacteriart",
+      description:
+        " A petri plate innovations where participants present innovative ideas related to life sciences.",
+      image: Tech18,
+      rounds: [
+        {
+          title: " ",
+          description: "Participants can compete individually; group submissions are not allowed.Displaying the petri art and providing description about your art work",
+        },
+
+      ],
+      rules: [
+        "Participants must submit a visible art work without contamination along with a brief description (100–200 words) explaining the scientific relevance.",
+        "Each participant can submit only one artwork",
+        "Artwork must be submitted with a protective covering.",
+        "judging criteria: Creativity & originality, relevance to theme artistic technique, presentation and concept clarity",
+        "No inter-college team members allowed",
+        "No inter-specialization team members allowed",
+      ],
+      schedule: [
+        {
+          round: "Venue",
+          date: "March 28, 2025",
+          time: "9:30AM -10:30AM",
+          location: "announcing soon",
+        },
+      ],
+      contact: {
+        facultyCoordinator: [
+          {
+            name: "Dr.M.Nithya",
+            email: "nithyam@ksrct.ac.in",
+            phone: " 77088444460",
+          },
+        ],
+        studentCoordinator: [
+          {
+            name: "Sankar R",
+            email: "sankarragu832@gmail.com",
+            phone: "7397534931",
+          },
+          {
+            name: "Mridula Dev D ",
+            email: "mriduladev2004@gmail.com",
+            phone: "8754184017",
+          },
+        ],
+      },
+
+      registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
     },
+
 
     // Non-Technical Events
     "non-technical-event-1": {
@@ -2023,11 +2078,7 @@ const EventDetails = () => {
           },
         ],
         studentCoordinator: [
-          {
-            name: "Javeed Akthar G",
-            email: "javeedakthar13@gmail.com",
-            phone: "9345647270",
-          },
+          
           {
             name: "Sanjay Kumar K",
             email: "sanjaysanjay212004@gmail.com",
@@ -2039,9 +2090,9 @@ const EventDetails = () => {
             phone: "7904655755",
           },
           {
-            name: "Meriam Janitta J",
-            email: "janitta967@gmail.com",
-            phone: "7010347812",
+            name: "Raamprasaanth S",
+            email: "raamprasaanths7607@gmail.com",
+            phone: "8838616292",
           },
         ],
       },
