@@ -132,14 +132,14 @@ const AccommodationDetails = () => {
               <div className="flex md:flex-row space-x-4 md:space-x-32 mt-4">
                 <button
                   className="mb-8 w-32 md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-sm md:text-xl shadow-xl"
-                  onClick={() => window.open("", "_blank")}
+                  onClick={() => window.open("https://forms.gle/FUvKnDpcCEAi5b6T9", "_blank")}
                   
                 >
                   BOOK NOW!
                 </button>
                 <button
                   className="mb-8 w-32 md:w-auto md:mt-5 px-4 py-2 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-sm md:text-xl shadow-xl"
-                  onClick={() => window.open("", "_blank")}
+                  onClick={() => window.open("https://forms.gle/FUvKnDpcCEAi5b6T9", "_blank")}
                   
                 >
                   BOOK NOW!
