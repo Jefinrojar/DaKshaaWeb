@@ -197,7 +197,7 @@ const workshops = [
     id: 10,
     img: Photo10,
     department: "Information Technology",
-    dept: "A Walkthrough of Modern Techniques",
+    dept: "Prompt Engineering (A Walkthrough of Modern Techniques)",
     title: "Information Technology",
     facultyCo: "Mr. P. Dinesh Kumar",
     facultyCoNo: "+91 96888 37873",
@@ -333,7 +333,7 @@ const WorkshopSection = () => {
                 <div className="absolute inset-0 flex flex-col space-y-4 items-center justify-center text-center text-white bg-sky-800/60 opacity-0 backdrop-blur-sm group-hover:opacity-100 transition duration-500 px-4">
                   <Slide cascade>
                     <h1 className="text-xl font-semibold cursor-default">
-                      {workshop.title}
+                      {workshop.dept}
                     </h1>
                     <button
                       className="border border-white px-4 py-1 hover:bg-white/20 duration-300"
@@ -375,10 +375,7 @@ const WorkshopSection = () => {
                   alt=""
                 />
                 <div className="w-full md:w-auto ml-8">
-                  <h1 className="text-lg mb-3 font-bold mt-2 ">
-                    {selectedWorkshop.title}
-                  </h1>
-                  <p className="font-semibold text-white/90 mb-2">
+                  <p className="text-lg mb-3 font-bold mt-2 ">
                     {selectedWorkshop.dept}
                   </p>
                   <hr />
