@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react"; // Assuming you're using Lucide icons
 import EboxLogo from "../../../assets/Codethon/EBOX_logo.png"
+import Tech11 from "../../../assets/EventsImages/EventDetails/TechnicalImages/AIML.png";
 const CodathonSection = () => {
     // Example data as an array of objects
     const eventDetails = {
         id: "Codeathon-event-1",
         title: "Neura-Code By",
         descriptions: [
-            { image: "https://www.creativefabrica.com/wp-content/uploads/2022/08/13/Coming-soon-text-on-grunge-background-Graphics-36101733-1.jpg", text: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the eBOX platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code." },
+            { image: Tech11, text: "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code." },
         ],
         registrationLink: "https://example.com/register",
         rounds: [

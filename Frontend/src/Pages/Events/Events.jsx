@@ -82,7 +82,7 @@ const Events = () => {
         },
         {
           image: Tech2,
-          eventId: "technical-event-2",
+          eventId: "hackathon",
         },
         {
           image: Tech3,

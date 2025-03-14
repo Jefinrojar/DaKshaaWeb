@@ -7,6 +7,7 @@ import startuptn from "../../../assets/startup/logo.png";
 import member2 from "../../../assets/startup/panelMember1.jpg";
 import member3 from "../../../assets/startup/panelMember2.jpg";
 import member1 from "../../../assets/startup/gurushankar.jpeg";
+import member4 from "../../../assets/startup/aravinth.jpg";
 
 function StartupSection() {
   const title1 = "Idea's";
@@ -32,27 +33,28 @@ function StartupSection() {
     {
       id: 1,
       image: member1, // Placeholder image
-      title: "Gurushankar Selvam",
+      title: "Mr. Gurushankar Selvam",
       text: "Prject Lead at StartupTN",
     },
     {
       id: 2,
-      image: member2, // Placeholder image
-      title: "Dr. N. Thiruvenkadam",
-      text: "Department of Mechatronics",
+      image: member4, // Placeholder image
+      title: "Mr. S. Aravinth",
+      text: "Founder & CEO, Incer Technovation Private Limited"
+      
     },
     {
       id: 3,
-      image: member3, // Placeholder image
-      title: "Dr. B. Mythili Gnanamangai",
-      text: "Department of Biotechnology",
+      image: member2, // Placeholder image
+      title: "Dr. N. Thiruvenkadam",
+      text: "Department of Mechatronics",
+      
     },
     {
       id: 4,
-      image:
-        "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-coming-soon-banner-png-image_6177419.png", // Placeholder image
-      title: "Person 4",
-      text: "Coming soon!",
+      image: member3, // Placeholder image
+      title: "Dr. B. Mythili Gnanamangai",
+      text: "Department of Biotechnology",
     },
   ];
 
@@ -213,9 +215,8 @@ function StartupSection() {
 
           {/* Grid Layout - Always 2 cards per row */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 sm:px-8">
-            {cards.map((card) => (
               <div
-                key={card.id}
+                
                 className="relative group cursor-pointer overflow-hidden duration-500 
                      w-full max-w-xs mx-auto bg-sky-900 
                      bg-opacity-30 border border-sky-900 text-gray-50 p-5 pb-10"
@@ -223,7 +224,7 @@ function StartupSection() {
                 {/* Square Image */}
                 <div className="w-full aspect-square">
                   <img
-                    src={card.image}
+                    src={member1}
                     alt="Icon"
                     className="group-hover:scale-105 w-full h-full object-cover duration-500"
                   />
@@ -233,14 +234,91 @@ function StartupSection() {
                 <div className="absolute w-full left-0 p-5 -bottom-10 duration-500 group-hover:-translate-y-14">
                   <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
                   <span className="text-lg sm:text-xl font-bold block">
-                    {card.title}
+                  Mr. Gurushankar Selvam
                   </span>
                   <p className="group-hover:opacity-100 w-full duration-500 opacity-0 text-sm sm:text-base leading-5">
-                    {card.text}
+                  Project Lead at StartupTN
                   </p>
                 </div>
               </div>
-            ))}
+              <div
+                
+                className="relative group cursor-pointer overflow-hidden duration-500 
+                     w-full max-w-xs mx-auto bg-sky-900 
+                     bg-opacity-30 border border-sky-900 text-gray-50 p-5 pb-10"
+              >
+                {/* Square Image */}
+                <div className="w-full aspect-square">
+                  <img
+                    src={member4}
+                    alt="Icon"
+                    className="group-hover:scale-105 w-full h-full object-cover duration-500"
+                  />
+                </div>
+
+                {/* Hover Text Effect */}
+                <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-14">
+                  <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
+                  <span className="text-lg sm:text-xl font-bold block">
+                  Mr. S. Aravinth
+                  </span>
+                  <p className="group-hover:opacity-100 w-full duration-500 opacity-0 text-sm sm:text-base leading-5">
+                  Founder & CEO, Incer Technovation Private Limited
+                  </p>
+                </div>
+              </div>
+              <div
+                
+                className="relative group cursor-pointer overflow-hidden duration-500 
+                     w-full max-w-xs mx-auto bg-sky-900 
+                     bg-opacity-30 border border-sky-900 text-gray-50 p-5 pb-10"
+              >
+                {/* Square Image */}
+                <div className="w-full aspect-square">
+                  <img
+                    src={member2}
+                    alt="Icon"
+                    className="group-hover:scale-105 w-full h-full object-cover duration-500"
+                  />
+                </div>
+
+                {/* Hover Text Effect */}
+                <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-14">
+                  <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
+                  <span className="text-lg sm:text-xl font-bold block">
+                  Dr. N. Thiruvenkadam
+                  </span>
+                  <p className="group-hover:opacity-100 w-full duration-500 opacity-0 text-sm sm:text-base leading-5">
+                  Professor - Department of Mechatronics
+                  </p>
+                </div>
+              </div>
+              <div
+                
+                className="relative group cursor-pointer overflow-hidden duration-500 
+                     w-full max-w-xs mx-auto bg-sky-900 
+                     bg-opacity-30 border border-sky-900 text-gray-50 p-5 pb-10"
+              >
+                {/* Square Image */}
+                <div className="w-full aspect-square">
+                  <img
+                    src={member3}
+                    alt="Icon"
+                    className="group-hover:scale-105 w-full h-full object-cover duration-500"
+                  />
+                </div>
+
+                {/* Hover Text Effect */}
+                <div className="absolute w-full left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-14">
+                  <div className="absolute -z-10 left-0 w-full h-24 sm:h-32 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900" />
+                  <span className="text-lg sm:text-xl font-bold block">
+                  Dr. B. Mythili Gnanamangai
+                  </span>
+                  <p className="group-hover:opacity-100 w-full duration-500 opacity-0 text-sm sm:text-base leading-5">
+                  Associate Professor - Department of Biotechnology
+                  </p>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -325,7 +403,10 @@ function StartupSection() {
             <div className="mt-2 p-3 border border-sky-900 bg-transparent text-gray-300">
               <p className="text-base md:text-lg">Date: 28th March 2025</p>
               <p className="text-base md:text-lg">Time: 10:00 AM - 4:00 PM</p>
-              <p className="text-base md:text-lg">Location: Venue details will be shared in the confirmation email.</p>
+              <p className="text-base md:text-lg">
+                Location: Venue details will be shared in the
+                confirmation email.
+              </p>
             </div>
           </div>
 
@@ -352,6 +433,11 @@ function StartupSection() {
           </div> */}
           <div>
             <p className="text-red-500 font-bold text-lg">Condition Applied*</p>
+          </div>
+          <div>
+            <p className="font-bold text-lg">
+              Special discount for team of queens*
+            </p>
           </div>
         </div>
       </div>
