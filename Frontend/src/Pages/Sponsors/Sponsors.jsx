@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import guvi from "./assets/guvi.jpg"
+import toepl from "./assets/toepl.jpg"
 import abb from "./assets/abb.png";
 import aiml from "./assets/aiml.jpg";
 import csbs from "./assets/CSBS1.jpg";
@@ -24,7 +26,7 @@ import "aos/dist/aos.css";
 
 
 function Sponsors() {
-  const eventSponsors = ["https://cdn.brandfetch.io/id3BHBKuok/w/500/h/500/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B", abb,iste];
+  const eventSponsors = [guvi, abb,iste,toepl];
   const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, unstop, millet, infinity, garuda, uipath, vlsi, txt];
   // Add more if needed
   const letter = "Sponsors";
@@ -71,7 +73,7 @@ function Sponsors() {
       {/* Event Partner Section */}
       <div className="text-center w-full">
         <h2 className="text-3xl font-bold mb-10">Event Partner</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12 place-items-center ml-0 md:ml-72">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12 place-items-center">
           {eventSponsors.map((image, index) => (
             <motion.div
               key={index}
