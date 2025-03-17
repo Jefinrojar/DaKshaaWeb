@@ -116,8 +116,11 @@ const GuestLecture = () => {
                   {/* Text Section */}
                   <div className="p-4 flex flex-col justify-center items-center md:items-center text-center md:text-left col-span-2">
                     {/* Register Button */}
+                    <div className="text-center text-sky-500 text-xl md:text-2xl font-semibold mb-4">
+                      Registration Fee: 300
+                    </div>
                     <button
-                      className="mt-5 w-full md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
+                      className="w-full md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
                       onClick={() =>
                         window.open(
                           "https://forms.gle/rfUU9yyQm6VeyX9x8",
