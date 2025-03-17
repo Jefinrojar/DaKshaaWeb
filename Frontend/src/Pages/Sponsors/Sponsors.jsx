@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import abb from "./assets/abb.png";
+import guvi from "./assets/guvi.jpg";
+import toepl from "./assets/toepl.jpg";
 import aiml from "./assets/aiml.jpg";
 import csbs from "./assets/CSBS1.jpg";
 import garuda from "./assets/garuda.jpg";
@@ -15,18 +17,16 @@ import vlsi from "./assets/vlsi.jpg";
 import cse from "./assets/cse.jpg";
 import ict from "./assets/ict.jpg";
 import EEE from "./assets/EEE.jpg";
-import iste from "./assets/ISTE.jpg"
-import unstop from "./assets/unstop.png"
+import iste from "./assets/ISTE.jpg";
+import unstop from "./assets/unstop.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
-
-
 function Sponsors() {
-  const eventSponsors = ["https://cdn.brandfetch.io/id3BHBKuok/w/500/h/500/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B", abb,iste];
+  const eventSponsors = [guvi,abb, iste];
+  const sponsors = [toepl];
   const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, unstop, millet, infinity, garuda, uipath, vlsi, txt];
-  // Add more if needed
+
   const letter = "Sponsors";
   const letters = letter.split("");
 
@@ -61,7 +61,6 @@ function Sponsors() {
             initial={{ y: 0 }}
             animate={letterAnimation(index)}
             style={{ display: "inline-block" }}
-            
           >
             {char}
           </motion.span>
@@ -81,6 +80,24 @@ function Sponsors() {
               className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
             >
               <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Event Partner ${index + 1}`} />
+            </motion.div>
+          ))}
+        </div>
+      </div>
+
+      {/* Sponsor Section */}
+      <div className="text-center w-full">
+        <h2 className="text-3xl font-bold mb-10">Sponsor</h2>
+        <div className="place-items-center ml-0">
+          {sponsors.map((image, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.8, rotateY: 180 }}
+              animate={cardEntryAnimation(index)}
+              whileHover={{ scale: 1.15, rotateY: 5 }}
+              className="shadow-lg flex justify-center items-center bg-gray-800 w-48 h-48 rounded-lg border-2 border-sky-500 shadow-sky-500"
+            >
+              <img className="w-40 h-40 object-contain rounded-lg" src={image} alt={`Sponsor ${index + 1}`} />
             </motion.div>
           ))}
         </div>
