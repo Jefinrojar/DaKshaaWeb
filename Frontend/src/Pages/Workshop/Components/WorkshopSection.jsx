@@ -85,8 +85,6 @@ const workshops = [
     studentCoNo1: "+91 7904655755",
     studentCoNo2: "+91 8807076569",
     studentCoNo3: "+91 8838616292",
-    studentCoNo3: "+91 8807076569",
-    studentCoNo4: "+91 7010347812",
     companyName: "Genotypic Technology - Bengaluru",
     companyImg: bt,
     registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9",
