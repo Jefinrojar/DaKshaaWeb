@@ -106,12 +106,12 @@ const EventDetails = () => {
       rules: [
         "The jury's decision is final.",
         "Any form of malpractice will lead to disqualification.",
-        "Team: 2-3 Members",
+        "Team: 1 or 2 Members",
       ],
       schedule: [
         {
           round: "Round 1",
-          date: "March 21, 2025",
+          date: "March 28, 2025",
           time: "10:00 AM to 12:00 PM",
           location: "CSE lab 1,IT Park",
         },
@@ -176,7 +176,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round 1",
-          date: "March 21, 2025",
+          date: "March 28, 2025",
           time: "10:00 AM to 12:00 PM",
           location: "CSE lab 1,IT Park",
         },
@@ -241,7 +241,7 @@ const EventDetails = () => {
           round: "Round 1",
           date: "March 28, 2025",
           time: "9:00 AM to 3:00 PM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
       ],
       contact: {
@@ -353,7 +353,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Event Timing",
-          date: "May 28, 2025",
+          date: "March 28, 2025",
           time: "9:00 AM to 12:00 PM",
           location: "Academic Block Lab 2",
         },
@@ -413,15 +413,15 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round 1",
-          date: "May 22, 2025",
+          date: "March 28, 2025",
           time: "9:00 AM to 11:00 AM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
         {
           round: "Round 2",
-          date: "May 23, 2025",
+          date: "March 28, 2025",
           time: "1:00 PM to 3:00 PM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
       ],
       contact: {
@@ -472,9 +472,9 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round",
-          date: "May 22, 2025",
+          date: "March 28, 2025",
           time: "9:00 AM to 11:00 AM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
       ],
       contact: {
@@ -593,15 +593,15 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round 1",
-          date: "May 22, 2025",
+          date: "March 28, 2025",
           time: "9:00 AM to 11:00 AM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
         {
           round: "Round 2",
-          date: "May 23, 2025",
+          date: "March 28, 2025",
           time: "1:00 PM to 3:00 PM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
       ],
       contact: {
@@ -647,15 +647,15 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round 1",
-          date: "May 22, 2025",
+          date: "March 28, 2025",
           time: "9:00 AM to 11:00 AM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
         {
           round: "Round 2",
-          date: "May 23, 2025",
+          date: "March 28, 2025",
           time: "1:00 PM to 3:00 PM",
-          location: "Tech Hub, Innovation Center",
+          location: "Announced Soon!",
         },
       ],
       contact: {
@@ -845,7 +845,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "10:00 AM to 12:00 PM",
           location: "IT Park",
         },
@@ -874,37 +874,38 @@ const EventDetails = () => {
       registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
     },
     "non-technical-event-2": {
-      title: "Tech-Link Challenge",
+      title: "Blind Maze",
       description:
-        "Tech-Link Challenge encourages creative thinking and teamwork to tackle complex challenges in a fun and engaging way.",
+        "Blind Maze Challenge encourages creative thinking and teamwork to tackle complex challenges in a fun and engaging way.",
       image: NonTech2,
       rounds: [
         {
           title: "Round 1",
-          description: "Online Round.",
+          description: "Offline Round.",
         },
         {
           title: "Round 2",
-          description: "Offline Tech-Link Challenge will be conducted.",
+          description: "Offline Blind Maze Challenge will be conducted.",
         },
       ],
       rules: [
-        "Each team must consist maximum 2 members. ",
-        "The competition will have two rounds:",
-        "The first round will be conducted online. ",
-        "Shortlisted students from the first round will proceed to the second round.",
-        "Charge per Person/Team: 150 INR (Per Person)",
+        "Each team contain 2 students.",
+        "Some obstacles are placed in floor, you need to reach the destination without hit on obstacles",
+        "One student will be blindfold & another one will guide their teammate.",
+        "Simultaneously two teams will be play, blindfold student has to observe their teammate guidance and has to finish the race quickly.",
+        "Hitting on obstacles reduce your score, try to finish the race without hitting on obstacles",
+        "The team to finish the race with less time will be announced as winner.",
       ],
       schedule: [
         {
-          round: "Round 1 ",
-          date: "March 22, 2025",
+          round: "Round 1",
+          date: "March 29, 2025",
           time: "11:00 AM to 12:00 PM",
           location: "EEE 305,EEE 306 ,EEE Block",
         },
         {
           round: "Round 2",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "1:30 PM to 3:00 PM",
           location: "EEE 305,EEE 306 ,EEE Block",
         },
@@ -919,14 +920,14 @@ const EventDetails = () => {
         ],
         studentCoordinator: [
           {
+            name: "Nivitha V P",
+            email: "nivithapalanisamy88@gmail.com",
+            phone: "9003344108",
+          },
+          {
             name: "Mujamil S",
             phone: "7502968410",
             email: "mujamilsulai2006@gmail.com ",
-          },
-          {
-            name: "Harshvarthan A",
-            phone: "8667561751",
-            email: "alwinharsh2006@gmail.com",
           },
         ],
       },
@@ -981,7 +982,7 @@ const EventDetails = () => {
         },
         {
           round: "Round 3",
-          date: "March 21, 2025",
+          date: "March 28, 2025",
           time: "2:00 PM to 4:00 PM",
           location: "Art Gallery, Creative Center",
         },
@@ -1045,13 +1046,13 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round 1",
-          date: "May 24, 2025",
+          date: "March 29, 2025",
           time: "10:00 AM to 12:00 PM",
           location: "Art Gallery, Creative Center",
         },
         {
           round: "Round 2",
-          date: "May 25, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 4:00 PM",
           location: "Art Gallery, Creative Center",
         },
@@ -1221,19 +1222,19 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round 1",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "10:00 AM to 12:00 PM",
           location: "Art Gallery, Creative Center",
         },
         {
           round: "Round 2",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 4:00 PM",
           location: "Art Gallery, Creative Center",
         },
         {
           round: "Round 3",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 4:00 PM",
           location: "Art Gallery, Creative Center",
         },
@@ -1471,7 +1472,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -1843,7 +1844,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Workshop timing",
-          date: "March 21, 2025",
+          date: "March 28, 2025",
           time: "10:00 AM to 3:00 PM",
           location: "AI Lab, Mechatronics Block",
         },
@@ -1879,7 +1880,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -1952,7 +1953,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -1987,8 +1988,8 @@ const EventDetails = () => {
       image: Workshop7,
       schedule: [
         {
-          round: "venue ",
-          date: "March 21 & 22, 2025",
+          round: "Venue",
+          date: "March 28 & 22, 2025",
           time: "9:00 AM to 4:00 PM",
           location: "Computer Lab,EEE Block ",
         },
@@ -2003,14 +2004,14 @@ const EventDetails = () => {
         ],
         studentCoordinator: [
           {
-            name: "Nivitha V P",
-            email: "nivithapalanisamy88@gmail.com",
-            phone: "9003344108",
+            name: "Bhuwanesh R",
+            email: "bhuwanesh2004@gmail.com",
+            phone: "9342566322",
           },
           {
-            name: "Ramya T",
-            email: "ramya.t036@gmail.com ",
-            phone: "9994964915",
+            name: "Karmuhilan V",
+            email: "karmuhilan90252@gmail.com ",
+            phone: "9025244374",
           },
         ],
       },
@@ -2025,7 +2026,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 21, 2025",
+          date: "March 28, 2025",
           time: "10:00 AM to 4:00 PM",
           location: "Bio tech smart class,BIOTECH Block ",
         },
@@ -2110,7 +2111,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -2146,7 +2147,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -2225,7 +2226,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -2262,7 +2263,7 @@ const EventDetails = () => {
       schedule: [
         {
           round: "Round ",
-          date: "March 22, 2025",
+          date: "March 29, 2025",
           time: "2:00 PM to 3:00 PM",
           location: "Textile chemical processing laboratory,Textile Block ",
         },
@@ -2363,15 +2364,21 @@ const EventDetails = () => {
   const isCultural = eventId.startsWith("culturals-event");
 
   let registrationFee = "";
-  if (eventId.startsWith("technical-event")) {
+  if (eventId === "culturals-event-3") {
     registrationFee = "Rs. 250";
+  } else if (eventId === "technical-event-3") {
+    registrationFee = "Rs. 300";
+  } else if (eventId === "technical-event-17") {
+    registrationFee = "Rs. 300";
+  } else if (eventId === "technical-event-8") {
+    registrationFee = "Rs. 300";
+  } else if (eventId.startsWith("technical-event")) {
+    registrationFee = "Rs. 600";
+  } else if (eventId.startsWith("culturals")) {
+    registrationFee = "Rs. 150";
   } else if (eventId.startsWith("workshop")) {
     registrationFee = "Rs. 300";
   } else if (eventId.startsWith("non-technical-event")) {
-    registrationFee = "Rs. 150";
-  } else if (eventId === "culturals-event-3") {
-    registrationFee = "Rs. 600";
-  } else if (eventId.startsWith("culturals")) {
     registrationFee = "Rs. 150";
   }
 
@@ -2393,7 +2400,7 @@ const EventDetails = () => {
 
         {/* Register Now Button */}
         <motion.button
-          className="mb-8 w-60 ml-12 md:w-auto md:ml-72 px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+          className="mb-8 w-60 ml-12 md:w-auto md:ml-[310px] px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
           whileHover={{ scale: 1.1, rotate: 2 }}
           whileTap={{ scale: 0.9 }}
           variants={pulseAnimation} // Infinite pulsing animation
@@ -2414,7 +2421,7 @@ const EventDetails = () => {
                 alt={event.title}
                 className="w-40 h-40 md:w-96 md:h-96 object-cover mb-4 shadow-md"
               />
-              <p className="text-lg md:text-xl mb-4 text-sky-600">
+              <p className="text-lg md:text-xl text-justify mb-4 text-sky-600">
                 {event.description}
               </p>
             </div>
@@ -2466,7 +2473,7 @@ const EventDetails = () => {
                             ))}
                           </ul>
                         ) : (
-                          <p className="text-lg md:text-xl text-sky-300">
+                          <p className="text-lg md:text-xl text-justify text-sky-300">
                             {round.description}
                           </p>
                         )}
@@ -2484,7 +2491,7 @@ const EventDetails = () => {
                   <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 bg-inherit border border-sky-800 px-3 py-3">
                     Rules
                   </h2>
-                  <ul className="list-disc pl-6 text-lg md:text-xl text-sky-300">
+                  <ul className="list-disc pl-6 text-lg text-justify md:text-xl text-sky-300">
                     {event.rules.map((rule, index) => (
                       <motion.li key={index} variants={itemVariants}>
                         {rule}
