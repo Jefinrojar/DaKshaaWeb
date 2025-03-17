@@ -118,13 +118,18 @@ const GuestLecture = () => {
                     {/* Register Button */}
                     <button
                       className="mt-5 w-full md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
-                      onClick={() => window.open("https://forms.gle/rfUU9yyQm6VeyX9x8", "_blank")}
+                      onClick={() =>
+                        window.open(
+                          "https://forms.gle/rfUU9yyQm6VeyX9x8",
+                          "_blank"
+                        )
+                      }
                     >
                       REGISTER NOW!
                     </button>
                   </div>
 
-                  <div className="border border-sky-900 p-1">
+                  <div className="border border-sky-900 p-1 col-span-2 md:col-span-1">
                     <div className="border border-sky-900 p-5">
                       <h1 className="text-2xl text-sky-300 font-semibold">
                         Biotechnology
@@ -144,7 +149,7 @@ const GuestLecture = () => {
                     </div>
                   </div>
 
-                  <div className="border border-sky-900 p-1">
+                  <div className="border border-sky-900 p-1 col-span-2 md:col-span-1">
                     <div className="border border-sky-900 p-5">
                       <h1 className="text-2xl text-sky-300 font-semibold">
                         Food Technology
@@ -160,7 +165,7 @@ const GuestLecture = () => {
                     </div>
                   </div>
 
-                  <div className="border border-sky-900 p-1">
+                  <div className="border border-sky-900 p-1 col-span-2 md:col-span-1">
                     <div className="border border-sky-900 p-5">
                       <h1 className="text-2xl text-sky-300 font-semibold">
                         Textile Technology
@@ -175,10 +180,10 @@ const GuestLecture = () => {
                     </div>
                   </div>
 
-                  <div className="border border-sky-900 p-1">
+                  <div className="border border-sky-900 p-1 col-span-2 md:col-span-1">
                     <div className="border border-sky-900 p-5">
                       <h1 className="text-2xl text-sky-300 font-semibold">
-                      Nanotechnology
+                        Nanotechnology
                       </h1>
                       <ul className="text-justify mt-3 text-sm sm:text-base list-disc pl-5 space-y-2">
                         <li>Nanoelectronics</li> <li>Nanobiotechnology</li>{" "}
