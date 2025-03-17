@@ -16,11 +16,11 @@ const Card = () => {
   }, []);
 
   const cards = [
-    { id: 1, image: instruments, title: "Mastro Mania", text: "Musicians performing with musical instruments.", link: "/event/culturals-event-2" },
-    { id: 2, image: musical, title: "Musical Mavericks", text: "Solo singing is an individual vocal performance with expression.", link: "/event/culturals-event-1" },
-    { id: 3, image: group, title: "Beat Battle", text: "Synchronized dance performance by group.", link: "/event/culturals-event-3" },
-    { id: 4, image: dance, title: "Spotlight Stepper", text: "Solo dance is expressive, graceful, and captivating.", link: "/event/culturals-event-4" },
-    { id: 5, image: shortFilm, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways.", link: "/event/culturals-event-5" },
+    { id: 1, image: instruments, title: "Mastro Mania", text: "Musicians performing with musical instruments.", fee: "Registration Fee: 150", link: "/event/culturals-event-2" },
+    { id: 2, image: musical, title: "Musical Mavericks", text: "Solo singing is an individual vocal performance with expression.", fee: "Registration Fee: 150", link: "/event/culturals-event-1" },
+    { id: 3, image: group, title: "Beat Battle", text: "Synchronized dance performance by group.",fee: "Registration Fee: 600", link: "/event/culturals-event-3" },
+    { id: 4, image: dance, title: "Spotlight Stepper", text: "Solo dance is expressive, graceful, and captivating.", fee: "Registration Fee: 150", link: "/event/culturals-event-4" },
+    { id: 5, image: shortFilm, title: "Short Film", text: "A single moment can change a lifetime, shaping destiny in unexpected ways.", fee: "Registration Fee: 150", link: "/event/culturals-event-5" },
   ];
 
   const title = "Harmonicks";
