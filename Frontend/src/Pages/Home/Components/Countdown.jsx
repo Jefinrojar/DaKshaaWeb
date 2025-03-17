@@ -10,7 +10,7 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("March 28, 2025 00:00:00").getTime();
+    const targetDate = new Date("March 26, 2025 00:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -55,10 +55,12 @@ const CountdownTimer = () => {
         /> */}
         {/* Timer Container */}
         <div className="border-2 border-sky-900 p-2 sm:p-3 md:p-2">
+          <p className="text-sky-300 text-xl font-orbitron pb-1 pl-2">Registration ends in...</p>
           <div
             className="relative px-4 sm:px-8 md:px-8 py-3 md:py-2 sm:py-4 bg-sky-900 bg-opacity-70 flex flex-wrap justify-center sm:justify-between items-center z-10 clip"
             style={{ boxShadow: "0 0 10px rgba(0, 0, 255, 0.5)" }}
           >
+            
             {/* Days */}
             <div className="flex flex-col items-center mx-2 sm:mx-4 md:mx-5">
               <div className="text-xs sm:text-sm md:text-lg font-poppins uppercase text-white">
