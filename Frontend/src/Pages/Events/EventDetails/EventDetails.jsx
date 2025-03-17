@@ -34,6 +34,8 @@ import Tech14 from "../../../assets/EventsImages/EventDetails/TechnicalImages/CI
 import Tech16 from "../../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png";
 import Tech15 from "../../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png";
 import Tech18 from "../../../assets/EventsImages/EventDetails/TechnicalImages/bt.jpg";
+import Tech19 from "../../../assets/EventsImages/EventDetails/TechnicalImages/POSTER.png";
+
 
 import NonTech1 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.jpg";
 import NonTech2 from "../../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF EEE.jpg";
@@ -818,6 +820,71 @@ const EventDetails = () => {
 
       registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
     },
+    "technical-event-19": {
+        title: "Poster Presentation",
+        description:
+          "The Poster Presentation Competition is an opportunity for students to explore and present emerging trends in their respective fields while addressing key global challenges outlined in the Sustainable Development Goals (SDGs).Participants will research and showcase innovative ideas through a visually engaging A1-sized poster, effectively communicating their findings to a diverse audience. This competition aims to foster creativity, critical thinking, and knowledge-sharing among students across multiple disciplines.",
+        image: Tech19,
+        rounds: [
+          {
+            title: " ",
+            description:
+              "Participants can compete individually; group submissions are not allowed.Displaying the petri art and providing description about your art work",
+          },
+        ],
+        rules: [
+          "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",
+          "1) Poster Guidelines:",
+          "  i) Size: A1 (594 × 841 mm).",
+          "  ii) Must include title, name of the concept , and uniqueness.",
+          "  iii) Clear visuals, infographics, and creativity are encouraged.",
+          "2) Presentation:",
+          "1) Poster Guidelines:",
+          "  i) Time Limit:10 minutes per team.",
+          "  ii) Includes presentation for 6 minutes and  Q and A sections  for 4 minutes.",
+          "  iii) Must cover product innovation,  and SDG alignment",
+          "  iv) Judges may ask questions after the presentation.",
+          "3) Judging Criteria:",
+          "i) Content Relevance & Accuracy – 25%",
+          "ii) Creativity & Innovation – 20%",
+          "iii) Clarity & Organization – 20%",
+          "iv) Visual Appeal – 15%",
+          "v) Presentation & Communication Skills – 20%",
+        ],
+        schedule: [
+          {
+            round: "Venue",
+            date: "March 28, 2025",
+            time: "9:30AM -10:30AM",
+            location: "announcing soon",
+          },
+        ],
+        contact: {
+          facultyCoordinator: [
+            {
+              name: "Mr G Bharath, AP/FT",
+              phone: "9047976171",
+            },
+          ],
+          studentCoordinator: [
+            {
+              name: "Surya S",
+              phone: "9360492992",
+            },
+            {
+              name: "Yatheeswar R",
+              phone: "9441236991",
+            },
+            {
+                name: "Vijaya Yugeshwar R ",
+                phone: "9585768184",
+            },
+
+          ],
+        },
+  
+        registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+      },
     // Non-Technical Events
     "non-technical-event-1": {
       title: "trailblazers: The Clue Hunt",

@@ -25,7 +25,7 @@ import Tech14 from "../../assets/EventsImages/EventDetails/TechnicalImages/CIVIL
 import Tech15 from "../../assets/EventsImages/EventDetails/TechnicalImages/PROJECTEXPO.png"
 import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
 import Tech18 from "../../assets/EventsImages/EventDetails/TechnicalImages/bt.jpg"
-
+import Tech19 from "../../assets/EventsImages/EventDetails/TechnicalImages/POSTER.png";
 
 
 import NonTech1 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.jpg"
@@ -40,6 +40,7 @@ import NonTech10 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT
 import NonTech11 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CIVIL.jpg"
 import NonTech12 from "../../assets/EventsImages/EventDetails/Nontech/Department of InformationTechnology.jpg"
 import NonTech13 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF TEXTILE.jpg"
+
 
 
 import Workshop1 from "../../assets/EventsImages/EventDetails/Workshop/vlsi.jpg"
@@ -129,6 +130,11 @@ const Events = () => {
           image: Tech18,
           eventId: "technical-event-18",
         },
+        {
+          image: Tech19,
+          eventId: "technical-event-19",
+        },
+        
       ],
     },
     {
