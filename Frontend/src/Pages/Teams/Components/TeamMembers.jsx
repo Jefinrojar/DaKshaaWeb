@@ -18,7 +18,7 @@ import ruban from "../../../assets/team_members/ruban.jpg";
 import rithika from "../../../assets/team_members/rithika.jpg";
 import kavinesh from "../../../assets/team_members/kavinesh.jpg";
 import gopinath from "../../../assets/team_members/gopinath.jpg";
-import monisha from "../../../assets/team_members/monisha.jpg";
+import ajay from "../../../assets/team_members/ajay.jpg";
 
 const teamMembers = [
   {
@@ -128,9 +128,9 @@ const teamMembers = [
   },
   {
     id: 16,
-    name: "Monisha",
+    name: "Ajay",
     department: "Department of CSE",
-    img: monisha,
+    img: ajay,
     category: "Co-ordinators",
   },
 ];

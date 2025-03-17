@@ -214,10 +214,22 @@ const EventDetails = () => {
       image: Tech3,
       rounds: [
         {
+          title: "TOPICS:",
+          description: [
+            "IoT (Internet of Things).",
+            "AI (Artificial Intelligence).",
+            "Embedded Systems.",
+            "E-Vehicle and Autonomous Vehicle.",
+            "VLSI (Very Large Scale Integration).",
+            "3D Printing."
+          ],
+        },
+        {
           title: "",
           description:
             "A technical project presentation competition where teams (1-3 members) showcase innovative projects in engineering, technology, or innovation. Each team gets 10 minutes to present and 5 minutes for Q&A, with originality being crucial. The winning team gets Rs. 1000, and attendance is mandatory for certification.",
         },
+
       ],
       rules: [
         "Each team consist of 1 to 3 members",
@@ -356,7 +368,7 @@ const EventDetails = () => {
         {
           round: "Event Timing",
           date: "March 28, 2025",
-          time: "9:00 AM to 12:00 PM",
+          time: "9:00 AM to 1:30 PM",
           location: "Academic Block Lab 2",
         },
       ],
@@ -450,63 +462,60 @@ const EventDetails = () => {
 
       registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
     },
-    "technical-event-8": {
-      title: "Urban Nourish: Street Food Remix",
-      description:
-        "Revolutionizing Street Food: A Fusion of Nutrition & Flavor This event aims to reinvent street food by integrating health-conscious innovations while maintaining cultural authenticity and taste. The goal is to develop a unique product that enhances nutrition without compromising on flavor.",
-      image: Tech8,
-      rounds: [
-        {
-          description: "Description:",
-        },
-        {
-          description:
-            "The Food Technology Department hosting a poster presentation on nutrient-infused street foods, focusing on functional foods, fortification, and balanced recipes. Participants have to showcase the innovative ways to enhance traditional street foods with added nutrients. Judges will evaluate posters on scientific accuracy, creativity, and practicality. The event encouraged discussions on nutrition, affordability, and consumer acceptance, promoting healthier eating choices.    ",
-        },
-      ],
-      rules: [
-        "Eligibility: Open to all departments. Teams can have a maximum of 2 members.",
-        "Product Criteria: The product must be an innovative infusion of nutrition and flavor in street food. It should not be an exact replica of an existing market product.",
-        "Poster Guidelines: Size: A2 (420 × 594 mm) , Must include product name, concept, ingredients, nutritional benefits, and uniqueness, Clear visuals, infographics, and creativity are encouraged",
-        "Product Display: Each team must bring and showcase their product for evaluation.",
-        "Presentation: Time Limit:5 minutes per team ,Must cover product innovation, nutritional benefits, and SDG alignment, Judges may ask questions after the presentation ",
-      ],
-      schedule: [
-        {
-          round: "Round",
-          date: "March 28, 2025",
-          time: "9:00 AM to 11:00 AM",
-          location: "Announced Soon!",
-        },
-      ],
-      contact: {
-        facultyCoordinator: [
-          {
-            name: "Mr G Bharath, AP/FT",
-            email: "bharathg@ksrct.ac.in",
-            phone: "9047976171",
-          },
-        ],
-        studentCoordinator: [
-          {
-            name: "Surya S, III Year/FT ",
-            email: "suryaarjun813@gmail.com",
-            phone: "9360492992",
-          },
-          {
-            name: "Yatheeswar R, II Year/FT ",
-            email: "r.yatheeswar852@gmail.com",
-            phone: "9441236991",
-          },
-          {
-            name: "Vijaya Yugeshwar R, II Year/FT ",
-            phone: "9585768184",
-          },
-        ],
-      },
-
-      registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
-    },
+    // "technical-event-8": {
+    //   title: "Urban Nourish: Street Food Remix",
+    //   description:
+    //     "Revolutionizing Street Food: A Fusion of Nutrition & Flavor This event aims to reinvent street food by integrating health-conscious innovations while maintaining cultural authenticity and taste. The goal is to develop a unique product that enhances nutrition without compromising on flavor.",
+    //   image: Tech8,
+    //   rounds: [
+    //     {
+    //       description: "Description:",
+    //     },
+    //     {
+    //       description:
+    //         "The Food Technology Department hosting a poster presentation on nutrient-infused street foods, focusing on functional foods, fortification, and balanced recipes. Participants have to showcase the innovative ways to enhance traditional street foods with added nutrients. Judges will evaluate posters on scientific accuracy, creativity, and practicality. The event encouraged discussions on nutrition, affordability, and consumer acceptance, promoting healthier eating choices.    ",
+    //     },
+    //   ],
+    //   rules: [
+    //     "Eligibility: Open to all departments. Teams can have a maximum of 2 members.",
+    //     "Product Criteria: The product must be an innovative infusion of nutrition and flavor in street food. It should not be an exact replica of an existing market product.",
+    //     "Poster Guidelines: Size: A2 (420 × 594 mm) , Must include product name, concept, ingredients, nutritional benefits, and uniqueness, Clear visuals, infographics, and creativity are encouraged",
+    //     "Product Display: Each team must bring and showcase their product for evaluation.",
+    //     "Presentation: Time Limit:5 minutes per team ,Must cover product innovation, nutritional benefits, and SDG alignment, Judges may ask questions after the presentation ",
+    //   ],
+    //   schedule: [
+    //     {
+    //       round: "Round",
+    //       date: "May 22, 2025",
+    //       time: "9:00 AM to 11:00 AM",
+    //       location: "Tech Hub, Innovation Center",
+    //     },
+    //   ],
+    //   contact: {
+    //     facultyCoordinator: [
+    //       {
+    //         name: "Mr G Bharath, AP/FT",
+    //         email: "bharathg@ksrct.ac.in",
+    //         phone: "9047976171",
+    //       },
+    //     ],
+    //     studentCoordinator: [
+    //       {
+    //         name: "Surya S, III Year/FT ",
+    //         email: "suryaarjun813@gmail.com",
+    //         phone: "9360492992",
+    //       },
+    //       {
+    //         name: "Yatheeswar R, II Year/FT ",
+    //         email: "r.yatheeswar852@gmail.com",
+    //         phone: "9441236991",
+    //       },
+    //       {
+    //         name: "Vijaya Yugeshwar R, II Year/FT ",
+    //         phone: "9585768184",
+    //       },
+    //     ],
+    //   },
     "technical-event-10": {
       title: "Designathon",
       description:
@@ -801,7 +810,7 @@ const EventDetails = () => {
           {
             name: "Dr.M.Nithya",
             email: "nithyam@ksrct.ac.in",
-            phone: " 77088444460",
+            phone: " 7708844446",
           },
         ],
         studentCoordinator: [
@@ -827,10 +836,50 @@ const EventDetails = () => {
         image: Tech19,
         rounds: [
           {
-            title: " ",
-            description:
-              "Participants can compete individually; group submissions are not allowed.Displaying the petri art and providing description about your art work",
+            title: "Life Science and Technology Sector:",
+            description: [
+              "The Future of Genetic Engineering.",
+              "Urban Nourish: Street Food Remix.",
+              "Eco-Friendly Dyes: Reducing Environmental Impact in Textile Processing.",
+            ],
           },
+          {
+            title: "Computer & IT Sector:",
+            description: [
+              "Quantum Computing: Revolutionizing Data Processing.",
+              "Blockchain Technology in Cybersecurity.",
+              "Edge Computing: A Game-Changer for IoT Applications.",
+            ],
+          },
+          {
+            title: "Electrical & Electronics Sector:",
+            description: [
+              "The Future of Wireless Communication.",
+              "Wireless Power Transmission: The Next Energy Revolution.",
+            ],
+          },
+          {
+            title: "Building and Mechanical Sector:",
+            description: [
+              "3D Printing in Manufacturing: A Sustainable Approach.",
+              "Green Buildings: Designing a Sustainable Future.",
+            ],
+          },
+          {
+            title: "Artificial Intelligence & IoT Sector:",
+            description: [
+              "AI in Climate Change Prediction: A Sustainable Approach.",
+              "Smart Cities: IoT Solutions for Urban Sustainability.",
+            ],
+          },
+          {
+            title: "Chemical & Pharmaceutical Sector:",
+            description: [
+              "Carbon Capture Technology: Fighting Global Warming.",
+              "Green Hydrogen: The Future of Renewable Energy.",
+              "Personalized Medicine: The Role of AI in Drug Development.",
+            ],
+          }
         ],
         rules: [
           "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",
@@ -2249,7 +2298,7 @@ const EventDetails = () => {
     },
     "workshop-12": {
       title:
-        "Design and development of automotive Product By Mr.K.Santhosh Kumar, Support Manger, Macro Technology Pvt Ltd, Erode.",
+        "Design and development of automotive Product By Mr.K.Santhosh Kumar, Support Manger, Macbro Technology Pvt Ltd, Erode.",
       description:
         "The Design and Development of Automotive Products is a comprehensive process that combines innovation, engineering, and cutting-edge technology to create high-performance vehicles and components. From conceptualization and prototyping to testing and manufacturing, this process ensures safety, efficiency, and sustainability in automotive solutions. Engineers and designers work collaboratively to optimize aerodynamics, materials, and electronic systems, integrating advanced technologies like AI, IoT, and automation. Whether developing electric vehicles, smart mobility solutions, or high-performance car components, this field plays a crucial role in shaping the future of transportation. ",
       image: Workshop12,

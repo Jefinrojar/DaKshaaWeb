@@ -51,7 +51,7 @@ const HackathonSection = () => {
         desc: "Develop a data-driven platform to track and analyze climate change patterns, suggest eco-friendly practices, or predict environmental hazards using AI/ML.",
       },
     ],
-    registrationLink: "https://example.com/register",
+    registrationLink: "https://forms.gle/DH6Su1b3y2YPfuvDA",
     rounds: [
       {
         title: "Round 1: Ideation",

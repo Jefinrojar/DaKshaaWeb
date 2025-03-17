@@ -101,10 +101,10 @@ const Events = () => {
           image: Tech7,
           eventId: "technical-event-7",
         },
-        {
-          image: Tech8,
-          eventId: "technical-event-8",
-        },
+        // {
+        //   image: Tech8,
+        //   eventId: "technical-event-8",
+        // },
         {
           image: Tech9,
           eventId: "technical-event-10",
