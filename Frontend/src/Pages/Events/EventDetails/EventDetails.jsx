@@ -214,10 +214,22 @@ const EventDetails = () => {
       image: Tech3,
       rounds: [
         {
+          title: "TOPICS:",
+          description: [
+            "IoT (Internet of Things).",
+            "AI (Artificial Intelligence).",
+            "Embedded Systems.",
+            "E-Vehicle and Autonomous Vehicle.",
+            "VLSI (Very Large Scale Integration).",
+            "3D Printing."
+          ],
+        },
+        {
           title: "",
           description:
             "A technical project presentation competition where teams (1-3 members) showcase innovative projects in engineering, technology, or innovation. Each team gets 10 minutes to present and 5 minutes for Q&A, with originality being crucial. The winning team gets Rs. 1000, and attendance is mandatory for certification.",
         },
+
       ],
       rules: [
         "Each team consist of 1 to 3 members",
@@ -827,10 +839,50 @@ const EventDetails = () => {
         image: Tech19,
         rounds: [
           {
-            title: " ",
-            description:
-              "Participants can compete individually; group submissions are not allowed.Displaying the petri art and providing description about your art work",
+            title: "Life Science and Technology Sector:",
+            description: [
+              "The Future of Genetic Engineering.",
+              "Urban Nourish: Street Food Remix.",
+              "Eco-Friendly Dyes: Reducing Environmental Impact in Textile Processing.",
+            ],
           },
+          {
+            title: "Computer & IT Sector:",
+            description: [
+              "Quantum Computing: Revolutionizing Data Processing.",
+              "Blockchain Technology in Cybersecurity.",
+              "Edge Computing: A Game-Changer for IoT Applications.",
+            ],
+          },
+          {
+            title: "Electrical & Electronics Sector:",
+            description: [
+              "The Future of Wireless Communication.",
+              "Wireless Power Transmission: The Next Energy Revolution.",
+            ],
+          },
+          {
+            title: "Building and Mechanical Sector:",
+            description: [
+              "3D Printing in Manufacturing: A Sustainable Approach.",
+              "Green Buildings: Designing a Sustainable Future.",
+            ],
+          },
+          {
+            title: "Artificial Intelligence & IoT Sector:",
+            description: [
+              "AI in Climate Change Prediction: A Sustainable Approach.",
+              "Smart Cities: IoT Solutions for Urban Sustainability.",
+            ],
+          },
+          {
+            title: "Chemical & Pharmaceutical Sector:",
+            description: [
+              "Carbon Capture Technology: Fighting Global Warming.",
+              "Green Hydrogen: The Future of Renewable Energy.",
+              "Personalized Medicine: The Role of AI in Drug Development.",
+            ],
+          }
         ],
         rules: [
           "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",

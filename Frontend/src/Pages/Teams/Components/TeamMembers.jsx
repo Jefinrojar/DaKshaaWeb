@@ -128,7 +128,7 @@ const teamMembers = [
   },
   {
     id: 16,
-    name: "Ajay V",
+    name: "Ajay",
     department: "Department of CSE",
     img: ajay,
     category: "Co-ordinators",
