@@ -885,14 +885,6 @@ const EventDetails = () => {
           }
         ],
         rules: [
-          {
-            title: "Chemical & Pharmaceutical Sector:",
-            description: [
-              "Carbon Capture Technology: Fighting Global Warming.",
-              "Green Hydrogen: The Future of Renewable Energy.",
-              "Personalized Medicine: The Role of AI in Drug Development.",
-            ],
-          },
           "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",
           "1) Poster Guidelines:",
           "  i) Size: A1 (594 × 841 mm).",
