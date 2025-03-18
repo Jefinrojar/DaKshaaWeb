@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { ChevronDown, ChevronUp } from "lucide-react"; // Assuming you're using Lucide icons
+import { ChevronDown, ChevronUp } from "lucide-react"; 
+// import useNavigate from "react-router-dom";
 
 import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png";
+import guvi from "../../Sponsors/assets/guvi.jpg";
 
 const HackathonSection = () => {
+  // const navigate = useNavigate();
   // Example data as an array of objects
   const eventDetails = {
     id: "hackathon-event-1",
@@ -58,7 +61,7 @@ const HackathonSection = () => {
         description: [
           "Submit your project idea.",
           "Present a brief pitch.",
-          "Teams will be shortlisted for Round 2.",
+          "Finalists will be shortlisted for Round 2.",
         ],
       },
       {
@@ -66,12 +69,12 @@ const HackathonSection = () => {
         description: [
           "Develop a working prototype.",
           "Submit a demo video.",
-          "Finalists will be selected for Round 3.",
+          "Winners will be announced.",
         ],
       },
     ],
     rules: [
-      "Teams must consist of 2-4 members.",
+      "Teams must consist of 2 members.",
       "All code must be written during the hackathon.",
       "Plagiarism will result in disqualification.",
     ],
@@ -80,13 +83,13 @@ const HackathonSection = () => {
         round: "Round 1: Ideation",
         date: "March 27, 2025",
         time: "5:00 PM",
-        location: "Lab 1",
+        location: "IT-Lab 1, IT Park",
       },
       {
         round: "Round 2: Prototype",
-        date: "March 28, 2023",
-        time: "2:00 PM",
-        location: "Lab 1",
+        date: "March 29, 2023",
+        time: "5:00 AM",
+        location: "IT-Lab 1, IT Park",
       },
     ],
     contact: {
@@ -159,9 +162,9 @@ const HackathonSection = () => {
             {event.title}
           </h1>
           <img
-            src="https://cdn.brandfetch.io/id3BHBKuok/w/500/h/500/theme/dark/logo.png?c=1dxbfHSJFAPEGdCLU4o5B"
+            src={guvi}
             alt=""
-            className="md:w-24 md:h-24 w-16 h-16"
+            className="md:w-40 md:h-24 w-24 h-16"
           />
         </div>
         <div className="border border-sky-800 p-2">
@@ -172,17 +175,20 @@ const HackathonSection = () => {
               className="w-40 h-40 md:w-96 md:h-96 object-cover mb-4 shadow-md"
             />
             <p className="text-lg md:text-xl mb-4 text-sky-600 text-justify">
-              Neura Hack 2025 is a 36-hour innovation marathon where brilliant
-              minds unite to tackle pressing global challenges aligned with the
-              UN Sustainable Development Goals (SDGs). Participants will
-              collaborate, ideate, and build cutting-edge solutions leveraging
-              technology to address issues like climate action, equality,
-              health, and more. Join us to code, create, and catalyze change for
-              a sustainable future!
+              Neura Hack - 36-Hour Hackathon is powered by GIVI where teams
+              develop solutions to problem statements provided by the
+              organizers. Participants must register in advance and complete
+              their projects within the 36-hour timeframe, using only original
+              work. Open-source tools are allowed, but plagiarism and
+              pre-existing solutions are prohibited. Submissions must include
+              code, documentation, and a working demo. Projects are judged on
+              innovation, technical implementation, impact, and presentation. A
+              strict code of conduct ensures fairness, and intellectual property
+              rights and prizes are governed by GUVI's policies.
             </p>
             {/* Register Now Button */}
             <motion.button
-              className="mb-4 w-60 md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+              className="mb-4 w-60 md:w-auto px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl shadow-xl"
               whileHover={{ scale: 1.1, rotate: 2 }}
               whileTap={{ scale: 0.9 }}
               variants={pulseAnimation} // Infinite pulsing animation
@@ -196,12 +202,21 @@ const HackathonSection = () => {
 
         {/* Rest of the content */}
         <div className="flex flex-col md:flex-row justify-center my-10 gap-4">
-          {["PS", "Rewards", "Rounds", "Rules", "Schedule", "Contact"].map(
+          {["Rewards", "Rounds", "Rules", "Schedule", "Contact"].map(
             (item, index) => (
               <motion.div
                 key={index}
                 className="border-2 border-sky-900 p-1"
                 whileHover={{ scale: 1.05 }}
+                onClick={() => {
+                  const element = document.getElementById(item);
+                  if (element) {
+                    element.scrollIntoView({ behavior: "smooth" });
+                  }
+                  else{
+                    console.log("Not found");
+                  }
+                }}
               >
                 <h1 className="bg-sky-900 px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">
                   {item}
@@ -211,8 +226,7 @@ const HackathonSection = () => {
           )}
         </div>
 
-        {/* Problem Statements */}
-        <div className="border border-sky-800 p-2 mb-6 ">
+        {/* Problem Statements<div className="border border-sky-800 p-2 mb-6 " id="PS">
           <div className="flex flex-col gap-8  border p-4  border-sky-800 bg-sky-900/30">
             <p className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
               Problem Statements
@@ -235,10 +249,11 @@ const HackathonSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
+        {/*  */}
 
         {/* Rewards and Recognition Section */}
-        <div className="border border-sky-800 p-2 mb-5">
+        <div className="border border-sky-800 p-2 mb-5 " id="Rewards">
           <div className="border border-sky-800 shadow-lg p-4 md:p-10">
             <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
               Rewards and Recognition
@@ -283,7 +298,7 @@ const HackathonSection = () => {
         </div>
 
         {/* Rounds Section */}
-        <div className="border border-sky-800 p-2">
+        <div className="border border-sky-800 p-2" id="Rounds">
           <div className="border border-sky-800 shadow-lg p-4 md:p-10">
             <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
               Rounds
@@ -313,7 +328,7 @@ const HackathonSection = () => {
         </div>
 
         {/* Rules Section */}
-        <div className="border border-sky-800 p-2 mt-6">
+        <div className="border border-sky-800 p-2 mt-6" id="Rules">
           <div className="bg-sky-900/30 shadow-lg p-4 md:p-10">
             <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 bg-inherit border border-sky-800 px-3 py-3">
               Rules
@@ -327,7 +342,7 @@ const HackathonSection = () => {
         </div>
 
         {/* Schedule Section */}
-        <div className="border border-sky-800 p-2 mt-6">
+        <div className="border border-sky-800 p-2 mt-6" id="Schedule">
           <div className="p-4 md:p-10">
             <h2 className="text-2xl md:text-3xl text-center font-semibold mb-8 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
               Schedule
@@ -367,7 +382,7 @@ const HackathonSection = () => {
         </div>
 
         {/* Contact Section */}
-        <div className="border border-sky-800 p-3 mt-6">
+        <div className="border border-sky-800 p-3 mt-6" id="Contact">
           <div className="bg-sky-900/20 p-4 md:p-10">
             <h2 className="text-2xl md:text-3xl text-center font-bold mb-8 text-sky-600 border border-sky-800 px-3 py-3">
               Contact
