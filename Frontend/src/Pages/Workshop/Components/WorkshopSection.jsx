@@ -59,7 +59,7 @@ const workshops = [
     department: "Artificial Intelligence and Machine Learning",
     dept: "AI for Game Development",
     title: "Artificial Intelligence and Machine Learning",
-    facultyCo: "Mrs R S Sivaranjini",
+    facultyCo: "Mrs R S Sivarajani",
     facultyCoNo: "+91 96770 55783",
     studentCo1: "Surendra Krishana R  III-Year/CSE(AIML)",
     studentCo2: "Sriharan S III-Year/CSE(AIML)",
@@ -292,11 +292,11 @@ const WorkshopSection = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mb-28 mt-[120px]">
+<div className="container mx-auto mb-28 mt-[120px]">
       {/* Animated Title */}
       <h1
         className="text-center font-bold text-white md:text-5xl text-2xl mb-10 mt-8"
-        data-aos="fade-down" // Add AOS animation
+        data-aos="fade-down"
       >
         {title.split("").map((char, index) => (
           <motion.span
@@ -316,19 +316,12 @@ const WorkshopSection = () => {
           <div
             key={workshop.id}
             className="md:p-3 p-3  md:max-w-[300px] border border-sky-800"
-            data-aos="fade-up" // Add AOS animation
-            data-aos-delay={index * 100} // Staggered delay for each card
+            data-aos="fade-up"
+            data-aos-delay={index * 100}
           >
             <div className="text-white shadow-md overflow-hidden relative group">
-              {/* Image Container */}
               <div className="relative md:w-full md:max-w-[300px] w-60">
-                <img
-                  src={workshop.img}
-                  alt={workshop.title}
-                  className="w-full"
-                />
-
-                {/* Overlay Section */}
+                <img src={workshop.img} alt={workshop.title} className="w-full" />
                 <div className="absolute inset-0 flex flex-col space-y-4 items-center justify-center text-center text-white bg-sky-800/60 opacity-0 backdrop-blur-sm group-hover:opacity-100 transition duration-500 px-4">
                   <Slide cascade>
                     <h1 className="text-xl font-semibold cursor-default">
@@ -353,12 +346,12 @@ const WorkshopSection = () => {
       {selectedWorkshop && (
         <div
           className="fixed inset-0 flex items-center md:justify-center bg-black bg-opacity-20 backdrop-blur-sm z-50"
-          onClick={() => setSelectedWorkshop(null)} // Close modal on backdrop click
+          onClick={() => setSelectedWorkshop(null)}
         >
           <div
             className="p-2 border border-sky-800 relative md:mx-4 sm:mx-0 ml-8"
             data-aos="zoom-in"
-            onClick={(e) => e.stopPropagation()} // Prevent click from closing modal when clicking inside it
+            onClick={(e) => e.stopPropagation()}
           >
             <button
               className="absolute -top-7 -right-6 text-3xl font-bold text-gray-500 hover:text-red-500"
@@ -368,39 +361,20 @@ const WorkshopSection = () => {
             </button>
             <div className="bg-sky-800/60 text-white clip-bottom-right-3 shadow-lg md:max-w-7xl md:w-full w-72 relative">
               <div className="flex flex-col md:flex-row items-center gap-8 px-3">
-                <img
-                  className="w-44 h-44 md:w-72 md:h-72"
-                  src={selectedWorkshop.img}
-                  alt=""
-                />
+                <img className="w-44 h-44 md:w-72 md:h-72" src={selectedWorkshop.img} alt="" />
                 <div className="w-full md:w-auto ml-8">
-                  <p className="text-lg mb-3 font-bold mt-2 ">
-                    {selectedWorkshop.dept}
-                  </p>
+                  <p className="text-lg mb-3 font-bold mt-2">{selectedWorkshop.dept}</p>
                   <hr />
 
                   <p className="mt-4">
                     <b>Company Name:</b> {selectedWorkshop.companyName}
                   </p>
                   <div className="flex gap-2 my-4">
-                    <img
-                      className="w-1/2 md:w-1/3 h-full object-cover"
-                      src={selectedWorkshop.companyImg}
-                      alt=""
-                    />
-                    <img
-                      className="w-1/2 md:w-1/3 h-full object-cover"
-                      src={selectedWorkshop.companyImg1}
-                      alt=""
-                    />
+                    <img className="w-1/2 md:w-1/3 h-full object-cover" src={selectedWorkshop.companyImg} alt="" />
+                    <img className="w-1/2 md:w-1/3 h-full object-cover" src={selectedWorkshop.companyImg1} alt="" />
                   </div>
-                  <p className="font-bold">Student Co-ordinators:</p>
-                  <ul className="list-disc ml-6">
-                    {selectedWorkshop.studentCo1 && <li>{selectedWorkshop.studentCo1}</li>}
-                    {selectedWorkshop.studentCo2 && <li>{selectedWorkshop.studentCo2}</li>}
-                    {selectedWorkshop.studentCo3 && <li>{selectedWorkshop.studentCo3}</li>}
-                  </ul>
-                  <p className="font-bold mt-8">Faculty Co-ordinator:</p>
+
+                  <p className="font-bold">Faculty Co-ordinator:</p>
                   <ul className="list-disc ml-4 text-sm mb-6">
                     {selectedWorkshop.facultyCo && selectedWorkshop.facultyCoNo && (
                       <li>{selectedWorkshop.facultyCo}: {selectedWorkshop.facultyCoNo}</li>
@@ -409,6 +383,14 @@ const WorkshopSection = () => {
                       <li>{selectedWorkshop.facultyCo1}: {selectedWorkshop.facultyCoNo1}</li>
                     )}
                   </ul>
+
+                  <p className="font-bold">Student Co-ordinators:</p>
+                  <ul className="list-disc ml-6">
+                    {selectedWorkshop.studentCo1 && <li>{selectedWorkshop.studentCo1}</li>}
+                    {selectedWorkshop.studentCo2 && <li>{selectedWorkshop.studentCo2}</li>}
+                    {selectedWorkshop.studentCo3 && <li>{selectedWorkshop.studentCo3}</li>}
+                  </ul>
+
                   <button
                     className="border border-white px-6 py-2 hover:bg-white/20 duration-300 mb-5"
                     onClick={() => window.open(selectedWorkshop.registrationLink, "_blank")}
@@ -422,6 +404,8 @@ const WorkshopSection = () => {
         </div>
       )}
     </div>
+
+
   );
 };
 
