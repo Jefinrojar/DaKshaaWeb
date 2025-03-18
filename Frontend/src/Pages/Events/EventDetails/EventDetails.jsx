@@ -996,7 +996,7 @@ const EventDetails = () => {
           ],
         },
   
-        registrationLink: "", // Registration link
+        registrationLink: "https://forms.gle/fw48RHKS842zGL167", // Registration link
       },
     // Non-Technical Events
     "non-technical-event-1": {
@@ -1725,7 +1725,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
+      registrationLink: "https://forms.gle/3pXHgWk3HHYvFqoP8", // Registration link
     },
     "culturals-event-2": {
       title: "Mastro Mania",
@@ -1777,7 +1777,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
+      registrationLink: "https://forms.gle/3pXHgWk3HHYvFqoP8", // Registration link
     },
     "culturals-event-3": {
       title: "Beat Battle",
@@ -1885,7 +1885,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
+      registrationLink: "https://forms.gle/3pXHgWk3HHYvFqoP8", // Registration link
     },
     "culturals-event-5": {
       title: "flick fest",
@@ -1930,7 +1930,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/vgcbHJpHuwMzxvpu8", // Registration link
+      registrationLink: "https://forms.gle/sSFoH8BMWLLG5xGZA", // Registration link
     },
 
     // Workshop
@@ -2050,7 +2050,7 @@ const EventDetails = () => {
       registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
     },
     "workshop-4": {
-      title: "AI for Game Developing",
+      title: "AI in Game Developing",
       description:
         "The AI on Game Developing Workshop, organized by IITM Pravartak Technologies Foundation, is a two-day event designed to introduce participants to the integration of Artificial Intelligence (AI) in game development. This hands-on workshop covers key AI techniques such as pathfinding, decision-making algorithms, and neural networks, enabling participants to create intelligent game characters, optimize game mechanics, and enhance player experience. Open to students, professionals, and AI/game development enthusiasts, no prior experience is required—just a basic understanding of programming is recommended. Inter-specialization teams are welcome, and registration is free! 🚀🎮",
       image: Workshop4,
@@ -2542,23 +2542,25 @@ const EventDetails = () => {
 
   let registrationFee = "";
   if (eventId === "culturals-event-3") {
-    registrationFee = "Rs. 250";
+    registrationFee = "Rs. 600";
   } else if (eventId === "technical-event-3") {
     registrationFee = "Rs. 300";
   } else if (eventId === "technical-event-17") {
     registrationFee = "Rs. 300";
-  } else if (eventId === "technical-event-3") {
-    registrationFee = "Rs. 300";
   } else if (eventId === "technical-event-8") {
     registrationFee = "Rs. 300";
   } else if (eventId === "technical-event-10") {
+    registrationFee = "Rs. 300";
+  } else if (eventId === "technical-event-1") {
+    registrationFee = "Rs. 250";
+  } else if (eventId === "technical-event-20") {
     registrationFee = "Rs. 300";
   } else if (eventId === "technical-event-17") {
     registrationFee = "Rs. 300";
   } else if (eventId === "technical-event-19") {
     registrationFee = "Rs. 300";
   } else if (eventId.startsWith("technical-event")) {
-    registrationFee = "Rs. 600";
+    registrationFee = "Rs. 250";
   } else if (eventId.startsWith("culturals")) {
     registrationFee = "Rs. 150";
   } else if (eventId.startsWith("workshop")) {
