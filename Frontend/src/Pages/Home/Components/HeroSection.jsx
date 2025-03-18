@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import HeroImg from "../../../assets/Heroimg.png";
 import Daksha from "../../../assets/DaKshaa T25.png";
-import Countdown from "./Countdown";
 import RegisterAni from "../../../assets/registerani.gif";
 import brochure from "../../../assets/brochure.pdf";
 
@@ -65,7 +64,7 @@ const HeroSection = () => {
   return (
     <>
       <motion.div
-        className="hidden md:flex mt-6 absolute right-10 top-14 sm:mt-8 bg-opacity-70 transition-all text-white font-semibold text-center items-center justify-center overflow-hidden"
+        className="hidden md:flex mt-6 bg-opacity-70 transition-all text-white font-semibold text-center items-center justify-center overflow-hidden"
         variants={pulseAnimation}
         animate="animate"
         style={{
@@ -92,7 +91,7 @@ const HeroSection = () => {
       </motion.div>
 
       <motion.div
-        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-24 mt-24 text-white overflow-hidden"
+        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-24  text-white overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
@@ -124,7 +123,7 @@ const HeroSection = () => {
             </motion.div>
 
             {/* Event Details with Wave Animation */}
-            <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start gap-2 sm:gap-4 text-xs md:text-lg lg:text-base whitespace-nowrap">
+            <motion.div className="mt-4 sm:mt-6 flex justify-between md:justify-start  gap-2 sm:gap-4 text-xs md:text-lg lg:text-base whitespace-nowrap">
               {eventDetails.map((word, i) => (
                 <motion.div
                   key={i}
@@ -194,7 +193,6 @@ const HeroSection = () => {
 
             {/* Register Button with Infinite Pulse */}
           </div>
-          <Countdown />
         </motion.div>
       </motion.div>
     </>

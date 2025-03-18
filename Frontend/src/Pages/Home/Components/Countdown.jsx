@@ -36,7 +36,7 @@ const CountdownTimer = () => {
   const formatNumber = (num) => (num < 10 ? `0${num}` : num);
 
   return (
-    <div className="flex flex-col md:mt-6 mt-0 items-center md:items-start md:justify-center md:pb-24 pb-56">
+    <div className="flex flex-col md:mt-6 mt-0 items-center md:items-start md:justify-center md:pb-24">
       <p
         className="text-red-400 text-sm md:text-xl mb-4 md:mb-0 mt-16 "
         
@@ -55,7 +55,7 @@ const CountdownTimer = () => {
         /> */}
         {/* Timer Container */}
         <div className="border-2 border-sky-900 p-2 sm:p-3 md:p-2">
-          <p className="text-sky-300 text-xl font-orbitron pb-1 pl-2">Online Registration ends in...</p>
+          <p className="text-sky-300 md:text-xl text-lg font-orbitron pb-1 pl-2">Online Registration ends in...</p>
           <div
             className="relative px-4 sm:px-8 md:px-8 py-3 md:py-2 sm:py-4 bg-sky-900 bg-opacity-70 flex flex-wrap justify-center sm:justify-between items-center z-10 clip"
             style={{ boxShadow: "0 0 10px rgba(0, 0, 255, 0.5)" }}
