@@ -72,6 +72,7 @@ const GuestLecture = () => {
           NATIONAL CONFERENCE ON INNOVATIONS IN SCIENCE, TECHNOLOGY,
           ENGINEERING, MATHEMATICS, AND MEDICINE
         </p>
+        <p className="mt-3 text-xl font-semibold">NOTE: Mail your conference paper to <span className="text-sky-300 font-bold">ncistemm@ksrct.ac.in</span></p>
       </div>
 
       {/* First card */}
