@@ -2550,7 +2550,7 @@ const EventDetails = () => {
   } else if (eventId === "technical-event-8") {
     registrationFee = "Rs. 300";
   } else if (eventId === "technical-event-10") {
-    registrationFee = "Rs. 300";
+    registrationFee = "Rs. 250";
   } else if (eventId === "technical-event-1") {
     registrationFee = "Rs. 250";
   } else if (eventId === "technical-event-20") {

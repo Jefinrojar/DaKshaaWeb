@@ -77,7 +77,7 @@ const HeroSection = () => {
           height: "180px", // Increased size
         }}
       >
-        <a href={brochure} target="_blank">
+        <a href={brochure} target="_blank" rel="noopener noreferrer">
           <motion.span
             className="z-10 text-sm cursor-pointer md:text-sm bg-sky-700/90 px-5 py-3 clip"
             whileHover={{
@@ -92,27 +92,27 @@ const HeroSection = () => {
       </motion.div>
 
       <motion.div
-        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-24 mt-24 text-white overflow-hidden"
+        className="h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 md:mt-24 mt-16 text-white overflow-hidden"
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
       >
         {/* Floating Animated Tech Face Image (Top on Mobile, Right on Desktop) */}
         <motion.div
-          className="flex justify-center md:justify-start mt-20 md:mt-0 w-full md:w-1/2 order-1 md:order-2"
+          className="flex justify-center md:justify-start md:mt-0 w-full md:w-1/2 order-1 md:order-2"
           variants={fadeInUp}
         >
           <motion.img
             src={HeroImg}
             alt="Tech Face"
-            className="w-[70%] md:w-[95%] max-w-[400px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[700px] h-auto md:h-[500px] transition-all hover:scale-105"
+            className="w-[70%] md:w-[95%] max-w-[400px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[700px] h-auto md:h-[500px] transition-all hover:scale-105 mb-6"
             variants={floatAnimation}
             animate="animate"
           />
         </motion.div>
 
         {/* Left Content (Bottom on Mobile, Left on Desktop) */}
-        <motion.div className="flex flex-col justify-between mt-8 md:ml-52 md:mt-14 w-full md:w-1/2 order-2 md:order-1">
+        <motion.div className="flex flex-col justify-between md:ml-52 md:mt-14 w-full md:w-1/2 order-2 md:order-1">
           {/* Daksha Image */}
           <div>
             <motion.div variants={fadeInUp}>
@@ -177,26 +177,30 @@ const HeroSection = () => {
                   height: "120px",
                 }}
               >
-                
-                  <motion.span
-                    className="z-10 text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
-                    whileHover={{
-                      scale: 1.1,
-                      backgroundColor: "rgba(3, 105, 161, 0.95)",
-                      transition: { duration: 0.3, ease: "easeInOut" },
-                    }}
-                  >
-                    <a href={brochure} target="_blank">Download Brochure</a>
-                  </motion.span>
-                
+                <motion.span
+                  className="z-10 text-xs cursor-pointer sm:text-sm md:text-base bg-sky-700/90 p-2"
+                  whileHover={{
+                    scale: 1.1,
+                    backgroundColor: "rgba(3, 105, 161, 0.95)",
+                    transition: { duration: 0.3, ease: "easeInOut" },
+                  }}
+                >
+                  <a href={brochure} target="_blank" rel="noopener noreferrer">
+                    Download Brochure
+                  </a>
+                </motion.span>
               </motion.div>
             </div>
-
-            {/* Register Button with Infinite Pulse */}
+            {/* Countdown for Desktop */}
+            <div className="hidden md:block mt-6">
+              <Countdown />
+            </div>
           </div>
-          <Countdown />
         </motion.div>
       </motion.div>
+      <div className="md:hidden ">
+        <Countdown />
+      </div>
     </>
   );
 };
