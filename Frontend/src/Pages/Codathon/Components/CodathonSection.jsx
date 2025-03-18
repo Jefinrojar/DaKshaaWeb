@@ -25,9 +25,10 @@ const CodathonSection = () => {
       },
     ],
     rules: [
-      "No pre-written code or external help is allowed.",
-      "Participants must adhere to the time limit.",
-      "Any form of plagiarism will lead to disqualification.",
+      "College students can form a team.",
+      "No specialization is required.",
+      "Teams can include students from any domain or field of study.",
+      "All domains are allowed to participate.",
     ],
     schedule: [
       {
