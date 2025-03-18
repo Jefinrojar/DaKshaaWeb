@@ -111,11 +111,10 @@ const EventDetails = () => {
       rules: [
         "The jury's decision is final.",
         "Any form of malpractice will lead to disqualification.",
-        "Team: 1 or 2 Members",
       ],
       schedule: [
         {
-          round: "Round 1",
+          round: "Round",
           date: "March 28, 2025",
           time: "10:00 AM to 12:00 PM",
           location: "CSE lab 1,IT Park",
@@ -940,114 +939,65 @@ const EventDetails = () => {
   
         registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
       },
-      // "technical-event-20": {
-      //   title: "Poster Presentation",
-      //   description:
-      //     "The Poster Presentation Competition is an opportunity for students to explore and present emerging trends in their respective fields while addressing key global challenges outlined in the Sustainable Development Goals (SDGs).Participants will research and showcase innovative ideas through a visually engaging A1-sized poster, effectively communicating their findings to a diverse audience. This competition aims to foster creativity, critical thinking, and knowledge-sharing among students across multiple disciplines.",
-      //   image: Tech20,
-      //   rounds: [
-      //     {
-      //       title: "TOPICS:",
-      //     },
-      //     {
-      //       title: "Life Science and Technology Sector:",
-      //       description: [
-      //         "The Future of Genetic Engineering.",
-      //         "Urban Nourish: Street Food Remix.",
-      //         "Eco-Friendly Dyes: Reducing Environmental Impact in Textile Processing.",
-      //       ],
-      //     },
-      //     {
-      //       title: "Computer & IT Sector:",
-      //       description: [
-      //         "Quantum Computing: Revolutionizing Data Processing.",
-      //         "Blockchain Technology in Cybersecurity.",
-      //         "Edge Computing: A Game-Changer for IoT Applications.",
-      //       ],
-      //     },
-      //     {
-      //       title: "Electrical & Electronics Sector:",
-      //       description: [
-      //         "The Future of Wireless Communication.",
-      //         "Wireless Power Transmission: The Next Energy Revolution.",
-      //       ],
-      //     },
-      //     {
-      //       title: "Building and Mechanical Sector:",
-      //       description: [
-      //         "3D Printing in Manufacturing: A Sustainable Approach.",
-      //         "Green Buildings: Designing a Sustainable Future.",
-      //       ],
-      //     },
-      //     {
-      //       title: "Artificial Intelligence & IoT Sector:",
-      //       description: [
-      //         "AI in Climate Change Prediction: A Sustainable Approach.",
-      //         "Smart Cities: IoT Solutions for Urban Sustainability.",
-      //       ],
-      //     },
-      //     {
-      //       title: "Chemical & Pharmaceutical Sector:",
-      //       description: [
-      //         "Carbon Capture Technology: Fighting Global Warming.",
-      //         "Green Hydrogen: The Future of Renewable Energy.",
-      //         "Personalized Medicine: The Role of AI in Drug Development.",
-      //       ],
-      //     }
-      //   ],
-      //   rules: [
-      //     "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",
-      //     "1) Poster Guidelines:",
-      //     "  i) Size: A1 (594 × 841 mm).",
-      //     "  ii) Must include title, name of the concept , and uniqueness.",
-      //     "  iii) Clear visuals, infographics, and creativity are encouraged.",
-      //     "2) Presentation:",
-      //     "1) Poster Guidelines:",
-      //     "  i) Time Limit:10 minutes per team.",
-      //     "  ii) Includes presentation for 6 minutes and  Q and A sections  for 4 minutes.",
-      //     "  iii) Must cover product innovation,  and SDG alignment",
-      //     "  iv) Judges may ask questions after the presentation.",
-      //     "3) Judging Criteria:",
-      //     "i) Content Relevance & Accuracy – 25%",
-      //     "ii) Creativity & Innovation – 20%",
-      //     "iii) Clarity & Organization – 20%",
-      //     "iv) Visual Appeal – 15%",
-      //     "v) Presentation & Communication Skills – 20%",
-      //   ],
-      //   schedule: [
-      //     {
-      //       round: "Venue",
-      //       date: "March 28, 2025",
-      //       time: "9:30AM -10:30AM",
-      //       location: "announcing soon",
-      //     },
-      //   ],
-      //   contact: {
-      //     facultyCoordinator: [
-      //       {
-      //         name: "Mr G Bharath, AP/FT",
-      //         phone: "9047976171",
-      //       },
-      //     ],
-      //     studentCoordinator: [
-      //       {
-      //         name: "Surya S",
-      //         phone: "9360492992",
-      //       },
-      //       {
-      //         name: "Yatheeswar R",
-      //         phone: "9441236991",
-      //       },
-      //       {
-      //           name: "Vijaya Yugeshwar R ",
-      //           phone: "9585768184",
-      //       },
+      "technical-event-20": {
+        title: "PAPER PRESENTATION",
+        description:
+          "The Internet of Things (IoT) – Connecting the Future Discover how IoT is transforming industries with smart connectivity, automation, and real-time data, shaping a smarter and more efficient world.",
+        image: Tech20,
+        rounds: [
+          
+          {
+            title: "TOPICS:",
+            description: [
+              "Internet of Things",
+            ],
+          },
+        ],
+        rules: [
+          "The presentation should be within 5-7minutes, followed by a Q&A session of 2-3minutes.",
+          "Use PowerPoint (PPT) or any specified tool for the slides.",
+          "The number of slides should be 10-15, keeping it clear and concise.",
+          "The presentation should have:",
+          "Title Slide (Paper title, authors, affiliation)",
+          "Introduction (Problem statement, objective)",
+          "Methodology (Approach, technologies used)",
+          "Results & Discussion (Findings, graphs, tables)",
+          "Conclusion & Future Work",
+          "References (if required)",
+        ],
+        schedule: [
+          {
+            round: "Venue",
+            date: "March 28, 2025",
+            time: "9:30AM -10:30AM",
+            location: "announcing soon",
+          },
+        ],
+        contact: {
+          facultyCoordinator: [
+            {
+              name: "RAJASEKARAN N. AP / EEE",
+              email:"rajasekaran.n@ksrct.ac.in",
+              phone: "8056975723",
+            },
+          ],
+          studentCoordinator: [
+            {
+              name: "TIVITH C",
+              email:"tivithpoongodi@gmail.com",
+              phone: "9345426277",
+            },
+            {
+              name: "MOTUPALLI SHEKAR ",
+              email:"shekarmotupalli@gmail.com ",
+              phone: "8838510411",
+            },
 
-      //     ],
-      //   },
+          ],
+        },
   
-      //   registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
-      // },
+        registrationLink: "", // Registration link
+      },
     // Non-Technical Events
     "non-technical-event-1": {
       title: "trailblazers: The Clue Hunt",
@@ -1110,13 +1060,10 @@ const EventDetails = () => {
       image: NonTech2,
       rounds: [
         {
-          title: "Round 1",
-          description: "Offline Round.",
-        },
-        {
-          title: "Round 2",
+          title: "Round",
           description: "Offline Blind Maze Challenge will be conducted.",
         },
+        
       ],
       rules: [
         "Each team contain 2 students.",
