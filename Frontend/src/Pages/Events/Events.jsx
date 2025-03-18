@@ -26,6 +26,8 @@ import Tech15 from "../../assets/EventsImages/EventDetails/TechnicalImages/PROJE
 import Tech16 from "../../assets/EventsImages/EventDetails/TechnicalImages/TEXTILE.png"
 import Tech18 from "../../assets/EventsImages/EventDetails/TechnicalImages/bt.jpg"
 import Tech19 from "../../assets/EventsImages/EventDetails/TechnicalImages/POSTER.png";
+import Tech20 from "../../assets/EventsImages/EventDetails/TechnicalImages/EEE.png";
+
 
 
 import NonTech1 from "../../assets/EventsImages/EventDetails/Nontech/DEPARTMENT OF CSE.jpg"
@@ -133,6 +135,10 @@ const Events = () => {
         {
           image: Tech19,
           eventId: "technical-event-19",
+        },
+        {
+          image: Tech20,
+          eventId: "technical-event-20",
         },
         
       ],
