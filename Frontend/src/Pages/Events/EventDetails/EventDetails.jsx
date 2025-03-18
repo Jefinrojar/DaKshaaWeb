@@ -143,7 +143,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
     },
     "technical-event-2": {
       title: "Neura Hack (Hackathon)",
@@ -341,7 +341,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/gziLh4EoGaCQLSpg8", // Registration link
     },
     "technical-event-6": {
       title: "Figma Fusion: The UI/UX Design Showdown",
@@ -396,7 +396,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
     },
     "technical-event-7": {
       title: "ElectroBuzz",
@@ -463,7 +463,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/gziLh4EoGaCQLSpg8", // Registration link
     },
     // "technical-event-8": {
     //   title: "Urban Nourish: Street Food Remix",
@@ -586,7 +586,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/gziLh4EoGaCQLSpg8", // Registration link
     },
     "technical-event-14": {
       title: "Codathon",
@@ -640,10 +640,10 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
     },
     "technical-event-15": {
-      title: "Buildathon (Ultratech)",
+      title: "Buildathon",
       description:
         "Buildathon is an intensive design competition aimed at fostering innovation, creativity, and problem-solving skills among students. Participants will be challenged to develop innovative design solutions for real-world engineering and architectural problems using advanced design software SketchUp. The event will encourage critical thinking, teamwork, and the application of technical knowledge in a fast-paced environment. This event is designed for individual participants. The competition is structured into multiple rounds, each designed to test various aspects of the participants' design skills, from conceptualization to execution. The event will culminate in a final presentation, where participants will showcase their designs to a panel of industry experts and academicians.",
       image: Tech14,
@@ -694,7 +694,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
     },
     "technical-event-16": {
       title: "Eye on Pick Glass",
@@ -739,7 +739,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
     },
     "technical-event-17": {
       title: "Project Expo (Paper presentation)",
@@ -830,7 +830,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
     },
     "technical-event-19": {
         title: "Poster Presentation",
@@ -940,114 +940,114 @@ const EventDetails = () => {
   
         registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
       },
-      "technical-event-20": {
-        title: "Poster Presentation",
-        description:
-          "The Poster Presentation Competition is an opportunity for students to explore and present emerging trends in their respective fields while addressing key global challenges outlined in the Sustainable Development Goals (SDGs).Participants will research and showcase innovative ideas through a visually engaging A1-sized poster, effectively communicating their findings to a diverse audience. This competition aims to foster creativity, critical thinking, and knowledge-sharing among students across multiple disciplines.",
-        image: Tech20,
-        rounds: [
-          {
-            title: "TOPICS:",
-          },
-          {
-            title: "Life Science and Technology Sector:",
-            description: [
-              "The Future of Genetic Engineering.",
-              "Urban Nourish: Street Food Remix.",
-              "Eco-Friendly Dyes: Reducing Environmental Impact in Textile Processing.",
-            ],
-          },
-          {
-            title: "Computer & IT Sector:",
-            description: [
-              "Quantum Computing: Revolutionizing Data Processing.",
-              "Blockchain Technology in Cybersecurity.",
-              "Edge Computing: A Game-Changer for IoT Applications.",
-            ],
-          },
-          {
-            title: "Electrical & Electronics Sector:",
-            description: [
-              "The Future of Wireless Communication.",
-              "Wireless Power Transmission: The Next Energy Revolution.",
-            ],
-          },
-          {
-            title: "Building and Mechanical Sector:",
-            description: [
-              "3D Printing in Manufacturing: A Sustainable Approach.",
-              "Green Buildings: Designing a Sustainable Future.",
-            ],
-          },
-          {
-            title: "Artificial Intelligence & IoT Sector:",
-            description: [
-              "AI in Climate Change Prediction: A Sustainable Approach.",
-              "Smart Cities: IoT Solutions for Urban Sustainability.",
-            ],
-          },
-          {
-            title: "Chemical & Pharmaceutical Sector:",
-            description: [
-              "Carbon Capture Technology: Fighting Global Warming.",
-              "Green Hydrogen: The Future of Renewable Energy.",
-              "Personalized Medicine: The Role of AI in Drug Development.",
-            ],
-          }
-        ],
-        rules: [
-          "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",
-          "1) Poster Guidelines:",
-          "  i) Size: A1 (594 × 841 mm).",
-          "  ii) Must include title, name of the concept , and uniqueness.",
-          "  iii) Clear visuals, infographics, and creativity are encouraged.",
-          "2) Presentation:",
-          "1) Poster Guidelines:",
-          "  i) Time Limit:10 minutes per team.",
-          "  ii) Includes presentation for 6 minutes and  Q and A sections  for 4 minutes.",
-          "  iii) Must cover product innovation,  and SDG alignment",
-          "  iv) Judges may ask questions after the presentation.",
-          "3) Judging Criteria:",
-          "i) Content Relevance & Accuracy – 25%",
-          "ii) Creativity & Innovation – 20%",
-          "iii) Clarity & Organization – 20%",
-          "iv) Visual Appeal – 15%",
-          "v) Presentation & Communication Skills – 20%",
-        ],
-        schedule: [
-          {
-            round: "Venue",
-            date: "March 28, 2025",
-            time: "9:30AM -10:30AM",
-            location: "announcing soon",
-          },
-        ],
-        contact: {
-          facultyCoordinator: [
-            {
-              name: "Mr G Bharath, AP/FT",
-              phone: "9047976171",
-            },
-          ],
-          studentCoordinator: [
-            {
-              name: "Surya S",
-              phone: "9360492992",
-            },
-            {
-              name: "Yatheeswar R",
-              phone: "9441236991",
-            },
-            {
-                name: "Vijaya Yugeshwar R ",
-                phone: "9585768184",
-            },
+      // "technical-event-20": {
+      //   title: "Poster Presentation",
+      //   description:
+      //     "The Poster Presentation Competition is an opportunity for students to explore and present emerging trends in their respective fields while addressing key global challenges outlined in the Sustainable Development Goals (SDGs).Participants will research and showcase innovative ideas through a visually engaging A1-sized poster, effectively communicating their findings to a diverse audience. This competition aims to foster creativity, critical thinking, and knowledge-sharing among students across multiple disciplines.",
+      //   image: Tech20,
+      //   rounds: [
+      //     {
+      //       title: "TOPICS:",
+      //     },
+      //     {
+      //       title: "Life Science and Technology Sector:",
+      //       description: [
+      //         "The Future of Genetic Engineering.",
+      //         "Urban Nourish: Street Food Remix.",
+      //         "Eco-Friendly Dyes: Reducing Environmental Impact in Textile Processing.",
+      //       ],
+      //     },
+      //     {
+      //       title: "Computer & IT Sector:",
+      //       description: [
+      //         "Quantum Computing: Revolutionizing Data Processing.",
+      //         "Blockchain Technology in Cybersecurity.",
+      //         "Edge Computing: A Game-Changer for IoT Applications.",
+      //       ],
+      //     },
+      //     {
+      //       title: "Electrical & Electronics Sector:",
+      //       description: [
+      //         "The Future of Wireless Communication.",
+      //         "Wireless Power Transmission: The Next Energy Revolution.",
+      //       ],
+      //     },
+      //     {
+      //       title: "Building and Mechanical Sector:",
+      //       description: [
+      //         "3D Printing in Manufacturing: A Sustainable Approach.",
+      //         "Green Buildings: Designing a Sustainable Future.",
+      //       ],
+      //     },
+      //     {
+      //       title: "Artificial Intelligence & IoT Sector:",
+      //       description: [
+      //         "AI in Climate Change Prediction: A Sustainable Approach.",
+      //         "Smart Cities: IoT Solutions for Urban Sustainability.",
+      //       ],
+      //     },
+      //     {
+      //       title: "Chemical & Pharmaceutical Sector:",
+      //       description: [
+      //         "Carbon Capture Technology: Fighting Global Warming.",
+      //         "Green Hydrogen: The Future of Renewable Energy.",
+      //         "Personalized Medicine: The Role of AI in Drug Development.",
+      //       ],
+      //     }
+      //   ],
+      //   rules: [
+      //     "Open to all UG, PG Students and Research Scholars. Teams can have a maximum of 3 members.",
+      //     "1) Poster Guidelines:",
+      //     "  i) Size: A1 (594 × 841 mm).",
+      //     "  ii) Must include title, name of the concept , and uniqueness.",
+      //     "  iii) Clear visuals, infographics, and creativity are encouraged.",
+      //     "2) Presentation:",
+      //     "1) Poster Guidelines:",
+      //     "  i) Time Limit:10 minutes per team.",
+      //     "  ii) Includes presentation for 6 minutes and  Q and A sections  for 4 minutes.",
+      //     "  iii) Must cover product innovation,  and SDG alignment",
+      //     "  iv) Judges may ask questions after the presentation.",
+      //     "3) Judging Criteria:",
+      //     "i) Content Relevance & Accuracy – 25%",
+      //     "ii) Creativity & Innovation – 20%",
+      //     "iii) Clarity & Organization – 20%",
+      //     "iv) Visual Appeal – 15%",
+      //     "v) Presentation & Communication Skills – 20%",
+      //   ],
+      //   schedule: [
+      //     {
+      //       round: "Venue",
+      //       date: "March 28, 2025",
+      //       time: "9:30AM -10:30AM",
+      //       location: "announcing soon",
+      //     },
+      //   ],
+      //   contact: {
+      //     facultyCoordinator: [
+      //       {
+      //         name: "Mr G Bharath, AP/FT",
+      //         phone: "9047976171",
+      //       },
+      //     ],
+      //     studentCoordinator: [
+      //       {
+      //         name: "Surya S",
+      //         phone: "9360492992",
+      //       },
+      //       {
+      //         name: "Yatheeswar R",
+      //         phone: "9441236991",
+      //       },
+      //       {
+      //           name: "Vijaya Yugeshwar R ",
+      //           phone: "9585768184",
+      //       },
 
-          ],
-        },
+      //     ],
+      //   },
   
-        registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
-      },
+      //   registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
+      // },
     // Non-Technical Events
     "non-technical-event-1": {
       title: "trailblazers: The Clue Hunt",
@@ -1101,7 +1101,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/F7ToBuAQk8jMRJe5A", // Registration link
     },
     "non-technical-event-2": {
       title: "Blind Maze",
@@ -1161,7 +1161,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/5yq2dPubztMWun548", // Registration link
     },
     "non-technical-event-3": {
       title: "CONNEXION",
@@ -1243,7 +1243,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/5yq2dPubztMWun548", // Registration link
     },
     "non-technical-event-4": {
       title: "Dumb Charades - Act It Out!",
@@ -1308,7 +1308,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/5yq2dPubztMWun548", // Registration link
     },
     "non-technical-event-5": {
       title: "Its Talk Time",
@@ -1412,7 +1412,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/F7ToBuAQk8jMRJe5A", // Registration link
     },
     "non-technical-event-7": {
       title: "A Guess Challenge ",
@@ -1495,7 +1495,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/5yq2dPubztMWun548", // Registration link
     },
     "non-technical-event-8": {
       title: "one Click",
@@ -1586,7 +1586,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/F7ToBuAQk8jMRJe5A", // Registration link
     },
 
     "non-technical-event-11": {
@@ -1630,7 +1630,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/F7ToBuAQk8jMRJe5A", // Registration link
     },
     "non-technical-event-12": {
       title: "Waste to Wealth 2025",
@@ -1677,7 +1677,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/5yq2dPubztMWun548", // Registration link
     },
     "non-technical-event-13": {
       title: "Glorify the Face with Colours",
@@ -1728,7 +1728,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/cgwAsboW12c9pWXFA", // Registration link
+      registrationLink: "https://forms.gle/5yq2dPubztMWun548", // Registration link
     },
     // Culturals
     "culturals-event-1": {
