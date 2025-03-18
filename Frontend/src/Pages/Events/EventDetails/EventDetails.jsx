@@ -836,6 +836,9 @@ const EventDetails = () => {
         image: Tech19,
         rounds: [
           {
+            title: "TOPICS:",
+          },
+          {
             title: "Life Science and Technology Sector:",
             description: [
               "The Future of Genetic Engineering.",
