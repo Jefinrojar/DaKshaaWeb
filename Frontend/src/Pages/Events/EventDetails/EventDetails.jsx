@@ -1992,7 +1992,7 @@ const EventDetails = () => {
       registrationLink: "https://forms.gle/JzY7C819nFQnmC2D9", // Registration link
     },
     "workshop-4": {
-      title: "AI on Game Developing",
+      title: "AI for Game Developing",
       description:
         "The AI on Game Developing Workshop, organized by IITM Pravartak Technologies Foundation, is a two-day event designed to introduce participants to the integration of Artificial Intelligence (AI) in game development. This hands-on workshop covers key AI techniques such as pathfinding, decision-making algorithms, and neural networks, enabling participants to create intelligent game characters, optimize game mechanics, and enhance player experience. Open to students, professionals, and AI/game development enthusiasts, no prior experience is required—just a basic understanding of programming is recommended. Inter-specialization teams are welcome, and registration is free! 🚀🎮",
       image: Workshop4,

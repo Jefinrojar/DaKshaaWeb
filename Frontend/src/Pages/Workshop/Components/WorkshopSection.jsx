@@ -57,7 +57,7 @@ const workshops = [
     id: 2,
     img: Photo2,
     department: "Artificial Intelligence and Machine Learning",
-    dept: "AI in Game Development",
+    dept: "AI for Game Development",
     title: "Artificial Intelligence and Machine Learning",
     facultyCo: "Mrs R S Sivaranjini",
     facultyCoNo: "+91 96770 55783",
