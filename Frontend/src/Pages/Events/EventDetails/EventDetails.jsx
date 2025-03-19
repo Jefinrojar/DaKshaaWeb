@@ -2625,7 +2625,7 @@ const EventDetails = () => {
           animate="animate" // Ensure the animation is always running
           onClick={() => navigate("/accomodation")}
         >
-          Registration for Accommodation & Food
+          Registration For Accommodation & Food
         </motion.button>
         <ScrollAnimation>
           <div className="border border-sky-800 p-2">
