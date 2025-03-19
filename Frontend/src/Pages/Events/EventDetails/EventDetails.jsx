@@ -754,7 +754,10 @@ const EventDetails = () => {
         {
           title: "TOPICS:",
           description: [
-            "Latest 'School of Life Science' related Topics",
+            "School Of Computer Sciences",
+            "School of Building & Mechanical Science",
+            "School of Life Science",
+            "School Of Electrical Sciences",
           ],
         },
       ],
