@@ -2619,13 +2619,13 @@ const EventDetails = () => {
         >
           REGISTER NOW!
         </motion.button>
-        <motion.button 
-          className="mb-8 w-60 ml-12 md:w-auto block md:ml-[310px] px-5 py-2 border-2 border-sky-900 hover:bg-sky-800 transition-all text-sky-300 font-semibold text-lg md:text-lg shadow-xl"
+        <motion.button
+          className="mb-8 w-60 md:w-auto block mx-auto px-5 py-2 border-2 border-sky-900 hover:bg-sky-800 transition-all text-sky-300 font-semibold text-lg md:text-lg shadow-xl"
           variants={pulseAnimation} // Infinite pulsing animation
           animate="animate" // Ensure the animation is always running
-          onClick={()=>navigate("/accomodation")}
-          >
-          Accomodation & Food
+          onClick={() => navigate("/accomodation")}
+        >
+          Registration for Accommodation & Food
         </motion.button>
         <ScrollAnimation>
           <div className="border border-sky-800 p-2">
