@@ -117,7 +117,7 @@ const Navbar = () => {
                       </li>
                       <li
                         className="px-4 py-2 hover:bg-sky-700"
-                        onClick={() => handleLinkClick("Codeathon", "/events/codeathon")}
+                        onClick={() => handleLinkClick("Codeathon", "/event/codeathon")}
                       >
                         Codeathon
                       </li>
