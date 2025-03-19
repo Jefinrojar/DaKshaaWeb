@@ -142,7 +142,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
+      registrationLink: "https://forms.gle/2wBfChfRVPiKVw599", // Registration link
     },
     "technical-event-2": {
       title: "Neura Hack (Hackathon)",
@@ -206,7 +206,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "", // Registration link
+      registrationLink: "https://forms.gle/rdVwYuEvx9Bpi5zk9", // Registration link
     },
 
     "technical-event-3": {
@@ -368,9 +368,15 @@ const EventDetails = () => {
       ],
       schedule: [
         {
-          round: "Event Timing",
+          round: "Round 1",
           date: "March 28, 2025",
           time: "9:00 AM to 1:30 PM",
+          location: "Academic Block Lab 2",
+        },
+        {
+          round: "Round 2",
+          date: "March 28, 2025",
+          time: "1:30 PM to 4:00 PM",
           location: "Academic Block Lab 2",
         },
       ],
@@ -395,7 +401,7 @@ const EventDetails = () => {
           },
         ],
       },
-      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
+      registrationLink: "https://forms.gle/2wBfChfRVPiKVw599", // Registration link
     },
     "technical-event-7": {
       title: "ElectroBuzz",
@@ -637,7 +643,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
+      registrationLink: "https://forms.gle/2wBfChfRVPiKVw599", // Registration link
     },
     "technical-event-15": {
       title: "Buildathon",
@@ -691,7 +697,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
+      registrationLink: "https://forms.gle/2wBfChfRVPiKVw599", // Registration link
     },
     "technical-event-16": {
       title: "Eye on Pick Glass",
@@ -736,10 +742,10 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
+      registrationLink: "https://forms.gle/2wBfChfRVPiKVw599", // Registration link
     },
     "technical-event-17": {
-      title: "Project Expo (Paper presentation)",
+      title: "Paper presentation",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.",
       image: Tech15,
@@ -827,7 +833,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
+      registrationLink: "https://forms.gle/2wBfChfRVPiKVw599", // Registration link
     },
     "technical-event-19": {
         title: "Poster Presentation",
@@ -938,7 +944,7 @@ const EventDetails = () => {
         registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
       },
       "technical-event-20": {
-        title: "PAPER PRESENTATION",
+        title: "VoltEdge (PAPER PRESENTATION)",
         description:
           "The Internet of Things (IoT) – Connecting the Future Discover how IoT is transforming industries with smart connectivity, automation, and real-time data, shaping a smarter and more efficient world.",
         image: Tech20,
@@ -994,7 +1000,7 @@ const EventDetails = () => {
           ],
         },
   
-        registrationLink: "https://forms.gle/fw48RHKS842zGL167", // Registration link
+        registrationLink: "https://forms.gle/Co3kBQwR53cbBH1B9", // Registration link
       },
     // Non-Technical Events
     "non-technical-event-1": {
