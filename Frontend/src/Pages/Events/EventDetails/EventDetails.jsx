@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -77,6 +77,7 @@ import Culturals5 from "../../../assets/HORMONICS/short flim.png";
 
 const EventDetails = () => {
   const { eventId } = useParams(); // Get the dynamic parameter from the URL
+  const navigate = useNavigate();
 
   const eventDetails = {
     // Technical Events
@@ -2585,7 +2586,7 @@ const EventDetails = () => {
 
         {/* Register Now Button */}
         <motion.button
-          className="mb-8 w-60 ml-12 md:w-auto md:ml-[310px] px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
+          className="mb-8 w-60 ml-12 md:w-auto block md:ml-[310px] px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
           whileHover={{ scale: 1.1, rotate: 2 }}
           whileTap={{ scale: 0.9 }}
           variants={pulseAnimation} // Infinite pulsing animation
@@ -2594,7 +2595,14 @@ const EventDetails = () => {
         >
           REGISTER NOW!
         </motion.button>
-
+        <motion.button 
+          className="mb-8 w-60 ml-12 md:w-auto block md:ml-[310px] px-5 py-2 border-2 border-sky-900 hover:bg-sky-800 transition-all text-sky-300 font-semibold text-lg md:text-lg shadow-xl"
+          variants={pulseAnimation} // Infinite pulsing animation
+          animate="animate" // Ensure the animation is always running
+          onClick={()=>navigate("/accomodation")}
+          >
+          Accomodation & Food
+        </motion.button>
         <ScrollAnimation>
           <div className="border border-sky-800 p-2">
             <div className="text-center border border-sky-800 clip-bottom-right flex flex-col gap-4 p-4 md:p-10 items-center bg-sky-900/20">
