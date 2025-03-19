@@ -218,7 +218,7 @@ const HackathonSection = () => {
                   }
                 }}
               >
-                <h1 className="bg-sky-900 px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">
+                <h1 className="bg-sky-900 cursor-default px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">
                   {item}
                 </h1>
               </motion.div>
