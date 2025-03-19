@@ -592,30 +592,28 @@ const EventDetails = () => {
       description:
         "Codathon is a competitive coding event where participants solve programming problems within a time limit. Hosted on the Unstop platform, this event challenges individuals or teams to showcase their coding skills, creativity, and problem-solving abilities. Participants will be judged on the correctness, innovation, and quality of their code.",
       image: Tech11,
-      rounds: [],
+      rounds: [
+        {
+          description:"Participants will be given a set of programming problems to solve within a specified time limit.Time Limit: 2 hours",
+
+        },
+        
+      ],
       rules: [
-        "Open to all students with a passion for coding.",
-        "No restrictions on domain or specialization.",
-        "Participants can compete individually or in teams of 2-4 members.",
-        "Yes, inter-college team members are allowed.",
-        "Yes, inter-specialization team members are allowed",
         "No pre-written code or external help is allowed.",
         "Participants must adhere to the time limit.",
         "Any form of plagiarism will lead to disqualification.",
+        "No specialization is required.",
+        "All domains are allowed to participate.",
       ],
       schedule: [
         {
-          round: "Round 1",
+          round: "Round",
           date: "March 28, 2025",
-          time: "9:00 AM to 11:00 AM",
+          time: "9:30 AM",
           location: "Announced Soon!",
         },
-        {
-          round: "Round 2",
-          date: "March 28, 2025",
-          time: "1:00 PM to 3:00 PM",
-          location: "Announced Soon!",
-        },
+      
       ],
       contact: {
         facultyCoordinator: [
@@ -639,7 +637,7 @@ const EventDetails = () => {
         ],
       },
 
-      registrationLink: "https://forms.gle/qBg1nNPt9BVEvpC1A", // Registration link
+      registrationLink: "https://forms.gle/nYUbVjvLkKBhSDDHA", // Registration link
     },
     "technical-event-15": {
       title: "Buildathon",
@@ -2303,9 +2301,9 @@ const EventDetails = () => {
         ],
         studentCoordinator: [
           {
-            name: "Nishathini (III-Year/ECE)",
-            email: "nishanthinirajendren12@gmail.com",
-            phone: "8838948748",
+            name: "Rohith R (III-Year/ECE)",
+            email: "rohith66r@gmail.com",
+            phone: "9345580330",
           },
           {
             name: "Rithan V (II-Year/ECE)",

@@ -148,7 +148,7 @@ const workshops = [
     title: "Electronics and Communication Engineering",
     facultyCo: "Mr. Jayamani S",
     facultyCoNo: "+91 9629297054",
-    studentCo1: "Nishanthini III-Year/ECE",
+    studentCo1: "Rohith R III-Year/ECE",
     studentCo2: "Rithan II-Year/ECE",
     studentCoNo1: "8838948748",
     studentCoNo2: "9025033891",
