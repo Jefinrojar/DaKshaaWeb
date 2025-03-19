@@ -17,7 +17,7 @@ const Footer = () => {
                     <h3 className="text-2xl md:text-3xl font-semibold">Student Coordinators</h3>
                     <div className="flex flex-col items-center md:items-start gap-2 mt-3 md:mt-4">
                         <div className="flex items-center gap-2 md:gap-3 leading-8">
-                            <FaPhone className="text-white text-lg md:text-xl" />
+                            {/* <FaPhone className="text-white text-lg md:text-xl" /> */}
                             <p className="text-base md:text-lg">9489243775 - (Kavinesh K)<br /> 7708739300 - (Gopinath T)<br />8144596872 - (Ruban B)</p>
                         </div>
                         <div className="flex items-center gap-2 md:gap-3 leading-8">
