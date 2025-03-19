@@ -748,13 +748,31 @@ const EventDetails = () => {
     "technical-event-17": {
       title: "Paper presentation",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quibusdam.",
+        "Explore cutting-edge advancements in Life Sciences at our paper presentation event, featuring the latest research on genomics, biotechnology, and molecular biology. Engage with innovative ideas, groundbreaking discoveries, and future trends shaping the field. Join us for an inspiring platform to share knowledge, network, and discuss the future of Life Sciences.",
       image: Tech15,
-      rounds: [],
-      rules: [],
+      rounds: [
+        {
+          title: "TOPICS:",
+          description: [
+            "Latest 'School of Life Science' related Topics",
+          ],
+        },
+      ],
+      rules: [
+        "The presentation should be within 5-7minutes, followed by a Q&A session of 2-3minutes.",
+          "Use PowerPoint (PPT) or any specified tool for the slides.",
+          "The number of slides should be 10-15, keeping it clear and concise.",
+          "The presentation should have:",
+          "Title Slide (Paper title, authors, affiliation)",
+          "Introduction (Problem statement, objective)",
+          "Methodology (Approach, technologies used)",
+          "Results & Discussion (Findings, graphs, tables)",
+          "Conclusion & Future Work",
+          "References (if required)",
+      ],
       schedule: [
         {
-          round: "",
+          round: "Venue",
           date: "March 28, 2025",
           time: "9:30AM -10:30AM",
           location: "announcing soon",
@@ -2620,7 +2638,7 @@ const EventDetails = () => {
                 alt={event.title}
                 className="w-40 h-40 md:w-96 md:h-96 object-cover mb-4 shadow-md"
               />
-              <p className="text-lg md:text-xl text-justify mb-4 text-sky-600">
+              <p className="text-lg md:text-xl text-justify mb-4 text-sky-300">
                 {event.description}
               </p>
             </div>
@@ -2637,8 +2655,14 @@ const EventDetails = () => {
                       key={index}
                       className="border-2 border-sky-900 p-1"
                       whileHover={{ scale: 1.05 }}
+                      onClick={() => {
+                        const element = document.getElementById(item);
+                        if (element) {
+                          element.scrollIntoView({ behavior: "smooth" });
+                        }
+                      }}
                     >
-                      <h1 className="bg-sky-900 px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">
+                      <h1 className="bg-sky-900 cursor-default px-4 md:px-10 py-3 text-sky-300 bg-opacity-80 clip-bottom-right-2">
                         {item}
                       </h1>
                     </motion.div>
@@ -2649,7 +2673,7 @@ const EventDetails = () => {
 
             {/* Rounds Section */}
             <ScrollAnimation>
-              <div className="border border-sky-800 p-2">
+              <div className="border border-sky-800 p-2" id="Rounds">
                 <div className="border border-sky-800 shadow-lg p-4 md:p-10">
                   <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
                     Rounds
@@ -2685,7 +2709,7 @@ const EventDetails = () => {
 
             {/* Rules Section */}
             <ScrollAnimation>
-              <div className="border border-sky-800 p-2 mt-6">
+              <div className="border border-sky-800 p-2 mt-6" id="Rules">
                 <div className="bg-sky-900/30 shadow-lg p-4 md:p-10">
                   <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 bg-inherit border border-sky-800 px-3 py-3">
                     Rules
@@ -2725,7 +2749,7 @@ const EventDetails = () => {
 
             {/* Rules Section */}
             <ScrollAnimation>
-              <div className="border border-sky-800 p-2 mt-6">
+              <div className="border border-sky-800 p-2 mt-6" id="Rules">
                 <div className="bg-sky-900/30 shadow-lg p-4 md:p-10">
                   <h2 className="text-center font-semibold text-2xl md:text-3xl mb-5 text-sky-600 border border-sky-800 px-3 py-3">
                     Rules
@@ -2750,7 +2774,7 @@ const EventDetails = () => {
         )}
 
         {/* Schedule Section */}
-        <div className="border border-sky-800 p-2 mt-6">
+        <div className="border border-sky-800 p-2 mt-6" id="Schedule">
           <div className="p-4 md:p-10">
             <h2 className="text-2xl md:text-3xl text-center font-semibold mb-8 text-sky-600 border border-sky-800 bg-sky-900/30 px-3 py-3">
               Schedule
@@ -2803,7 +2827,7 @@ const EventDetails = () => {
         </div>
         {/* Contact Section */}
         <ScrollAnimation>
-          <div className="border border-sky-800 p-3 mt-6">
+          <div className="border border-sky-800 p-3 mt-6" id="Contact">
             <div className="bg-sky-900/20 p-4 md:p-10">
               <h2 className="text-2xl md:text-3xl text-center font-bold mb-8 text-sky-600 border border-sky-800 px-3 py-3">
                 Contact
