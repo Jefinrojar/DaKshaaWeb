@@ -19,13 +19,15 @@ import ict from "./assets/ict.jpg";
 import EEE from "./assets/EEE.jpg";
 import iste from "./assets/ISTE.jpg";
 import unstop from "./assets/unstop.png";
+import ECE1 from "./assets/ECE1.jpg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Sponsors() {
   const eventSponsors = [guvi,abb, iste];
   const sponsors = [toepl];
-  const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, unstop, millet, infinity, garuda, uipath, vlsi, txt];
+  const workshopSponsors = [aiml, ict, csbs, it, cse, EEE, bt, mech, unstop, millet, infinity, garuda, uipath, vlsi, txt,ECE1];
 
   const letter = "Sponsors";
   const letters = letter.split("");
