@@ -164,12 +164,12 @@ const Navbar = () => {
                   Accomodation
                 </li>
 
-                {/* <li
+                <li
                   className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Teams" ? "active" : ""}`}
                   onClick={() => handleLinkClick("Teams", "/teams")}
                 >
                 Teams
-                </li> */}
+                </li>
 
                 <li
                   className={`cursor-pointer py-1 rounded-xl hover:underline hover:underline-offset-8 ${activeLink === "Contact" ? "active" : ""}`}
