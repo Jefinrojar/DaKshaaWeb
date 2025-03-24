@@ -74,7 +74,7 @@ const HackathonSection = () => {
       },
     ],
     rules: [
-      "Teams must consist of 2 members.",
+      "Teams must consist of 2-3 members.",
       "All code must be written during the hackathon.",
       "Plagiarism will result in disqualification.",
     ],

@@ -199,7 +199,6 @@ const workshops = [
     title: "Information Technology",
     facultyCo: "Mr. P. Dinesh Kumar",
     facultyCoNo: "+91 96888 37873",
-    studentCo1: "R.Haribaskar III Year/IT",
     studentCo2: "F.Anisa III Year/IT",
     studentCo3: "E.Balasastha III Year/IT",
     studentCoNo1: "+91 99426 51212",
