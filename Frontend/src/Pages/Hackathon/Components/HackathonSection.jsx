@@ -13,84 +13,46 @@ const HackathonSection = () => {
     id: "hackathon-event-1",
     title: "Neura-Hack 2025 By",
     descriptions: [
-      {
-        heading: "No Poverty (SDG 1)",
-        desc: "Develop a technology-driven solution to improve financial inclusion for underprivileged communities, ensuring better access to banking, credit, and financial literacy.",
-      },
-      {
-        heading: "Zero Hunger (SDG 2)",
-        desc: "Design an innovative digital platform or AI-driven solution to reduce food waste and enhance food distribution to underserved communities.",
-      },
-      {
-        heading: "Good Health and Well-being (SDG 3)",
-        desc: "Create a smart healthcare system that leverages AI, IoT, or mobile applications to monitor health conditions, predict diseases, or improve accessibility to medical services.",
-      },
-      {
-        heading: "Quality Education (SDG 4)",
-        desc: "Build an inclusive and intelligent educational system using AI, AR/VR, or other emerging technologies to personalize learning and bridge the education gap.",
-      },
-      {
-        heading: "Gender Equality (SDG 5)",
-        desc: "Develop a tech-based solution to detect, prevent, and report gender-based discrimination, harassment, or inequality in workplaces, schools, and online platforms.",
-      },
-      {
-        heading: "Clean Water and Sanitation (SDG 6)",
-        desc: "Design a smart water management system that can monitor water quality, detect contamination, and provide real-time insights for better water conservation.",
-      },
-      {
-        heading: "Affordable and Clean Energy (SDG 7)",
-        desc: "Create an AI-driven energy optimization tool to help individuals and industries reduce energy consumption and promote the use of sustainable energy sources.",
-      },
-      {
-        heading: "Industry, Innovation, and Infrastructure (SDG 9)",
-        desc: "Develop a digital transformation solution that enhances efficiency in industries using IoT, AI, or blockchain for better infrastructure and smart manufacturing.",
-      },
-      {
-        heading: "Sustainable Cities and Communities (SDG 11)",
-        desc: "Build an AI or IoT-based smart city solution to improve transportation, waste management, air quality monitoring, or urban planning for sustainable city development.",
-      },
-      {
-        heading: "Climate Action (SDG 13)",
-        desc: "Develop a data-driven platform to track and analyze climate change patterns, suggest eco-friendly practices, or predict environmental hazards using AI/ML.",
-      },
+     
     ],
     registrationLink: "https://forms.gle/DH6Su1b3y2YPfuvDA",
     rounds: [
       {
-        title: "Round 1: Ideation",
+        title: "Topics",
         description: [
-          "Submit your project idea.",
-          "Present a brief pitch.",
-          "Finalists will be shortlisted for Round 2.",
+          "Artificial Intelligence and Machine Learning",
+        
         ],
       },
       {
-        title: "Round 2: Prototype",
+        title: "Round: Ideation",
         description: [
+          "Problem Statement: On-the-spot selection from 20 topics.",
+          "Submit your project idea.",
+          "Present a brief pitch.",
           "Develop a working prototype.",
           "Submit a demo video.",
+          "The top 10 finalists will give a presentation on 29th March, and the top 3 will be selected as the final winners.",
           "Winners will be announced.",
         ],
       },
+      
+     
     ],
-    rules: [
-      "Teams must consist of 2-3 members.",
+    rules: 
+    [
+      "Teams must consist of 3 members.",
       "All code must be written during the hackathon.",
       "Plagiarism will result in disqualification.",
     ],
     schedule: [
       {
-        round: "Round 1: Ideation",
-        date: "March 27, 2025",
-        time: "5:00 PM",
+        round: "Venue",
+        date: "March 28, 2025",
+        time: "10:00 AM",
         location: "IT-Lab 1, IT Park",
       },
-      {
-        round: "Round 2: Prototype",
-        date: "March 29, 2023",
-        time: "5:00 AM",
-        location: "IT-Lab 1, IT Park",
-      },
+      
     ],
     contact: {
       facultyCoordinator: [
@@ -107,9 +69,9 @@ const HackathonSection = () => {
       ],
       studentCoordinator: [
         {
-          name: "Srimun S S",
-          phone: "+91 86677 09294",
-          email: "itsmesrimun@gmail.com",
+          name: "Poorna Sri K ",
+          phone: "+91 6374702698",
+          email: "poornasri664@gmail.com",
         },
         {
           name: "Sivaraj A",
@@ -175,7 +137,7 @@ const HackathonSection = () => {
               className="w-40 h-40 md:w-96 md:h-96 object-cover mb-4 shadow-md"
             />
             <p className="text-lg md:text-xl mb-4 text-sky-600 text-justify">
-              Neura Hack - 36-Hour Hackathon is powered by GIVI where teams
+              Neura Hack - 36-Hour Hackathon is powered by GUVI where teams
               develop solutions to problem statements provided by the
               organizers. Participants must register in advance and complete
               their projects within the 36-hour timeframe, using only original
@@ -292,9 +254,6 @@ const HackathonSection = () => {
               </div>
             </div>
           </div>
-          <p className="text-sky-300 font-bold text-2xl mt-8 text-center">
-            TOP PERFORMERS WILL GET INTERNSHIP IN GUVI
-          </p>
         </div>
 
         {/* Rounds Section */}

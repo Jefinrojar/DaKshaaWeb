@@ -1573,9 +1573,9 @@ const EventDetails = () => {
         ],
         studentCoordinator: [
           {
-            name: "Lakma Varshini R ",
-            email: "lakmavarshini4@gmail.com",
-            phone: "6381118259",
+            name: "Sandhiya M ",
+            email: "sandhiyamanikandan17@gmail.com",
+            phone: "9344806015",
           },
           {
             name: "Vignesh K ",
