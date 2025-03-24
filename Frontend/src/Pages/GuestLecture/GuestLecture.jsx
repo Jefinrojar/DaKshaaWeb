@@ -73,6 +73,8 @@ const GuestLecture = () => {
           ENGINEERING, MATHEMATICS, AND MEDICINE
         </p>
         <p className="mt-3 text-xl font-semibold">NOTE: Mail your conference paper to <span className="text-sky-300 font-bold">ncistemm@ksrct.ac.in</span></p>
+        <p className="mt-3 text-xl font-semibold">Phone No: <span className="text-sky-300 font-bold">+91 9943442987</span></p>
+
       </div>
 
       {/* First card */}

@@ -748,30 +748,62 @@ const EventDetails = () => {
     "technical-event-17": {
       title: "Paper presentation",
       description:
-        "Explore cutting-edge advancements in Life Sciences at our paper presentation event, featuring the latest research on genomics, biotechnology, and molecular biology. Engage with innovative ideas, groundbreaking discoveries, and future trends shaping the field. Join us for an inspiring platform to share knowledge, network, and discuss the future of Life Sciences.",
+        "The Paper Presentation Competition is an opportunity for students to explore and present emerging technological advancements while addressing key global challenges. This event encourages innovation, research, and knowledge-sharing among students across various engineering and technology sectors.Participants will prepare and present a research paper on selected topics, demonstrating their understanding of cutting-edge technologies and their real-world applications.",
       image: Tech15,
       rounds: [
         {
           title: "TOPICS:",
+        },
+        {
+          title: "Computer & IT Sector:",
           description: [
-            "School Of Computer Sciences",
-            "School of Building & Mechanical Science",
-            "School of Life Science",
-            "School Of Electrical Sciences",
+            "Cybersecurity in the Age of AI: Threats and Solutions",
+            "Metaverse and Its Impact on Virtual Collaboration",
+            "Homomorphic Encryption: The Future of Data Privacy",
+          ],
+        },
+        {
+          title: "Electrical & Electronics Sector:",
+          description: [
+            "Energy Harvesting from Ambient Sources for IoT Devices",
+            "AI-Driven Chip Design for Next-Gen Processors",
+            "Flexible and Wearable Electronics: The Future of Smart Devices",
+          ],
+        },
+        {
+          title: "Building & Mechanical Sector:",
+          description: [
+            "Self-Healing Materials for Infrastructure Longevity",
+            "Autonomous Construction Robots: The Future of Smart Buildings",
+            "Hybrid Air Vehicles: The Next Evolution in Aviation",
+          ],
+        },
+        {
+          title: "Artificial Intelligence & IoT Sector:",
+          description: [
+            "AI-Powered Emotion Recognition for Human-Machine Interaction",
+            "Digital Twins: The Future of Predictive Maintenance",
+            "AI-Based Disaster Prediction and Response Systems",
           ],
         },
       ],
       rules: [
-        "The presentation should be within 5-7minutes, followed by a Q&A session of 2-3minutes.",
-          "Use PowerPoint (PPT) or any specified tool for the slides.",
-          "The number of slides should be 10-15, keeping it clear and concise.",
-          "The presentation should have:",
-          "Title Slide (Paper title, authors, affiliation)",
-          "Introduction (Problem statement, objective)",
-          "Methodology (Approach, technologies used)",
-          "Results & Discussion (Findings, graphs, tables)",
-          "Conclusion & Future Work",
-          "References (if required)",
+        "1) Eligibility:",
+        "i) Open to all UG, PG students, and Research Scholars.",
+        "ii) Participants can register individually or in teams of up to 3 members.",
+        "2)Paper Guidelines:",
+        "i) The paper must include Abstract, Introduction, Literature Review, Methodology, Results, and Conclusion.",
+        "3) Presentation:",
+        "i) Time Limit: 10 minutes per team (7 minutes for presentation + 3 minutes for Q&A).",
+        "ii) Slide Limit: Maximum of 10 slides, including the title and conclusion. ",
+        "iii) Presentations must include technical insights, real-world applications, and SDG alignment.",
+        "4)Judging Criteria:",
+        "i) Content Relevance & Accuracy – 25%",
+        "ii) Creativity & Innovation – 20%",
+        "iii) Clarity & Organization – 20%",
+        "iv) Visual Appeal – 15%",
+        "v) Presentation & Communication Skills – 20%",
+
       ],
       schedule: [
         {
@@ -784,22 +816,16 @@ const EventDetails = () => {
       contact: {
         facultyCoordinator: [
           {
-            name: "Mr.M.Arunkumar ",
-            email: "arunkumar@ksrct.ac.in",
-            phone: "8056989930",
+            name: "Mr. Jayamani S (AP/ECE) ",
+            phone: "9629297054",
           },
         ],
         studentCoordinator: [
           {
-            name: "A.V. Raghavendhar ",
-            email: "a.v.raghavendhar516@gmail.com",
-            phone: "8778239221",
+            name: "Rohith R ",
+            phone: "93455 80330",
           },
-          {
-            name: "K.Harini ",
-            email: "mailto:harinikumar25102005@gmail.com",
-            phone: "8667393828",
-          },
+        
         ],
       },
 
