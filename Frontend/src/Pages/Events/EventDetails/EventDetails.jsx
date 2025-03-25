@@ -19,9 +19,8 @@ import { useInView } from "react-intersection-observer";
 // Rapid Coding- AIDS
 // Cook with Prompt -AIDS
 // Buildathon - civil
-
-import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.png";
 import Tech2 from "../../../assets/EventsImages/EventDetails/TechnicalImages/IT.png";
+import Tech1 from "../../../assets/EventsImages/EventDetails/TechnicalImages/cse.png";
 import Tech3 from "../../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png";
 // import Tech4 from "../../../assets/EventsImages/EventDetails/TechnicalImages/ece2.png"
 import Tech5 from "../../../assets/EventsImages/EventDetails/TechnicalImages/MCT.png";
