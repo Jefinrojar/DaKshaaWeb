@@ -6,9 +6,9 @@ import dakshaa from '../../assets/logo1.png';
 
 const Footer = () => {
     return (
-        <div className="footer bg-gray-900 text-white py-12 md:py-24 text-base">
+        <div className="footer bg-gray-900 text-white py-12 md:py-20 text-base">
             <div className="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-0 px-6 md:px-12 text-center md:text-left">
-                
+
                 <div className="logo flex justify-center md:justify-start">
                     <img src={ksrct} alt="KSRCT Logo" className="h-16 w-auto md:h-20" />
                 </div>
@@ -61,6 +61,9 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+            </div>
+            <div className='text-center md:pt-10 md:text-2xl pt-5'>
+                <h1>Design and Developed By <span className='text-sky-500'>Department of Information Technology</span></h1>
             </div>
         </div>
     );
