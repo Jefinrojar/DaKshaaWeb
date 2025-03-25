@@ -391,11 +391,16 @@ const WorkshopSection = () => {
                   </ul>
 
                   <button
-                    className="border border-white px-6 py-2 hover:bg-white/20 duration-300 mb-5"
-                    onClick={() => window.open(selectedWorkshop.registrationLink, "_blank")}
+                    className={`border border-white px-6 py-2 duration-300 mb-5 
+                      ${[1,6].includes(selectedWorkshop.id) 
+                        ? "bg-gray-500 cursor-not-allowed border-gray-700 text-gray-300" 
+                        : "hover:bg-white/20"}`}
+                    onClick={() => ![1,6].includes(selectedWorkshop.id) && window.open(selectedWorkshop.registrationLink, "_blank")}
+                    disabled={[1,6].includes(selectedWorkshop.id)}
                   >
-                    REGISTER NOW!
+                    {[1,6].includes(selectedWorkshop.id) ? "SLOTS FILLED" : "REGISTER NOW!"}
                   </button>
+
                 </div>
               </div>
             </div>

@@ -87,11 +87,11 @@ const AccommodationDetails = () => {
             {/* Right Section */}
             <div className="w-full md:w-1/2 p-4" data-aos="fade-left">
               <h2 className="text-xl font-semibold mb-2">Lunch Charges</h2>
-              <p>Rs. 100 per lunch</p>
+              <p>Rs. 50 per lunch</p>
 
               <div className="mt-4 flex space-x-3 border-sky-800 border p-2 w-full md:w-52">
                 <button className="py-2 px-10 border bg-sky-900/30 border-sky-800 text-white shadow-lg w-full">
-                  Total - Rs.100/-
+                  Total - Rs. 50/-
                 </button>
               </div>
 

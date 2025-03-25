@@ -2637,16 +2637,29 @@ const EventDetails = () => {
         )}
 
         {/* Register Now Button */}
+        {/* Register Now Button */}
         <motion.button
-          className="mb-8 w-60 ml-12 md:w-auto block md:ml-[310px] px-6 py-3 bg-sky-600 clip bg-opacity-70 border-2 border-sky-900 hover:bg-sky-800 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl"
-          whileHover={{ scale: 1.1, rotate: 2 }}
-          whileTap={{ scale: 0.9 }}
+          className={`mb-8 w-60 ml-12 md:w-auto block md:ml-[310px] px-6 py-3 
+            ${["workshop-6", "workshop-3"].includes(eventId) 
+              ? "bg-gray-500 cursor-not-allowed border-gray-700" 
+              : "bg-sky-600 hover:bg-sky-800 border-sky-900"} 
+            clip bg-opacity-70 border-2 transition-all text-white font-semibold text-xl md:text-2xl shadow-xl`}
+          whileHover={!["workshop-6", "workshop-3"].includes(eventId) 
+            ? { scale: 1.1, rotate: 2 } 
+            : {}}
+          whileTap={!["workshop-6", "workshop-3"].includes(eventId) 
+            ? { scale: 0.9 } 
+            : {}}
           variants={pulseAnimation} // Infinite pulsing animation
           animate="animate" // Ensure the animation is always running
-          onClick={() => window.open(event.registrationLink, "_blank")} // Open registration link in a new tab
+          onClick={() => !["workshop-6", "workshop-3"].includes(eventId) && window.open(eventId.registrationLink, "_blank")}
+          disabled={["workshop-6", "workshop-3"].includes(eventId)}
         >
-          REGISTER NOW!
+          {["workshop-6", "workshop-3"].includes(eventId) 
+            ? "SLOTS FILLED" 
+            : "REGISTER NOW!"}
         </motion.button>
+
         <motion.button
           className="mb-8 w-60 md:w-auto block mx-auto px-5 py-2 border-2 border-sky-900 hover:bg-sky-800 transition-all text-sky-300 font-semibold text-lg md:text-lg shadow-xl"
           variants={pulseAnimation} // Infinite pulsing animation
