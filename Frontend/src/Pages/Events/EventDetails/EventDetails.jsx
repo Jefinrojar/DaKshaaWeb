@@ -1941,7 +1941,7 @@ const EventDetails = () => {
     "culturals-event-5": {
       title: "flick fest",
       description:
-        "theme : beyond the bell - the college life other than studies",
+        "theme : beyond the bell - the college life other than studies,Common for all teams",
       image: Culturals5,
       schedule: [
         {

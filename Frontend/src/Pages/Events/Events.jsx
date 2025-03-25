@@ -10,8 +10,9 @@ import NonTechnicalImage from "../../assets/EventsImages/non-technical.png";
 import Cultural from "../../assets/EventsImages/culturals.jpg";
 import Workshop from "../../assets/EventsImages/workshop.jpg";
 
-import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
+
 import Tech1 from "../../assets/EventsImages/EventDetails/TechnicalImages/CSE.png"
+import Tech2 from "../../assets/EventsImages/EventDetails/TechnicalImages/IT.png"
 import Tech3 from "../../assets/EventsImages/EventDetails/TechnicalImages/VLSI.png"
 // import Tech4 from "../../assets/EventsImages/EventDetails/TechnicalImages/ece2.png"
 import Tech5 from "../../assets/EventsImages/EventDetails/TechnicalImages/MCT.png"
@@ -86,7 +87,6 @@ const Events = () => {
           image: Tech1,
           eventId: "technical-event-1",
         },
-        
         {
           image: Tech3,
           eventId: "technical-event-3",
@@ -196,7 +196,6 @@ const Events = () => {
           image: NonTech11,
           eventId: "non-technical-event-12",
         },
-        
         {
           image: NonTech13,
           eventId: "non-technical-event-13",
@@ -243,7 +242,6 @@ const Events = () => {
           image: Workshop1,
           eventId: "workshop-1",
         },
-       
         {
           image: Workshop3,
           eventId: "workshop-3",
